@@ -1,0 +1,53 @@
+{
+    "data": {
+        "bag": {
+            "bagTag": {
+                "issuerCode": "027",
+                "printer": {
+                    "deviceIdentifier": "68FE3E"
+                },
+                "serialNumberIdentifier": "318374",
+                "usageCode": "5"
+            },
+            "owner": {
+                "givenName": [
+                    "PATRICK"
+                ],
+                "role": {
+                    "pax": {
+                        "booking": {
+                            "bookingIdentifier": "DHVVNO"
+                        }
+                    }
+                },
+                "surname": "KANE"
+            }
+        },
+        "baggageProcess": {
+            "baggageEvent": {
+                "facility": {
+                    "station": {
+                        "iataLocationCode": "EEE"
+                    }
+                }
+            },
+            "baggageProcessCode": "X"
+        },
+        "carryingSegment": {
+            "aircraftScheduledDepDateTime": "2024-09-09T00:00:00",
+            "arrivalIataLocationCode": "EEE",
+            "carrierDesigCode": "AS",
+            "depIataLocationCode": "DDD",
+            "flightNumberText": "0799"
+        },
+        "classOfServiceCode": "J",
+        "exception": [
+            {
+                "exceptionCode": "PRIO"
+            }
+        ]
+    },
+    "meta": {
+        "schema": "https://standards-test.developer.iata.org/iata-baggage-bag-segment-instruction.v1.0.0-alpha.4.0.json"
+    }
+}

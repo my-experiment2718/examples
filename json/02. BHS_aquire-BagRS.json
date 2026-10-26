@@ -1,0 +1,64 @@
+{
+    "data": {
+        "bag": {
+            "bagTag": {
+                "issuerCode": "027",
+                "serialNumberIdentifier": "318374",
+                "usageCode": "5"
+            },
+            "owner": {
+                "givenName": [
+                    "PATRICK"
+                ],
+                "role": {
+                    "pax": {
+                        "booking": {
+                            "bookingIdentifier": "DHVVNO"
+                        }
+                    }
+                },
+                "surname": "KANE"
+            }
+        },
+        "baggageProcess": {
+            "agent": [
+                {
+                    "agency": {
+                        "agencyCode": "SMARTSORT"
+                    }
+                }
+            ],
+            "baggageEvent": {
+                "actualDateTime": "2024-09-09T14:53:37",
+                "facility": {
+                    "facilityIdentifier": "ATRAA1",
+                    "station": {
+                        "iataLocationCode": "AAA"
+                    }
+                },
+                "scanner": {
+                    "scannerIdentifier": "T1BHS"
+                }
+            },
+            "baggageProcessCode": "L",
+            "baggageSubProcessCode": "Screen",
+            "baggageSubSubProcessCode": "Acquire"
+        },
+        "carryingSegment": {
+            "aircraftScheduledDepDateTime": "2024-09-09T00:00:00",
+            "arrivalIataLocationCode": "BBB",
+            "carrierDesigCode": "AS",
+            "depIataLocationCode": "AAA",
+            "flightNumberText": "0801"
+        },
+        "classOfServiceCode": "J",
+        "exception": [
+            {
+                "exceptionCode": "PRIO"
+            }
+        ]
+    },
+    "meta": {
+        "schema": "https://standards-test.developer.iata.org/iata-baggage-bag-segment-result.v1.0.0-alpha.4.0.json"
+    }
+}

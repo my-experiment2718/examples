@@ -1,0 +1,35 @@
+{
+    "data": {
+        "baggageProcess": {
+            "baggageEvent": {
+                "facility": {
+                    "station": {
+                        "iataLocationCode": "EEE"
+                    }
+                }
+            },
+            "baggageProcessCode": "X"
+        },
+        "carryingSegment": {
+            "aircraftScheduledDepDateTime": "2024-09-09T00:00:01",
+            "arrivalIataLocationCode": "DDD",
+            "carrierDesigCode": "AS",
+            "depIataLocationCode": "DDD",
+            "flightNumberText": "0799"
+        },
+        "commodityCode": "BP",
+        "recapOutcomes": {
+            "uldLoadPosition": {
+                "uldLoadPositionIdentifier": "22L"
+            }
+        },
+        "uld": {
+            "ownerCode": "1C",
+            "serialNumberIdentifier": "3208",
+            "typeCode": "AKE"
+        }
+    },
+    "meta": {
+        "schema": "https://standards-test.developer.iata.org/iata-baggage-uld-allocation-instruction.v1.0.0-alpha.4.0.json"
+    }
+}

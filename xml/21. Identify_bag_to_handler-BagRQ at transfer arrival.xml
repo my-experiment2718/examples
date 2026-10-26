@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!--
+Originating segment added
+-->
+<ns:IATA_Baggage_BagRQ xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://www.iata.org/IATA/2015/BIX/00/IATA_Baggage_CommonTypes" xmlns:ns="http://www.iata.org/IATA/2015/BIX/00/IATA_Baggage_BagRQ">
+  <ns:BagSegment>
+    <Bag>
+      <BagTag>
+        <IssuerCode>027</IssuerCode>
+        <Printer>
+          <DeviceID>68FE3E</DeviceID>
+        </Printer>
+        <SerialNumberID>318374</SerialNumberID>
+        <UsageCode>5</UsageCode>
+      </BagTag>
+      <Owner>
+        <GivenName>PATRICK</GivenName>
+        <Role>
+          <Pax>
+            <Booking>
+              <BookingID>DHVVNO</BookingID>
+            </Booking>
+          </Pax>
+        </Role>
+        <Surname>KANE</Surname>
+      </Owner>
+    </Bag>
+    <BaggageProcess>
+      <BaggageEvent>
+        <Facility>
+          <Station>
+            <IATA_LocationCode>CCC</IATA_LocationCode>
+          </Station>
+        </Facility>
+      </BaggageEvent>
+      <BaggageProcessCode>F</BaggageProcessCode>
+    </BaggageProcess>
+    <CarryingSegment>
+      <AircraftScheduledDepDateTime>2024-09-09T00:00:00</AircraftScheduledDepDateTime>
+      <ArrivalIATA_LocationCode>CCC</ArrivalIATA_LocationCode>
+      <CarrierDesigCode>BB</CarrierDesigCode>
+      <DepIATA_LocationCode>BBB</DepIATA_LocationCode>
+      <FlightNumberText>0801</FlightNumberText>
+    </CarryingSegment>
+    <ClassOfServiceCode>J</ClassOfServiceCode>
+    <DeliveringBagSegment>
+      <!-- Originating segment added -->
+      <AircraftScheduledDepDateTime>2024-09-09T00:00:00</AircraftScheduledDepDateTime>
+      <ArrivalIATA_LocationCode>BBB</ArrivalIATA_LocationCode>
+      <CarrierDesigCode>AS</CarrierDesigCode>
+      <ClassOfServiceCode>J</ClassOfServiceCode>
+      <DeliveringJourneyOrdinal>1</DeliveringJourneyOrdinal>
+      <DepIATA_LocationCode>AAA</DepIATA_LocationCode>
+      <FlightNumberText>0802</FlightNumberText>
+    </DeliveringBagSegment>
+    <Exception>
+      <ExceptionCode>PRIO</ExceptionCode>
+    </Exception>
+    <OnwardBagSegment>
+      <AircraftScheduledDepDateTime>2024-09-09T00:00:00</AircraftScheduledDepDateTime>
+      <ArrivalIATA_LocationCode>DDD</ArrivalIATA_LocationCode>
+      <CarrierDesigCode>AS</CarrierDesigCode>
+      <ClassOfServiceCode>J</ClassOfServiceCode>
+      <DepIATA_LocationCode>CCC</DepIATA_LocationCode>
+      <FlightNumberText>0800</FlightNumberText>
+      <OnwardJourneyOrdinal>1</OnwardJourneyOrdinal>
+    </OnwardBagSegment>
+    <OnwardBagSegment>
+      <AircraftScheduledDepDateTime>2024-09-09T00:00:00</AircraftScheduledDepDateTime>
+      <ArrivalIATA_LocationCode>EEE</ArrivalIATA_LocationCode>
+      <CarrierDesigCode>AS</CarrierDesigCode>
+      <ClassOfServiceCode>J</ClassOfServiceCode>
+      <DepIATA_LocationCode>DDD</DepIATA_LocationCode>
+      <FlightNumberText>0799</FlightNumberText>
+      <OnwardJourneyOrdinal>2</OnwardJourneyOrdinal>
+    </OnwardBagSegment>
+  </ns:BagSegment>
+</ns:IATA_Baggage_BagRQ>

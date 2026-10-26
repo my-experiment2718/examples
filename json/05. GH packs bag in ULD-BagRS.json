@@ -1,0 +1,85 @@
+{
+    "data": {
+        "bag": {
+            "bagTag": {
+                "issuerCode": "027",
+                "serialNumberIdentifier": "318374",
+                "usageCode": "5"
+            },
+            "owner": {
+                "givenName": [
+                    "PATRICK"
+                ],
+                "role": {
+                    "pax": {
+                        "booking": {
+                            "bookingIdentifier": "DHVVNO"
+                        }
+                    }
+                },
+                "surname": "KANE"
+            }
+        },
+        "baggageProcess": {
+            "agent": [
+                {
+                    "agency": {
+                        "agencyCode": "PIERRE"
+                    }
+                }
+            ],
+            "baggageEvent": {
+                "actualDateTime": "2024-09-09T23:03:22Z",
+                "facility": {
+                    "facilityIdentifier": "AAAT4055",
+                    "station": {
+                        "iataLocationCode": "AAA"
+                    }
+                },
+                "scanner": {
+                    "scannerIdentifier": "AAAT4055"
+                }
+            },
+            "baggageProcessCode": "L",
+            "baggageSubProcessCode": "Package",
+            "baggageSubSubProcessCode": "Pack"
+        },
+        "carryingSegment": {
+            "aircraftScheduledDepDateTime": "2024-09-09T00:00:00",
+            "arrivalIataLocationCode": "BBB",
+            "carrierDesigCode": "AS",
+            "depIataLocationCode": "AAA",
+            "flightNumberText": "0801"
+        },
+        "classOfServiceCode": "J",
+        "exception": [
+            {
+                "exceptionCode": "PRIO"
+            }
+        ],
+        "packInto": {
+            "uldAllocation": {
+                "uld": {
+                    "ownerCode": "1C",
+                    "serialNumberIdentifier": "3208",
+                    "typeCode": "AKE"
+                }
+            }
+        },
+        "recapInstructions": {
+            "segmentSecurityControls": {
+                "authorityToLoadInd": true,
+                "bagTagStatusCode": "A",
+                "paxStatus": {
+                    "boardingStatusCode": "C",
+                    "checkInSeqNumber": 283,
+                    "seatIdentifier": "68H"
+                }
+            }
+        },
+        "securityNumber": "283"
+    },
+    "meta": {
+        "schema": "https://standards-test.developer.iata.org/iata-baggage-bag-segment-result.v1.0.0-alpha.4.0.json"
+    }
+}

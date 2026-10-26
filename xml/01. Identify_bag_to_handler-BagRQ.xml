@@ -1,0 +1,128 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!--
+l version='1.0' encoding='UTF-8'?>
+<ns:IATA_Baggage_BagRQ xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://www.iata.org/IATA/2015/00/2026.2/IATA_Baggage_CommonTypes" xmlns:ns="http://www.iata.org/IATA/2015/00/2026.2/IATA_Baggage_BagRQ">
+<ns:BagSegment>
+<Bag>
+<BagTag>
+<IssuerCode>027</IssuerCode>
+<Printer>
+<DeviceID>68FE3E</DeviceID>
+</Printer>
+<SerialNumberID>318374</SerialNumberID>
+<UsageCode>5</UsageCode>
+</BagTag>
+<Dimensions>
+<HeightMeasure UnitCode="CMT">50</HeightMeasure>
+</Dimensions>
+<Owner>
+<GivenName>PATRICK</GivenName>
+<Role>
+<Pax>
+<Booking>
+<BookingID>DHVVNO</BookingID>
+</Booking>
+</Pax>
+</Role>
+<Surname>KANE</Surname>
+</Owner>
+<PhysicalProperties>
+<WeightMeasure UnitCode="KGM">15</WeightMeasure>
+</PhysicalProperties>
+</Bag>
+<BaggageProcess>
+<BaggageEvent>
+<Facility>
+<Station>
+<IATA_LocationCode>AAA</IATA_LocationCode>
+</Station>
+</Facility>
+</BaggageEvent>
+<BaggageProcessCode>L</BaggageProcessCode>
+</BaggageProcess>
+<CarryingSegment>
+<AircraftScheduledDepDateTime>2024-09-09T00:00:00</AircraftScheduledDepDateTime>
+<ArrivalIATA_LocationCode>BBB</ArrivalIATA_LocationCode>
+<CarrierDesigCode>AS</CarrierDesigCode>
+<DepIATA_LocationCode>AAA</DepIATA_LocationCode>
+<FlightNumberText>0801</FlightNumberText>
+</CarryingSegment>
+<ClassOfServiceCode>J</ClassOfServiceCode>
+<Exception>
+<ExceptionCode>PRIO</ExceptionCode>
+</Exception>
+<SegmentSecurityControls>
+<AuthorityToLoadInd>true</AuthorityToLoadInd>
+<BagTagStatusCode>A</BagTagStatusCode>
+<PaxStatus>
+<BoardingStatusCode>C</BoardingStatusCode>
+<CheckInSeqNumber>46</CheckInSeqNumber>
+<SeatID>01D</SeatID>
+<SecurityProfileStatusInd>false</SecurityProfileStatusInd>
+</PaxStatus>
+</SegmentSecurityControls>
+</ns:BagSegment>
+</ns:IATA_Baggage_BagRQ>
+-->
+<ns:IATA_Baggage_BagRQ xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://www.iata.org/IATA/2015/BIX/00/IATA_Baggage_CommonTypes" xmlns:ns="http://www.iata.org/IATA/2015/BIX/00/IATA_Baggage_BagRQ">
+  <ns:BagSegment>
+    <Bag>
+      <BagTag>
+        <IssuerCode>027</IssuerCode>
+        <Printer>
+          <DeviceID>68FE3E</DeviceID>
+        </Printer>
+        <SerialNumberID>318374</SerialNumberID>
+        <UsageCode>5</UsageCode>
+      </BagTag>
+      <Dimensions>
+        <HeightMeasure UnitCode="CMT">50</HeightMeasure>
+      </Dimensions>
+      <Owner>
+        <GivenName>PATRICK</GivenName>
+        <Role>
+          <Pax>
+            <Booking>
+              <BookingID>DHVVNO</BookingID>
+            </Booking>
+          </Pax>
+        </Role>
+        <Surname>KANE</Surname>
+      </Owner>
+      <PhysicalProperties>
+        <WeightMeasure UnitCode="KGM">15</WeightMeasure>
+      </PhysicalProperties>
+    </Bag>
+    <BaggageProcess>
+      <BaggageEvent>
+        <Facility>
+          <Station>
+            <IATA_LocationCode>AAA</IATA_LocationCode>
+          </Station>
+        </Facility>
+      </BaggageEvent>
+      <BaggageProcessCode>L</BaggageProcessCode>
+    </BaggageProcess>
+    <CarryingSegment>
+      <AircraftScheduledDepDateTime>2024-09-09T00:00:00</AircraftScheduledDepDateTime>
+      <ArrivalIATA_LocationCode>BBB</ArrivalIATA_LocationCode>
+      <CarrierDesigCode>AS</CarrierDesigCode>
+      <DepIATA_LocationCode>AAA</DepIATA_LocationCode>
+      <FlightNumberText>0801</FlightNumberText>
+    </CarryingSegment>
+    <ClassOfServiceCode>J</ClassOfServiceCode>
+    <Exception>
+      <ExceptionCode>PRIO</ExceptionCode>
+    </Exception>
+    <SegmentSecurityControls>
+      <AuthorityToLoadInd>true</AuthorityToLoadInd>
+      <BagTagStatusCode>A</BagTagStatusCode>
+      <PaxStatus>
+        <BoardingStatusCode>C</BoardingStatusCode>
+        <CheckInSeqNumber>46</CheckInSeqNumber>
+        <SeatID>01D</SeatID>
+        <SecurityProfileStatusInd>false</SecurityProfileStatusInd>
+      </PaxStatus>
+    </SegmentSecurityControls>
+  </ns:BagSegment>
+</ns:IATA_Baggage_BagRQ>

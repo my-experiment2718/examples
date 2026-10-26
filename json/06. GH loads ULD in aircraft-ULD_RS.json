@@ -1,0 +1,59 @@
+{
+    "data": {
+        "baggageProcess": {
+            "agent": [
+                {
+                    "agentIdentifier": "GHA2"
+                }
+            ],
+            "baggageEvent": {
+                "actualDateTime": "2024-09-09T23:13:22Z",
+                "facility": {
+                    "baggageFacilityType": {
+                        "baggageFacilityTypeCode": "RM"
+                    },
+                    "facilityIdentifier": "V118",
+                    "station": {
+                        "iataLocationCode": "AAA"
+                    }
+                },
+                "scanner": {
+                    "scannerIdentifier": "HHT234"
+                }
+            },
+            "baggageProcessCode": "L",
+            "baggageSubProcessCode": "Load",
+            "baggageSubSubProcessCode": "Load"
+        },
+        "carryingSegment": {
+            "aircraftScheduledDepDateTime": "2024-09-09T00:00:00",
+            "arrivalIataLocationCode": "BBB",
+            "carrierDesigCode": "AS",
+            "depIataLocationCode": "AAA",
+            "flightNumberText": "0801"
+        },
+        "classOfServiceCode": "J",
+        "delivery": {
+            "facility": {
+                "baggageFacilityType": {
+                    "baggageFacilityTypeCode": "AC"
+                },
+                "facilityIdentifier": "OELBB",
+                "station": {
+                    "iataLocationCode": "AAA"
+                }
+            }
+        },
+        "uld": {
+            "ownerCode": "LH",
+            "serialNumberIdentifier": "12345",
+            "typeCode": "AKE"
+        },
+        "uldLoadPosition": {
+            "uldLoadPositionIdentifier": "22L"
+        }
+    },
+    "meta": {
+        "schema": "https://standards-test.developer.iata.org/iata-baggage-uld-allocation-result.v1.0.0-alpha.4.0.json"
+    }
+}

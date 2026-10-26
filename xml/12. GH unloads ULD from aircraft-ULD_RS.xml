@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!--
+.U/AKE12345LH
+-->
+<ns:IATA_Baggage_ULD_RS xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://www.iata.org/IATA/2015/BIX/00/IATA_Baggage_CommonTypes" xmlns:ns="http://www.iata.org/IATA/2015/BIX/00/IATA_Baggage_ULD_RS">
+  <ns:ULD_Allocation>
+    <BaggageProcess>
+      <Agent>
+        <AgentID>GHA2</AgentID>
+      </Agent>
+      <BaggageEvent>
+        <ActualDateTime>2024-09-09T23:13:22Z</ActualDateTime>
+        <Facility>
+          <BaggageFacilityType>
+            <BaggageFacilityTypeCode>RM</BaggageFacilityTypeCode>
+          </BaggageFacilityType>
+          <FacilityID>V118</FacilityID>
+          <Station>
+            <IATA_LocationCode>EEE</IATA_LocationCode>
+          </Station>
+        </Facility>
+        <Scanner>
+          <ScannerID>HHT234</ScannerID>
+        </Scanner>
+      </BaggageEvent>
+      <BaggageProcessCode>X</BaggageProcessCode>
+      <BaggageSubProcessCode>Unload</BaggageSubProcessCode>
+      <BaggageSubSubProcessCode>Unload</BaggageSubSubProcessCode>
+    </BaggageProcess>
+    <CarryingSegment>
+      <AircraftScheduledDepDateTime>2024-09-09T00:00:00</AircraftScheduledDepDateTime>
+      <ArrivalIATA_LocationCode>EEE</ArrivalIATA_LocationCode>
+      <CarrierDesigCode>AS</CarrierDesigCode>
+      <DepIATA_LocationCode>DDD</DepIATA_LocationCode>
+      <FlightNumberText>0799</FlightNumberText>
+    </CarryingSegment>
+    <ClassOfServiceCode>J</ClassOfServiceCode>
+    <ULD>
+      <!-- .U/AKE12345LH  -->
+      <OwnerCode>LH</OwnerCode>
+      <SerialNumberID>12345</SerialNumberID>
+      <TypeCode>AKE</TypeCode>
+    </ULD>
+  </ns:ULD_Allocation>
+</ns:IATA_Baggage_ULD_RS>

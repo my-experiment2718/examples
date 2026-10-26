@@ -1,0 +1,45 @@
+{
+    "data": {
+        "baggageProcess": {
+            "agent": [
+                {
+                    "agentIdentifier": "GHA2"
+                }
+            ],
+            "baggageEvent": {
+                "actualDateTime": "2024-09-09T23:13:22Z",
+                "facility": {
+                    "baggageFacilityType": {
+                        "baggageFacilityTypeCode": "RM"
+                    },
+                    "facilityIdentifier": "V118",
+                    "station": {
+                        "iataLocationCode": "EEE"
+                    }
+                },
+                "scanner": {
+                    "scannerIdentifier": "HHT234"
+                }
+            },
+            "baggageProcessCode": "X",
+            "baggageSubProcessCode": "Unload",
+            "baggageSubSubProcessCode": "Unload"
+        },
+        "carryingSegment": {
+            "aircraftScheduledDepDateTime": "2024-09-09T00:00:00",
+            "arrivalIataLocationCode": "EEE",
+            "carrierDesigCode": "AS",
+            "depIataLocationCode": "DDD",
+            "flightNumberText": "0799"
+        },
+        "classOfServiceCode": "J",
+        "uld": {
+            "ownerCode": "LH",
+            "serialNumberIdentifier": "12345",
+            "typeCode": "AKE"
+        }
+    },
+    "meta": {
+        "schema": "https://standards-test.developer.iata.org/iata-baggage-uld-allocation-result.v1.0.0-alpha.4.0.json"
+    }
+}

@@ -1,0 +1,45 @@
+{
+    "data": {
+        "bag": {
+            "bagTag": {
+                "issuerCode": "027",
+                "serialNumberIdentifier": "318374",
+                "usageCode": "5"
+            }
+        },
+        "baggageProcess": {
+            "agent": [
+                {
+                    "agency": {
+                        "agencyCode": "EEEBRDL"
+                    }
+                }
+            ],
+            "baggageEvent": {
+                "actualDateTime": "2024-09-09T14:53:37",
+                "facility": {
+                    "baggageFacilityType": {
+                        "baggageFacilityTypeCode": "CL"
+                    },
+                    "station": {
+                        "iataLocationCode": "EEE"
+                    }
+                }
+            },
+            "baggageProcessCode": "X",
+            "baggageSubProcessCode": "Deliver",
+            "baggageSubSubProcessCode": "Deliver"
+        },
+        "carryingSegment": {
+            "aircraftScheduledDepDateTime": "2024-09-09T00:00:01",
+            "arrivalIataLocationCode": "EEE",
+            "carrierDesigCode": "AS",
+            "depIataLocationCode": "DDD",
+            "flightNumberText": "0801"
+        },
+        "classOfServiceCode": "J"
+    },
+    "meta": {
+        "schema": "https://standards-test.developer.iata.org/iata-baggage-bag-segment-result.v1.0.0-alpha.4.0.json"
+    }
+}

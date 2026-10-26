@@ -1,0 +1,84 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!--
+l version='1.0' encoding='UTF-8'?>
+<ns:IATA_Baggage_BagRS xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://www.iata.org/IATA/2015/00/2026.2/IATA_Baggage_CommonTypes" xmlns:ns="http://www.iata.org/IATA/2015/00/2026.2/IATA_Baggage_BagRS">
+<ns:BagSegment>
+<Bag>
+<BagTag>
+<IssuerCode>027</IssuerCode>
+<SerialNumberID>318374</SerialNumberID>
+<UsageCode>5</UsageCode>
+</BagTag>
+</Bag>
+<BaggageProcess>
+<Agent>
+<Agency>
+<AgencyCode>EEEBRDL</AgencyCode>
+</Agency>
+</Agent>
+<BaggageEvent>
+<ActualDateTime>2024-09-09T14:53:37</ActualDateTime>
+<Facility>
+<BaggageFacilityType>
+<BaggageFacilityTypeCode>CL</BaggageFacilityTypeCode>
+</BaggageFacilityType>
+<Station>
+<IATA_LocationCode>EEE</IATA_LocationCode>
+</Station>
+</Facility>
+</BaggageEvent>
+<BaggageProcessCode>X</BaggageProcessCode>
+<BaggageSubProcessCode>Deliver</BaggageSubProcessCode>
+<BaggageSubSubProcessCode>Deliver</BaggageSubSubProcessCode>
+</BaggageProcess>
+<CarryingSegment>
+<AircraftScheduledDepDateTime>2024-09-09T00:00:01</AircraftScheduledDepDateTime>
+<ArrivalIATA_LocationCode>EEE</ArrivalIATA_LocationCode>
+<CarrierDesigCode>AS</CarrierDesigCode>
+<DepIATA_LocationCode>DDD</DepIATA_LocationCode>
+<FlightNumberText>0801</FlightNumberText>
+</CarryingSegment>
+<ClassOfServiceCode>J</ClassOfServiceCode>
+</ns:BagSegment>
+</ns:IATA_Baggage_BagRS>
+-->
+<ns:IATA_Baggage_BagRS xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://www.iata.org/IATA/2015/BIX/00/IATA_Baggage_CommonTypes" xmlns:ns="http://www.iata.org/IATA/2015/BIX/00/IATA_Baggage_BagRS">
+  <ns:BagSegment>
+    <Bag>
+      <BagTag>
+        <IssuerCode>027</IssuerCode>
+        <SerialNumberID>318374</SerialNumberID>
+        <UsageCode>5</UsageCode>
+      </BagTag>
+    </Bag>
+    <BaggageProcess>
+      <Agent>
+        <Agency>
+          <AgencyCode>EEEBRDL</AgencyCode>
+        </Agency>
+      </Agent>
+      <BaggageEvent>
+        <ActualDateTime>2024-09-09T14:53:37</ActualDateTime>
+        <Facility>
+          <BaggageFacilityType>
+            <BaggageFacilityTypeCode>CL</BaggageFacilityTypeCode>
+          </BaggageFacilityType>
+          <Station>
+            <IATA_LocationCode>EEE</IATA_LocationCode>
+          </Station>
+        </Facility>
+      </BaggageEvent>
+      <BaggageProcessCode>X</BaggageProcessCode>
+      <BaggageSubProcessCode>Deliver</BaggageSubProcessCode>
+      <BaggageSubSubProcessCode>Deliver</BaggageSubSubProcessCode>
+    </BaggageProcess>
+    <CarryingSegment>
+      <AircraftScheduledDepDateTime>2024-09-09T00:00:01</AircraftScheduledDepDateTime>
+      <ArrivalIATA_LocationCode>EEE</ArrivalIATA_LocationCode>
+      <CarrierDesigCode>AS</CarrierDesigCode>
+      <DepIATA_LocationCode>DDD</DepIATA_LocationCode>
+      <FlightNumberText>0801</FlightNumberText>
+    </CarryingSegment>
+    <ClassOfServiceCode>J</ClassOfServiceCode>
+  </ns:BagSegment>
+</ns:IATA_Baggage_BagRS>

@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!--
+.U/AKE12345LH/22L
+-->
+<ns:IATA_Baggage_ULD_RS xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://www.iata.org/IATA/2015/BIX/00/IATA_Baggage_CommonTypes" xmlns:ns="http://www.iata.org/IATA/2015/BIX/00/IATA_Baggage_ULD_RS">
+  <ns:ULD_Allocation>
+    <BaggageProcess>
+      <Agent>
+        <AgentID>GHA2</AgentID>
+      </Agent>
+      <BaggageEvent>
+        <ActualDateTime>2024-09-09T23:13:22Z</ActualDateTime>
+        <Facility>
+          <BaggageFacilityType>
+            <BaggageFacilityTypeCode>RM</BaggageFacilityTypeCode>
+          </BaggageFacilityType>
+          <FacilityID>V118</FacilityID>
+          <Station>
+            <IATA_LocationCode>AAA</IATA_LocationCode>
+          </Station>
+        </Facility>
+        <Scanner>
+          <ScannerID>HHT234</ScannerID>
+        </Scanner>
+      </BaggageEvent>
+      <BaggageProcessCode>L</BaggageProcessCode>
+      <BaggageSubProcessCode>Load</BaggageSubProcessCode>
+      <BaggageSubSubProcessCode>Load</BaggageSubSubProcessCode>
+    </BaggageProcess>
+    <CarryingSegment>
+      <AircraftScheduledDepDateTime>2024-09-09T00:00:00</AircraftScheduledDepDateTime>
+      <ArrivalIATA_LocationCode>BBB</ArrivalIATA_LocationCode>
+      <CarrierDesigCode>AS</CarrierDesigCode>
+      <DepIATA_LocationCode>AAA</DepIATA_LocationCode>
+      <FlightNumberText>0801</FlightNumberText>
+    </CarryingSegment>
+    <ClassOfServiceCode>J</ClassOfServiceCode>
+    <Delivery>
+      <Facility>
+        <BaggageFacilityType>
+          <BaggageFacilityTypeCode>AC</BaggageFacilityTypeCode>
+        </BaggageFacilityType>
+        <FacilityID>OELBB</FacilityID>
+        <Station>
+          <IATA_LocationCode>AAA</IATA_LocationCode>
+        </Station>
+      </Facility>
+    </Delivery>
+    <ULD>
+      <!-- .U/AKE12345LH/22L  -->
+      <OwnerCode>LH</OwnerCode>
+      <SerialNumberID>12345</SerialNumberID>
+      <TypeCode>AKE</TypeCode>
+    </ULD>
+    <ULD_LoadPosition>
+      <!-- .U/AKE12345LH/22L  -->
+      <ULD_LoadPositionID>22L</ULD_LoadPositionID>
+    </ULD_LoadPosition>
+  </ns:ULD_Allocation>
+</ns:IATA_Baggage_ULD_RS>

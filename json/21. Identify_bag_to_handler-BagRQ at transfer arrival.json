@@ -1,0 +1,84 @@
+{
+    "data": {
+        "bag": {
+            "bagTag": {
+                "issuerCode": "027",
+                "printer": {
+                    "deviceIdentifier": "68FE3E"
+                },
+                "serialNumberIdentifier": "318374",
+                "usageCode": "5"
+            },
+            "owner": {
+                "givenName": [
+                    "PATRICK"
+                ],
+                "role": {
+                    "pax": {
+                        "booking": {
+                            "bookingIdentifier": "DHVVNO"
+                        }
+                    }
+                },
+                "surname": "KANE"
+            }
+        },
+        "baggageProcess": {
+            "baggageEvent": {
+                "facility": {
+                    "station": {
+                        "iataLocationCode": "CCC"
+                    }
+                }
+            },
+            "baggageProcessCode": "F"
+        },
+        "carryingSegment": {
+            "aircraftScheduledDepDateTime": "2024-09-09T00:00:00",
+            "arrivalIataLocationCode": "CCC",
+            "carrierDesigCode": "BB",
+            "depIataLocationCode": "BBB",
+            "flightNumberText": "0801"
+        },
+        "classOfServiceCode": "J",
+        "deliveringBagSegment": [
+            {
+                "aircraftScheduledDepDateTime": "2024-09-09T00:00:00",
+                "arrivalIataLocationCode": "BBB",
+                "carrierDesigCode": "AS",
+                "classOfServiceCode": "J",
+                "deliveringJourneyOrdinal": 1,
+                "depIataLocationCode": "AAA",
+                "flightNumberText": "0802"
+            }
+        ],
+        "exception": [
+            {
+                "exceptionCode": "PRIO"
+            }
+        ],
+        "onwardBagSegment": [
+            {
+                "aircraftScheduledDepDateTime": "2024-09-09T00:00:00",
+                "arrivalIataLocationCode": "DDD",
+                "carrierDesigCode": "AS",
+                "classOfServiceCode": "J",
+                "depIataLocationCode": "CCC",
+                "flightNumberText": "0800",
+                "onwardJourneyOrdinal": 1
+            },
+            {
+                "aircraftScheduledDepDateTime": "2024-09-09T00:00:00",
+                "arrivalIataLocationCode": "EEE",
+                "carrierDesigCode": "AS",
+                "classOfServiceCode": "J",
+                "depIataLocationCode": "DDD",
+                "flightNumberText": "0799",
+                "onwardJourneyOrdinal": 2
+            }
+        ]
+    },
+    "meta": {
+        "schema": "https://standards-test.developer.iata.org/iata-baggage-bag-segment-instruction.v1.0.0-alpha.4.0.json"
+    }
+}

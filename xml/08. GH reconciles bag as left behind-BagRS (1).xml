@@ -1,0 +1,140 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!--
+l version='1.0' encoding='UTF-8'?>
+<ns:IATA_Baggage_BagRS xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://www.iata.org/IATA/2015/00/2026.2/IATA_Baggage_CommonTypes" xmlns:ns="http://www.iata.org/IATA/2015/00/2026.2/IATA_Baggage_BagRS">
+<ns:BagSegment>
+<Bag>
+<BagTag>
+<IssuerCode>027</IssuerCode>
+<SerialNumberID>318374</SerialNumberID>
+<UsageCode>5</UsageCode>
+</BagTag>
+<Owner>
+<GivenName>PATRICK</GivenName>
+<Role>
+<Pax>
+<Booking>
+<BookingID>DHVVNO</BookingID>
+</Booking>
+</Pax>
+</Role>
+<Surname>KANE</Surname>
+</Owner>
+</Bag>
+<BaggageProcess>
+<Agent>
+<Agency>
+<AgencyCode>PIERRE</AgencyCode>
+</Agency>
+</Agent>
+<BaggageEvent>
+<ActualDateTime>2024-09-09T23:13:00Z</ActualDateTime>
+<Facility>
+<FacilityID>AC</FacilityID>
+<Station>
+<IATA_LocationCode>AAA</IATA_LocationCode>
+</Station>
+</Facility>
+</BaggageEvent>
+<BaggageProcessCode>L</BaggageProcessCode>
+<BaggageSubProcessCode>Load</BaggageSubProcessCode>
+<BaggageSubSubProcessCode>Reconcile</BaggageSubSubProcessCode>
+</BaggageProcess>
+<BaggageState>
+<ConformanceStateCode>Reconciled</ConformanceStateCode>
+<IncidentStateCode>Baggage left behind</IncidentStateCode>
+</BaggageState>
+<CarryingSegment>
+<AircraftScheduledDepDateTime>2024-09-09T00:00:00</AircraftScheduledDepDateTime>
+<ArrivalIATA_LocationCode>BBB</ArrivalIATA_LocationCode>
+<CarrierDesigCode>AS</CarrierDesigCode>
+<DepIATA_LocationCode>AAA</DepIATA_LocationCode>
+<FlightNumberText>0801</FlightNumberText>
+</CarryingSegment>
+<ClassOfServiceCode>J</ClassOfServiceCode>
+<Exception>
+<ExceptionCode>PRIO</ExceptionCode>
+</Exception>
+<RecapInstructions>
+<SegmentSecurityControls>
+<AuthorityToLoadInd>true</AuthorityToLoadInd>
+<BagTagStatusCode>A</BagTagStatusCode>
+<PaxStatus>
+<BoardingStatusCode>B</BoardingStatusCode>
+<CheckInSeqNumber>283</CheckInSeqNumber>
+<SeatID>68H</SeatID>
+</PaxStatus>
+</SegmentSecurityControls>
+</RecapInstructions>
+<SecurityNumber>283</SecurityNumber>
+</ns:BagSegment>
+</ns:IATA_Baggage_BagRS>
+-->
+<ns:IATA_Baggage_BagRS xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://www.iata.org/IATA/2015/BIX/00/IATA_Baggage_CommonTypes" xmlns:ns="http://www.iata.org/IATA/2015/BIX/00/IATA_Baggage_BagRS">
+  <ns:BagSegment>
+    <Bag>
+      <BagTag>
+        <IssuerCode>027</IssuerCode>
+        <SerialNumberID>318374</SerialNumberID>
+        <UsageCode>5</UsageCode>
+      </BagTag>
+      <Owner>
+        <GivenName>PATRICK</GivenName>
+        <Role>
+          <Pax>
+            <Booking>
+              <BookingID>DHVVNO</BookingID>
+            </Booking>
+          </Pax>
+        </Role>
+        <Surname>KANE</Surname>
+      </Owner>
+    </Bag>
+    <BaggageProcess>
+      <Agent>
+        <Agency>
+          <AgencyCode>PIERRE</AgencyCode>
+        </Agency>
+      </Agent>
+      <BaggageEvent>
+        <ActualDateTime>2024-09-09T23:13:00Z</ActualDateTime>
+        <Facility>
+          <FacilityID>AC</FacilityID>
+          <Station>
+            <IATA_LocationCode>AAA</IATA_LocationCode>
+          </Station>
+        </Facility>
+      </BaggageEvent>
+      <BaggageProcessCode>L</BaggageProcessCode>
+      <BaggageSubProcessCode>Load</BaggageSubProcessCode>
+      <BaggageSubSubProcessCode>Reconcile</BaggageSubSubProcessCode>
+    </BaggageProcess>
+    <BaggageState>
+      <ConformanceStateCode>Reconciled</ConformanceStateCode>
+      <IncidentStateCode>Baggage left behind</IncidentStateCode>
+    </BaggageState>
+    <CarryingSegment>
+      <AircraftScheduledDepDateTime>2024-09-09T00:00:00</AircraftScheduledDepDateTime>
+      <ArrivalIATA_LocationCode>BBB</ArrivalIATA_LocationCode>
+      <CarrierDesigCode>AS</CarrierDesigCode>
+      <DepIATA_LocationCode>AAA</DepIATA_LocationCode>
+      <FlightNumberText>0801</FlightNumberText>
+    </CarryingSegment>
+    <ClassOfServiceCode>J</ClassOfServiceCode>
+    <Exception>
+      <ExceptionCode>PRIO</ExceptionCode>
+    </Exception>
+    <RecapInstructions>
+      <SegmentSecurityControls>
+        <AuthorityToLoadInd>true</AuthorityToLoadInd>
+        <BagTagStatusCode>A</BagTagStatusCode>
+        <PaxStatus>
+          <BoardingStatusCode>B</BoardingStatusCode>
+          <CheckInSeqNumber>283</CheckInSeqNumber>
+          <SeatID>68H</SeatID>
+        </PaxStatus>
+      </SegmentSecurityControls>
+    </RecapInstructions>
+    <SecurityNumber>283</SecurityNumber>
+  </ns:BagSegment>
+</ns:IATA_Baggage_BagRS>
