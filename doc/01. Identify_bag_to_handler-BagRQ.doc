@@ -1,0 +1,17 @@
+
+Message from Airline to Handler
+Process=Transfer-Departure
+Owner=Passenger with booking
+Bag tag printer identification
+Reconcile/Segment Security controls are communicated with ATL true and Active tag
+ 
+BSM
+.V/1LAAA
+.F/AS0801/09SEP/BBB/J
+.N/5027318374001
+.S/Y/1D/C/46//N//A
+.P/KANE/PATRICK
+.L/DHVVNO
+.T/68FE3E
+.E/PRIO
+ENDBSM

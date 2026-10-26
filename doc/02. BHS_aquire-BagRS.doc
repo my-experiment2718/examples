@@ -1,0 +1,14 @@
+
+Message from Handler (BHS) to Airline
+Process=Originating-Departure
+Owner=Passenger with booking
+  
+BPM
+.V/1LAAA
+.J/S/SMARTSORT/T1BHS/09SEP/145337L/ATRAA1
+.F/AS0801/09SEP/BBB/J
+.N/5027318374001
+.P/KANE/PATRICK
+.L/DHVVNO
+.E/PRIO
+ENDBPM

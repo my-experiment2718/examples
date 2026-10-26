@@ -1,0 +1,350 @@
+Date: Tue, 20 Oct 2026 13:05:05 +0000 (UTC)
+Message-ID: <160187806.11.1792501505380@db8b9f59a22d>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_10_1829439004.1792501505379"
+
+------=_Part_10_1829439004.1792501505379
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>RP1745A -- completed</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font: var(--ds-font-body-small, Arial, Helvetica, FreeSans, sans-se=
+rif);
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: var(--ds-surface, #fff) !important;
+        color: var(--ds-text, #000) !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: var(--ds-text, #000);
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        page-break-after: avoid;
+    }
+
+    pre {
+        font: var(--ds-font-code, Monaco, "Courier New", monospace);
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>RP1745A -- completed</h1>
+    <div class=3D"Section1">
+        <div id=3D"expander-1232793629" class=3D"expand-container">
+<div id=3D"expander-control-1232793629" class=3D"expand-control">
+<span class=3D"expand-control-icon"><img style=3D"vertical-align:middle;" c=
+lass=3D"expand-control-image" src=3D"af70fa38f27fa8e2a42d7acd448042d94e1a02=
+0baa4ba3785804720155cbf5f6" width=3D"16" height=3D"16"></span><span class=
+=3D"expand-control-text">Table of contents</span>
+</div>
+<div id=3D"expander-content-1232793629" class=3D"expand-content">
+<style type=3D"text/css">/*<![CDATA[*/
+div.rbtoc1792501505354 {padding: 0px;}
+div.rbtoc1792501505354 ul {list-style: none;margin-left: 0px;}
+div.rbtoc1792501505354 li {margin-left: 0px;padding-left: 0px;}
+
+/*]]>*/</style>
+<div class=3D"toc-macro rbtoc1792501505354">
+<ul class=3D"toc-indentation">
+<li><a href=3D"#RP1745A--completed-Processed">Processed</a>
+<ul class=3D"toc-indentation">
+<li><a href=3D"#RP1745A--completed-A.5.4.6.Examplewith=E2=80=9CUNAR=E2=80=
+=9D">A.5.4.6. Example with =E2=80=9CUNAR=E2=80=9D</a></li>
+</ul></li>
+</ul>
+</div>
+</div>
+</div>
+<h1 local-id=3D"ae68cb2c26e2" id=3D"RP1745A--completed-Processed">Processed=
+</h1>
+<h3 local-id=3D"abe8e6791bb9" id=3D"RP1745A--completed-A.5.4.6.Examplewith=
+=E2=80=9CUNAR=E2=80=9D">A.5.4.6. Example with =E2=80=9CUNAR=E2=80=9D</h3>
+<p local-id=3D"b9fade362cdf">Use case: Instruct airport to expect a bag and=
+ load it as UNAR (Unaccompanied bag, all requirements for travel met)</p>
+<p local-id=3D"ae856c51328c">Redaction: Fixed .F from original</p>
+<p local-id=3D"7faa0906c479">A. BSM to say the bag is UNAR without Authorit=
+y To Travel</p>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"align-start" data-local-id=
+=3D"8a0501c2-2b2d-4837-9217-6ad9f09b2747" class=3D"confluenceTable">
+<colgroup>
+<col style=3D"width: 759.0px;">
+</colgroup>
+<tbody>
+<tr data-local-id=3D"2b03657c-3781-4498-9183-0934baa25a30">
+<td data-local-id=3D"d4c4fb6f-2b33-4fcf-9313-b0e4e5aac9ad" class=3D"conflue=
+nceTd">
+<p local-id=3D"99277ff6a4f2">BSM</p>
+<p local-id=3D"b49349547524">CHG</p>
+<p local-id=3D"f0dfbbb25413">.V/1LLHR</p>
+<p local-id=3D"ca0788dbecab">.F/BA100/12DEC/FRA/J</p>
+<p local-id=3D"4567f03db94e">.P/BOND/J</p>
+<p local-id=3D"069802fb68f0">.S/Y//N/007/007</p>
+<p local-id=3D"f4918256a19e">.N/0125123456001</p>
+<p local-id=3D"be9ac9b20089">.E/UNAR</p>
+<p local-id=3D"22ce7d0b4fe7">ENDBSM</p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p local-id=3D"e95266ead837">B. BSM to say the bag is UNAR with Authority T=
+o Travel</p>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"align-start" data-local-id=
+=3D"86c711b9-7af3-4350-bae1-b47462dc99bc" class=3D"confluenceTable">
+<tbody>
+<tr data-local-id=3D"09ef1d41-23d4-4bbc-bb9d-938c7cf5c7aa">
+<td data-local-id=3D"bd583a31-7f93-4f3b-b481-79fe4ba60007" class=3D"conflue=
+nceTd">
+<p local-id=3D"8ebfc3a83712">BSM</p>
+<p local-id=3D"23d81e6fc474">CHG</p>
+<p local-id=3D"edfdc070eaf3">.V/1LLHR</p>
+<p local-id=3D"0d090e1af5a4">.F/BA100/FRA/12DEC/J</p>
+<p local-id=3D"7d8a872720cb">.P/BOND/J</p>
+<p local-id=3D"cdd04ead487b">.S/Y//N/007/007//Y</p>
+<p local-id=3D"de7bcdefee6a">.N/0125123456001</p>
+<p local-id=3D"016e1aec04b8">.E/UNAR</p>
+<p local-id=3D"5d42c5f567b9">ENDBSM</p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p local-id=3D"aae2b75e1c3c">Semantics: see use case</p>
+<p local-id=3D"5fdb6dec0921">Analysis: nothing special</p>
+<p local-id=3D"404f9145655f">Result:</p>
+<ul local-id=3D"c9c4adb67f52">
+<li local-id=3D"1c1376dadd8e">
+<p local-id=3D"1f91faf760ce"><a class=3D"external-link" href=3D"https://iat=
+aonline.sharepoint.com/:u:/r/sites/IATABaggageWorkingGroup/Shared%20Documen=
+ts/Baggage%20Information%20Exchange%20(BIX)%20Sub%20Group/Taskforce%20best%=
+20practices%20BIX%20v2/Samples/source%20RP1745/A.5.4.6.a%20Example%20with%2=
+0%27UNAR%27%20no%20%27ATT%27.xml?d=3Dw913ebb7d48864a7bb0456e496068c04d&amp;=
+csf=3D1&amp;web=3D1&amp;e=3DUa0SOv" rel=3D"nofollow">A.5.4.6.a Instruction =
+with 'UNAR' no 'ATT'</a></p>
+</li>
+<li local-id=3D"0d3fe8f82371">
+<p local-id=3D"afd5e9de5fea"><a class=3D"external-link" href=3D"https://iat=
+aonline.sharepoint.com/:u:/r/sites/IATABaggageWorkingGroup/Shared%20Documen=
+ts/Baggage%20Information%20Exchange%20(BIX)%20Sub%20Group/Taskforce%20best%=
+20practices%20BIX%20v2/Samples/source%20RP1745/A.5.4.6.b%20Example%20with%2=
+0%27UNAR%27%20and%20%27ATT%27.xml?d=3Dw4d76525b65024d3391a03db816df42c0&amp=
+;csf=3D1&amp;web=3D1&amp;e=3Dlnmcic" rel=3D"nofollow">A.5.4.6.b Instruction=
+ with =E2=80=9CUNAR=E2=80=9D and 'ATT'</a></p>
+</li>
+</ul>
+    </div>
+</body>
+</html>
+------=_Part_10_1829439004.1792501505379
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: base64
+Content-Location: file:///C:/af70fa38f27fa8e2a42d7acd448042d94e1a020baa4ba3785804720155cbf5f6
+
+iVBORw0KGgoAAAANSUhEUgAAABAAAAAQBAMAAADt3eJSAAAAA3NCSVQICAjb4U/gAAAAFVBMVEX/
+//9wcHBwcHBwcHBwcHBwcHBwcHA3RenHAAAAB3RSTlMAZoiZzN3/SzZomQAAAAlwSFlzAAALEgAA
+CxIB0t1+/AAAABx0RVh0U29mdHdhcmUAQWRvYmUgRmlyZXdvcmtzIENTNui8sowAAAAUdEVYdENy
+ZWF0aW9uIFRpbWUANi8xLzEzOKlF0AAAACFJREFUCJljYCATsCgwqIAZTMnMyRAhsTABCIMxkVxT
+GQCLcwHyUKXpLgAAAABJRU5ErkJggg==
+------=_Part_10_1829439004.1792501505379--

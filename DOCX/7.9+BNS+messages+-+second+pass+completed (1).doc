@@ -1,0 +1,981 @@
+Date: Tue, 20 Oct 2026 13:04:45 +0000 (UTC)
+Message-ID: <1859207846.31.1792501485700@6569e881b64e>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_30_1765535166.1792501485700"
+
+------=_Part_30_1765535166.1792501485700
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>7.9 BNS messages - second pass completed</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font: var(--ds-font-body-small, Arial, Helvetica, FreeSans, sans-se=
+rif);
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: var(--ds-surface, #fff) !important;
+        color: var(--ds-text, #000) !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: var(--ds-text, #000);
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        page-break-after: avoid;
+    }
+
+    pre {
+        font: var(--ds-font-code, Monaco, "Courier New", monospace);
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>7.9 BNS messages - second pass completed</h1>
+    <div class=3D"Section1">
+        <div id=3D"expander-311316737" class=3D"expand-container">
+<div id=3D"expander-control-311316737" class=3D"expand-control">
+<span class=3D"expand-control-icon"><img style=3D"vertical-align:middle;" c=
+lass=3D"expand-control-image" src=3D"af70fa38f27fa8e2a42d7acd448042d94e1a02=
+0baa4ba3785804720155cbf5f6" width=3D"16" height=3D"16"></span><span class=
+=3D"expand-control-text">Table of contents</span>
+</div>
+<div id=3D"expander-content-311316737" class=3D"expand-content">
+<style type=3D"text/css">/*<![CDATA[*/
+div.rbtoc1792501485596 {padding: 0px;}
+div.rbtoc1792501485596 ul {list-style: none;margin-left: 0px;}
+div.rbtoc1792501485596 li {margin-left: 0px;padding-left: 0px;}
+
+/*]]>*/</style>
+<div class=3D"toc-macro rbtoc1792501485596">
+<ul class=3D"toc-indentation">
+<li><a href=3D"#id-7.9BNSmessages-secondpasscompleted-Processed">Processed<=
+/a>
+<ul class=3D"toc-indentation">
+<li><a href=3D"#id-7.9BNSmessages-secondpasscompleted-7.9.1Type-BBaggageNot=
+SeenMessage,senttothefinaldestination,transferstationsandtracingsystem">7.9=
+.1=E2=80=83Type-B Baggage Not Seen Message, sent to the final destination, =
+transfer stations and tracing system</a></li>
+<li><a href=3D"#id-7.9BNSmessages-secondpasscompleted-7.9.2BaggageNotSeenmu=
+ltipleelements">7.9.2 Baggage Not Seen multiple elements</a></li>
+</ul></li>
+<li><a href=3D"#id-7.9BNSmessages-secondpasscompleted-Pendingchangerequest"=
+>Pending change request</a></li>
+<li><a href=3D"#id-7.9BNSmessages-secondpasscompleted-Droppedasexample">Dro=
+pped as example</a>
+<ul class=3D"toc-indentation">
+<li><a href=3D"#id-7.9BNSmessages-secondpasscompleted-7.9.3BaggageNotSeenMe=
+ssage,senttothefinaldestinationofthepassenger,onemessageperleg-notrelevanth=
+ere">7.9.3=E2=80=83Baggage Not Seen Message, sent to the final destination =
+of the passenger, one message per leg - not relevant here</a></li>
+<li><a href=3D"#id-7.9BNSmessages-secondpasscompleted-7.9.4BaggageNotSeenMe=
+ssage,providingaUniqueID(EBTwithGUID)-duplicatewithearlierexamples">7.9.4=
+=E2=80=83Baggage Not Seen Message, providing a Unique ID (EBT with GUID) - =
+duplicate with earlier examples</a></li>
+<li><a href=3D"#id-7.9BNSmessages-secondpasscompleted-7.9.5BaggageNotSeenMe=
+ssagewithUID-duplicateafterreducetoBIX">7.9.5=E2=80=83Baggage Not Seen Mess=
+age with UID - duplicate after reduce to BIX</a></li>
+</ul></li>
+</ul>
+</div>
+</div>
+</div>
+<h1 local-id=3D"89f983480085" id=3D"id-7.9BNSmessages-secondpasscompleted-P=
+rocessed">Processed</h1>
+<h3 local-id=3D"547aa75ebf48" id=3D"id-7.9BNSmessages-secondpasscompleted-7=
+.9.1Type-BBaggageNotSeenMessage,senttothefinaldestination,transferstationsa=
+ndtracingsystem"><strong><span style=3D"color: rgb(0,0,0);">7.9.1=E2=80=83T=
+ype-B Baggage Not Seen Message, sent to the final destination, transfer sta=
+tions and tracing system</span></strong></h3>
+<p local-id=3D"5aca144eaafa">Use case: Bag not seen at final reconcile, rep=
+orted to relevant parties</p>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"align-start" data-local-id=
+=3D"ef5ea210248e" class=3D"confluenceTable">
+<colgroup>
+<col style=3D"width: 338.0px;">
+<col style=3D"width: 422.0px;">
+</colgroup>
+<tbody>
+<tr data-local-id=3D"654b20ca6271">
+<td data-local-id=3D"ddd3775ebed9" class=3D"confluenceTd">
+<p local-id=3D"79eea2d40cee"><span style=3D"color: rgb(0,0,0);">AMSLLAF AMS=
+LLKL LAXLLKL ATLWMXS</span></p>
+</td>
+<td data-local-id=3D"b949e74e968e" class=3D"confluenceTd">
+<p local-id=3D"93b413818792"><span style=3D"color: rgb(0,0,0);">Message sen=
+t to</span></p>
+</td>
+</tr>
+<tr data-local-id=3D"2eb236d89e4d">
+<td data-local-id=3D"90b733280006" class=3D"confluenceTd">
+<p local-id=3D"e789e03961ba"><span style=3D"color: rgb(0,0,0);">.CDGBRAF 31=
+1840</span></p>
+</td>
+<td data-local-id=3D"7637c344afc3" class=3D"confluenceTd">
+<p local-id=3D"d550d70bcb26"><span style=3D"color: rgb(0,0,0);">Message sen=
+t by AF</span></p>
+</td>
+</tr>
+<tr data-local-id=3D"d988f0539321">
+<td data-local-id=3D"4020b4b43b4b" class=3D"confluenceTd">
+<p local-id=3D"f70360ed9b22"><span style=3D"color: rgb(0,0,0);">BNS</span><=
+/p>
+</td>
+<td data-local-id=3D"bd88d01f9048" class=3D"confluenceTd">
+<p local-id=3D"318bfad13e30"><span style=3D"color: rgb(0,0,0);">Message typ=
+e (BNS)</span></p>
+</td>
+</tr>
+<tr data-local-id=3D"179a27cc8470">
+<td data-local-id=3D"ca04e69ead31" class=3D"confluenceTd">
+<p local-id=3D"603054dd8e39"><span style=3D"color: rgb(0,0,0);">.V/1TCDG///=
+/123ABC456Z</span></p>
+</td>
+<td data-local-id=3D"30b4cb20be85" class=3D"confluenceTd">
+<p local-id=3D"adab9b14d05e"><span style=3D"color: rgb(0,0,0);">Transfer ba=
+gs at CDG with Encryption</span></p>
+</td>
+</tr>
+<tr data-local-id=3D"5e446e736818">
+<td data-local-id=3D"0e5cba65afcd" class=3D"confluenceTd">
+<p local-id=3D"222e40c83671"><span style=3D"color: rgb(0,0,0);">.F/AF912/30=
+APR/AMS/C</span></p>
+</td>
+<td data-local-id=3D"52818e1b5b27" class=3D"confluenceTd">
+<p local-id=3D"bbffe80b7236"><span style=3D"color: rgb(0,0,0);">Outbound fl=
+ight information (AF912 to AMS)</span></p>
+</td>
+</tr>
+<tr data-local-id=3D"c8e3eb160f16">
+<td data-local-id=3D"ee16334853ec" class=3D"confluenceTd">
+<p local-id=3D"70f3dd5ca146"><span style=3D"color: rgb(0,0,0);">.O/KL601/30=
+APR/LAX/M</span></p>
+</td>
+<td data-local-id=3D"97a902fcd9ac" class=3D"confluenceTd">
+<p local-id=3D"75de9c7c1f93"><span style=3D"color: rgb(0,0,0);">Onward flig=
+ht information (KL601 to LAX)</span></p>
+</td>
+</tr>
+<tr data-local-id=3D"3002bb81c752">
+<td data-local-id=3D"a91df5d4ffec" class=3D"confluenceTd">
+<p local-id=3D"494712f03f9b"><span style=3D"color: rgb(0,0,0);">.N/00371234=
+56002</span></p>
+</td>
+<td data-local-id=3D"d3159d2e644b" class=3D"confluenceTd">
+<p local-id=3D"0d94d8655f89"><span style=3D"color: rgb(0,0,0);">2 missing b=
+ags, starting tag nbr 0037123456</span></p>
+</td>
+</tr>
+<tr data-local-id=3D"935b171a613c">
+<td data-local-id=3D"384e0f97e3ef" class=3D"confluenceTd">
+<p local-id=3D"debc979ea98e"><span style=3D"color: rgb(0,0,0);">.H/T4/GREEN=
+/D46</span></p>
+</td>
+<td data-local-id=3D"9df4ec848598" class=3D"confluenceTd">
+<p local-id=3D"32108d9b8daa"><span style=3D"color: rgb(0,0,0);">Handling lo=
+cation T4/ Handling pier </span>GREEN/Handling gate D46</p>
+</td>
+</tr>
+<tr data-local-id=3D"834299b2d111">
+<td data-local-id=3D"70be8a09410c" class=3D"confluenceTd">
+<p local-id=3D"0b2b1ea3f901"><span style=3D"color: rgb(0,0,0);">.P/CLOVER/L=
+MR</span></p>
+</td>
+<td data-local-id=3D"a2dc96c88f10" class=3D"confluenceTd">
+<p local-id=3D"9fe1ee4ebea1"><span style=3D"color: rgb(0,0,0);">Passenger's=
+ name</span></p>
+</td>
+</tr>
+<tr data-local-id=3D"2fb685a66115">
+<td data-local-id=3D"45b8db17e91f" class=3D"confluenceTd">
+<p local-id=3D"d9d47bbfee77"><span style=3D"color: rgb(0,0,0);">.C/AJAX TOU=
+R</span></p>
+</td>
+<td data-local-id=3D"78bb9d5fb396" class=3D"confluenceTd">
+<p local-id=3D"a523c3f1e00d"><span style=3D"color: rgb(0,0,0);">Tour inform=
+ation</span></p>
+</td>
+</tr>
+<tr data-local-id=3D"8b1231f42e49">
+<td data-local-id=3D"3388810c9c87" class=3D"confluenceTd">
+<p local-id=3D"9cb0d602e497"><span style=3D"color: rgb(0,0,0);">.R/LATE CHE=
+CK-IN</span></p>
+</td>
+<td data-local-id=3D"1b2ebd5bec8b" class=3D"confluenceTd">
+<p local-id=3D"ac7b654fd474"><span style=3D"color: rgb(0,0,0);">Internal Ai=
+rline Data</span></p>
+</td>
+</tr>
+<tr data-local-id=3D"5a458e9b2225">
+<td data-local-id=3D"203acd3a02df" class=3D"confluenceTd">
+<p local-id=3D"663ad124b01f"><span style=3D"color: rgb(0,0,0);">ENDBNS</spa=
+n></p>
+</td>
+<td data-local-id=3D"78967cad28ae" class=3D"confluenceTd">
+<p local-id=3D"90613d557324"><span style=3D"color: rgb(0,0,0);">End of Mess=
+age Identifier</span></p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p local-id=3D"c8babc40017a">Semantics: see use case</p>
+<p local-id=3D"869e9b217fc8">Analysis: anticipated but not acquired bag at =
+final reconcile is an incident that needs to be notified to parties. It is =
+an alert, rather than result to previous instructions. Hence mapping to Bag=
+NotifRQ. Process: T; Load: Reconcile plus BaggageState-Incident</p>
+<p local-id=3D"aa8cbbf253e7">Result: <a class=3D"external-link" href=3D"htt=
+ps://iataonline.sharepoint.com/:u:/r/sites/IATABaggageWorkingGroup/Shared%2=
+0Documents/Baggage%20Information%20Exchange%20(BIX)%20Sub%20Group/Taskforce=
+%20best%20practices%20BIX%20v2/Samples/source%20RP1745/7.9.1%20Type-B%20Bag=
+gage%20Not%20Seen%20Message.xml?d=3Dw52e1bb4f8a184a4a9a2e51a4f3cece08&amp;c=
+sf=3D1&amp;web=3D1&amp;e=3DRD8ff4" rel=3D"nofollow">7.9.1 Type-B Baggage No=
+t Seen Message</a></p>
+<h3 local-id=3D"900b6a586ed8" id=3D"id-7.9BNSmessages-secondpasscompleted-7=
+.9.2BaggageNotSeenmultipleelements"><strong>7.9.2 Baggage Not Seen multiple=
+ elements</strong></h3>
+<p local-id=3D"03b0ade28614">Use case: Bag not seen alert with onward fligh=
+ts, exception, internal airline data and unique identifier</p>
+<p local-id=3D"931b68bbfa9a">Redaction: Removed addressing lines, removed e=
+ncryption, removed second and third bag</p>
+<p local-id=3D"3157f69b9ad3"></p>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"align-start" data-local-id=
+=3D"91b075ea1240" class=3D"confluenceTable">
+<colgroup>
+<col style=3D"width: 340.0px;">
+<col style=3D"width: 140.0px;">
+<col style=3D"width: 140.0px;">
+<col style=3D"width: 140.0px;">
+</colgroup>
+<tbody>
+<tr data-local-id=3D"13693bfa-1407-4f25-81ff-76ca587a84ba">
+<td data-local-id=3D"c1ff5dd0-ca8a-4787-b4fe-e7a2c56dc14f" class=3D"conflue=
+nceTd">
+<p local-id=3D"ea9001939f85">BNS</p>
+</td>
+<td colspan=3D"3" data-local-id=3D"a1dba652-204a-477b-b8dd-0c4a773fe65f" cl=
+ass=3D"confluenceTd">
+<p local-id=3D"9152758338ed">Message type (BNS)</p>
+</td>
+</tr>
+<tr data-local-id=3D"eb77bda7-9d9f-4bb3-9d52-73d92784dcab">
+<td data-local-id=3D"b0a084b0-121d-4706-9d07-be23c48f9b72" class=3D"conflue=
+nceTd">
+<p local-id=3D"0f07e07c11a8">.V/1TCDG</p>
+</td>
+<td colspan=3D"3" data-local-id=3D"cf9bbf96-662d-4cac-8ac9-73db41d91c7c" cl=
+ass=3D"confluenceTd">
+<p local-id=3D"80080dfe1326">Transfer bags at CDG with Encryption</p>
+</td>
+</tr>
+<tr data-local-id=3D"1769e99b-f7fb-42b7-9b70-fc4a1656273f">
+<td data-local-id=3D"5d2ca03a-915b-4f22-a762-080eefb9c013" class=3D"conflue=
+nceTd">
+<p local-id=3D"dde9028b9d34">.F/AF912/30APR/AMS/C</p>
+</td>
+<td colspan=3D"3" data-local-id=3D"1da4bc99-4aa4-4cd0-b0a9-39ff3d38ae71" cl=
+ass=3D"confluenceTd">
+<p local-id=3D"fcfb6d63dde8">Outbound to AMS on AF912; C-Class</p>
+</td>
+</tr>
+<tr data-local-id=3D"9bbd44ca-6d4e-4525-8880-11f9ae0ec8af">
+<td data-local-id=3D"78c7b411-ffc3-45c3-9e84-ad1a1028fb16" class=3D"conflue=
+nceTd">
+<p local-id=3D"7e95d3e59e24">.O/KL601/30APR/LAX/M</p>
+</td>
+<td colspan=3D"3" data-local-id=3D"b2bac740-4074-42e1-842b-9b035515cdb0" cl=
+ass=3D"confluenceTd">
+<p local-id=3D"cbb108f06625">Onward to LAX on KL601; M-Class</p>
+</td>
+</tr>
+<tr data-local-id=3D"4db328d9-35c4-4801-bba8-22879ab0c8da">
+<td data-local-id=3D"f49599fa-539d-4a56-aeb1-b6998fed9592" class=3D"conflue=
+nceTd">
+<p local-id=3D"c04795a9462e">.O/UA887/30APR/SMF/M</p>
+</td>
+<td colspan=3D"3" data-local-id=3D"36b589a6-ae6b-4e39-bc97-179188d91190" cl=
+ass=3D"confluenceTd">
+<p local-id=3D"79befa4c2791">Onward to SMF on UA887; M-Class</p>
+</td>
+</tr>
+<tr data-local-id=3D"22069e14-2fd9-42cc-9850-950e222763ce">
+<td data-local-id=3D"85d7419f-b390-40bc-8b27-90d9564cded4" class=3D"conflue=
+nceTd">
+<p local-id=3D"b91d5264a913">.N/0027123450001</p>
+</td>
+<td data-local-id=3D"861f3d5e-2d04-4b27-b199-2e6040e49691" class=3D"conflue=
+nceTd">
+<p local-id=3D"935242e5cbac">&nbsp;</p>
+</td>
+<td colspan=3D"2" data-local-id=3D"e381a5d3-81ec-4d78-a571-6dd034936701" cl=
+ass=3D"confluenceTd">
+<ol start=3D"1" local-id=3D"99971ae493d8">
+<li local-id=3D"c8551843c83d">
+<p local-id=3D"e4ab1e491c83">2 Bag Tags starting with 0027123450</p>
+</li>
+</ol>
+</td>
+</tr>
+<tr data-local-id=3D"ce2b85d7-fb1f-43cb-8a58-47fc3d7221f6">
+<td data-local-id=3D"d5703772-67b7-4f9f-be62-01e222a22bb0" class=3D"conflue=
+nceTd">
+<p local-id=3D"59ce212c85ca">.P/TENHAVE/MSA</p>
+</td>
+<td data-local-id=3D"37266491-8688-4e36-a3fa-bb7f2f8755a8" class=3D"conflue=
+nceTd">
+<p local-id=3D"3513510b718d">&nbsp;</p>
+</td>
+<td data-local-id=3D"f3d5c606-c408-413a-a274-ed606cf0e609" class=3D"conflue=
+nceTd">
+<p local-id=3D"5be201acd8b9">&nbsp;</p>
+</td>
+<td data-local-id=3D"7cb98b5f-bf3e-42b7-83b5-480543d65599" class=3D"conflue=
+nceTd">
+<p local-id=3D"f15944ddfe93">a. Passenger's name</p>
+</td>
+</tr>
+<tr data-local-id=3D"b11f24ec-e36b-4298-8965-8e73ab38254b">
+<td data-local-id=3D"82c600df-77c6-4237-8b45-01f725f999e7" class=3D"conflue=
+nceTd">
+<p local-id=3D"0d7e072de04a">.E/AVIH</p>
+</td>
+<td data-local-id=3D"825873e5-88c2-463f-b4dd-700307af1cb4" class=3D"conflue=
+nceTd">
+<p local-id=3D"b002e374e6d7">&nbsp;</p>
+</td>
+<td data-local-id=3D"f86991bb-6a49-4868-b7f8-01932297c00e" class=3D"conflue=
+nceTd">
+<p local-id=3D"5e18f4acf22c">&nbsp;</p>
+</td>
+<td data-local-id=3D"62ab7af8-a37f-4f17-ad70-010efb7a4b68" class=3D"conflue=
+nceTd">
+<p local-id=3D"6ae2e42fc090">Live Animal in Kennel</p>
+</td>
+</tr>
+<tr data-local-id=3D"ff1b737a-dde0-40b3-9ca9-3dbcd9f9ac67">
+<td data-local-id=3D"40b3b4b8-c70d-48a0-8fb2-45b2410e097f" class=3D"conflue=
+nceTd">
+<p local-id=3D"cf04f587b472">.R/PAX ENROUTE TO HER</p>
+</td>
+<td data-local-id=3D"ec5ef193-8d9e-41ab-85df-9d222cf8ff95" class=3D"conflue=
+nceTd">
+<p local-id=3D"5bf08fbee50d">&nbsp;</p>
+</td>
+<td data-local-id=3D"006b1ed6-543a-479c-ac7b-c0551f3c97e7" class=3D"conflue=
+nceTd">
+<p local-id=3D"8922671a2bc3">&nbsp;</p>
+</td>
+<td data-local-id=3D"148ca10a-d983-4b42-b6d3-878d738228ef" class=3D"conflue=
+nceTd">
+<p local-id=3D"3b35a94a828b">c. Internal Airline Data</p>
+</td>
+</tr>
+<tr data-local-id=3D"9c437a9f-7e6e-491c-a858-c46ad88fa7d4">
+<td data-local-id=3D"5450dcab-f1aa-49a5-84e1-f31ef79ecbbf" class=3D"conflue=
+nceTd">
+<p local-id=3D"6bd2da39b74d">.R/WEDDING-URGENT</p>
+</td>
+<td data-local-id=3D"a2c00836-08b5-4c79-8d57-f0b826c6adf7" class=3D"conflue=
+nceTd">
+<p local-id=3D"09e487e5bb0a">&nbsp;</p>
+</td>
+<td data-local-id=3D"a857e95c-e132-46f0-946c-5f92c3d36640" class=3D"conflue=
+nceTd">
+<p local-id=3D"22a6fe1a3d48">&nbsp;</p>
+</td>
+<td data-local-id=3D"0bd3d36e-4912-4603-8229-58f4dea4b299" class=3D"conflue=
+nceTd">
+<p local-id=3D"2e191edf7a82">d. Internal Airline Data</p>
+</td>
+</tr>
+<tr data-local-id=3D"e5828337-ed31-40d0-a0fc-bee54971b615">
+<td data-local-id=3D"a7f6ec41-9496-4bb3-a52b-eb5e1cf044ed" class=3D"conflue=
+nceTd">
+<p local-id=3D"09b2c32d1b32">.M/0027123450/G/E200341201324FC0A003760E184542=
+54</p>
+</td>
+<td data-local-id=3D"53aba240-fd72-4d9f-9384-be73c20ec9bf" class=3D"conflue=
+nceTd">
+<p local-id=3D"dccae5c69a8f">&nbsp;</p>
+</td>
+<td data-local-id=3D"f98ddeee-c33e-4726-a4b8-d8ea8262a18d" class=3D"conflue=
+nceTd">
+<p local-id=3D"9f8573f202c9">&nbsp;</p>
+</td>
+<td data-local-id=3D"b7928bb7-9784-4988-a7af-f7108f081cf4" class=3D"conflue=
+nceTd">
+<p local-id=3D"ba74c075a094">Bag is an EBT with TID-based GUID</p>
+</td>
+</tr>
+<tr data-local-id=3D"6322fe8f-bf34-4c52-bd62-83504b0a072a">
+<td data-local-id=3D"50249554-e0a9-41c5-a2a8-7d8b1ebe2518" class=3D"conflue=
+nceTd">
+<p local-id=3D"44ca9c6cdaf2">ENDBNS</p>
+</td>
+<td colspan=3D"3" data-local-id=3D"ecb1c065-ebd6-4020-baad-4a7118e4db77" cl=
+ass=3D"confluenceTd">
+<p local-id=3D"cda01b68a77f">End of Message Identifier</p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p local-id=3D"298ac72584dd">Semantics: see use case</p>
+<p local-id=3D"2b8fcc287adf">Analysis: nothing special, process is T; Load;=
+ Reconcile (final check at departure), alert on process is baggage not seen=
+</p>
+<p local-id=3D"dfae5ad3f674">Result: <a class=3D"external-link" href=3D"htt=
+ps://iataonline.sharepoint.com/:u:/r/sites/IATABaggageWorkingGroup/Shared%2=
+0Documents/Baggage%20Information%20Exchange%20(BIX)%20Sub%20Group/Taskforce=
+%20best%20practices%20BIX%20v2/Samples/source%20RP1745/7.9.2%20Baggage%20No=
+t%20Seen%20multiple%20elements.xml?d=3Dw8c3170ba12d34bf6a360d100a6367fc9&am=
+p;csf=3D1&amp;web=3D1&amp;e=3Duj8ObR" rel=3D"nofollow">7.9.2 Baggage Not Se=
+en multiple elements</a></p>
+<h1 local-id=3D"ea69ad83d9cc" id=3D"id-7.9BNSmessages-secondpasscompleted-P=
+endingchangerequest">Pending change request</h1>
+<h1 local-id=3D"3391c42337e6" id=3D"id-7.9BNSmessages-secondpasscompleted-D=
+roppedasexample">Dropped as example</h1>
+<h3 local-id=3D"2f8e8ae3a2b8" id=3D"id-7.9BNSmessages-secondpasscompleted-7=
+.9.3BaggageNotSeenMessage,senttothefinaldestinationofthepassenger,onemessag=
+eperleg-notrelevanthere"><strong><span style=3D"color: rgb(0,0,0);">7.9.3=
+=E2=80=83Baggage Not Seen Message, sent to the final destination of the pas=
+senger, one message per leg - not relevant here</span></strong></h3>
+<p local-id=3D"d4e4c3482c92">Use case: Notify Lost Luggage offices on bag i=
+tinerary that bag is not seen while loading originating flight</p>
+<p local-id=3D"36db308e11dd">The two messages illustrate how message conten=
+t may vary with distribution (receiver) of message. Not relevant for mappin=
+g, but good to include in Implementation Guide</p>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"align-start" data-local-id=
+=3D"e97d0460732c" class=3D"confluenceTable">
+<colgroup>
+<col style=3D"width: 380.0px;">
+<col style=3D"width: 380.0px;">
+</colgroup>
+<tbody>
+<tr data-local-id=3D"829438911415">
+<td data-local-id=3D"c7b761e134a7" class=3D"confluenceTd">
+<p local-id=3D"61a3ced4bc03"><span style=3D"color: rgb(0,0,0);">BNS</span><=
+/p>
+</td>
+<td data-local-id=3D"60ce651227a8" class=3D"confluenceTd">
+<p local-id=3D"3d653d00fee0"><span style=3D"color: rgb(0,0,0);">Message typ=
+e (BNS)</span></p>
+</td>
+</tr>
+<tr data-local-id=3D"9a53a6ddc1ab">
+<td data-local-id=3D"0d62185cc271" class=3D"confluenceTd">
+<p local-id=3D"20a82b81c721"><span style=3D"color: rgb(0,0,0);">.V/1LAMS</s=
+pan></p>
+</td>
+<td data-local-id=3D"1663fc542e84" class=3D"confluenceTd">
+<p local-id=3D"d91584750cbd"><span style=3D"color: rgb(0,0,0);">Local bags =
+at AMS</span></p>
+</td>
+</tr>
+<tr data-local-id=3D"30d7c9b42c4a">
+<td data-local-id=3D"8d4a5cf8a37b" class=3D"confluenceTd">
+<p local-id=3D"458e9a3f8123"><span style=3D"color: rgb(0,0,0);">.F/KL877/30=
+APR/BKK/C</span></p>
+</td>
+<td data-local-id=3D"42160b12028b" class=3D"confluenceTd">
+<p local-id=3D"1a65cfc8810c"><span style=3D"color: rgb(0,0,0);">Outbound fl=
+ight information (KL877 to BKK)</span></p>
+</td>
+</tr>
+<tr data-local-id=3D"a69dcc3b0669">
+<td data-local-id=3D"0e558535eb59" class=3D"confluenceTd">
+<p local-id=3D"263da9185dd7"><span style=3D"color: rgb(0,0,0);">.N/00741234=
+56001</span></p>
+</td>
+<td data-local-id=3D"a0441c6d3ef0" class=3D"confluenceTd">
+<p local-id=3D"5fb03b496790"><span style=3D"color: rgb(0,0,0);">1 missing b=
+ag</span></p>
+</td>
+</tr>
+<tr data-local-id=3D"522f6858080b">
+<td data-local-id=3D"e29227fc568d" class=3D"confluenceTd">
+<p local-id=3D"f0fca5bf35bc"><span style=3D"color: rgb(0,0,0);">.P/CLOVER/L=
+MR</span></p>
+</td>
+<td data-local-id=3D"ea095ddd1e80" class=3D"confluenceTd">
+<p local-id=3D"ac05e7c2d26f"><span style=3D"color: rgb(0,0,0);">Passenger's=
+ name</span></p>
+</td>
+</tr>
+<tr data-local-id=3D"32e7427a7948">
+<td data-local-id=3D"3e5d38a0a4c7" class=3D"confluenceTd">
+<p local-id=3D"75a0745025d9"><span style=3D"color: rgb(0,0,0);">ENDBNS</spa=
+n></p>
+</td>
+<td data-local-id=3D"dd1d9958bb54" class=3D"confluenceTd">
+<p local-id=3D"933d28d11016"><span style=3D"color: rgb(0,0,0);">End of Mess=
+age Identifier</span></p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p local-id=3D"6a1d7174a6f8"></p>
+<h3 local-id=3D"043a0cd6e6d6" id=3D"id-7.9BNSmessages-secondpasscompleted-7=
+.9.4BaggageNotSeenMessage,providingaUniqueID(EBTwithGUID)-duplicatewithearl=
+ierexamples"><strong><span style=3D"color: rgb(0,0,0);">7.9.4=E2=80=83Bagga=
+ge Not Seen Message, providing a Unique ID (EBT with GUID) - duplicate with=
+ earlier examples</span></strong></h3>
+<p local-id=3D"ee25f0e9e13f"></p>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"align-start" data-local-id=
+=3D"2494673e6860" class=3D"confluenceTable">
+<colgroup>
+<col style=3D"width: 423.0px;">
+<col style=3D"width: 336.0px;">
+</colgroup>
+<tbody>
+<tr data-local-id=3D"4adba7513c40">
+<td data-local-id=3D"c5f4d802dc7b" class=3D"confluenceTd">
+<p local-id=3D"5e0091e8dd0b"><span style=3D"color: rgb(0,0,0);">BNS</span><=
+/p>
+</td>
+<td data-local-id=3D"7666bd5a1553" class=3D"confluenceTd">
+<p local-id=3D"64a5c942440d"><span style=3D"color: rgb(0,0,0);">Message typ=
+e (BNS)</span></p>
+</td>
+</tr>
+<tr data-local-id=3D"f0873b953220">
+<td data-local-id=3D"5c4c453243a6" class=3D"confluenceTd">
+<p local-id=3D"00da1fd35061"><span style=3D"color: rgb(0,0,0);">.V/1LMUC</s=
+pan></p>
+</td>
+<td data-local-id=3D"5f216de36dd2" class=3D"confluenceTd">
+<p local-id=3D"07b34f1e7e38"><span style=3D"color: rgb(0,0,0);">Local bags =
+at MUC</span></p>
+</td>
+</tr>
+<tr data-local-id=3D"304a7190b4d4">
+<td data-local-id=3D"dab1044eadb9" class=3D"confluenceTd">
+<p local-id=3D"d4bacd67d2a0"><span style=3D"color: rgb(0,0,0);">.F/4U860/30=
+APR/LIN/C</span></p>
+</td>
+<td data-local-id=3D"41a594ef8c81" class=3D"confluenceTd">
+<p local-id=3D"55dbb8688ec5"><span style=3D"color: rgb(0,0,0);">Outbound fl=
+ight information (4U860 to LIN)</span></p>
+</td>
+</tr>
+<tr data-local-id=3D"6052ad790d12">
+<td data-local-id=3D"565a3a461f43" class=3D"confluenceTd">
+<p local-id=3D"90d347454519"><span style=3D"color: rgb(0,0,0);">.N/02206754=
+43001</span></p>
+</td>
+<td data-local-id=3D"a08d1a7d0e3c" class=3D"confluenceTd">
+<p local-id=3D"99df363c9da9"><span style=3D"color: rgb(0,0,0);">1 missing b=
+ag</span></p>
+</td>
+</tr>
+<tr data-local-id=3D"6b0b9c7fc7c1">
+<td data-local-id=3D"74756acacc66" class=3D"confluenceTd">
+<p local-id=3D"c1ef58364d2c"><span style=3D"color: rgb(0,0,0);">.M/02206754=
+43/X/E200341201324FC0A003760E18454254</span></p>
+</td>
+<td data-local-id=3D"5676f75858cb" class=3D"confluenceTd">
+<p local-id=3D"81e67d8c1909"><span style=3D"color: rgb(0,0,0);">Bag suppose=
+dly is an EBT with GUID based on TID</span></p>
+</td>
+</tr>
+<tr data-local-id=3D"d23b51e9a68d">
+<td data-local-id=3D"293ac5aa4352" class=3D"confluenceTd">
+<p local-id=3D"896bb06b5bc3"><span style=3D"color: rgb(0,0,0);">.P/CLOVER/L=
+MR</span></p>
+</td>
+<td data-local-id=3D"c44fcf8440fa" class=3D"confluenceTd">
+<p local-id=3D"a851b947f4f3"><span style=3D"color: rgb(0,0,0);">Passenger's=
+ name</span></p>
+</td>
+</tr>
+<tr data-local-id=3D"8619ce8521af">
+<td data-local-id=3D"334c40a439d4" class=3D"confluenceTd">
+<p local-id=3D"75ee2e3c050c"><span style=3D"color: rgb(0,0,0);">ENDBNS</spa=
+n></p>
+</td>
+<td data-local-id=3D"216e6ce6844f" class=3D"confluenceTd">
+<p local-id=3D"704a14e1bb32"><span style=3D"color: rgb(0,0,0);">End of Mess=
+age Identifier</span></p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p local-id=3D"f13b3632dbb7"></p>
+<h3 local-id=3D"134d12889e33" id=3D"id-7.9BNSmessages-secondpasscompleted-7=
+.9.5BaggageNotSeenMessagewithUID-duplicateafterreducetoBIX"><strong><span s=
+tyle=3D"color: rgb(0,0,0);">7.9.5=E2=80=83Baggage Not Seen Message with UID=
+ - duplicate after reduce to BIX</span></strong></h3>
+<p local-id=3D"b7bc935cb961"></p>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"align-start" data-local-id=
+=3D"1e06b5f5b89c" class=3D"confluenceTable">
+<colgroup>
+<col style=3D"width: 380.0px;">
+<col style=3D"width: 380.0px;">
+</colgroup>
+<tbody>
+<tr data-local-id=3D"21087d86151d">
+<td data-local-id=3D"704e38381a8a" class=3D"confluenceTd">
+<p local-id=3D"755e122c6ec6"><span style=3D"color: rgb(0,0,0);">BNS&lt;=E2=
+=89=A1</span></p>
+</td>
+<td data-local-id=3D"4c3df80126ed" class=3D"confluenceTd">
+<p local-id=3D"813288d45112"><span style=3D"color: rgb(0,0,0);">Message typ=
+e (BNS)</span></p>
+</td>
+</tr>
+<tr data-local-id=3D"316cb3435fc5">
+<td data-local-id=3D"6b5865409f73" class=3D"confluenceTd">
+<p local-id=3D"5f2bea58d28f"><span style=3D"color: rgb(0,0,0);">.V/1TCDG///=
+/123ABC456Z&lt;=E2=89=A1</span></p>
+</td>
+<td data-local-id=3D"ce2e3f21980c" class=3D"confluenceTd">
+<p local-id=3D"cab623122476"><span style=3D"color: rgb(0,0,0);">Transfer ba=
+gs at CDG with Encryption</span></p>
+</td>
+</tr>
+<tr data-local-id=3D"a952ba2d54ea">
+<td data-local-id=3D"1037ad8605fc" class=3D"confluenceTd">
+<p local-id=3D"946ecc97f490"><span style=3D"color: rgb(0,0,0);">.F/AF912/30=
+APR/AMS/C&lt;=E2=89=A1</span></p>
+</td>
+<td data-local-id=3D"ed31a4ad6832" class=3D"confluenceTd">
+<p local-id=3D"c8afb8f75fc2"><span style=3D"color: rgb(0,0,0);">Outbound fl=
+ight information (AF912 to AMS)</span></p>
+</td>
+</tr>
+<tr data-local-id=3D"7dbc9a8dcb98">
+<td data-local-id=3D"04c30f46c4f1" class=3D"confluenceTd">
+<p local-id=3D"ef39a08ccc92"><span style=3D"color: rgb(0,0,0);">.O/KL601/30=
+APR/LAX/M&lt;=E2=89=A1</span></p>
+</td>
+<td data-local-id=3D"8720c6dd32ca" class=3D"confluenceTd">
+<p local-id=3D"32f56b9e1a42"><span style=3D"color: rgb(0,0,0);">Onward flig=
+ht information (KL601 to LAX)</span></p>
+</td>
+</tr>
+<tr data-local-id=3D"d3956bee7b11">
+<td data-local-id=3D"8422e0a6d93f" class=3D"confluenceTd">
+<p local-id=3D"bf66c90c68d7"><span style=3D"color: rgb(0,0,0);">.N/00371234=
+56002&lt;=E2=89=A1</span></p>
+</td>
+<td data-local-id=3D"f5b7a126a71f" class=3D"confluenceTd">
+<p local-id=3D"fb480324d10b"><span style=3D"color: rgb(0,0,0);">2 missing b=
+ags, starting tag nbr 0037123456</span></p>
+</td>
+</tr>
+<tr data-local-id=3D"ede313598878">
+<td data-local-id=3D"dad4e577060f" class=3D"confluenceTd">
+<p local-id=3D"5c628f0a8e72"><span style=3D"color: rgb(0,0,0);">.M/00371234=
+56//</span></p>
+<p local-id=3D"f93f90c7eebc"><span style=3D"color: rgb(0,0,0);">414F7E29507=
+B4F2E9904F6583677C6FD&lt;=E2=89=A1</span></p>
+</td>
+<td data-local-id=3D"598a351a5255" class=3D"confluenceTd">
+<p local-id=3D"e09d5337966d"><span style=3D"color: rgb(0,0,0);">Bag tag num=
+ber; Issue date; Unique Identifier</span></p>
+</td>
+</tr>
+<tr data-local-id=3D"68f0885738cd">
+<td data-local-id=3D"ff13c93640d6" class=3D"confluenceTd">
+<p local-id=3D"17b08eef6ef9"><span style=3D"color: rgb(0,0,0);">.M/00371234=
+57//</span></p>
+<p local-id=3D"8aded8a0339e"><span style=3D"color: rgb(0,0,0);">214FO2R9305=
+3171V82490D110HEV5D25&lt;=E2=89=A1</span></p>
+</td>
+<td data-local-id=3D"70939e5cf85f" class=3D"confluenceTd">
+<p local-id=3D"196fc8a513ab"><span style=3D"color: rgb(0,0,0);">Bag tag num=
+ber; Issue date; Unique Identifier</span></p>
+</td>
+</tr>
+<tr data-local-id=3D"82b64ce48586">
+<td data-local-id=3D"8bb80436360c" class=3D"confluenceTd">
+<p local-id=3D"296a53d6753c"><span style=3D"color: rgb(0,0,0);">.H/T4/GREEN=
+/D46</span></p>
+</td>
+<td data-local-id=3D"6c4df12beb98" class=3D"confluenceTd">
+<p local-id=3D"2649f6ae961c"><span style=3D"color: rgb(0,0,0);">Handling lo=
+cation T4/Handling pier GREEN</span></p>
+</td>
+</tr>
+<tr data-local-id=3D"d21942dae17f">
+<td data-local-id=3D"26ab9d5e7110" class=3D"confluenceTd">
+<p local-id=3D"cf70e71363d9"><span style=3D"color: rgb(0,0,0);">&nbsp;</spa=
+n></p>
+</td>
+<td data-local-id=3D"7fe55c3adaa0" class=3D"confluenceTd">
+<p local-id=3D"ea5eee01d1cb"><span style=3D"color: rgb(0,0,0);">/Handling g=
+ate D46</span></p>
+</td>
+</tr>
+<tr data-local-id=3D"16de9c65e931">
+<td data-local-id=3D"2b61676971b9" class=3D"confluenceTd">
+<p local-id=3D"2b135bfe76df"><span style=3D"color: rgb(0,0,0);">.P/CLOVER/L=
+MR&lt;=E2=89=A1</span></p>
+</td>
+<td data-local-id=3D"0ccabf3f4c86" class=3D"confluenceTd">
+<p local-id=3D"f3ccc7c2c43d"><span style=3D"color: rgb(0,0,0);">Passenger's=
+ name</span></p>
+</td>
+</tr>
+<tr data-local-id=3D"f96d3095e134">
+<td data-local-id=3D"6c1292ec0d88" class=3D"confluenceTd">
+<p local-id=3D"93cc11218be7"><span style=3D"color: rgb(0,0,0);">.L/U52I91&l=
+t;=E2=89=A1 PNR</span></p>
+</td>
+<td data-local-id=3D"0761d69ac7df" class=3D"confluenceTd">
+<p local-id=3D"dcfd0a7f6272"><span style=3D"color: rgb(0,0,0);">Address</sp=
+an></p>
+</td>
+</tr>
+<tr data-local-id=3D"d44151ecb3ff">
+<td data-local-id=3D"3cb7a4a827de" class=3D"confluenceTd">
+<p local-id=3D"7153a769f77f"><span style=3D"color: rgb(0,0,0);">.C/AJAX TOU=
+R&lt;=E2=89=A1</span></p>
+</td>
+<td data-local-id=3D"e51d57631261" class=3D"confluenceTd">
+<p local-id=3D"2a2d8cdf39ea"><span style=3D"color: rgb(0,0,0);">Tour inform=
+ation</span></p>
+</td>
+</tr>
+<tr data-local-id=3D"0bb6e1a89707">
+<td data-local-id=3D"a86767afee23" class=3D"confluenceTd">
+<p local-id=3D"79d5400907f2"><span style=3D"color: rgb(0,0,0);">.R/LATE CHE=
+CK-IN&lt;=E2=89=A1</span></p>
+</td>
+<td data-local-id=3D"ef0f33d74eb6" class=3D"confluenceTd">
+<p local-id=3D"6c1035200cbc"><span style=3D"color: rgb(0,0,0);">Internal Ai=
+rline Data</span></p>
+</td>
+</tr>
+<tr data-local-id=3D"f5c0f73dbf81">
+<td data-local-id=3D"24e2cd5a9460" class=3D"confluenceTd">
+<p local-id=3D"1c93e5f55fc4"><span style=3D"color: rgb(0,0,0);">ENDBNS&lt;=
+=E2=89=A1</span></p>
+</td>
+<td data-local-id=3D"fc493ee65cc9" class=3D"confluenceTd">
+<p local-id=3D"8d1a30c2e980"><span style=3D"color: rgb(0,0,0);">End of Mess=
+age Identifier</span></p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p local-id=3D"c476f0995d51"></p>
+    </div>
+</body>
+</html>
+------=_Part_30_1765535166.1792501485700
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: base64
+Content-Location: file:///C:/af70fa38f27fa8e2a42d7acd448042d94e1a020baa4ba3785804720155cbf5f6
+
+iVBORw0KGgoAAAANSUhEUgAAABAAAAAQBAMAAADt3eJSAAAAA3NCSVQICAjb4U/gAAAAFVBMVEX/
+//9wcHBwcHBwcHBwcHBwcHBwcHA3RenHAAAAB3RSTlMAZoiZzN3/SzZomQAAAAlwSFlzAAALEgAA
+CxIB0t1+/AAAABx0RVh0U29mdHdhcmUAQWRvYmUgRmlyZXdvcmtzIENTNui8sowAAAAUdEVYdENy
+ZWF0aW9uIFRpbWUANi8xLzEzOKlF0AAAACFJREFUCJljYCATsCgwqIAZTMnMyRAhsTABCIMxkVxT
+GQCLcwHyUKXpLgAAAABJRU5ErkJggg==
+------=_Part_30_1765535166.1792501485700--

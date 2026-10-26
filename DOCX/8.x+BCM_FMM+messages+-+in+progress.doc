@@ -1,0 +1,575 @@
+Date: Tue, 20 Oct 2026 13:05:13 +0000 (UTC)
+Message-ID: <354414627.43.1792501513967@a48b6f679b3a>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_42_681926304.1792501513966"
+
+------=_Part_42_681926304.1792501513966
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>8.x BCM/FMM messages - in progress</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font: var(--ds-font-body-small, Arial, Helvetica, FreeSans, sans-se=
+rif);
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: var(--ds-surface, #fff) !important;
+        color: var(--ds-text, #000) !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: var(--ds-text, #000);
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        page-break-after: avoid;
+    }
+
+    pre {
+        font: var(--ds-font-code, Monaco, "Courier New", monospace);
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>8.x BCM/FMM messages - in progress</h1>
+    <div class=3D"Section1">
+        <div id=3D"expander-720580436" class=3D"expand-container">
+<div id=3D"expander-control-720580436" class=3D"expand-control">
+<span class=3D"expand-control-icon"><img style=3D"vertical-align:middle;" c=
+lass=3D"expand-control-image" src=3D"af70fa38f27fa8e2a42d7acd448042d94e1a02=
+0baa4ba3785804720155cbf5f6" width=3D"16" height=3D"16"></span><span class=
+=3D"expand-control-text">Table of contents</span>
+</div>
+<div id=3D"expander-content-720580436" class=3D"expand-content">
+<style type=3D"text/css">/*<![CDATA[*/
+div.rbtoc1792501513905 {padding: 0px;}
+div.rbtoc1792501513905 ul {list-style: none;margin-left: 0px;}
+div.rbtoc1792501513905 li {margin-left: 0px;padding-left: 0px;}
+
+/*]]>*/</style>
+<div class=3D"toc-macro rbtoc1792501513905">
+<ul class=3D"toc-indentation">
+<li><a href=3D"#id-8.xBCM/FMMmessages-inprogress-Processed">Processed</a></=
+li>
+<li><a href=3D"#id-8.xBCM/FMMmessages-inprogress-Pendinganalysis">Pending a=
+nalysis</a>
+<ul class=3D"toc-indentation">
+<li><a href=3D"#id-8.xBCM/FMMmessages-inprogress-8.7.4.9.1ExampleoftheFinal=
+MatchMessage">8.7.4.9.1 Example of the Final Match Message</a>
+<ul class=3D"toc-indentation">
+<li><a href=3D"#id-8.xBCM/FMMmessages-inprogress-a:offloadinstruction(notau=
+thorized)">a: offload instruction (not authorized)</a></li>
+<li><a href=3D"#id-8.xBCM/FMMmessages-inprogress-b:verifyunseenstatus">b: v=
+erify unseen status</a></li>
+</ul></li>
+</ul></li>
+<li><a href=3D"#id-8.xBCM/FMMmessages-inprogress-Droppedasexample">Dropped =
+as example</a></li>
+</ul>
+</div>
+</div>
+</div>
+<h1 local-id=3D"89f983480085" id=3D"id-8.xBCM/FMMmessages-inprogress-Proces=
+sed">Processed</h1>
+<h1 local-id=3D"ea69ad83d9cc" id=3D"id-8.xBCM/FMMmessages-inprogress-Pendin=
+ganalysis">Pending analysis</h1>
+<h3 local-id=3D"3d5ece374036" id=3D"id-8.xBCM/FMMmessages-inprogress-8.7.4.=
+9.1ExampleoftheFinalMatchMessage">8.7.4.9.1 Example of the Final Match Mess=
+age</h3>
+<p local-id=3D"5f7f76c04094">Use case: Notify exceptions and instruct how t=
+o handle</p>
+<p local-id=3D"9598fa28211f">Redaction: reduced to two instructions, each o=
+n single bag</p>
+<h4 local-id=3D"2e48f42fb3eb" id=3D"id-8.xBCM/FMMmessages-inprogress-a:offl=
+oadinstruction(notauthorized)">a: offload instruction (not authorized)</h4>
+<div class=3D"table-wrap">
+<table data-table-width=3D"1800" data-layout=3D"default" data-local-id=3D"0=
+1ecc950767c" class=3D"confluenceTable">
+<tbody>
+<tr data-local-id=3D"4d2e2127-1124-4372-9d03-0561fde21fb0">
+<td data-local-id=3D"24e48f1c-8420-49d6-a018-c92ccbd9d23f" class=3D"conflue=
+nceTd">
+<p local-id=3D"cf12ce7ececc">BCM</p>
+</td>
+<td data-local-id=3D"90e89439-24f6-40f9-ac82-53ad53c2e6d0" class=3D"conflue=
+nceTd">
+<p local-id=3D"63308214e65d">BCM&nbsp;-&nbsp;Standard Message Identifier</p=
+>
+</td>
+</tr>
+<tr data-local-id=3D"860fed4e-6164-44a1-bbbd-072811d5a454">
+<td data-local-id=3D"4adf1b4a-a37a-4bf9-b2d4-33eb3d882a91" class=3D"conflue=
+nceTd">
+<p local-id=3D"b0b662fbabef">FMM</p>
+</td>
+<td data-local-id=3D"c91ae1f0-f2f1-49c5-8419-c602aa2a1062" class=3D"conflue=
+nceTd">
+<p local-id=3D"655597f5e0ec">FMM&nbsp;-&nbsp;Secondary Level Message Identi=
+fier</p>
+</td>
+</tr>
+<tr data-local-id=3D"ab8d58bd-370a-4a2f-9c18-73a43af4dd1e">
+<td data-local-id=3D"4e00f8c3-82b1-460f-8a3b-9c5c90d81776" class=3D"conflue=
+nceTd">
+<p local-id=3D"0cb75c63b144">.V/1LFRA</p>
+</td>
+<td data-local-id=3D"f53771ca-90f8-4f13-971f-9ecce9e67696" class=3D"conflue=
+nceTd">
+<p local-id=3D"ed75ab2ac5c4">Local bags in FRA with acknowledgement request=
+ and Encryption</p>
+</td>
+</tr>
+<tr data-local-id=3D"2e7477aa-f288-4ccf-9e8a-fe0130212fad">
+<td data-local-id=3D"6b3ba2c9-c788-4b59-a126-f79afa91ca35" class=3D"conflue=
+nceTd">
+<p local-id=3D"1da9196fa454">.F/LH3348/20MAR/GVA</p>
+</td>
+<td data-local-id=3D"1ecbecbb-cb58-494c-a9f2-02c3844717de" class=3D"conflue=
+nceTd">
+<p local-id=3D"79516a28ae4d">Flight Info.&nbsp;-&nbsp;LH3348 to GVA</p>
+</td>
+</tr>
+<tr data-local-id=3D"217d1b9c-bc3b-4773-82b6-2c20c3e27764">
+<td data-local-id=3D"6831b705-d607-40a4-b8eb-badcf5dda9b4" class=3D"conflue=
+nceTd">
+<p local-id=3D"fc7979fa24b2">.B/NAL/0220348087001</p>
+</td>
+<td data-local-id=3D"150e4a5f-9076-4186-b6a6-7544277b23f8" class=3D"conflue=
+nceTd">
+<p local-id=3D"539532217e43">Loaded, not authorised; should be offloaded</p=
+>
+</td>
+</tr>
+<tr data-local-id=3D"7e517318-65c4-40ff-82f5-fd68b0dd9b82">
+<td data-local-id=3D"936c1d1d-6999-488f-b0f1-42ec7420f334" class=3D"conflue=
+nceTd">
+<p local-id=3D"24f7f0d56b52">ENDBCM</p>
+</td>
+<td data-local-id=3D"0c11fb76-8295-43e5-a02d-5f4869b18c6a" class=3D"conflue=
+nceTd">
+<p local-id=3D"aa93d5c25ffb">End of Message Identifier</p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<h4 local-id=3D"c0f153ecf81a" id=3D"id-8.xBCM/FMMmessages-inprogress-b:veri=
+fyunseenstatus">b: verify unseen status</h4>
+<div class=3D"table-wrap">
+<table data-table-width=3D"1800" data-layout=3D"default" data-local-id=3D"7=
+1d8d957-7726-4da1-a224-83940270eaec" class=3D"confluenceTable">
+<tbody>
+<tr data-local-id=3D"7d82e491-2e16-47c1-8cc6-48277a2d739f">
+<td data-local-id=3D"44bd290f-98d5-4ebb-9439-0d5dc2a159e4" class=3D"conflue=
+nceTd">
+<p local-id=3D"33f02b028c91">BCM</p>
+</td>
+<td data-local-id=3D"8bbb1e59-289f-4a76-827a-64b09a1b02bc" class=3D"conflue=
+nceTd">
+<p local-id=3D"b9b4d0356e01">BCM&nbsp;-&nbsp;Standard Message Identifier</p=
+>
+</td>
+</tr>
+<tr data-local-id=3D"d1230457-e064-4c81-a232-c25964910878">
+<td data-local-id=3D"29a1e463-a77f-46ce-81ac-adf84a15d17e" class=3D"conflue=
+nceTd">
+<p local-id=3D"d08b5c7728d9">FMM</p>
+</td>
+<td data-local-id=3D"10f6c0e5-0fe3-4f03-80dc-9178c5608a32" class=3D"conflue=
+nceTd">
+<p local-id=3D"a3d04a33a170">FMM&nbsp;-&nbsp;Secondary Level Message Identi=
+fier</p>
+</td>
+</tr>
+<tr data-local-id=3D"0fcf43ce-a169-42ea-b384-cb0e68eaecb7">
+<td data-local-id=3D"433cc56a-a01c-4dde-97be-3d65d191b488" class=3D"conflue=
+nceTd">
+<p local-id=3D"aac725ee20ba">.V/1LFRA</p>
+</td>
+<td data-local-id=3D"59590807-2b05-4a60-9114-af9d7831a8da" class=3D"conflue=
+nceTd">
+<p local-id=3D"ba7f413f4110">Local bags in FRA with acknowledgement request=
+ and Encryption</p>
+</td>
+</tr>
+<tr data-local-id=3D"140cabfe-a84f-4f9c-ac07-f247f1c72c1b">
+<td data-local-id=3D"8bce54ad-968c-4aca-90c3-309d99b5e971" class=3D"conflue=
+nceTd">
+<p local-id=3D"fde4b34414fd">.F/LH3348/20MAR/GVA</p>
+</td>
+<td data-local-id=3D"c458b3fc-75d2-464d-9cd9-494b95a3db2f" class=3D"conflue=
+nceTd">
+<p local-id=3D"143183562fea">Flight Info.&nbsp;-&nbsp;LH3348 to GVA</p>
+</td>
+</tr>
+<tr data-local-id=3D"96a2fd33-c735-49ac-a30e-860862e69a60">
+<td data-local-id=3D"95d2b2a7-fdc4-456d-ae46-de0228e28393" class=3D"conflue=
+nceTd">
+<p local-id=3D"a09dc59e3e45">.B/UNS/0074123456001</p>
+</td>
+<td data-local-id=3D"6d8ab896-f050-4b43-9ec4-9d2dcaaef092" class=3D"conflue=
+nceTd">
+<p local-id=3D"f34006a66a16">Not seen</p>
+</td>
+</tr>
+<tr data-local-id=3D"c96f70a4-2d34-44df-9f37-3babaf443719">
+<td data-local-id=3D"9b08d98f-26e2-4e72-bb56-d2f939ad5aaa" class=3D"conflue=
+nceTd">
+<p local-id=3D"a268a0b735e6">.M/0074123456/T/E20034120132FC0003760E19</p>
+</td>
+<td data-local-id=3D"025845a1-2a28-4561-ac34-e2b219cfffbb" class=3D"conflue=
+nceTd">
+<p local-id=3D"7140af312bfc">Bag is an EBT with a TID</p>
+</td>
+</tr>
+<tr data-local-id=3D"b2ae2fe3-1020-42b2-b8dc-ede15a39b318">
+<td data-local-id=3D"2f8ce424-26e5-4307-92cc-cd51ae171bdd" class=3D"conflue=
+nceTd">
+<p local-id=3D"9e55518947c5">ENDBCM</p>
+</td>
+<td data-local-id=3D"b025d000-e576-4a17-8a65-62c3d071a91a" class=3D"conflue=
+nceTd">
+<p local-id=3D"4186160ceddf">End of Message Identifier</p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p local-id=3D"6ba6025d2e18">Semantics: as per use case</p>
+<p local-id=3D"60cd71de9439">Analysis: note use of .B to signal these are e=
+xceptions to regular bag process</p>
+<p local-id=3D"1f43f58fd436">In mapping we run a bit into an issue. Baggage=
+ Status is treated as a state indicated by handler, not as a =E2=80=9Crecon=
+ciled=E2=80=9D state tracked by custodian. BCM-FMM expresses the baggage st=
+ate as known to custodian. So, that does not flow nicely</p>
+<p local-id=3D"22c644556908">Result</p>
+<ul local-id=3D"df1d6a0d7ec1">
+<li local-id=3D"fd507137aa35">
+<p local-id=3D"2a6832ebcdaa"><a class=3D"external-link" href=3D"https://iat=
+aonline.sharepoint.com/:u:/r/sites/IATABaggageWorkingGroup/Shared%20Documen=
+ts/Baggage%20Information%20Exchange%20(BIX)%20Sub%20Group/Taskforce%20best%=
+20practices%20BIX%20v2/Samples/source%20RP1745/8.7.4.9.1.a%20Example%20of%2=
+0the%20Final%20Match%20Message.xml?d=3Dwba7bbaef577a45dea51fe6cda0a4aad0&am=
+p;csf=3D1&amp;web=3D1&amp;e=3DMY0Eqw" rel=3D"nofollow">8.7.4.9.1.a Example =
+of the Final Match Message</a></p>
+</li>
+</ul>
+<h1 local-id=3D"3391c42337e6" id=3D"id-8.xBCM/FMMmessages-inprogress-Droppe=
+dasexample">Dropped as example</h1>
+<p local-id=3D"d57d744376c0">repeat of .b above</p>
+<div class=3D"table-wrap">
+<table data-table-width=3D"1800" data-layout=3D"default" data-local-id=3D"c=
+ed3c4ad-241d-4698-893f-fd64b2378569" class=3D"confluenceTable">
+<tbody>
+<tr data-local-id=3D"94456b88-f1bf-4102-aff9-178785a3e806">
+<td data-local-id=3D"177ac4b8-953f-48fc-b4c3-42e05f612eeb" class=3D"conflue=
+nceTd">
+<p local-id=3D"e4005060c238">8.7.4.9.2</p>
+</td>
+<td data-local-id=3D"6c06b44a-803b-4118-b241-a4e92afc5502" class=3D"conflue=
+nceTd">
+<p local-id=3D"2b56d5adfbcc">Example of the Final Match Message with UID</p=
+>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p local-id=3D"a0d40ed34cd4"></p>
+<p local-id=3D"c9ed1400d12f"></p>
+<div class=3D"table-wrap">
+<table data-table-width=3D"1800" data-layout=3D"default" data-local-id=3D"6=
+e45ba0a-9380-4a17-9d79-d4b818942f9a" class=3D"confluenceTable">
+<tbody>
+<tr data-local-id=3D"ee56958b-75d2-4c53-bbb2-39eece836abb">
+<td data-local-id=3D"1013f6d4-3710-4b29-a1d7-f3b10648a02f" class=3D"conflue=
+nceTd">
+<p local-id=3D"7c9b01bb0fa0">BCM&lt;=E2=89=A1</p>
+</td>
+<td data-local-id=3D"fc36a7e8-828c-4822-b902-e2b42fff3100" class=3D"conflue=
+nceTd">
+<p local-id=3D"8c92f7d79a6b">BCM&nbsp;-&nbsp;Standard Message Identifier</p=
+>
+</td>
+</tr>
+<tr data-local-id=3D"ebdc58e8-f980-4f94-ac6b-bc271d0b68ee">
+<td data-local-id=3D"1676bb4d-865e-44df-b85c-9cb1872e1e77" class=3D"conflue=
+nceTd">
+<p local-id=3D"f9f17618aa8d">FMM&lt;=E2=89=A1</p>
+</td>
+<td data-local-id=3D"e2ae05dd-d912-4264-89c3-a59f09968fce" class=3D"conflue=
+nceTd">
+<p local-id=3D"cae72b03af58">FMM&nbsp;-&nbsp;Secondary Level Message Identi=
+fier</p>
+</td>
+</tr>
+<tr data-local-id=3D"f7281115-e0f1-4eaa-a0b2-e06906a828dd">
+<td data-local-id=3D"a8a63496-c724-4618-b398-81d6e879270e" class=3D"conflue=
+nceTd">
+<p local-id=3D"71e44cc9b148">.V/1LFRA//LH3348001/A/123ABC456Z&lt;=E2=89=A1<=
+/p>
+</td>
+<td data-local-id=3D"d57bba1d-60fc-4398-b76b-19dad5af9145" class=3D"conflue=
+nceTd">
+<p local-id=3D"3dba413d6e39">Local bags in FRA with acknowledgement request=
+ and Encryption</p>
+</td>
+</tr>
+<tr data-local-id=3D"58421d7c-66f4-4d82-81c1-45891d80a2e4">
+<td data-local-id=3D"8b5144b9-dce7-46d6-9496-867f52c5bd0e" class=3D"conflue=
+nceTd">
+<p local-id=3D"ff7474c29db5">.F/LH3348/20MAR/GVA&lt;=E2=89=A1</p>
+</td>
+<td data-local-id=3D"59e275e2-888d-4a8c-9449-1a561e8dc54d" class=3D"conflue=
+nceTd">
+<p local-id=3D"c864f910d1e7">Flight Info.&nbsp;-&nbsp;LH3348 to GVA</p>
+</td>
+</tr>
+<tr data-local-id=3D"46061e9e-d437-4f1c-ac5e-2116a5a5b8af">
+<td data-local-id=3D"f975eb8d-d938-42b7-a9ec-42b12f783112" class=3D"conflue=
+nceTd">
+<p local-id=3D"af34d47a8190">.B/NAL/0220348087001&lt;=E2=89=A1</p>
+</td>
+<td data-local-id=3D"fb542a0f-b780-435c-85af-e54750e69876" class=3D"conflue=
+nceTd">
+<p local-id=3D"0091da9d6752">Loaded, not authorised; should be offloaded</p=
+>
+</td>
+</tr>
+<tr data-local-id=3D"07a85ea9-dc48-4394-828a-564073675a0c">
+<td data-local-id=3D"82b09bab-de21-4e69-ac27-36dd019c5a5c" class=3D"conflue=
+nceTd">
+<p local-id=3D"cf464fb64d9d">.M/0037123456//</p>
+<p local-id=3D"84a1966e90cb">414F7E29507B4F2E9904F6583677C6FD&lt;=E2=89=A1<=
+/p>
+</td>
+<td data-local-id=3D"7a2c9850-300a-483a-bc34-abdc6ab1a0af" class=3D"conflue=
+nceTd">
+<p local-id=3D"a06dde40a681">Bag tag number; No Issue date; Globally Unique=
+ Identification number</p>
+</td>
+</tr>
+<tr data-local-id=3D"09bcaab8-8b8e-4e9f-8d97-6654e531f1e9">
+<td data-local-id=3D"7d8f431e-7e70-425a-b7b8-82b99417f5ab" class=3D"conflue=
+nceTd">
+<p local-id=3D"dd2dd8a78f55">ENDBCM&lt;=E2=89=A1</p>
+</td>
+<td data-local-id=3D"4392e0a1-8c17-4e9e-b689-60b43043d27b" class=3D"conflue=
+nceTd">
+<p local-id=3D"8afa31857291">End of Message Identifier</p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+    </div>
+</body>
+</html>
+------=_Part_42_681926304.1792501513966
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: base64
+Content-Location: file:///C:/af70fa38f27fa8e2a42d7acd448042d94e1a020baa4ba3785804720155cbf5f6
+
+iVBORw0KGgoAAAANSUhEUgAAABAAAAAQBAMAAADt3eJSAAAAA3NCSVQICAjb4U/gAAAAFVBMVEX/
+//9wcHBwcHBwcHBwcHBwcHBwcHA3RenHAAAAB3RSTlMAZoiZzN3/SzZomQAAAAlwSFlzAAALEgAA
+CxIB0t1+/AAAABx0RVh0U29mdHdhcmUAQWRvYmUgRmlyZXdvcmtzIENTNui8sowAAAAUdEVYdENy
+ZWF0aW9uIFRpbWUANi8xLzEzOKlF0AAAACFJREFUCJljYCATsCgwqIAZTMnMyRAhsTABCIMxkVxT
+GQCLcwHyUKXpLgAAAABJRU5ErkJggg==
+------=_Part_42_681926304.1792501513966--

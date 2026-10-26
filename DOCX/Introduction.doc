@@ -1,0 +1,331 @@
+Date: Tue, 20 Oct 2026 13:03:50 +0000 (UTC)
+Message-ID: <1413279890.31.1792501430900@b91baa2e4711>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_30_1802991437.1792501430899"
+
+------=_Part_30_1802991437.1792501430899
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>Introduction</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font: var(--ds-font-body-small, Arial, Helvetica, FreeSans, sans-se=
+rif);
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: var(--ds-surface, #fff) !important;
+        color: var(--ds-text, #000) !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: var(--ds-text, #000);
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        page-break-after: avoid;
+    }
+
+    pre {
+        font: var(--ds-font-code, Monaco, "Courier New", monospace);
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>Introduction</h1>
+    <div class=3D"Section1">
+        <p local-id=3D"87679f7b-7118-405c-987b-4673b65de331"></p>
+<p local-id=3D"1c65d6203f15">Text in <span style=3D"color: rgb(7,71,166);">=
+blue </span>is quoted from RP1745, section x.9.</p>
+<p local-id=3D"a22d3fefa091">Where necessary, the source is redacted to com=
+ply with BIX paradigm: no batching of items (multiple bags), no report over=
+ a collection of actions. BIX reports an event, outcome of a single process=
+ step for a single item.</p>
+<p local-id=3D"59177ce6d310">The sample thus obtained in rp1745 rendering i=
+s mapped to xml (and future json) rendering. Except when sample is a trivia=
+l duplication of earlier work. Trivial samples are dropped.</p>
+<p local-id=3D"a70c6871bb1e">Text in black is added to illustrate extractio=
+n and mapping process</p>
+<p local-id=3D"03a3f9702387">For reference</p>
+<ul local-id=3D"2bf29099-45fa-478a-b4ae-c128e3095c3e">
+<li local-id=3D"101ffd00-a9e4-4438-8acd-1854822fe6c5">
+<p local-id=3D"877f8d4c51fc"><a class=3D"external-link" href=3D"https://iat=
+aonline.sharepoint.com/:w:/r/sites/IATABaggageWorkingGroup/Shared%20Documen=
+ts/General/PSCRM%20Word%20Files/PSCRM%2045u1_word%20files/pscrm-1745-en.doc=
+x?d=3Dw70cb0e27ddbf4d568713581e3e0f8554&amp;csf=3D1&amp;web=3D1&amp;e=3DetY=
+hCN" rel=3D"nofollow"><u>RP1745</u></a></p>
+</li>
+<li local-id=3D"6718e9c0-d958-4a1c-b885-89822c680daf">
+<p local-id=3D"db04f9393673"><a class=3D"external-link" href=3D"https://air=
+techzone.iata.org/bix/#xsd-viewer" rel=3D"nofollow"><u>BIX-viewer</u></a></=
+p>
+</li>
+<li local-id=3D"5f0fbd05-3f2a-4983-a10a-ba233aff47f6">
+<p local-id=3D"310eb1f7a0d5"><a href=3D"https://standards.atlassian.net/wik=
+i/spaces/bwg/pages/2502459397/draft+Mapping+1745+to+BIX" data-linked-resour=
+ce-id=3D"2502459397" data-linked-resource-version=3D"10" data-linked-resour=
+ce-type=3D"page">Mapping 1745 to BIX</a></p>
+</li>
+</ul>
+<h2 local-id=3D"6432c7f0bdef" id=3D"Introduction-RulestorespectinmappingRP1=
+745(documentoriented)toBIX(eventoriented)">Rules to respect in mapping RP17=
+45 (document oriented) to BIX (event oriented)</h2>
+<h3 local-id=3D"701296474195" id=3D"Introduction-Singleinstance">Single ins=
+tance</h3>
+<ul local-id=3D"03387c5f-2668-43ed-b280-4ddf81c21449">
+<li local-id=3D"c19bf9cd-af50-457d-9a7d-c354f47c6b72">
+<p local-id=3D"e291b5b5d75b">an event occurs to a bag or a cart or an ULD, =
+not to a collection of such objects</p>
+</li>
+<li local-id=3D"ce7015aa-f728-4a80-98c3-5f6fa935f49f">
+<p local-id=3D"6380ca192359">event in BIX may refer to larger context (a ba=
+g is placed into ULD) but BIX does not document contents of a larger item (=
+list of bags in cart is excluded by design, that is document-style)</p>
+</li>
+</ul>
+<h3 local-id=3D"840b2f5e88a1" id=3D"Introduction-Activetransportationsegmen=
+t">Active transportation segment</h3>
+<ul local-id=3D"916877bf-72de-43a9-a4e0-bfe9346b8b69">
+<li local-id=3D"0e97104c-767b-472e-9cb3-285fdef9e7dc">
+<p local-id=3D"3737aa7b62b6">RP1745 messages indicate transportation in .I,=
+ .F and .O elements. Either .I or .F is the active segment, the focal point=
+ for current bag activity.</p>
+</li>
+<li local-id=3D"71cb74f7bfb8">
+<p local-id=3D"33527eefd964">Rule of thumb: baggage source in .V element de=
+termines active flight. For baggage source equal to L or T, active flight i=
+s in .F; For baggage source equal to X, active flight is in .I.</p>
+</li>
+<li local-id=3D"0b019351ee3a">
+<p local-id=3D"91c1bfaf01ed">Exception: BTM. Baggage source=3DT, active seg=
+ment is in .I; (per upcoming Reflighting Reso 755: Baggage Source=3DE, acti=
+ve segment is in .F)</p>
+</li>
+</ul>
+<h3 local-id=3D"a97187a5bdf9" id=3D"Introduction-IgnoreRP1745contentoutside=
+businesspayload">Ignore RP1745 content outside business payload</h3>
+<ul local-id=3D"723efb80-b2d4-48db-88ef-44bb92bf530f">
+<li local-id=3D"ec8c3209-89f2-4494-b9e2-9b0131bb7bb8">
+<p local-id=3D"2845f0c8aed3">RP1745 examples may include addressing (TTY to=
+, from timestamp) and acknowledgment/encryption requests. These aspects are=
+ outside payload mapping exercise</p>
+</li>
+</ul>
+<p local-id=3D"1adbf9637e52"></p>
+<p local-id=3D"a7b582855156">Table of content at each page with examples se=
+parates the samples in (typically)</p>
+<ul local-id=3D"87bee1eb95d7">
+<li local-id=3D"dac34383456e">
+<p local-id=3D"96b824355184">mapping is provided (Processed)</p>
+</li>
+<li local-id=3D"fe6458e23f5b">
+<p local-id=3D"78bcd2639fb5">mapping will be provided pending completion of=
+ a change request (Pending Change Request)</p>
+</li>
+<li local-id=3D"31a111576fac">
+<p local-id=3D"b60c34ddb587">mapping is not provided -when page is ready- (=
+Dropped as example) or mapping is not yet provided -work in progress- (To b=
+e Processed)</p>
+</li>
+</ul>
+<p local-id=3D"df6ad6a4-5120-43ff-8d84-299948cb4df8"></p>
+    </div>
+</body>
+</html>
+------=_Part_30_1802991437.1792501430899--

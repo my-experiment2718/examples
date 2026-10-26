@@ -1,0 +1,15 @@
+
+Instructions from Airline to Handler at Transfer Departure, minimal data
+Assume four segments (AAA-BBB-CCC-DDD-EEE), departure from CCC
+ 
+BSM
+.V/1FCCC                    note use of non-existing code, I follow logic of X in identifying segments, i.e. .I becomes active (carrying) segment
+.F/AS0800/09SEP/DDD/J
+.I/BB0801/09SEP/BBB/J       note no visibility on origin of trip AAA
+.O/AS0799/09SEP/EEE/J
+.N/5027318374001
+.P/KANE/PATRICK
+.L/DHVVNO
+.T/68FE3E
+.E/PRIO
+ENDBSM

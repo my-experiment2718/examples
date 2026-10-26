@@ -1,0 +1,37 @@
+xml version="1.0" encoding="UTF-8"?>
+
+<!--
+Instruction from Airline to Handler on arrival about ULD on aircraft (no direct equivalent in 1745, can be wrapped in a BMM)
+--><IATA_Baggage_ULD_RQ xmlns:xml="http://www.w3.org/XML/1998/namespace" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://www.iata.org/IATA/2015/00/2025.2/IATA_Baggage_ULD_RQ" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+                        xsi:schemaLocation="http://www.iata.org/IATA/2015/00/2025.2/IATA_Baggage_ULD_RQ https://pinggg.mywire.org/25.2/IATA_Baggage_ULD_RQ.xsd">
+    <ULD_Allocation>
+        <BaggageProcess>
+            <BaggageEvent>
+                <Facility>
+                    <Station>
+                        <IATA_LocationCode>EEE</IATA_LocationCode>
+                    </Station>
+                </Facility>
+            </BaggageEvent>
+            <BaggageProcessCode>X</BaggageProcessCode>
+        </BaggageProcess>
+        <CarryingSegment>
+            <AircraftScheduledDepDateTime>2024-09-09T00:00:01</AircraftScheduledDepDateTime>
+            <ArrivalIATA_LocationCode>DDD</ArrivalIATA_LocationCode>
+            <CarrierDesigCode>AS</CarrierDesigCode>
+            <DepIATA_LocationCode>DDD</DepIATA_LocationCode>
+            <FlightNumberText>0799</FlightNumberText>
+        </CarryingSegment>
+        <CommodityCode>BP</CommodityCode>
+        <RecapOutcomes>
+            <ULD_LoadPosition>
+                <ULD_LoadPositionID>22L</ULD_LoadPositionID>
+            </ULD_LoadPosition>
+        </RecapOutcomes>
+        <ULD>
+            <OwnerCode>1C</OwnerCode>
+            <SerialNumberID>3208</SerialNumberID>
+            <TypeCode>AKE</TypeCode>
+        </ULD>
+    </ULD_Allocation>
+</IATA_Baggage_ULD_RQ

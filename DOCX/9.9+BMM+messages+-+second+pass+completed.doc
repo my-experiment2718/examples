@@ -1,0 +1,3334 @@
+Date: Tue, 20 Oct 2026 13:04:54 +0000 (UTC)
+Message-ID: <1721239265.43.1792501494642@d38dd02cf477>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_42_1374210884.1792501494641"
+
+------=_Part_42_1374210884.1792501494641
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>9.9 BMM messages - second pass completed</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font: var(--ds-font-body-small, Arial, Helvetica, FreeSans, sans-se=
+rif);
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: var(--ds-surface, #fff) !important;
+        color: var(--ds-text, #000) !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: var(--ds-text, #000);
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        page-break-after: avoid;
+    }
+
+    pre {
+        font: var(--ds-font-code, Monaco, "Courier New", monospace);
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>9.9 BMM messages - second pass completed</h1>
+    <div class=3D"Section1">
+        <div id=3D"expander-28318550" class=3D"expand-container">
+<div id=3D"expander-control-28318550" class=3D"expand-control">
+<span class=3D"expand-control-icon"><img style=3D"vertical-align:middle;" c=
+lass=3D"expand-control-image" src=3D"af70fa38f27fa8e2a42d7acd448042d94e1a02=
+0baa4ba3785804720155cbf5f6" width=3D"16" height=3D"16"></span><span class=
+=3D"expand-control-text">Table of contents</span>
+</div>
+<div id=3D"expander-content-28318550" class=3D"expand-content">
+<style type=3D"text/css">/*<![CDATA[*/
+div.rbtoc1792501494581 {padding: 0px;}
+div.rbtoc1792501494581 ul {list-style: none;margin-left: 0px;}
+div.rbtoc1792501494581 li {margin-left: 0px;padding-left: 0px;}
+
+/*]]>*/</style>
+<div class=3D"toc-macro rbtoc1792501494581">
+<ul class=3D"toc-indentation">
+<li><a href=3D"#id-9.9BMMmessages-secondpasscompleted-Processed">Processed<=
+/a>
+<ul class=3D"toc-indentation">
+<li><a href=3D"#id-9.9BMMmessages-secondpasscompleted-9.9.1Loadedbag">9.9.1=
+ Loaded bag</a></li>
+<li><a href=3D"#id-9.9BMMmessages-secondpasscompleted-9.9.3UNACbag">9.9.3 U=
+NAC bag</a></li>
+</ul></li>
+<li><a href=3D"#id-9.9BMMmessages-secondpasscompleted-Droppedasexample">Dro=
+pped as example</a>
+<ul class=3D"toc-indentation">
+<li><a href=3D"#id-9.9BMMmessages-secondpasscompleted-9.9.2MultipleUsage-do=
+cument,notevent">9.9.2 Multiple Usage - document, not event</a></li>
+<li><a href=3D"#id-9.9BMMmessages-secondpasscompleted-9.9.4multisector-docu=
+ment,notevent">9.9.4 multi sector - document, not event</a></li>
+<li><a href=3D"#id-9.9BMMmessages-secondpasscompleted-9.9.5Partitioning-irr=
+elevantconstructionforBIX">9.9.5 Partitioning - irrelevant construction for=
+ BIX</a></li>
+</ul></li>
+</ul>
+</div>
+</div>
+</div>
+<p local-id=3D"4b62e8572538">Notice: no example of use of BMM in notificati=
+on to authorities, or to interline partners, although distribution policy a=
+cknowledges such use cases</p>
+<h1 local-id=3D"89f983480085" id=3D"id-9.9BMMmessages-secondpasscompleted-P=
+rocessed">Processed</h1>
+<h3 local-id=3D"dfe699ded134" id=3D"id-9.9BMMmessages-secondpasscompleted-9=
+.9.1Loadedbag"><strong><span style=3D"color: rgb(0,0,0);">9.9.1 Loaded bag<=
+/span></strong></h3>
+<p local-id=3D"b1845b422838"><span style=3D"color: rgb(0,0,0);">Use case: N=
+otify arrival handler of bag on aircraft</span></p>
+<p local-id=3D"b1fbdbe24f31">Redaction: Removed parts, encryption, fixed .X=
+ to follow data dictionary, updated .U to be a BA container and reduced con=
+tainer to be single segment</p>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"align-start" data-local-id=
+=3D"f10ed468876c" class=3D"confluenceTable">
+<colgroup>
+<col style=3D"width: 400.0px;">
+<col style=3D"width: 359.0px;">
+</colgroup>
+<tbody>
+<tr data-local-id=3D"e8c9584d7672">
+<td data-local-id=3D"0026356350e4" class=3D"confluenceTd">
+<p local-id=3D"6f744a64a665"><span style=3D"color: rgb(0,0,0);">BMM</span><=
+/p>
+</td>
+<td data-local-id=3D"1ac24a7d7527" class=3D"confluenceTd">
+<p local-id=3D"47278648ffa1"><span style=3D"color: rgb(0,0,0);">BMM&nbsp;-&=
+nbsp;Standard Message Identifier</span></p>
+</td>
+</tr>
+<tr data-local-id=3D"dcf500e3286e">
+<td data-local-id=3D"91181c0cc1bd" class=3D"confluenceTd">
+<p local-id=3D"5280a0e41378"><span style=3D"color: rgb(0,0,0);">.V/1TSEL</s=
+pan></p>
+</td>
+<td data-local-id=3D"3f5c8eaa248e" class=3D"confluenceTd">
+<p local-id=3D"499cea2e63c1"><span style=3D"color: rgb(0,0,0);">Transfer ba=
+g in SEL</span></p>
+</td>
+</tr>
+<tr data-local-id=3D"29cfb5d9f2d8">
+<td data-local-id=3D"f3a45a81500a" class=3D"confluenceTd">
+<p local-id=3D"6545d325b78e"><span style=3D"color: rgb(0,0,0);">.I/BA117/23=
+JAN/LHR</span></p>
+</td>
+<td data-local-id=3D"8d8245654085" class=3D"confluenceTd">
+<p local-id=3D"91f46252ae22"><span style=3D"color: rgb(0,0,0);">Inbound fli=
+ght BA117</span></p>
+</td>
+</tr>
+<tr data-local-id=3D"6d044d14b078">
+<td data-local-id=3D"94957f4f4ef5" class=3D"confluenceTd">
+<p local-id=3D"8ff0678e015c"><span style=3D"color: rgb(0,0,0);">.U/AVE1234B=
+A/024L/BT/Y/SEL/Y</span></p>
+</td>
+<td data-local-id=3D"a16c4f12a20d" class=3D"confluenceTd">
+<p local-id=3D"4e9e5209bd90"><span style=3D"color: rgb(0,0,0);">Loading Inf=
+ormation (ID;position;commodity;class;</span>destination;<span style=3D"col=
+or: rgb(0,0,0);">sealed)</span></p>
+</td>
+</tr>
+<tr data-local-id=3D"d4a0394026f2">
+<td data-local-id=3D"d7e5ea907432" class=3D"confluenceTd">
+<p local-id=3D"b236a2a8b10e"><span style=3D"color: rgb(0,0,0);">.F/JL955/24=
+JAN/NRT</span></p>
+</td>
+<td data-local-id=3D"25add5578922" class=3D"confluenceTd">
+<p local-id=3D"50ad55af0533"><span style=3D"color: rgb(0,0,0);">Outbound Fl=
+ight JL955</span></p>
+</td>
+</tr>
+<tr data-local-id=3D"271250875926">
+<td data-local-id=3D"0297e7aff933" class=3D"confluenceTd">
+<p local-id=3D"4ed9caa14dca"><span style=3D"color: rgb(0,0,0);">.H/T1</span=
+></p>
+</td>
+<td data-local-id=3D"590539421d49" class=3D"confluenceTd">
+<p local-id=3D"2b05f927b1ac"><span style=3D"color: rgb(0,0,0);">Handling Lo=
+cation</span></p>
+</td>
+</tr>
+<tr data-local-id=3D"77cfeae42211">
+<td data-local-id=3D"a75d5725d9bb" class=3D"confluenceTd">
+<p local-id=3D"94e65b50b82d"><span style=3D"color: rgb(0,0,0);">.N/01251234=
+56001</span></p>
+</td>
+<td data-local-id=3D"d71b93d565fc" class=3D"confluenceTd">
+<p local-id=3D"d35278b8da78"><span style=3D"color: rgb(0,0,0);">Bag tag num=
+ber; Number of consecutive tags</span></p>
+</td>
+</tr>
+<tr data-local-id=3D"7afb93631584">
+<td data-local-id=3D"6efacf0fa3ab" class=3D"confluenceTd">
+<p local-id=3D"831f1225875a"><span style=3D"color: rgb(0,0,0);">.Q/001</spa=
+n></p>
+</td>
+<td data-local-id=3D"9b5846acfebd" class=3D"confluenceTd">
+<p local-id=3D"197360478c04"><span style=3D"color: rgb(0,0,0);">Loading seq=
+uence</span></p>
+</td>
+</tr>
+<tr data-local-id=3D"ff0fae902963">
+<td data-local-id=3D"a13829b3056d" class=3D"confluenceTd">
+<p local-id=3D"00c1f4abffdc"><span style=3D"color: rgb(0,0,0);">.P/1CHAN/T<=
+/span></p>
+</td>
+<td data-local-id=3D"3b39e4f955a3" class=3D"confluenceTd">
+<p local-id=3D"08350ebecb73"><span style=3D"color: rgb(0,0,0);">Passenger's=
+ name</span></p>
+</td>
+</tr>
+<tr data-local-id=3D"9934430d863e">
+<td data-local-id=3D"d851403a3c93" class=3D"confluenceTd">
+<p local-id=3D"a72b6e35c481"><span style=3D"color: rgb(0,0,0);">.X//CLR</sp=
+an></p>
+</td>
+<td data-local-id=3D"2314bcea43ab" class=3D"confluenceTd">
+<p local-id=3D"1a55b1d08567"><span style=3D"color: rgb(0,0,0);">Screening r=
+esult</span></p>
+</td>
+</tr>
+<tr data-local-id=3D"7bd391e36e8f">
+<td data-local-id=3D"ecdef025e677" class=3D"confluenceTd">
+<p local-id=3D"4b2ea01fbed2"><span style=3D"color: rgb(0,0,0);">ENDBMM</spa=
+n></p>
+</td>
+<td data-local-id=3D"83c7bebaa3c2" class=3D"confluenceTd">
+<p local-id=3D"7689c272a6c1"><span style=3D"color: rgb(0,0,0);">End of Mess=
+age Identifier</span></p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p local-id=3D"e4883219f75e"><span style=3D"color: rgb(0,0,0);">Semantics: =
+see use case</span></p>
+<p local-id=3D"a9b6af89cc1b"><span style=3D"color: rgb(0,0,0);">Analysis: B=
+e aware that in BMM, like in BTM(T) the .I element indicates the active bag=
+ segment (and hence sets the carrying segment). The event =E2=80=9Crealizes=
+=E2=80=9D when bag is actually loaded on the aircraft. Hence process is map=
+ped to T;Load;Load</span></p>
+<p local-id=3D"6fd403f07681"><span style=3D"color: rgb(0,0,0);">Result: </s=
+pan><a class=3D"external-link" href=3D"https://iataonline.sharepoint.com/:u=
+:/r/sites/IATABaggageWorkingGroup/Shared%20Documents/Baggage%20Information%=
+20Exchange%20(BIX)%20Sub%20Group/Taskforce%20best%20practices%20BIX%20v2/Sa=
+mples/source%20RP1745/9.9.1%20Loaded%20bag.xml?d=3Dwd3e7c8ea54a74bada18120e=
+abb62eeb2&amp;csf=3D1&amp;web=3D1&amp;e=3D8gGbjc" rel=3D"nofollow">9.9.1 Lo=
+aded bag</a></p>
+<h3 local-id=3D"f5fec4a79186" id=3D"id-9.9BMMmessages-secondpasscompleted-9=
+.9.3UNACbag">9.9.3 UNAC bag</h3>
+<p local-id=3D"d4e41063b04b">Use case: notification of unaccompanied bag, t=
+o be collected by handler for delivery to passenger</p>
+<p local-id=3D"524b1d0a2fc8">Redaction: removed parts, encryption; containe=
+r for inbound flight: BA; removed surplus from .U .N, .Q; .X conform data d=
+ictionary</p>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"align-start" data-local-id=
+=3D"d3f0b39919d2" class=3D"confluenceTable">
+<colgroup>
+<col style=3D"width: 338.0px;">
+<col style=3D"width: 422.0px;">
+</colgroup>
+<tbody>
+<tr data-local-id=3D"5cb39d7c-30dc-4186-823c-7092e37d9500">
+<td data-local-id=3D"381cec77-f1ac-40dc-8a5c-023587403ead" class=3D"conflue=
+nceTd">
+<p local-id=3D"0bde1ea195bf">BMM</p>
+</td>
+<td data-local-id=3D"974f23b2-8c06-4aaa-87fd-b806833356ad" class=3D"conflue=
+nceTd">
+<p local-id=3D"76778437dc4f">BMM&nbsp;-&nbsp;Standard Message Identifier</p=
+>
+</td>
+</tr>
+<tr data-local-id=3D"3fe74fa0-2388-44df-8576-18d00ba54527">
+<td data-local-id=3D"50f955d9-11a6-4abe-b63e-63322ef54085" class=3D"conflue=
+nceTd">
+<p local-id=3D"0020772c68b3">.V/1TSEL</p>
+</td>
+<td data-local-id=3D"43cfe902-9d66-486a-91eb-999d1c5f1b95" class=3D"conflue=
+nceTd">
+<p local-id=3D"f5de2680f850">Transfer bag in SEL</p>
+</td>
+</tr>
+<tr data-local-id=3D"0c0a07a0-22ba-41ba-b82d-1c9a6facf68d">
+<td data-local-id=3D"1cb17859-52eb-44f0-a98d-7a342e7d9ca9" class=3D"conflue=
+nceTd">
+<p local-id=3D"1aed1ec3469a">.I/BA117/23JAN/LHR</p>
+</td>
+<td data-local-id=3D"3af09a97-ac63-4d96-a1f2-54471adf773b" class=3D"conflue=
+nceTd">
+<p local-id=3D"b6e2d14f4a26">Inbound flight BA117</p>
+</td>
+</tr>
+<tr data-local-id=3D"9106a498-28cc-4ed6-ac69-31fc77614d26">
+<td data-local-id=3D"fbec8603-c5a4-4b97-a53d-01975bdd5838" class=3D"conflue=
+nceTd">
+<p local-id=3D"19931ddcc1df">.U/AVE1234BA/024L/BT/Y/SEL/Y</p>
+</td>
+<td data-local-id=3D"c0171ff4-152c-4e45-af12-9ac8b3d83f4d" class=3D"conflue=
+nceTd">
+<p local-id=3D"24e8490da9a2">Loading Information</p>
+</td>
+</tr>
+<tr data-local-id=3D"a58edfd1-a3de-4443-815d-0838f2eb0d9b">
+<td data-local-id=3D"1d6d1290-d46a-4449-9779-e2ddee69e20f" class=3D"conflue=
+nceTd">
+<p local-id=3D"57e4020c27ad">.F/JL955/24JAN/NRT</p>
+</td>
+<td data-local-id=3D"11eda316-4c82-4d31-b77b-37a94add3c90" class=3D"conflue=
+nceTd">
+<p local-id=3D"6fa6a28914d8">Outbound Flight JL955</p>
+</td>
+</tr>
+<tr data-local-id=3D"874b225b-212e-4498-a528-1971dd26c125">
+<td data-local-id=3D"a207a8f4-0efb-4789-9b4e-1bcba7f91db6" class=3D"conflue=
+nceTd">
+<p local-id=3D"97cdba3b2d1a">.H/T1</p>
+</td>
+<td data-local-id=3D"7bbab3dc-e973-427f-8e7a-69d4f57f3e37" class=3D"conflue=
+nceTd">
+<p local-id=3D"09750bee3ab8">Handling Location</p>
+</td>
+</tr>
+<tr data-local-id=3D"5417f03d-df1d-4a83-b511-fa8b59536aee">
+<td data-local-id=3D"a4ccd72d-b0c4-4d24-8547-271dab289ee0" class=3D"conflue=
+nceTd">
+<p local-id=3D"c195272ce0cf">.N/0125123456001</p>
+</td>
+<td data-local-id=3D"ead28ac9-af8a-4a9f-b00c-17c0ec190147" class=3D"conflue=
+nceTd">
+<p local-id=3D"226188e5c111">Bag tag number</p>
+</td>
+</tr>
+<tr data-local-id=3D"97ac6629-4c91-4fc4-ab25-c39097330d4d">
+<td data-local-id=3D"9c6b77b0-59e5-4f57-b185-b85d1dddca6e" class=3D"conflue=
+nceTd">
+<p local-id=3D"f0e14b2e03ca">.Q/001</p>
+</td>
+<td data-local-id=3D"9f2885b6-9e6e-4247-8224-53fd86c68ca4" class=3D"conflue=
+nceTd">
+<p local-id=3D"4b11bbc27a17">Loading sequence</p>
+</td>
+</tr>
+<tr data-local-id=3D"7b5eb5d4-3a73-4f5e-bd1d-f892359b3fe8">
+<td data-local-id=3D"6d9ccf71-a6e3-4e84-a33e-a7363fe50f61" class=3D"conflue=
+nceTd">
+<p local-id=3D"81cfe7574223">.P/1CHAN/T</p>
+</td>
+<td data-local-id=3D"61cca7e7-4e16-464c-b9cf-29626235fad4" class=3D"conflue=
+nceTd">
+<p local-id=3D"900c4d7723df">Passenger's name</p>
+</td>
+</tr>
+<tr data-local-id=3D"2b63624a-1e0c-4b81-b4e2-ac17942c2a21">
+<td data-local-id=3D"5a8226e7-9fbc-4023-830a-8b6ea144bd7b" class=3D"conflue=
+nceTd">
+<p local-id=3D"3b79d8835249">.E/UNAC</p>
+</td>
+<td data-local-id=3D"69c725ad-5923-45be-b0da-3c36951fc1be" class=3D"conflue=
+nceTd">
+<p local-id=3D"fea51594a088">Unaccompanied baggage to be collected by the p=
+assenger or the airline/handling agent</p>
+</td>
+</tr>
+<tr data-local-id=3D"0662d0b2-d536-4334-a089-8a5f9f18cb3f">
+<td data-local-id=3D"63f9133d-c285-4132-9d4e-e8f2beaecf57" class=3D"conflue=
+nceTd">
+<p local-id=3D"7f314a691aae">.X//CLR</p>
+</td>
+<td data-local-id=3D"67859638-2701-480a-a67b-6e8bdf717798" class=3D"conflue=
+nceTd">
+<p local-id=3D"6ec75127a1ac">Screening description</p>
+</td>
+</tr>
+<tr data-local-id=3D"4edb57f8-0499-45fd-9923-1fbee5369689">
+<td data-local-id=3D"fcfa25ea-4076-49f2-895f-99c56929c44f" class=3D"conflue=
+nceTd">
+<p local-id=3D"106db932dd48">ENDBMM</p>
+</td>
+<td data-local-id=3D"bb4b9733-d768-426c-8b50-b753c78bf3ca" class=3D"conflue=
+nceTd">
+<p local-id=3D"a6c0d22308e7">End of Message Identifier</p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p local-id=3D"2aefd0b114e1">Semantics: see use case</p>
+<p local-id=3D"8ce7cdd93267">Analysis: See 9.9.1. This case adds an excepti=
+on element.</p>
+<p local-id=3D"8c8e97820e26">Result: <a class=3D"external-link" href=3D"htt=
+ps://iataonline.sharepoint.com/:u:/r/sites/IATABaggageWorkingGroup/Shared%2=
+0Documents/Baggage%20Information%20Exchange%20(BIX)%20Sub%20Group/Taskforce=
+%20best%20practices%20BIX%20v2/Samples/source%20RP1745/9.9.3%20UNAC%20bag.x=
+ml?d=3Dwd80abeb590ce4628a9f1a4ffc8da3aba&amp;csf=3D1&amp;web=3D1&amp;e=3D9C=
+O51c" rel=3D"nofollow">9.9.3 UNAC bag</a></p>
+<h1 local-id=3D"1381635770c6" id=3D"id-9.9BMMmessages-secondpasscompleted-D=
+roppedasexample">Dropped as example</h1>
+<h3 local-id=3D"ad10e91a77f6" id=3D"id-9.9BMMmessages-secondpasscompleted-9=
+.9.2MultipleUsage-document,notevent"><span style=3D"color: rgb(0,0,0);">9.9=
+.2 Multiple Usage - document, not event</span></h3>
+<p local-id=3D"bab127f89c91">Does not yield a new use case after reduction =
+to set of events</p>
+<p local-id=3D"07913b8d1b92"></p>
+<p local-id=3D"89fa22652fb6"></p>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"83=
+021f75a649" class=3D"confluenceTable">
+<colgroup>
+<col style=3D"width: 64.0px;">
+<col style=3D"width: 578.0px;">
+</colgroup>
+<tbody>
+<tr data-local-id=3D"26c2259288e1">
+<td data-local-id=3D"e23893aff02e" class=3D"confluenceTd">
+<p local-id=3D"a54322691a43"><span class=3D"confluence-anchor-link" id=3D"i=
+d-9.9BMMmessages-secondpasscompleted-id-9f40c701-b3aa-4f98-ba27-12765d3ae67=
+a"><span class=3D"confluence-anchor-link" id=3D"id-9f40c701-b3aa-4f98-ba27-=
+12765d3ae67a"></span></span><span style=3D"color: rgb(0,0,0);">9.9.2</span>=
+</p>
+</td>
+<td data-local-id=3D"0d94f94cf7fa" class=3D"confluenceTd">
+<p local-id=3D"babcdef3043c"><span style=3D"color: rgb(0,0,0);">Example of =
+Multiple Usage of Elements</span></p>
+</td>
+</tr>
+<tr data-local-id=3D"2e461d4e0837">
+<td data-local-id=3D"1e4ff2183950" class=3D"confluenceTd">
+<p local-id=3D"a96b2f0b8626"><span style=3D"color: rgb(0,0,0);">&nbsp;</spa=
+n></p>
+</td>
+<td data-local-id=3D"c1d5f6b8fb54" class=3D"confluenceTd">
+<p local-id=3D"3c43085534d4"><span style=3D"color: rgb(0,0,0);">Routing:</s=
+pan></p>
+</td>
+</tr>
+<tr data-local-id=3D"0fe8efaf7d01">
+<td data-local-id=3D"17ab675cb291" class=3D"confluenceTd">
+<p local-id=3D"66c067bde1c9"><span style=3D"color: rgb(0,0,0);">&nbsp;</spa=
+n></p>
+</td>
+<td data-local-id=3D"e2601ad746a5" class=3D"confluenceTd">
+<p local-id=3D"6d360a9158bf"><span style=3D"color: rgb(0,0,0);">BA111/23JAN=
+/LHR/SIN</span></p>
+<p local-id=3D"a2f3442c0857"><span style=3D"color: rgb(0,0,0);">QF006/24JAN=
+/SIN/SYD</span></p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p local-id=3D"7f1328ee614c"></p>
+<p local-id=3D"d179eb386ea2"></p>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"e4=
+d2b4f1ca2d" class=3D"confluenceTable">
+<colgroup>
+<col style=3D"width: 64.0px;">
+<col style=3D"width: 257.0px;">
+<col style=3D"width: 107.0px;">
+<col style=3D"width: 107.0px;">
+<col style=3D"width: 107.0px;">
+</colgroup>
+<tbody>
+<tr data-local-id=3D"de28c040912f">
+<td data-local-id=3D"d2dc106e7730" class=3D"confluenceTd">
+<p local-id=3D"c67fe2f55bd5"><span class=3D"confluence-anchor-link" id=3D"i=
+d-9.9BMMmessages-secondpasscompleted-id-9f40c701-b3f1-42f9-ad4c-0626972a471=
+a"><span class=3D"confluence-anchor-link" id=3D"id-9f40c701-b3f1-42f9-ad4c-=
+0626972a471a"></span></span><span style=3D"color: rgb(0,0,0);">&nbsp;</span=
+></p>
+</td>
+<td data-local-id=3D"5ceedda7e59f" class=3D"confluenceTd">
+<p local-id=3D"4ccad2379981"><span style=3D"color: rgb(0,0,0);">BMM&lt;=E2=
+=89=A1</span></p>
+</td>
+<td colspan=3D"3" data-local-id=3D"88cf093b4c2d" class=3D"confluenceTd">
+<p local-id=3D"33cfdccdd956"><span style=3D"color: rgb(0,0,0);">BMM&nbsp;-&=
+nbsp;Standard Message Identifier</span></p>
+</td>
+</tr>
+<tr data-local-id=3D"2f038a75e32d">
+<td data-local-id=3D"f1b8e896e6fa" class=3D"confluenceTd">
+<p local-id=3D"a8bb480c744b"><span style=3D"color: rgb(0,0,0);">&nbsp;</spa=
+n></p>
+</td>
+<td data-local-id=3D"91718110a210" class=3D"confluenceTd">
+<p local-id=3D"5348d6ff1195"><span style=3D"color: rgb(0,0,0);">.V/1TSIN&lt=
+;=E2=89=A1</span></p>
+</td>
+<td colspan=3D"3" data-local-id=3D"e1a74630719f" class=3D"confluenceTd">
+<p local-id=3D"96aa9ee859e1"><span style=3D"color: rgb(0,0,0);">Terminating=
+ and/or transfer bags at SIN</span></p>
+</td>
+</tr>
+<tr data-local-id=3D"9a1723c3fa0e">
+<td data-local-id=3D"c5ce00901d7a" class=3D"confluenceTd">
+<p local-id=3D"85b2943e750c"><span style=3D"color: rgb(0,0,0);">&nbsp;</spa=
+n></p>
+</td>
+<td data-local-id=3D"7683bc5b0ab2" class=3D"confluenceTd">
+<p local-id=3D"80c98ca10a44"><span style=3D"color: rgb(0,0,0);">.I/BA111/23=
+JAN/LHR&lt;=E2=89=A1</span></p>
+</td>
+<td colspan=3D"3" data-local-id=3D"cc8d0b374dd0" class=3D"confluenceTd">
+<p local-id=3D"7eb2176a3652"><span style=3D"color: rgb(0,0,0);">Inbound fli=
+ght BA111</span></p>
+</td>
+</tr>
+<tr data-local-id=3D"79db70d8fd13">
+<td data-local-id=3D"a33194ce6cd9" class=3D"confluenceTd">
+<p local-id=3D"b6a804d63b79"><span style=3D"color: rgb(0,0,0);">&nbsp;</spa=
+n></p>
+</td>
+<td data-local-id=3D"52d6c816516a" class=3D"confluenceTd">
+<p local-id=3D"34acadcaf82d"><span style=3D"color: rgb(0,0,0);">.U/AVE1234B=
+A//M/F/SIN/Y/QF6/24JAN/SYD&lt;=E2=89=A1 I.</span></p>
+</td>
+<td colspan=3D"3" data-local-id=3D"ba8140eb9db5" class=3D"confluenceTd">
+<p local-id=3D"27beeb2f71d5"><span style=3D"color: rgb(0,0,0);">Loading inf=
+ormation</span></p>
+</td>
+</tr>
+<tr data-local-id=3D"4986c50220de">
+<td data-local-id=3D"7594db568cc5" class=3D"confluenceTd">
+<p local-id=3D"fcd407da12bf"><span style=3D"color: rgb(0,0,0);">&nbsp;</spa=
+n></p>
+</td>
+<td data-local-id=3D"d5cce326db3d" class=3D"confluenceTd">
+<p local-id=3D"d33ea714ad40"><span style=3D"color: rgb(0,0,0);">.F/QF006/24=
+JAN/SYD/Y&lt;=E2=89=A1</span></p>
+</td>
+<td colspan=3D"3" data-local-id=3D"283fb1e8c5ad" class=3D"confluenceTd">
+<p local-id=3D"93cfa13d1bd9"><span style=3D"color: rgb(0,0,0);">A. Outbound=
+ Flight QF006</span></p>
+</td>
+</tr>
+<tr data-local-id=3D"ad62f737cb95">
+<td data-local-id=3D"8b233f565117" class=3D"confluenceTd">
+<p local-id=3D"0dea5b4e082b"><span style=3D"color: rgb(0,0,0);">&nbsp;</spa=
+n></p>
+</td>
+<td data-local-id=3D"7c2a0ee08ae9" class=3D"confluenceTd">
+<p local-id=3D"e5171b8ce92e"><span style=3D"color: rgb(0,0,0);">.N/01250647=
+17001&lt;=E2=89=A1</span></p>
+</td>
+<td data-local-id=3D"46439b07f1c5" class=3D"confluenceTd">
+<p local-id=3D"c4df4c297589"><span style=3D"color: rgb(0,0,0);">&nbsp;</spa=
+n></p>
+</td>
+<td colspan=3D"2" data-local-id=3D"9f310b105acc" class=3D"confluenceTd">
+<p local-id=3D"13ea484c2685"><span style=3D"color: rgb(0,0,0);">1. 1st tag =
+nbr and nbr of tags</span></p>
+</td>
+</tr>
+<tr data-local-id=3D"e68628936fe4">
+<td data-local-id=3D"99bf188764fd" class=3D"confluenceTd">
+<p local-id=3D"fef315ba89e9"><span style=3D"color: rgb(0,0,0);">&nbsp;</spa=
+n></p>
+</td>
+<td data-local-id=3D"21d9f405d232" class=3D"confluenceTd">
+<p local-id=3D"2d12781cede5"><span style=3D"color: rgb(0,0,0);">.Q/006&lt;=
+=E2=89=A1</span></p>
+</td>
+<td data-local-id=3D"0d66eca3b8cd" class=3D"confluenceTd">
+<p local-id=3D"5bbd70ef627c"><span style=3D"color: rgb(0,0,0);">&nbsp;</spa=
+n></p>
+</td>
+<td data-local-id=3D"0d507c790721" class=3D"confluenceTd">
+<p local-id=3D"d4a17e3b8ede"><span style=3D"color: rgb(0,0,0);">&nbsp;</spa=
+n></p>
+</td>
+<td data-local-id=3D"14f43e49ff19" class=3D"confluenceTd">
+<p local-id=3D"5cc5b748ee71"><span style=3D"color: rgb(0,0,0);">a. Loading =
+sequence</span></p>
+</td>
+</tr>
+<tr data-local-id=3D"99dd6c076e3c">
+<td data-local-id=3D"816fba4b11cf" class=3D"confluenceTd">
+<p local-id=3D"4497f2d9e18e"><span style=3D"color: rgb(0,0,0);">&nbsp;</spa=
+n></p>
+</td>
+<td data-local-id=3D"b638b036946f" class=3D"confluenceTd">
+<p local-id=3D"ab61fe3c502a"><span style=3D"color: rgb(0,0,0);">.P/1NORMAN/=
+G&lt;=E2=89=A1</span></p>
+</td>
+<td data-local-id=3D"c99cd3832745" class=3D"confluenceTd">
+<p local-id=3D"164a7adde4c0"><span style=3D"color: rgb(0,0,0);">&nbsp;</spa=
+n></p>
+</td>
+<td data-local-id=3D"f87a028847ac" class=3D"confluenceTd">
+<p local-id=3D"36471b8f7d0d"><span style=3D"color: rgb(0,0,0);">&nbsp;</spa=
+n></p>
+</td>
+<td data-local-id=3D"003d1b9aecdc" class=3D"confluenceTd">
+<p local-id=3D"02a8943dc72d"><span style=3D"color: rgb(0,0,0);">b. Passenge=
+r's Name</span></p>
+</td>
+</tr>
+<tr data-local-id=3D"a338853c4953">
+<td data-local-id=3D"4201d18b9a2a" class=3D"confluenceTd">
+<p local-id=3D"255ffea1ba7e"><span style=3D"color: rgb(0,0,0);">&nbsp;</spa=
+n></p>
+</td>
+<td data-local-id=3D"61f6f3e7d62a" class=3D"confluenceTd">
+<p local-id=3D"e252b6885320"><span style=3D"color: rgb(0,0,0);">.N/01250649=
+12001&lt;=E2=89=A1</span></p>
+</td>
+<td data-local-id=3D"891769b4685c" class=3D"confluenceTd">
+<p local-id=3D"37924b4154f5"><span style=3D"color: rgb(0,0,0);">&nbsp;</spa=
+n></p>
+</td>
+<td colspan=3D"2" data-local-id=3D"53700fcdcab0" class=3D"confluenceTd">
+<p local-id=3D"d7d2d2c66b64"><span style=3D"color: rgb(0,0,0);">2. 1st tag =
+nbr and nbr of tags</span></p>
+</td>
+</tr>
+<tr data-local-id=3D"bc169e78eaa7">
+<td data-local-id=3D"a151722de7fd" class=3D"confluenceTd">
+<p local-id=3D"ebcf1b264443"><span style=3D"color: rgb(0,0,0);">&nbsp;</spa=
+n></p>
+</td>
+<td data-local-id=3D"d2f20637b760" class=3D"confluenceTd">
+<p local-id=3D"96471173a97a"><span style=3D"color: rgb(0,0,0);">.Q/083&lt;=
+=E2=89=A1</span></p>
+</td>
+<td data-local-id=3D"e2ded3650df7" class=3D"confluenceTd">
+<p local-id=3D"d6b1689af0f1"><span style=3D"color: rgb(0,0,0);">&nbsp;</spa=
+n></p>
+</td>
+<td data-local-id=3D"c228b633ad5d" class=3D"confluenceTd">
+<p local-id=3D"15b132aace08"><span style=3D"color: rgb(0,0,0);">&nbsp;</spa=
+n></p>
+</td>
+<td data-local-id=3D"89dbdbf3a886" class=3D"confluenceTd">
+<p local-id=3D"d1986736a0c3"><span style=3D"color: rgb(0,0,0);">a. Loading =
+sequence</span></p>
+</td>
+</tr>
+<tr data-local-id=3D"5b5f93294f20">
+<td data-local-id=3D"14be3ff1e8e0" class=3D"confluenceTd">
+<p local-id=3D"d5188ec66452"><span style=3D"color: rgb(0,0,0);">&nbsp;</spa=
+n></p>
+</td>
+<td data-local-id=3D"67e3623ae937" class=3D"confluenceTd">
+<p local-id=3D"9ab73f7e05a5"><span style=3D"color: rgb(0,0,0);">.P/1ZELLER/=
+F&lt;=E2=89=A1</span></p>
+</td>
+<td data-local-id=3D"bb345d3c673b" class=3D"confluenceTd">
+<p local-id=3D"57a91611b9f5"><span style=3D"color: rgb(0,0,0);">&nbsp;</spa=
+n></p>
+</td>
+<td data-local-id=3D"e52b22faeea1" class=3D"confluenceTd">
+<p local-id=3D"a062d2bcd372"><span style=3D"color: rgb(0,0,0);">&nbsp;</spa=
+n></p>
+</td>
+<td data-local-id=3D"dd9f90282dc0" class=3D"confluenceTd">
+<p local-id=3D"e6c3a6cf7de2"><span style=3D"color: rgb(0,0,0);">b. Passenge=
+r's Name</span></p>
+</td>
+</tr>
+<tr data-local-id=3D"972fa7b28177">
+<td data-local-id=3D"0135e7dbba4c" class=3D"confluenceTd">
+<p local-id=3D"54adb5dfb00f"><span style=3D"color: rgb(0,0,0);">&nbsp;</spa=
+n></p>
+</td>
+<td data-local-id=3D"977dd5c5bd98" class=3D"confluenceTd">
+<p local-id=3D"9b6994cad587"><span style=3D"color: rgb(0,0,0);">.X/CLR/XRAY=
+&lt;=E2=89=A1</span></p>
+</td>
+<td data-local-id=3D"13996a3c6dbd" class=3D"confluenceTd">
+<p local-id=3D"53c7f0290e5d"><span style=3D"color: rgb(0,0,0);">&nbsp;</spa=
+n></p>
+</td>
+<td data-local-id=3D"7c5f0346ed64" class=3D"confluenceTd">
+<p local-id=3D"3f71b9238815"><span style=3D"color: rgb(0,0,0);">&nbsp;</spa=
+n></p>
+</td>
+<td data-local-id=3D"e5883c9d83b7" class=3D"confluenceTd">
+<p local-id=3D"f2b72c0ef617"><span style=3D"color: rgb(0,0,0);">c. Baggage =
+Security Screening</span></p>
+</td>
+</tr>
+<tr data-local-id=3D"867cd1b51746">
+<td data-local-id=3D"e72ed6192033" class=3D"confluenceTd">
+<p local-id=3D"a70202717238"><span style=3D"color: rgb(0,0,0);">&nbsp;</spa=
+n></p>
+</td>
+<td data-local-id=3D"52a86667c150" class=3D"confluenceTd">
+<p local-id=3D"f6401e951b25"><span style=3D"color: rgb(0,0,0);">.M/01250649=
+17/G/E200341201324FC0A003760E18E943A1&lt;=E2=89=A1</span></p>
+</td>
+<td data-local-id=3D"bdcbe728befa" class=3D"confluenceTd">
+<p local-id=3D"d27be2977599"><span style=3D"color: rgb(0,0,0);">&nbsp;</spa=
+n></p>
+</td>
+<td data-local-id=3D"0293e30d88d3" class=3D"confluenceTd">
+<p local-id=3D"4f38f9f13f67"><span style=3D"color: rgb(0,0,0);">&nbsp;</spa=
+n></p>
+</td>
+<td data-local-id=3D"cc5e41ff224a" class=3D"confluenceTd">
+<p local-id=3D"fd329180cd7f"><span style=3D"color: rgb(0,0,0);">d. Unique I=
+dentifier (GUID)</span></p>
+</td>
+</tr>
+<tr data-local-id=3D"06e2f384fc7d">
+<td data-local-id=3D"e7777be93bec" class=3D"confluenceTd">
+<p local-id=3D"860f4d78afa9"><span style=3D"color: rgb(0,0,0);">&nbsp;</spa=
+n></p>
+</td>
+<td data-local-id=3D"f9424af78802" class=3D"confluenceTd">
+<p local-id=3D"5d25a12814fb"><span style=3D"color: rgb(0,0,0);">.M/01250649=
+17/T/E20034120132FC0003760E19&lt;=E2=89=A1</span></p>
+</td>
+<td data-local-id=3D"f3e504503497" class=3D"confluenceTd">
+<p local-id=3D"08af1edaa1f4"><span style=3D"color: rgb(0,0,0);">&nbsp;</spa=
+n></p>
+</td>
+<td data-local-id=3D"8e59dd8933db" class=3D"confluenceTd">
+<p local-id=3D"2fb33884992d"><span style=3D"color: rgb(0,0,0);">&nbsp;</spa=
+n></p>
+</td>
+<td data-local-id=3D"1dce02f333f6" class=3D"confluenceTd">
+<p local-id=3D"ee4a6cd56395"><span style=3D"color: rgb(0,0,0);">e. Unique I=
+dentifier (TID)</span></p>
+</td>
+</tr>
+<tr data-local-id=3D"dd59b6044b9a">
+<td data-local-id=3D"8ac82e704895" class=3D"confluenceTd">
+<p local-id=3D"008d41e9a27e"><span style=3D"color: rgb(0,0,0);">&nbsp;</spa=
+n></p>
+</td>
+<td data-local-id=3D"7d1fa3411ef8" class=3D"confluenceTd">
+<p local-id=3D"d804e668184f"><span style=3D"color: rgb(0,0,0);">.N/01250649=
+17001&lt;=E2=89=A1</span></p>
+</td>
+<td data-local-id=3D"68d58be970c0" class=3D"confluenceTd">
+<p local-id=3D"5a87d71c38e3"><span style=3D"color: rgb(0,0,0);">&nbsp;</spa=
+n></p>
+</td>
+<td colspan=3D"2" data-local-id=3D"16f097b5a979" class=3D"confluenceTd">
+<p local-id=3D"909536a195b5"><span style=3D"color: rgb(0,0,0);">3. 1st tag =
+nbr and nbr of tags</span></p>
+</td>
+</tr>
+<tr data-local-id=3D"60f4286dd19d">
+<td data-local-id=3D"03e6e6a11c6e" class=3D"confluenceTd">
+<p local-id=3D"57fc7207004c"><span style=3D"color: rgb(0,0,0);">&nbsp;</spa=
+n></p>
+</td>
+<td data-local-id=3D"6f7270a1e085" class=3D"confluenceTd">
+<p local-id=3D"5acb7429ff6b"><span style=3D"color: rgb(0,0,0);">.Q/117&lt;=
+=E2=89=A1</span></p>
+</td>
+<td data-local-id=3D"c6d020cba215" class=3D"confluenceTd">
+<p local-id=3D"240d7ef2ffed"><span style=3D"color: rgb(0,0,0);">&nbsp;</spa=
+n></p>
+</td>
+<td data-local-id=3D"8e6d7e19c99c" class=3D"confluenceTd">
+<p local-id=3D"492200059977"><span style=3D"color: rgb(0,0,0);">&nbsp;</spa=
+n></p>
+</td>
+<td data-local-id=3D"0d861f42888b" class=3D"confluenceTd">
+<p local-id=3D"11b7f3153225"><span style=3D"color: rgb(0,0,0);">a. Loading =
+sequence</span></p>
+</td>
+</tr>
+<tr data-local-id=3D"72dfd839ac66">
+<td data-local-id=3D"061309fd18c4" class=3D"confluenceTd">
+<p local-id=3D"9497dceaf89b"><span style=3D"color: rgb(0,0,0);">&nbsp;</spa=
+n></p>
+</td>
+<td data-local-id=3D"6de61c49a69d" class=3D"confluenceTd">
+<p local-id=3D"747537793ca8"><span style=3D"color: rgb(0,0,0);">.P/1SCHUT/K=
+CWMRS&lt;=E2=89=A1</span></p>
+</td>
+<td data-local-id=3D"533958724ca1" class=3D"confluenceTd">
+<p local-id=3D"45d79d3c130b"><span style=3D"color: rgb(0,0,0);">&nbsp;</spa=
+n></p>
+</td>
+<td data-local-id=3D"873edcaa3ac9" class=3D"confluenceTd">
+<p local-id=3D"183d3320bcc2"><span style=3D"color: rgb(0,0,0);">&nbsp;</spa=
+n></p>
+</td>
+<td data-local-id=3D"0a38f676db80" class=3D"confluenceTd">
+<p local-id=3D"7c764dd31aab"><span style=3D"color: rgb(0,0,0);">b. Passenge=
+r's Name</span></p>
+</td>
+</tr>
+<tr data-local-id=3D"7554eda7042d">
+<td data-local-id=3D"db6024a368fe" class=3D"confluenceTd">
+<p local-id=3D"166dcf26182f"><span style=3D"color: rgb(0,0,0);">&nbsp;</spa=
+n></p>
+</td>
+<td data-local-id=3D"d5671610f28e" class=3D"confluenceTd">
+<p local-id=3D"b1d4a5a60158"><span style=3D"color: rgb(0,0,0);">.X/CLR/XRAY=
+&lt;=E2=89=A1</span></p>
+</td>
+<td data-local-id=3D"d0c905c84b84" class=3D"confluenceTd">
+<p local-id=3D"aee358ce3884"><span style=3D"color: rgb(0,0,0);">&nbsp;</spa=
+n></p>
+</td>
+<td data-local-id=3D"13ef7cba1cc0" class=3D"confluenceTd">
+<p local-id=3D"77169122af80"><span style=3D"color: rgb(0,0,0);">&nbsp;</spa=
+n></p>
+</td>
+<td data-local-id=3D"0aaa14207498" class=3D"confluenceTd">
+<p local-id=3D"27ac84651a9f"><span style=3D"color: rgb(0,0,0);">c. Baggage =
+Security Screening</span></p>
+</td>
+</tr>
+<tr data-local-id=3D"815f9a2ceb08">
+<td data-local-id=3D"71209adf10c1" class=3D"confluenceTd">
+<p local-id=3D"37deb558d6ea"><span style=3D"color: rgb(0,0,0);">&nbsp;</spa=
+n></p>
+</td>
+<td data-local-id=3D"79163165148f" class=3D"confluenceTd">
+<p local-id=3D"ccd1f155630b"><span style=3D"color: rgb(0,0,0);">.N/01250672=
+39001&lt;=E2=89=A1</span></p>
+</td>
+<td data-local-id=3D"b0525b37efdf" class=3D"confluenceTd">
+<p local-id=3D"c1c0fabcf29f"><span style=3D"color: rgb(0,0,0);">&nbsp;</spa=
+n></p>
+</td>
+<td colspan=3D"2" data-local-id=3D"00cf7552ae3d" class=3D"confluenceTd">
+<p local-id=3D"9973cfb17a74"><span style=3D"color: rgb(0,0,0);">4. 1st tag =
+nbr and nbr of tags</span></p>
+</td>
+</tr>
+<tr data-local-id=3D"417274b85182">
+<td data-local-id=3D"414b5b892622" class=3D"confluenceTd">
+<p local-id=3D"307b4eb68d21"><span style=3D"color: rgb(0,0,0);">&nbsp;</spa=
+n></p>
+</td>
+<td data-local-id=3D"e5f5c9eaacb0" class=3D"confluenceTd">
+<p local-id=3D"fee6ece031f1"><span style=3D"color: rgb(0,0,0);">.Q/127&lt;=
+=E2=89=A1</span></p>
+</td>
+<td data-local-id=3D"bb921105a211" class=3D"confluenceTd">
+<p local-id=3D"cce6828e55da"><span style=3D"color: rgb(0,0,0);">&nbsp;</spa=
+n></p>
+</td>
+<td data-local-id=3D"e8ad10f9107c" class=3D"confluenceTd">
+<p local-id=3D"10dbe000a1e3"><span style=3D"color: rgb(0,0,0);">&nbsp;</spa=
+n></p>
+</td>
+<td data-local-id=3D"0535bd14402f" class=3D"confluenceTd">
+<p local-id=3D"a61fd6a66f57"><span style=3D"color: rgb(0,0,0);">a. Loading =
+sequence</span></p>
+</td>
+</tr>
+<tr data-local-id=3D"e5faeb1654e6">
+<td data-local-id=3D"189ca4a9c23c" class=3D"confluenceTd">
+<p local-id=3D"433c2dd9fc06"><span style=3D"color: rgb(0,0,0);">&nbsp;</spa=
+n></p>
+</td>
+<td data-local-id=3D"1d9c22613028" class=3D"confluenceTd">
+<p local-id=3D"8bef7e039057"><span style=3D"color: rgb(0,0,0);">.U//11R/M//=
+SIN&lt;=E2=89=A1</span></p>
+</td>
+<td colspan=3D"3" data-local-id=3D"a566e2f168e6" class=3D"confluenceTd">
+<p local-id=3D"d65882fcc3cf"><span style=3D"color: rgb(0,0,0);">B. Loading =
+information</span></p>
+</td>
+</tr>
+<tr data-local-id=3D"883c88c87ac4">
+<td data-local-id=3D"99ed881463b4" class=3D"confluenceTd">
+<p local-id=3D"0502cada01c7"><span style=3D"color: rgb(0,0,0);">&nbsp;</spa=
+n></p>
+</td>
+<td data-local-id=3D"2df1253252b6" class=3D"confluenceTd">
+<p local-id=3D"8682614f8c8d"><span style=3D"color: rgb(0,0,0);">.N/01250652=
+09001&lt;=E2=89=A1</span></p>
+</td>
+<td data-local-id=3D"9c935d41034c" class=3D"confluenceTd">
+<p local-id=3D"1f52c1ffb35a"><span style=3D"color: rgb(0,0,0);">&nbsp;</spa=
+n></p>
+</td>
+<td colspan=3D"2" data-local-id=3D"e2e7853630f2" class=3D"confluenceTd">
+<p local-id=3D"b7ef41934d79"><span style=3D"color: rgb(0,0,0);">1. 1st tag =
+nbr and nbr of tags</span></p>
+</td>
+</tr>
+<tr data-local-id=3D"81ae940c78e0">
+<td data-local-id=3D"a531733cf458" class=3D"confluenceTd">
+<p local-id=3D"acff9e6d3968"><span style=3D"color: rgb(0,0,0);">&nbsp;</spa=
+n></p>
+</td>
+<td data-local-id=3D"90690cb71895" class=3D"confluenceTd">
+<p local-id=3D"eb804d13bfe8"><span style=3D"color: rgb(0,0,0);">.Q/36&lt;=
+=E2=89=A1</span></p>
+</td>
+<td data-local-id=3D"eeb9b6e58a0b" class=3D"confluenceTd">
+<p local-id=3D"bd07b1f529c8"><span style=3D"color: rgb(0,0,0);">&nbsp;</spa=
+n></p>
+</td>
+<td data-local-id=3D"189645e56073" class=3D"confluenceTd">
+<p local-id=3D"0b5cb395641e"><span style=3D"color: rgb(0,0,0);">&nbsp;</spa=
+n></p>
+</td>
+<td data-local-id=3D"13f394e7cb06" class=3D"confluenceTd">
+<p local-id=3D"442caeea279a"><span style=3D"color: rgb(0,0,0);">a. Loading =
+sequence</span></p>
+</td>
+</tr>
+<tr data-local-id=3D"248288e36510">
+<td data-local-id=3D"407c45610a53" class=3D"confluenceTd">
+<p local-id=3D"fbf9c79eec08"><span style=3D"color: rgb(0,0,0);">&nbsp;</spa=
+n></p>
+</td>
+<td data-local-id=3D"d86b791b641c" class=3D"confluenceTd">
+<p local-id=3D"9084c0f90993"><span style=3D"color: rgb(0,0,0);">.P/1JACKLIN=
+/T&lt;=E2=89=A1</span></p>
+</td>
+<td data-local-id=3D"7abafbacbf94" class=3D"confluenceTd">
+<p local-id=3D"7e0e60ec6fac"><span style=3D"color: rgb(0,0,0);">&nbsp;</spa=
+n></p>
+</td>
+<td data-local-id=3D"e63d504880c9" class=3D"confluenceTd">
+<p local-id=3D"2329bad49747"><span style=3D"color: rgb(0,0,0);">&nbsp;</spa=
+n></p>
+</td>
+<td data-local-id=3D"6df01b192648" class=3D"confluenceTd">
+<p local-id=3D"16312cd326af"><span style=3D"color: rgb(0,0,0);">b. Passenge=
+r's Name</span></p>
+</td>
+</tr>
+<tr data-local-id=3D"7ba424ebf846">
+<td data-local-id=3D"77752fafa029" class=3D"confluenceTd">
+<p local-id=3D"eadbd06cb6f8"><span style=3D"color: rgb(0,0,0);">&nbsp;</spa=
+n></p>
+</td>
+<td data-local-id=3D"1ba696fe64c1" class=3D"confluenceTd">
+<p local-id=3D"18c334998ddc"><span style=3D"color: rgb(0,0,0);">.X/CLR&lt;=
+=E2=89=A1</span></p>
+</td>
+<td data-local-id=3D"1baadd2b1ef3" class=3D"confluenceTd">
+<p local-id=3D"0a67dca56b25"><span style=3D"color: rgb(0,0,0);">&nbsp;</spa=
+n></p>
+</td>
+<td data-local-id=3D"465927104a6b" class=3D"confluenceTd">
+<p local-id=3D"e410f0844ed6"><span style=3D"color: rgb(0,0,0);">&nbsp;</spa=
+n></p>
+</td>
+<td data-local-id=3D"59c43cc347ea" class=3D"confluenceTd">
+<p local-id=3D"1ed73bd05033"><span style=3D"color: rgb(0,0,0);">c. Baggage =
+Security Screening</span></p>
+</td>
+</tr>
+<tr data-local-id=3D"5391ab187bec">
+<td data-local-id=3D"dd006008e450" class=3D"confluenceTd">
+<p local-id=3D"05b17bcd3e6b"><span style=3D"color: rgb(0,0,0);">&nbsp;</spa=
+n></p>
+</td>
+<td data-local-id=3D"d5dc2f505e0f" class=3D"confluenceTd">
+<p local-id=3D"665c6b7b293e"><span style=3D"color: rgb(0,0,0);">.M/01250652=
+09/X/E200341201324FC0A003760E18454254&lt;=E2=89=A1</span></p>
+</td>
+<td data-local-id=3D"9c5d3dae7111" class=3D"confluenceTd">
+<p local-id=3D"a8c6b230ed7a"><span style=3D"color: rgb(0,0,0);">&nbsp;</spa=
+n></p>
+</td>
+<td data-local-id=3D"b798bfdbf242" class=3D"confluenceTd">
+<p local-id=3D"64359b273978"><span style=3D"color: rgb(0,0,0);">&nbsp;</spa=
+n></p>
+</td>
+<td data-local-id=3D"ccd55a33733e" class=3D"confluenceTd">
+<p local-id=3D"a39ef47fa1eb"><span style=3D"color: rgb(0,0,0);">d. Unique I=
+dentifier (GUID based on TID)</span></p>
+</td>
+</tr>
+<tr data-local-id=3D"d08dbdcf1855">
+<td data-local-id=3D"095221df2966" class=3D"confluenceTd">
+<p local-id=3D"0d726c3f1902"><span style=3D"color: rgb(0,0,0);">&nbsp;</spa=
+n></p>
+</td>
+<td data-local-id=3D"7229f849b14c" class=3D"confluenceTd">
+<p local-id=3D"dd012e60314a"><span style=3D"color: rgb(0,0,0);">ENDBMM&lt;=
+=E2=89=A1</span></p>
+</td>
+<td colspan=3D"3" data-local-id=3D"086db533e72e" class=3D"confluenceTd">
+<p local-id=3D"a30138993cd3"><span style=3D"color: rgb(0,0,0);">End of Mess=
+age Identifier</span></p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<h3 local-id=3D"aab2a6d7b441" id=3D"id-9.9BMMmessages-secondpasscompleted-9=
+.9.4multisector-document,notevent"><span style=3D"color: rgb(0,0,0);">9.9.4=
+ multi sector - document, not event</span></h3>
+<p local-id=3D"8a78256c49fc"><span style=3D"color: rgb(0,0,0);">Concern: th=
+is is batch of bags, not individual event</span></p>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"54=
+51178fa5f2" class=3D"confluenceTable">
+<colgroup>
+<col style=3D"width: 64.0px;">
+<col style=3D"width: 578.0px;">
+</colgroup>
+<tbody>
+<tr data-local-id=3D"2b05ff2c0b5d">
+<td data-local-id=3D"a2e580e9c7a9" class=3D"confluenceTd">
+<p local-id=3D"cc5604b2f4b4"><span class=3D"confluence-anchor-link" id=3D"i=
+d-9.9BMMmessages-secondpasscompleted-id-9f40c701-b4ad-4b5d-86ef-303db826f0c=
+8"><span class=3D"confluence-anchor-link" id=3D"id-9f40c701-b4ad-4b5d-86ef-=
+303db826f0c8"></span></span><span style=3D"color: rgb(0,0,0);">9.9.4</span>=
+</p>
+</td>
+<td data-local-id=3D"5fa684cb571d" class=3D"confluenceTd">
+<p local-id=3D"4cf325d530c6"><span style=3D"color: rgb(0,0,0);">Example of =
+Multi-Sector Flights&nbsp;-&nbsp;Routing: QF005&nbsp;-&nbsp;/21FEB/FRA/BKK/=
+SIN/SYD</span></p>
+</td>
+</tr>
+<tr data-local-id=3D"e74192474642">
+<td data-local-id=3D"f6ae5bf89f5d" class=3D"confluenceTd">
+<p local-id=3D"120fad413c26"><span style=3D"color: rgb(0,0,0);">&nbsp;</spa=
+n></p>
+</td>
+<td data-local-id=3D"c11e31f20a58" class=3D"confluenceTd">
+<p local-id=3D"0403b6107694"><strong><span style=3D"color: rgb(0,0,0);">Exa=
+mple a&nbsp;-&nbsp;One BMM for Multiple Downline Stations</span></strong></=
+p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p local-id=3D"30027ffed428"></p>
+<p local-id=3D"8768f509d179"></p>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"25=
+9fd7b87e16" class=3D"confluenceTable">
+<colgroup>
+<col style=3D"width: 64.0px;">
+<col style=3D"width: 257.0px;">
+<col style=3D"width: 107.0px;">
+<col style=3D"width: 107.0px;">
+<col style=3D"width: 107.0px;">
+</colgroup>
+<tbody>
+<tr data-local-id=3D"9208c880e7ff">
+<td data-local-id=3D"7860392b7e18" class=3D"confluenceTd">
+<p local-id=3D"fde6f2957c45"><span class=3D"confluence-anchor-link" id=3D"i=
+d-9.9BMMmessages-secondpasscompleted-id-9f40c701-b4db-4880-9c22-21ae523c732=
+4"><span class=3D"confluence-anchor-link" id=3D"id-9f40c701-b4db-4880-9c22-=
+21ae523c7324"></span></span><span style=3D"color: rgb(0,0,0);">&nbsp;</span=
+></p>
+</td>
+<td data-local-id=3D"185ad131acbd" class=3D"confluenceTd">
+<p local-id=3D"0aee83e5a7a6"><span style=3D"color: rgb(0,0,0);">BMM&lt;=E2=
+=89=A1</span></p>
+</td>
+<td colspan=3D"3" data-local-id=3D"079c90a467e3" class=3D"confluenceTd">
+<p local-id=3D"221fa4c2cf4e"><span style=3D"color: rgb(0,0,0);">BMM&nbsp;-&=
+nbsp;Standard Message Identifier</span></p>
+</td>
+</tr>
+<tr data-local-id=3D"aa016eae7ff0">
+<td data-local-id=3D"333c225b4273" class=3D"confluenceTd">
+<p local-id=3D"e486a76ba3b8"><span style=3D"color: rgb(0,0,0);">&nbsp;</spa=
+n></p>
+</td>
+<td data-local-id=3D"93c73f53f036" class=3D"confluenceTd">
+<p local-id=3D"abc1ecc51046"><span style=3D"color: rgb(0,0,0);">.V/1TBKK&lt=
+;=E2=89=A1</span></p>
+</td>
+<td colspan=3D"3" data-local-id=3D"5b106576de81" class=3D"confluenceTd">
+<p local-id=3D"f79301519269"><span style=3D"color: rgb(0,0,0);">Terminating=
+ and/or transfer bags at BKK</span></p>
+</td>
+</tr>
+<tr data-local-id=3D"e74aa08adfb6">
+<td data-local-id=3D"5abd8bcc0c0f" class=3D"confluenceTd">
+<p local-id=3D"e899a18e3871"><span style=3D"color: rgb(0,0,0);">&nbsp;</spa=
+n></p>
+</td>
+<td data-local-id=3D"69e9d1f0deb7" class=3D"confluenceTd">
+<p local-id=3D"a77b647ffe11"><span style=3D"color: rgb(0,0,0);">.I/QF005/21=
+FEB/FRA&lt;=E2=89=A1</span></p>
+</td>
+<td colspan=3D"3" data-local-id=3D"6aaad3a0b28b" class=3D"confluenceTd">
+<p local-id=3D"ef78213cde6b"><span style=3D"color: rgb(0,0,0);">Inbound fli=
+ght QF005</span></p>
+</td>
+</tr>
+<tr data-local-id=3D"6901320397e9">
+<td data-local-id=3D"821a73e5c640" class=3D"confluenceTd">
+<p local-id=3D"c74d2f28d7c2"><span style=3D"color: rgb(0,0,0);">&nbsp;</spa=
+n></p>
+</td>
+<td data-local-id=3D"7312116a7958" class=3D"confluenceTd">
+<p local-id=3D"7630b2e176d2"><span style=3D"color: rgb(0,0,0);">.U/AKE1234Q=
+F//X/F/BKK&lt;=E2=89=A1&lt;</span></p>
+</td>
+<td colspan=3D"3" data-local-id=3D"d1005849860b" class=3D"confluenceTd">
+<p local-id=3D"fb6da9a5188d"><span style=3D"color: rgb(0,0,0);">A. Loading =
+information</span></p>
+</td>
+</tr>
+<tr data-local-id=3D"bf04533990e3">
+<td data-local-id=3D"5e4a892ca87c" class=3D"confluenceTd">
+<p local-id=3D"0feea19bbc0f"><span style=3D"color: rgb(0,0,0);">&nbsp;</spa=
+n></p>
+</td>
+<td data-local-id=3D"c9301a1abb90" class=3D"confluenceTd">
+<p local-id=3D"8ad2e9fcfedc"><span style=3D"color: rgb(0,0,0);">.N/00819876=
+54001&lt;=E2=89=A1</span></p>
+</td>
+<td data-local-id=3D"aa1ee568b30c" class=3D"confluenceTd">
+<p local-id=3D"9f82c3aeadfb"><span style=3D"color: rgb(0,0,0);">&nbsp;</spa=
+n></p>
+</td>
+<td colspan=3D"2" data-local-id=3D"733f480d0386" class=3D"confluenceTd">
+<p local-id=3D"479804f4684a"><span style=3D"color: rgb(0,0,0);">1. 1st tag =
+nbr and nbr of tags</span></p>
+</td>
+</tr>
+<tr data-local-id=3D"edfef38dcdc9">
+<td data-local-id=3D"c61e4b14495d" class=3D"confluenceTd">
+<p local-id=3D"6e1a900f14f6"><span style=3D"color: rgb(0,0,0);">&nbsp;</spa=
+n></p>
+</td>
+<td data-local-id=3D"688b37344459" class=3D"confluenceTd">
+<p local-id=3D"d5f05c08a8d6"><span style=3D"color: rgb(0,0,0);">.Q/006&lt;=
+=E2=89=A1</span></p>
+</td>
+<td data-local-id=3D"42b9f274532c" class=3D"confluenceTd">
+<p local-id=3D"81fa4c4d490f"><span style=3D"color: rgb(0,0,0);">&nbsp;</spa=
+n></p>
+</td>
+<td data-local-id=3D"f00c892c1d36" class=3D"confluenceTd">
+<p local-id=3D"83c49f9896b7"><span style=3D"color: rgb(0,0,0);">&nbsp;</spa=
+n></p>
+</td>
+<td data-local-id=3D"331f9b9755ba" class=3D"confluenceTd">
+<p local-id=3D"baecd3dde93f"><span style=3D"color: rgb(0,0,0);">a. Loading =
+sequence</span></p>
+</td>
+</tr>
+<tr data-local-id=3D"604d1e0af46d">
+<td data-local-id=3D"744280218f78" class=3D"confluenceTd">
+<p local-id=3D"edf3217797ca"><span style=3D"color: rgb(0,0,0);">&nbsp;</spa=
+n></p>
+</td>
+<td data-local-id=3D"558fe9391d74" class=3D"confluenceTd">
+<p local-id=3D"055b63803aa5"><span style=3D"color: rgb(0,0,0);">.P/1NORMAN/=
+G&lt;=E2=89=A1</span></p>
+</td>
+<td data-local-id=3D"f71febfdbc0c" class=3D"confluenceTd">
+<p local-id=3D"055b5d0bd473"><span style=3D"color: rgb(0,0,0);">&nbsp;</spa=
+n></p>
+</td>
+<td data-local-id=3D"04b550f09972" class=3D"confluenceTd">
+<p local-id=3D"6f851e6b5f02"><span style=3D"color: rgb(0,0,0);">&nbsp;</spa=
+n></p>
+</td>
+<td data-local-id=3D"6588b300a18e" class=3D"confluenceTd">
+<p local-id=3D"8fb4144ecd59"><span style=3D"color: rgb(0,0,0);">b. Passenge=
+r's Name</span></p>
+</td>
+</tr>
+<tr data-local-id=3D"34d6aa009779">
+<td data-local-id=3D"73b01cc33467" class=3D"confluenceTd">
+<p local-id=3D"901a54d58998"><span style=3D"color: rgb(0,0,0);">&nbsp;</spa=
+n></p>
+</td>
+<td data-local-id=3D"bab4aff6a2c9" class=3D"confluenceTd">
+<p local-id=3D"8dc914461bb7"><span style=3D"color: rgb(0,0,0);">.U/AVE7890Q=
+F//M&lt;=E2=89=A1</span></p>
+</td>
+<td colspan=3D"3" data-local-id=3D"3bd742160f3b" class=3D"confluenceTd">
+<p local-id=3D"18ff631b5712"><span style=3D"color: rgb(0,0,0);">B. Loading =
+information, indicating a mixed baggage in container that has to be examine=
+d at the first downline station</span></p>
+</td>
+</tr>
+<tr data-local-id=3D"1643dd6cdadd">
+<td data-local-id=3D"b3a94f7398e0" class=3D"confluenceTd">
+<p local-id=3D"66d2fc7c2021"><span style=3D"color: rgb(0,0,0);">&nbsp;</spa=
+n></p>
+</td>
+<td data-local-id=3D"9d39d5148bcd" class=3D"confluenceTd">
+<p local-id=3D"b75bb7576ff8"><span style=3D"color: rgb(0,0,0);">.F/CX266/21=
+FEB/HKG/Y&lt;=E2=89=A1</span></p>
+</td>
+<td data-local-id=3D"6da819294b42" class=3D"confluenceTd">
+<p local-id=3D"68ecf42e7a96"><span style=3D"color: rgb(0,0,0);">&nbsp;</spa=
+n></p>
+</td>
+<td colspan=3D"2" data-local-id=3D"4002a3badbab" class=3D"confluenceTd">
+<p local-id=3D"49b193fad4ff"><span style=3D"color: rgb(0,0,0);">1. Outbound=
+ Flight CX266</span></p>
+</td>
+</tr>
+<tr data-local-id=3D"70e49efe64ec">
+<td data-local-id=3D"49d553a4effc" class=3D"confluenceTd">
+<p local-id=3D"2a41812cb080"><span style=3D"color: rgb(0,0,0);">&nbsp;</spa=
+n></p>
+</td>
+<td data-local-id=3D"753fa4d46439" class=3D"confluenceTd">
+<p local-id=3D"b5ef16f395f2"><span style=3D"color: rgb(0,0,0);">.N/00811234=
+56001&lt;=E2=89=A1</span></p>
+</td>
+<td data-local-id=3D"e99c9c7593e0" class=3D"confluenceTd">
+<p local-id=3D"b8ed02082aab"><span style=3D"color: rgb(0,0,0);">&nbsp;</spa=
+n></p>
+</td>
+<td data-local-id=3D"5bf152dd5936" class=3D"confluenceTd">
+<p local-id=3D"508f3dda6c4e"><span style=3D"color: rgb(0,0,0);">&nbsp;</spa=
+n></p>
+</td>
+<td data-local-id=3D"48003f21026c" class=3D"confluenceTd">
+<p local-id=3D"c3f586d7487c"><span style=3D"color: rgb(0,0,0);">a. 1st tag =
+nbr and nbr of tags, for a bag transferring to HKG</span></p>
+</td>
+</tr>
+<tr data-local-id=3D"d8595d5837df">
+<td data-local-id=3D"513bc78c507b" class=3D"confluenceTd">
+<p local-id=3D"aa4ae7321a70"><span style=3D"color: rgb(0,0,0);">&nbsp;</spa=
+n></p>
+</td>
+<td data-local-id=3D"15eba7edb900" class=3D"confluenceTd">
+<p local-id=3D"e6d41b009a96"><span style=3D"color: rgb(0,0,0);">.W/K/1/21&l=
+t;=E2=89=A1</span></p>
+</td>
+<td data-local-id=3D"006dbf7648e8" class=3D"confluenceTd">
+<p local-id=3D"8d4aad4f3be3"><span style=3D"color: rgb(0,0,0);">&nbsp;</spa=
+n></p>
+</td>
+<td data-local-id=3D"51c93b5823e6" class=3D"confluenceTd">
+<p local-id=3D"77821c2b979c"><span style=3D"color: rgb(0,0,0);">&nbsp;</spa=
+n></p>
+</td>
+<td data-local-id=3D"30cf938c622b" class=3D"confluenceTd">
+<p local-id=3D"d539c79cdb89"><span style=3D"color: rgb(0,0,0);">b. Pieces a=
+nd Weight Data</span></p>
+</td>
+</tr>
+<tr data-local-id=3D"5e075e5bc1cd">
+<td data-local-id=3D"d83e310c16aa" class=3D"confluenceTd">
+<p local-id=3D"e27b0eef4308"><span style=3D"color: rgb(0,0,0);">&nbsp;</spa=
+n></p>
+</td>
+<td data-local-id=3D"2b831db6515f" class=3D"confluenceTd">
+<p local-id=3D"7b3c55da4585"><span style=3D"color: rgb(0,0,0);">.Q/020&lt;=
+=E2=89=A1</span></p>
+</td>
+<td data-local-id=3D"8d85fd723004" class=3D"confluenceTd">
+<p local-id=3D"b45271107528"><span style=3D"color: rgb(0,0,0);">&nbsp;</spa=
+n></p>
+</td>
+<td data-local-id=3D"36aaefd94c00" class=3D"confluenceTd">
+<p local-id=3D"604e104ebdd5"><span style=3D"color: rgb(0,0,0);">&nbsp;</spa=
+n></p>
+</td>
+<td data-local-id=3D"78f5afc9df21" class=3D"confluenceTd">
+<p local-id=3D"85db70757aa2"><span style=3D"color: rgb(0,0,0);">c. Loading =
+sequence</span></p>
+</td>
+</tr>
+<tr data-local-id=3D"19459d054d7f">
+<td data-local-id=3D"4c7ebe21aa71" class=3D"confluenceTd">
+<p local-id=3D"930507fe06da"><span style=3D"color: rgb(0,0,0);">&nbsp;</spa=
+n></p>
+</td>
+<td data-local-id=3D"3c83e4c171de" class=3D"confluenceTd">
+<p local-id=3D"3dbe6f5ee881"><span style=3D"color: rgb(0,0,0);">.N/00081234=
+56001&lt;=E2=89=A1</span></p>
+</td>
+<td data-local-id=3D"818cdbfece89" class=3D"confluenceTd">
+<p local-id=3D"136522eb90a7"><span style=3D"color: rgb(0,0,0);">&nbsp;</spa=
+n></p>
+</td>
+<td data-local-id=3D"ce6868b06027" class=3D"confluenceTd">
+<p local-id=3D"7183c4b0f448"><span style=3D"color: rgb(0,0,0);">&nbsp;</spa=
+n></p>
+</td>
+<td data-local-id=3D"0b049709250e" class=3D"confluenceTd">
+<p local-id=3D"f05e6cf72252"><span style=3D"color: rgb(0,0,0);">d. 1st tag =
+nbr and nbr of tags for a bag terminating in BKK</span></p>
+</td>
+</tr>
+<tr data-local-id=3D"69437a17b9be">
+<td data-local-id=3D"e6a89fb7802b" class=3D"confluenceTd">
+<p local-id=3D"0975fc46dc3b"><span style=3D"color: rgb(0,0,0);">&nbsp;</spa=
+n></p>
+</td>
+<td data-local-id=3D"a76f1f50e517" class=3D"confluenceTd">
+<p local-id=3D"313db379e82d"><span style=3D"color: rgb(0,0,0);">.Q/021&lt;=
+=E2=89=A1</span></p>
+</td>
+<td data-local-id=3D"20d4ed6aa393" class=3D"confluenceTd">
+<p local-id=3D"c87588fd2208"><span style=3D"color: rgb(0,0,0);">&nbsp;</spa=
+n></p>
+</td>
+<td data-local-id=3D"e6233fe2d7c7" class=3D"confluenceTd">
+<p local-id=3D"847d263e596e"><span style=3D"color: rgb(0,0,0);">&nbsp;</spa=
+n></p>
+</td>
+<td data-local-id=3D"f1e87df55154" class=3D"confluenceTd">
+<p local-id=3D"723e6b5e105d"><span style=3D"color: rgb(0,0,0);">e. Loading =
+sequence</span></p>
+</td>
+</tr>
+<tr data-local-id=3D"bc45ed68c260">
+<td data-local-id=3D"af6997d98509" class=3D"confluenceTd">
+<p local-id=3D"26db023b05af"><span style=3D"color: rgb(0,0,0);">&nbsp;</spa=
+n></p>
+</td>
+<td data-local-id=3D"6ac9209937d6" class=3D"confluenceTd">
+<p local-id=3D"b629944ccfc2"><span style=3D"color: rgb(0,0,0);">.F/CX288/21=
+FEB/PEK/Y&lt;=E2=89=A1</span></p>
+</td>
+<td colspan=3D"3" data-local-id=3D"ccd7b623add9" class=3D"confluenceTd">
+<p local-id=3D"c57a6b31945f"><span style=3D"color: rgb(0,0,0);">2. Outbound=
+ flight CX288</span></p>
+</td>
+</tr>
+<tr data-local-id=3D"f6a965350841">
+<td data-local-id=3D"b27c8134da43" class=3D"confluenceTd">
+<p local-id=3D"68ec47de4e87"><span style=3D"color: rgb(0,0,0);">&nbsp;</spa=
+n></p>
+</td>
+<td data-local-id=3D"1eff86f329b9" class=3D"confluenceTd">
+<p local-id=3D"5ac2518ddbe8"><span style=3D"color: rgb(0,0,0);">.N/00082345=
+67001&lt;=E2=89=A1</span></p>
+</td>
+<td data-local-id=3D"7325c34193d4" class=3D"confluenceTd">
+<p local-id=3D"91d505ccdb11"><span style=3D"color: rgb(0,0,0);">&nbsp;</spa=
+n></p>
+</td>
+<td data-local-id=3D"d25828201472" class=3D"confluenceTd">
+<p local-id=3D"3f57a5f9b140"><span style=3D"color: rgb(0,0,0);">&nbsp;</spa=
+n></p>
+</td>
+<td data-local-id=3D"170baa578e40" class=3D"confluenceTd">
+<p local-id=3D"807203e80bbd"><span style=3D"color: rgb(0,0,0);">a. 1st tag =
+nbr and nbr of tags for a bag terminating in BKK</span></p>
+</td>
+</tr>
+<tr data-local-id=3D"2c8045df24f0">
+<td data-local-id=3D"7a83ad655689" class=3D"confluenceTd">
+<p local-id=3D"a2a2aebd34a0"><span style=3D"color: rgb(0,0,0);">&nbsp;</spa=
+n></p>
+</td>
+<td data-local-id=3D"acea40fd1c2e" class=3D"confluenceTd">
+<p local-id=3D"ccf703833529"><span style=3D"color: rgb(0,0,0);">.Q/022&lt;=
+=E2=89=A1</span></p>
+</td>
+<td data-local-id=3D"659f2ca0f8f6" class=3D"confluenceTd">
+<p local-id=3D"8eddf4363569"><span style=3D"color: rgb(0,0,0);">&nbsp;</spa=
+n></p>
+</td>
+<td data-local-id=3D"8219513d639c" class=3D"confluenceTd">
+<p local-id=3D"fc1f04cc81b6"><span style=3D"color: rgb(0,0,0);">&nbsp;</spa=
+n></p>
+</td>
+<td data-local-id=3D"1491abe9196c" class=3D"confluenceTd">
+<p local-id=3D"34f25650ee46"><span style=3D"color: rgb(0,0,0);">b. Loading =
+sequence</span></p>
+</td>
+</tr>
+<tr data-local-id=3D"023eb036c3cb">
+<td data-local-id=3D"66819f515d7a" class=3D"confluenceTd">
+<p local-id=3D"78a75977c9a5"><span style=3D"color: rgb(0,0,0);">&nbsp;</spa=
+n></p>
+</td>
+<td data-local-id=3D"3f429c1625d0" class=3D"confluenceTd">
+<p local-id=3D"cdca3a33238f"><span style=3D"color: rgb(0,0,0);">.U/AKE1235Q=
+F//X/F/SIN&lt;=E2=89=A1</span></p>
+</td>
+<td colspan=3D"3" data-local-id=3D"a7faccc60ebe" class=3D"confluenceTd">
+<p local-id=3D"4e596d50913e"><span style=3D"color: rgb(0,0,0);">C. Loading =
+information indicating terminating bags in SIN</span></p>
+</td>
+</tr>
+<tr data-local-id=3D"6b5637fc0b5b">
+<td data-local-id=3D"35c3a21175f9" class=3D"confluenceTd">
+<p local-id=3D"0baf989e15b8"><span style=3D"color: rgb(0,0,0);">&nbsp;</spa=
+n></p>
+</td>
+<td data-local-id=3D"b49cb24a5518" class=3D"confluenceTd">
+<p local-id=3D"5703b0061008"><span style=3D"color: rgb(0,0,0);">.N/00817676=
+76001&lt;=E2=89=A1</span></p>
+</td>
+<td data-local-id=3D"29b929ee06a2" class=3D"confluenceTd">
+<p local-id=3D"fe15541b04b9"><span style=3D"color: rgb(0,0,0);">&nbsp;</spa=
+n></p>
+</td>
+<td colspan=3D"2" data-local-id=3D"427079376282" class=3D"confluenceTd">
+<p local-id=3D"7fa40b2938f7"><span style=3D"color: rgb(0,0,0);">1. 1st tag =
+nbr and nbr of tags</span></p>
+</td>
+</tr>
+<tr data-local-id=3D"647229abb909">
+<td data-local-id=3D"4bccc81b5b87" class=3D"confluenceTd">
+<p local-id=3D"d612498e1b36"><span style=3D"color: rgb(0,0,0);">&nbsp;</spa=
+n></p>
+</td>
+<td data-local-id=3D"5f62866df2e5" class=3D"confluenceTd">
+<p local-id=3D"5fac6eb518bd"><span style=3D"color: rgb(0,0,0);">.Q/026&lt;=
+=E2=89=A1</span></p>
+</td>
+<td data-local-id=3D"1ffb49b37eb9" class=3D"confluenceTd">
+<p local-id=3D"1bf3d91e1429"><span style=3D"color: rgb(0,0,0);">&nbsp;</spa=
+n></p>
+</td>
+<td data-local-id=3D"bc1c3626c79d" class=3D"confluenceTd">
+<p local-id=3D"728c0663ce68"><span style=3D"color: rgb(0,0,0);">&nbsp;</spa=
+n></p>
+</td>
+<td data-local-id=3D"c7109b5feb8f" class=3D"confluenceTd">
+<p local-id=3D"2e26590611bb"><span style=3D"color: rgb(0,0,0);">a. Loading =
+sequence</span></p>
+</td>
+</tr>
+<tr data-local-id=3D"a46b5dec389e">
+<td data-local-id=3D"10a11fae2ae4" class=3D"confluenceTd">
+<p local-id=3D"ab9ace939248"><span style=3D"color: rgb(0,0,0);">&nbsp;</spa=
+n></p>
+</td>
+<td data-local-id=3D"17b9c6bcf478" class=3D"confluenceTd">
+<p local-id=3D"6342cf620440"><span style=3D"color: rgb(0,0,0);">.P/1MAK/C&l=
+t;=E2=89=A1</span></p>
+</td>
+<td data-local-id=3D"89f0f0ca8e9d" class=3D"confluenceTd">
+<p local-id=3D"b0bce8b15c81"><span style=3D"color: rgb(0,0,0);">&nbsp;</spa=
+n></p>
+</td>
+<td data-local-id=3D"a3194ee57c80" class=3D"confluenceTd">
+<p local-id=3D"69e83118d9da"><span style=3D"color: rgb(0,0,0);">&nbsp;</spa=
+n></p>
+</td>
+<td data-local-id=3D"f2f9ba39b602" class=3D"confluenceTd">
+<p local-id=3D"f21b6139fc01"><span style=3D"color: rgb(0,0,0);">b. Passenge=
+r's Name</span></p>
+</td>
+</tr>
+<tr data-local-id=3D"1798776e8d4d">
+<td data-local-id=3D"6245de82c6b5" class=3D"confluenceTd">
+<p local-id=3D"7a01195728f0"><span style=3D"color: rgb(0,0,0);">&nbsp;</spa=
+n></p>
+</td>
+<td data-local-id=3D"a1f2db168a3a" class=3D"confluenceTd">
+<p local-id=3D"ddc6e273095b"><span style=3D"color: rgb(0,0,0);">.U/AKE6667Q=
+F//M&lt;=E2=89=A1</span></p>
+</td>
+<td colspan=3D"3" data-local-id=3D"2852743f7781" class=3D"confluenceTd">
+<p local-id=3D"db1ff0e74a0c"><span style=3D"color: rgb(0,0,0);">D. Loading =
+information</span></p>
+</td>
+</tr>
+<tr data-local-id=3D"456712b84619">
+<td data-local-id=3D"e5f5516f2eab" class=3D"confluenceTd">
+<p local-id=3D"f5b1eb25d6db"><span style=3D"color: rgb(0,0,0);">&nbsp;</spa=
+n></p>
+</td>
+<td data-local-id=3D"0bd5bfd386ef" class=3D"confluenceTd">
+<p local-id=3D"bc66cf4c7b9e"><span style=3D"color: rgb(0,0,0);">.N/00813434=
+34001&lt;=E2=89=A1</span></p>
+</td>
+<td data-local-id=3D"11e765188c41" class=3D"confluenceTd">
+<p local-id=3D"db907a407dac"><span style=3D"color: rgb(0,0,0);">&nbsp;</spa=
+n></p>
+</td>
+<td colspan=3D"2" data-local-id=3D"d09e9acb136f" class=3D"confluenceTd">
+<p local-id=3D"8a2136b23f39"><span style=3D"color: rgb(0,0,0);">1. 1st tag =
+nbr and nbr of tags</span></p>
+</td>
+</tr>
+<tr data-local-id=3D"e425a0d6e636">
+<td data-local-id=3D"988e4f6e7c84" class=3D"confluenceTd">
+<p local-id=3D"145ed924d6a8"><span style=3D"color: rgb(0,0,0);">&nbsp;</spa=
+n></p>
+</td>
+<td data-local-id=3D"d7e417c22ce5" class=3D"confluenceTd">
+<p local-id=3D"e25b4e1c86c2"><span style=3D"color: rgb(0,0,0);">.Q/030&lt;=
+=E2=89=A1</span></p>
+</td>
+<td data-local-id=3D"ef1e33a51300" class=3D"confluenceTd">
+<p local-id=3D"441bb1aece98"><span style=3D"color: rgb(0,0,0);">&nbsp;</spa=
+n></p>
+</td>
+<td data-local-id=3D"01e2c69d0b23" class=3D"confluenceTd">
+<p local-id=3D"df3bc1a6a2da"><span style=3D"color: rgb(0,0,0);">&nbsp;</spa=
+n></p>
+</td>
+<td data-local-id=3D"60ed1d245043" class=3D"confluenceTd">
+<p local-id=3D"dc46034299bb"><span style=3D"color: rgb(0,0,0);">a. Loading =
+sequence</span></p>
+</td>
+</tr>
+<tr data-local-id=3D"1912dd6bbfa6">
+<td data-local-id=3D"0346f4e6a9bf" class=3D"confluenceTd">
+<p local-id=3D"49ccc06df8c6"><span style=3D"color: rgb(0,0,0);">&nbsp;</spa=
+n></p>
+</td>
+<td data-local-id=3D"a124d73a8a19" class=3D"confluenceTd">
+<p local-id=3D"929b01e2a24a"><span style=3D"color: rgb(0,0,0);">.U/AKE1236Q=
+F//X/F/SYD&lt;=E2=89=A1</span></p>
+</td>
+<td colspan=3D"3" data-local-id=3D"006496810427" class=3D"confluenceTd">
+<p local-id=3D"69d303e0b264"><span style=3D"color: rgb(0,0,0);">E. Loading =
+information</span></p>
+</td>
+</tr>
+<tr data-local-id=3D"f6ce5b87231f">
+<td data-local-id=3D"afacdb0c3f93" class=3D"confluenceTd">
+<p local-id=3D"a00db6f00d11"><span style=3D"color: rgb(0,0,0);">&nbsp;</spa=
+n></p>
+</td>
+<td data-local-id=3D"81bca72c22f8" class=3D"confluenceTd">
+<p local-id=3D"437ab4dffc1f"><span style=3D"color: rgb(0,0,0);">.N/00812222=
+22001&lt;=E2=89=A1</span></p>
+</td>
+<td data-local-id=3D"145ea4e2c5ba" class=3D"confluenceTd">
+<p local-id=3D"0088d186b723"><span style=3D"color: rgb(0,0,0);">&nbsp;</spa=
+n></p>
+</td>
+<td colspan=3D"2" data-local-id=3D"d82ec99b2e95" class=3D"confluenceTd">
+<p local-id=3D"fd215e5e83be"><span style=3D"color: rgb(0,0,0);">1. 1st tag =
+nbr and nbr of tags</span></p>
+</td>
+</tr>
+<tr data-local-id=3D"effd5cba0747">
+<td data-local-id=3D"133e79a81d2b" class=3D"confluenceTd">
+<p local-id=3D"599732d3f2fe"><span style=3D"color: rgb(0,0,0);">&nbsp;</spa=
+n></p>
+</td>
+<td data-local-id=3D"ae5aff803f0d" class=3D"confluenceTd">
+<p local-id=3D"0af97e8145fa"><span style=3D"color: rgb(0,0,0);">.Q/022&lt;=
+=E2=89=A1</span></p>
+</td>
+<td data-local-id=3D"e3042919b696" class=3D"confluenceTd">
+<p local-id=3D"63acc8e46409"><span style=3D"color: rgb(0,0,0);">&nbsp;</spa=
+n></p>
+</td>
+<td data-local-id=3D"2041af917d15" class=3D"confluenceTd">
+<p local-id=3D"5b0007ca5bec"><span style=3D"color: rgb(0,0,0);">&nbsp;</spa=
+n></p>
+</td>
+<td data-local-id=3D"e7861812e653" class=3D"confluenceTd">
+<p local-id=3D"4283acb4f2c9"><span style=3D"color: rgb(0,0,0);">a. Loading =
+sequence</span></p>
+</td>
+</tr>
+<tr data-local-id=3D"2766e9e6efdf">
+<td data-local-id=3D"5bc2ac0e6c48" class=3D"confluenceTd">
+<p local-id=3D"581fb674c00e"><span style=3D"color: rgb(0,0,0);">&nbsp;</spa=
+n></p>
+</td>
+<td data-local-id=3D"c6bb59145f76" class=3D"confluenceTd">
+<p local-id=3D"10fa2f3f3438"><span style=3D"color: rgb(0,0,0);">.P/1KOEPKE/=
+A&lt;=E2=89=A1</span></p>
+</td>
+<td data-local-id=3D"905e821a1b7f" class=3D"confluenceTd">
+<p local-id=3D"8cb81927c72f"><span style=3D"color: rgb(0,0,0);">&nbsp;</spa=
+n></p>
+</td>
+<td data-local-id=3D"5e29adb0def1" class=3D"confluenceTd">
+<p local-id=3D"3854b10c4db6"><span style=3D"color: rgb(0,0,0);">&nbsp;</spa=
+n></p>
+</td>
+<td data-local-id=3D"ee5275ea2d7e" class=3D"confluenceTd">
+<p local-id=3D"1f95e68dce70"><span style=3D"color: rgb(0,0,0);">b. Passenge=
+r's Name</span></p>
+</td>
+</tr>
+<tr data-local-id=3D"1766876bc201">
+<td data-local-id=3D"d3bd960b7257" class=3D"confluenceTd">
+<p local-id=3D"8649a7ef9152"><span style=3D"color: rgb(0,0,0);">&nbsp;</spa=
+n></p>
+</td>
+<td data-local-id=3D"28f78d6d8fb0" class=3D"confluenceTd">
+<p local-id=3D"82d4d49efe46"><span style=3D"color: rgb(0,0,0);">.U/AVE3333Q=
+F//M&lt;=E2=89=A1</span></p>
+</td>
+<td colspan=3D"3" data-local-id=3D"3025f3c20ccb" class=3D"confluenceTd">
+<p local-id=3D"9a5b453a58f9"><span style=3D"color: rgb(0,0,0);">F. Loading =
+information</span></p>
+</td>
+</tr>
+<tr data-local-id=3D"dfdb6dde20e5">
+<td data-local-id=3D"75564843209c" class=3D"confluenceTd">
+<p local-id=3D"8575ff104f51"><span style=3D"color: rgb(0,0,0);">&nbsp;</spa=
+n></p>
+</td>
+<td data-local-id=3D"f888a139c979" class=3D"confluenceTd">
+<p local-id=3D"6b3ba3e1e3a1"><span style=3D"color: rgb(0,0,0);">.N/00813939=
+39001&lt;=E2=89=A1</span></p>
+</td>
+<td data-local-id=3D"9fc9d0d1d747" class=3D"confluenceTd">
+<p local-id=3D"f3a13e3f29ab"><span style=3D"color: rgb(0,0,0);">&nbsp;</spa=
+n></p>
+</td>
+<td colspan=3D"2" data-local-id=3D"9551adbfce13" class=3D"confluenceTd">
+<p local-id=3D"2d64d7f5b1e5"><span style=3D"color: rgb(0,0,0);">1. 1st tag =
+nbr and nbr of tags</span></p>
+</td>
+</tr>
+<tr data-local-id=3D"4fb9e8065f0e">
+<td data-local-id=3D"47037b75a4a1" class=3D"confluenceTd">
+<p local-id=3D"e7818b97ed3b"><span style=3D"color: rgb(0,0,0);">&nbsp;</spa=
+n></p>
+</td>
+<td data-local-id=3D"2884c63445b4" class=3D"confluenceTd">
+<p local-id=3D"94cd62d4f5e3"><span style=3D"color: rgb(0,0,0);">.Q/010&lt;=
+=E2=89=A1</span></p>
+</td>
+<td data-local-id=3D"238cd0fe0638" class=3D"confluenceTd">
+<p local-id=3D"e807cf2f3be8"><span style=3D"color: rgb(0,0,0);">&nbsp;</spa=
+n></p>
+</td>
+<td data-local-id=3D"c2792508de32" class=3D"confluenceTd">
+<p local-id=3D"23ffd35c2223"><span style=3D"color: rgb(0,0,0);">&nbsp;</spa=
+n></p>
+</td>
+<td data-local-id=3D"46c51eea9d35" class=3D"confluenceTd">
+<p local-id=3D"192939d8e393"><span style=3D"color: rgb(0,0,0);">a. Loading =
+sequence</span></p>
+</td>
+</tr>
+<tr data-local-id=3D"15be0f5381c9">
+<td data-local-id=3D"da8f89c092ae" class=3D"confluenceTd">
+<p local-id=3D"d8eb4b919225"><span style=3D"color: rgb(0,0,0);">&nbsp;</spa=
+n></p>
+</td>
+<td data-local-id=3D"8d1235590133" class=3D"confluenceTd">
+<p local-id=3D"cdecb23e426f"><span style=3D"color: rgb(0,0,0);">ENDBMM&lt;=
+=E2=89=A1</span></p>
+</td>
+<td colspan=3D"3" data-local-id=3D"e642d8ebb788" class=3D"confluenceTd">
+<p local-id=3D"f4303e1181be"><span style=3D"color: rgb(0,0,0);">End of Mess=
+age Identifier</span></p>
+</td>
+</tr>
+<tr data-local-id=3D"e02daa637a04">
+<td data-local-id=3D"57e2ffe8ae01" class=3D"confluenceTd">
+<p local-id=3D"293cb4e7ffb4"><span style=3D"color: rgb(0,0,0);">&nbsp;</spa=
+n></p>
+</td>
+<td colspan=3D"4" data-local-id=3D"5b4d62a0ac06" class=3D"confluenceTd">
+<p local-id=3D"ceeca612f91f"><strong><span style=3D"color: rgb(0,0,0);">Exa=
+mple b&nbsp;-&nbsp;Multiple BMMs for Each Flight Segment</span></strong></p=
+>
+</td>
+</tr>
+<tr data-local-id=3D"1ee68524f9a0">
+<td colspan=3D"5" data-local-id=3D"8a017eac6839" class=3D"confluenceTd">
+<p local-id=3D"1097e11c2e23"><span style=3D"color: rgb(0,0,0);">&nbsp;</spa=
+n></p>
+</td>
+</tr>
+<tr data-local-id=3D"6ab5c4706a6a">
+<td data-local-id=3D"ff00649e1021" class=3D"confluenceTd">
+<p local-id=3D"54d6df1f6e13"><span style=3D"color: rgb(0,0,0);">&nbsp;</spa=
+n></p>
+</td>
+<td data-local-id=3D"d490a07c58b0" class=3D"confluenceTd">
+<p local-id=3D"71376df097c6"><span style=3D"color: rgb(0,0,0);">BMM&lt;=E2=
+=89=A1</span></p>
+</td>
+<td colspan=3D"3" data-local-id=3D"227761ce5b3e" class=3D"confluenceTd">
+<p local-id=3D"ff55fb19ad43"><span style=3D"color: rgb(0,0,0);">BMM&nbsp;-&=
+nbsp;Standard Message Identifier</span></p>
+</td>
+</tr>
+<tr data-local-id=3D"14cfcefb41df">
+<td data-local-id=3D"ab5cfaab15db" class=3D"confluenceTd">
+<p local-id=3D"3d01dfadc5a3"><span style=3D"color: rgb(0,0,0);">&nbsp;</spa=
+n></p>
+</td>
+<td data-local-id=3D"9988bebabcb1" class=3D"confluenceTd">
+<p local-id=3D"cced2e6db9b9"><span style=3D"color: rgb(0,0,0);">.V/1TSYD&lt=
+;=E2=89=A1</span></p>
+</td>
+<td colspan=3D"3" data-local-id=3D"02ef4b808ee7" class=3D"confluenceTd">
+<p local-id=3D"795e54f2e861"><span style=3D"color: rgb(0,0,0);">Terminating=
+ and/or transfer bags at BKK</span></p>
+</td>
+</tr>
+<tr data-local-id=3D"affe88acbf59">
+<td data-local-id=3D"b43f062f8dc1" class=3D"confluenceTd">
+<p local-id=3D"d46a08aa0363"><span style=3D"color: rgb(0,0,0);">&nbsp;</spa=
+n></p>
+</td>
+<td data-local-id=3D"29d341ff580b" class=3D"confluenceTd">
+<p local-id=3D"eaa91b6877ba"><span style=3D"color: rgb(0,0,0);">.I/QF005/21=
+FEB/FRA&lt;=E2=89=A1</span></p>
+</td>
+<td colspan=3D"3" data-local-id=3D"f6e0fa046f5a" class=3D"confluenceTd">
+<p local-id=3D"f4b7709f9c83"><span style=3D"color: rgb(0,0,0);">Inbound fli=
+ght QF005</span></p>
+</td>
+</tr>
+<tr data-local-id=3D"628b26f70e2c">
+<td data-local-id=3D"dbb117e00819" class=3D"confluenceTd">
+<p local-id=3D"34abf6d07258"><span style=3D"color: rgb(0,0,0);">&nbsp;</spa=
+n></p>
+</td>
+<td data-local-id=3D"fe46b14f5a68" class=3D"confluenceTd">
+<p local-id=3D"f3320d7e0223"><span style=3D"color: rgb(0,0,0);">.U/AKE1234Q=
+F//X/F/BKK&lt;=E2=89=A1</span></p>
+</td>
+<td colspan=3D"3" data-local-id=3D"c0a7f89555d3" class=3D"confluenceTd">
+<p local-id=3D"1007698b76e0"><span style=3D"color: rgb(0,0,0);">A. Loading =
+information</span></p>
+</td>
+</tr>
+<tr data-local-id=3D"c4f0db1332ce">
+<td data-local-id=3D"f45afe62b5bd" class=3D"confluenceTd">
+<p local-id=3D"5fab33e31f63"><span style=3D"color: rgb(0,0,0);">&nbsp;</spa=
+n></p>
+</td>
+<td data-local-id=3D"2ee4321bc8ce" class=3D"confluenceTd">
+<p local-id=3D"e2045314e9d3"><span style=3D"color: rgb(0,0,0);">.N/00819876=
+54001&lt;=E2=89=A1</span></p>
+</td>
+<td data-local-id=3D"981931fbb684" class=3D"confluenceTd">
+<p local-id=3D"5545226ef1fd"><span style=3D"color: rgb(0,0,0);">&nbsp;</spa=
+n></p>
+</td>
+<td colspan=3D"2" data-local-id=3D"8232226801d0" class=3D"confluenceTd">
+<p local-id=3D"5a4381353a21"><span style=3D"color: rgb(0,0,0);">1. 1st tag =
+nbr and nbr of tags</span></p>
+</td>
+</tr>
+<tr data-local-id=3D"d8976e5c0a62">
+<td data-local-id=3D"3744fe30f216" class=3D"confluenceTd">
+<p local-id=3D"0da394c15889"><span style=3D"color: rgb(0,0,0);">&nbsp;</spa=
+n></p>
+</td>
+<td data-local-id=3D"c68b6e48dd24" class=3D"confluenceTd">
+<p local-id=3D"dca2e561c3b9"><span style=3D"color: rgb(0,0,0);">.Q/006&lt;=
+=E2=89=A1</span></p>
+</td>
+<td data-local-id=3D"9adaad53d56a" class=3D"confluenceTd">
+<p local-id=3D"ef7fcf7e179a"><span style=3D"color: rgb(0,0,0);">&nbsp;</spa=
+n></p>
+</td>
+<td data-local-id=3D"4112579e7857" class=3D"confluenceTd">
+<p local-id=3D"f12f2149203f"><span style=3D"color: rgb(0,0,0);">&nbsp;</spa=
+n></p>
+</td>
+<td data-local-id=3D"5ff2a7cd86b9" class=3D"confluenceTd">
+<p local-id=3D"9e5b34b7620f"><span style=3D"color: rgb(0,0,0);">a. Loading =
+sequence</span></p>
+</td>
+</tr>
+<tr data-local-id=3D"4536effe0146">
+<td data-local-id=3D"2b69c7668aea" class=3D"confluenceTd">
+<p local-id=3D"14c9369e9b1b"><span style=3D"color: rgb(0,0,0);">&nbsp;</spa=
+n></p>
+</td>
+<td data-local-id=3D"77f79c1453ba" class=3D"confluenceTd">
+<p local-id=3D"b75e3e4dcfe4"><span style=3D"color: rgb(0,0,0);">.P/1NORMAN/=
+G&lt;=E2=89=A1</span></p>
+</td>
+<td data-local-id=3D"ed6539362fca" class=3D"confluenceTd">
+<p local-id=3D"ec7ce05a6da2"><span style=3D"color: rgb(0,0,0);">&nbsp;</spa=
+n></p>
+</td>
+<td data-local-id=3D"f684f6fe924a" class=3D"confluenceTd">
+<p local-id=3D"62da22ee530b"><span style=3D"color: rgb(0,0,0);">&nbsp;</spa=
+n></p>
+</td>
+<td data-local-id=3D"b517aad1b8b7" class=3D"confluenceTd">
+<p local-id=3D"b9680c4272e1"><span style=3D"color: rgb(0,0,0);">b. Passenge=
+r's Name</span></p>
+</td>
+</tr>
+<tr data-local-id=3D"4f3620288f93">
+<td data-local-id=3D"f9e68181c32a" class=3D"confluenceTd">
+<p local-id=3D"5cfe43bbbc81"><span style=3D"color: rgb(0,0,0);">&nbsp;</spa=
+n></p>
+</td>
+<td data-local-id=3D"e44086c8347b" class=3D"confluenceTd">
+<p local-id=3D"61d02a74056c"><span style=3D"color: rgb(0,0,0);">.U/AVE7890Q=
+F//M&lt;=E2=89=A1</span></p>
+</td>
+<td colspan=3D"3" data-local-id=3D"1e9f719f4bf7" class=3D"confluenceTd">
+<p local-id=3D"74ee7e333fc7"><span style=3D"color: rgb(0,0,0);">B. Loading =
+information</span></p>
+</td>
+</tr>
+<tr data-local-id=3D"0d3ca528f324">
+<td data-local-id=3D"2c70cb253123" class=3D"confluenceTd">
+<p local-id=3D"556bd8fa07d8"><span style=3D"color: rgb(0,0,0);">&nbsp;</spa=
+n></p>
+</td>
+<td data-local-id=3D"10ab43c60ef4" class=3D"confluenceTd">
+<p local-id=3D"1f4764fa7485"><span style=3D"color: rgb(0,0,0);">.F/CX266/21=
+FEB/HKG/Y&lt;=E2=89=A1</span></p>
+</td>
+<td data-local-id=3D"decf70b4e6dc" class=3D"confluenceTd">
+<p local-id=3D"ee1b943c2f72"><span style=3D"color: rgb(0,0,0);">&nbsp;</spa=
+n></p>
+</td>
+<td colspan=3D"2" data-local-id=3D"bc524f517f31" class=3D"confluenceTd">
+<p local-id=3D"d04b95ecb254"><span style=3D"color: rgb(0,0,0);">1. Outbound=
+ Flight CX266</span></p>
+</td>
+</tr>
+<tr data-local-id=3D"c5c56b61438c">
+<td data-local-id=3D"208615d038b2" class=3D"confluenceTd">
+<p local-id=3D"631eacd9de0c"><span style=3D"color: rgb(0,0,0);">&nbsp;</spa=
+n></p>
+</td>
+<td data-local-id=3D"943bc566a5f4" class=3D"confluenceTd">
+<p local-id=3D"5dd273ad7788"><span style=3D"color: rgb(0,0,0);">.N/00811234=
+56001&lt;=E2=89=A1</span></p>
+</td>
+<td data-local-id=3D"6aba986f071a" class=3D"confluenceTd">
+<p local-id=3D"d904214419d7"><span style=3D"color: rgb(0,0,0);">&nbsp;</spa=
+n></p>
+</td>
+<td data-local-id=3D"44bc81cb2e8c" class=3D"confluenceTd">
+<p local-id=3D"0df4227ef545"><span style=3D"color: rgb(0,0,0);">&nbsp;</spa=
+n></p>
+</td>
+<td data-local-id=3D"6737320b2d67" class=3D"confluenceTd">
+<p local-id=3D"8b4ed6a6262d"><span style=3D"color: rgb(0,0,0);">a. 1st tag =
+nbr and nbr of tags</span></p>
+</td>
+</tr>
+<tr data-local-id=3D"96f93d6c2b05">
+<td data-local-id=3D"ed305a238de3" class=3D"confluenceTd">
+<p local-id=3D"aa2f940919dc"><span style=3D"color: rgb(0,0,0);">&nbsp;</spa=
+n></p>
+</td>
+<td data-local-id=3D"0bfd45503c67" class=3D"confluenceTd">
+<p local-id=3D"475ac9ddc48e"><span style=3D"color: rgb(0,0,0);">.W/K/1/21&l=
+t;=E2=89=A1</span></p>
+</td>
+<td data-local-id=3D"365a2fd0658e" class=3D"confluenceTd">
+<p local-id=3D"eef5b34ac575"><span style=3D"color: rgb(0,0,0);">&nbsp;</spa=
+n></p>
+</td>
+<td data-local-id=3D"c364e399e347" class=3D"confluenceTd">
+<p local-id=3D"632665a48dab"><span style=3D"color: rgb(0,0,0);">&nbsp;</spa=
+n></p>
+</td>
+<td data-local-id=3D"72a0048b0018" class=3D"confluenceTd">
+<p local-id=3D"98420721c3e0"><span style=3D"color: rgb(0,0,0);">b. Pieces a=
+nd Weight Data</span></p>
+</td>
+</tr>
+<tr data-local-id=3D"1227ad244200">
+<td data-local-id=3D"68e8062f21b7" class=3D"confluenceTd">
+<p local-id=3D"1d30ce1d9755"><span style=3D"color: rgb(0,0,0);">&nbsp;</spa=
+n></p>
+</td>
+<td data-local-id=3D"82c19f4ea2bd" class=3D"confluenceTd">
+<p local-id=3D"98f3934e6ce3"><span style=3D"color: rgb(0,0,0);">.Q/020&lt;=
+=E2=89=A1</span></p>
+</td>
+<td data-local-id=3D"1ffe06d0aa06" class=3D"confluenceTd">
+<p local-id=3D"ab3630eed77a"><span style=3D"color: rgb(0,0,0);">&nbsp;</spa=
+n></p>
+</td>
+<td data-local-id=3D"6f5f4c7760de" class=3D"confluenceTd">
+<p local-id=3D"467220b892b7"><span style=3D"color: rgb(0,0,0);">&nbsp;</spa=
+n></p>
+</td>
+<td data-local-id=3D"bc241398f05f" class=3D"confluenceTd">
+<p local-id=3D"52fa8a579a43"><span style=3D"color: rgb(0,0,0);">c. Loading =
+sequence</span></p>
+</td>
+</tr>
+<tr data-local-id=3D"07e99b4466a6">
+<td data-local-id=3D"bb57878c8c95" class=3D"confluenceTd">
+<p local-id=3D"0c883e0ae75a"><span style=3D"color: rgb(0,0,0);">&nbsp;</spa=
+n></p>
+</td>
+<td data-local-id=3D"74758dc5cd3f" class=3D"confluenceTd">
+<p local-id=3D"5a42d490eb02"><span style=3D"color: rgb(0,0,0);">ENDBMM&lt;=
+=E2=89=A1</span></p>
+</td>
+<td colspan=3D"3" data-local-id=3D"5df71d6b6b79" class=3D"confluenceTd">
+<p local-id=3D"0646e2afdbe6"><span style=3D"color: rgb(0,0,0);">End of Mess=
+age Identifier</span></p>
+</td>
+</tr>
+<tr data-local-id=3D"c2fe634b4951">
+<td data-local-id=3D"c101e38df488" class=3D"confluenceTd">
+<p local-id=3D"e1acca8e5e62"><span style=3D"color: rgb(0,0,0);">&nbsp;</spa=
+n></p>
+</td>
+<td data-local-id=3D"4c351728fc53" class=3D"confluenceTd">
+<p local-id=3D"9da267f5b759"><span style=3D"color: rgb(0,0,0);">BMM&lt;=E2=
+=89=A1</span></p>
+</td>
+<td colspan=3D"3" data-local-id=3D"74a4e92ac3ba" class=3D"confluenceTd">
+<p local-id=3D"73319541f9e5"><span style=3D"color: rgb(0,0,0);">BMM&nbsp;-&=
+nbsp;Standard Message Identifier</span></p>
+</td>
+</tr>
+<tr data-local-id=3D"088ee09c3216">
+<td data-local-id=3D"6ff53e375ff4" class=3D"confluenceTd">
+<p local-id=3D"372797bb9b70"><span style=3D"color: rgb(0,0,0);">&nbsp;</spa=
+n></p>
+</td>
+<td data-local-id=3D"cc90a56f08d0" class=3D"confluenceTd">
+<p local-id=3D"407a5c979140"><span style=3D"color: rgb(0,0,0);">.V/1TSIN&lt=
+;=E2=89=A1</span></p>
+</td>
+<td colspan=3D"3" data-local-id=3D"bd6f371f4237" class=3D"confluenceTd">
+<p local-id=3D"cceeba466095"><span style=3D"color: rgb(0,0,0);">Terminating=
+ and/or transfer bags at SIN</span></p>
+</td>
+</tr>
+<tr data-local-id=3D"16264a3bb5a4">
+<td data-local-id=3D"d49b41d92b5f" class=3D"confluenceTd">
+<p local-id=3D"6cf602706762"><span style=3D"color: rgb(0,0,0);">&nbsp;</spa=
+n></p>
+</td>
+<td data-local-id=3D"9e881afa5efc" class=3D"confluenceTd">
+<p local-id=3D"857fb034c083"><span style=3D"color: rgb(0,0,0);">.I/QF005/21=
+FEB/FRA&lt;=E2=89=A1</span></p>
+</td>
+<td colspan=3D"3" data-local-id=3D"5804684b7034" class=3D"confluenceTd">
+<p local-id=3D"1f7d6606f71c"><span style=3D"color: rgb(0,0,0);">Inbound fli=
+ght QF005</span></p>
+</td>
+</tr>
+<tr data-local-id=3D"9341ed55d4a2">
+<td data-local-id=3D"fc1311b465ec" class=3D"confluenceTd">
+<p local-id=3D"e6e89da210c1"><span style=3D"color: rgb(0,0,0);">&nbsp;</spa=
+n></p>
+</td>
+<td data-local-id=3D"7ebe520e8051" class=3D"confluenceTd">
+<p local-id=3D"be4834bfcd85"><span style=3D"color: rgb(0,0,0);">.U/AKE1235Q=
+F//X/F/SIN&lt;=E2=89=A1</span></p>
+</td>
+<td colspan=3D"3" data-local-id=3D"2f7da1aa34d4" class=3D"confluenceTd">
+<p local-id=3D"7c21082b365c"><span style=3D"color: rgb(0,0,0);">A. Loading =
+information</span></p>
+</td>
+</tr>
+<tr data-local-id=3D"d6174fbb56c2">
+<td data-local-id=3D"bf117465603e" class=3D"confluenceTd">
+<p local-id=3D"ee5fffbe4b7e"><span style=3D"color: rgb(0,0,0);">&nbsp;</spa=
+n></p>
+</td>
+<td data-local-id=3D"8679d6007cd2" class=3D"confluenceTd">
+<p local-id=3D"d9013ca95ff6"><span style=3D"color: rgb(0,0,0);">.N/00817676=
+76001&lt;=E2=89=A1</span></p>
+</td>
+<td data-local-id=3D"70ef9a6442ea" class=3D"confluenceTd">
+<p local-id=3D"40aa7656f157"><span style=3D"color: rgb(0,0,0);">&nbsp;</spa=
+n></p>
+</td>
+<td colspan=3D"2" data-local-id=3D"d08668d08618" class=3D"confluenceTd">
+<p local-id=3D"a634689e1604"><span style=3D"color: rgb(0,0,0);">1. 1st tag =
+nbr and nbr of tags</span></p>
+</td>
+</tr>
+<tr data-local-id=3D"e470d8272f74">
+<td data-local-id=3D"c00f94138cfc" class=3D"confluenceTd">
+<p local-id=3D"51881519418f"><span style=3D"color: rgb(0,0,0);">&nbsp;</spa=
+n></p>
+</td>
+<td data-local-id=3D"972ef62c589e" class=3D"confluenceTd">
+<p local-id=3D"a4395b028149"><span style=3D"color: rgb(0,0,0);">.Q/026&lt;=
+=E2=89=A1</span></p>
+</td>
+<td data-local-id=3D"c63be14a126e" class=3D"confluenceTd">
+<p local-id=3D"7602adb4329c"><span style=3D"color: rgb(0,0,0);">&nbsp;</spa=
+n></p>
+</td>
+<td data-local-id=3D"e674b4bd31a4" class=3D"confluenceTd">
+<p local-id=3D"aa4e714c5c9d"><span style=3D"color: rgb(0,0,0);">&nbsp;</spa=
+n></p>
+</td>
+<td data-local-id=3D"c5980f2ac7e9" class=3D"confluenceTd">
+<p local-id=3D"19591edc4194"><span style=3D"color: rgb(0,0,0);">a. Loading =
+sequence</span></p>
+</td>
+</tr>
+<tr data-local-id=3D"f18662d7d6bf">
+<td data-local-id=3D"e66ad0deb9ee" class=3D"confluenceTd">
+<p local-id=3D"64148bcb7380"><span style=3D"color: rgb(0,0,0);">&nbsp;</spa=
+n></p>
+</td>
+<td data-local-id=3D"f8b0bf149b00" class=3D"confluenceTd">
+<p local-id=3D"f948a5426f65"><span style=3D"color: rgb(0,0,0);">.P/1MAK/C&l=
+t;=E2=89=A1</span></p>
+</td>
+<td data-local-id=3D"d5061d2c278d" class=3D"confluenceTd">
+<p local-id=3D"0b15e6930780"><span style=3D"color: rgb(0,0,0);">&nbsp;</spa=
+n></p>
+</td>
+<td data-local-id=3D"befb68b686bb" class=3D"confluenceTd">
+<p local-id=3D"7f9a418968c8"><span style=3D"color: rgb(0,0,0);">&nbsp;</spa=
+n></p>
+</td>
+<td data-local-id=3D"98157202a6f9" class=3D"confluenceTd">
+<p local-id=3D"1bf94886400e"><span style=3D"color: rgb(0,0,0);">b. Passenge=
+r's Name</span></p>
+</td>
+</tr>
+<tr data-local-id=3D"96e1de29bf8d">
+<td data-local-id=3D"acb083b95330" class=3D"confluenceTd">
+<p local-id=3D"d4f417248cda"><span style=3D"color: rgb(0,0,0);">&nbsp;</spa=
+n></p>
+</td>
+<td data-local-id=3D"1322f735d397" class=3D"confluenceTd">
+<p local-id=3D"8900f8e5cf5e"><span style=3D"color: rgb(0,0,0);">.U/AKE6667Q=
+F//M&lt;=E2=89=A1</span></p>
+</td>
+<td colspan=3D"3" data-local-id=3D"02dc72e3ac22" class=3D"confluenceTd">
+<p local-id=3D"4bc5b23a1854"><span style=3D"color: rgb(0,0,0);">B. Loading =
+information</span></p>
+</td>
+</tr>
+<tr data-local-id=3D"989c3481bf9a">
+<td data-local-id=3D"ad4e90326296" class=3D"confluenceTd">
+<p local-id=3D"b9829733d83c"><span style=3D"color: rgb(0,0,0);">&nbsp;</spa=
+n></p>
+</td>
+<td data-local-id=3D"dd86afdac1ef" class=3D"confluenceTd">
+<p local-id=3D"dc60b7371ee4"><span style=3D"color: rgb(0,0,0);">.N/00811234=
+56001&lt;=E2=89=A1</span></p>
+</td>
+<td data-local-id=3D"23f422a9af90" class=3D"confluenceTd">
+<p local-id=3D"59cb8152540f"><span style=3D"color: rgb(0,0,0);">&nbsp;</spa=
+n></p>
+</td>
+<td colspan=3D"2" data-local-id=3D"d75d3e1b53cc" class=3D"confluenceTd">
+<p local-id=3D"1cd21a2549a2"><span style=3D"color: rgb(0,0,0);">1. 1st tag =
+nbr and nbr of tags</span></p>
+</td>
+</tr>
+<tr data-local-id=3D"4bde950d9ac0">
+<td data-local-id=3D"2cc862532bec" class=3D"confluenceTd">
+<p local-id=3D"0f2686d8a014"><span style=3D"color: rgb(0,0,0);">&nbsp;</spa=
+n></p>
+</td>
+<td data-local-id=3D"69711eeb74a8" class=3D"confluenceTd">
+<p local-id=3D"1877caf2dd48"><span style=3D"color: rgb(0,0,0);">.Q/030&lt;=
+=E2=89=A1</span></p>
+</td>
+<td data-local-id=3D"cb8ab0ef4c1b" class=3D"confluenceTd">
+<p local-id=3D"6a0ca1ecdc35"><span style=3D"color: rgb(0,0,0);">&nbsp;</spa=
+n></p>
+</td>
+<td data-local-id=3D"97c7fdf503b1" class=3D"confluenceTd">
+<p local-id=3D"33cd96b8951b"><span style=3D"color: rgb(0,0,0);">&nbsp;</spa=
+n></p>
+</td>
+<td data-local-id=3D"4caf5ca4a22c" class=3D"confluenceTd">
+<p local-id=3D"1fc849d4e50d"><span style=3D"color: rgb(0,0,0);">a. Loading =
+sequence</span></p>
+</td>
+</tr>
+<tr data-local-id=3D"8c40744ca4cc">
+<td data-local-id=3D"1deeefc0a3fd" class=3D"confluenceTd">
+<p local-id=3D"8cf3650951e8"><span style=3D"color: rgb(0,0,0);">&nbsp;</spa=
+n></p>
+</td>
+<td data-local-id=3D"5272ca057d5b" class=3D"confluenceTd">
+<p local-id=3D"7e77e2f277a2"><span style=3D"color: rgb(0,0,0);">ENDBMM&lt;=
+=E2=89=A1</span></p>
+</td>
+<td colspan=3D"3" data-local-id=3D"f15fb3ceea38" class=3D"confluenceTd">
+<p local-id=3D"9444894264b2"><span style=3D"color: rgb(0,0,0);">End of Mess=
+age Identifier</span></p>
+</td>
+</tr>
+<tr data-local-id=3D"d45238c5ec43">
+<td data-local-id=3D"bd539b742820" class=3D"confluenceTd">
+<p local-id=3D"b22b32192341"><span style=3D"color: rgb(0,0,0);">&nbsp;</spa=
+n></p>
+</td>
+<td data-local-id=3D"f0d9bce36402" class=3D"confluenceTd">
+<p local-id=3D"86a62c54b344"><span style=3D"color: rgb(0,0,0);">BMM&lt;=E2=
+=89=A1</span></p>
+</td>
+<td colspan=3D"3" data-local-id=3D"833557de6ee4" class=3D"confluenceTd">
+<p local-id=3D"ab5b3b3e4788"><span style=3D"color: rgb(0,0,0);">BMM&nbsp;-&=
+nbsp;Standard Message Identifier</span></p>
+</td>
+</tr>
+<tr data-local-id=3D"e6399f13739e">
+<td data-local-id=3D"f8d024889276" class=3D"confluenceTd">
+<p local-id=3D"6c7e6ef04cdc"><span style=3D"color: rgb(0,0,0);">&nbsp;</spa=
+n></p>
+</td>
+<td data-local-id=3D"bcb68d5ff757" class=3D"confluenceTd">
+<p local-id=3D"4329920baccc"><span style=3D"color: rgb(0,0,0);">.V/1TSIN&lt=
+;=E2=89=A1</span></p>
+</td>
+<td colspan=3D"3" data-local-id=3D"34657c481bba" class=3D"confluenceTd">
+<p local-id=3D"557d76c0f45a"><span style=3D"color: rgb(0,0,0);">Terminating=
+ and/or transfer bags at SYD</span></p>
+</td>
+</tr>
+<tr data-local-id=3D"ae007b886beb">
+<td data-local-id=3D"f52950c3955c" class=3D"confluenceTd">
+<p local-id=3D"a33987483dae"><span style=3D"color: rgb(0,0,0);">&nbsp;</spa=
+n></p>
+</td>
+<td data-local-id=3D"e83e958cc768" class=3D"confluenceTd">
+<p local-id=3D"1ab2703bf761"><span style=3D"color: rgb(0,0,0);">.I/QF005/21=
+FEB/FRA&lt;=E2=89=A1</span></p>
+</td>
+<td colspan=3D"3" data-local-id=3D"168177ae23ad" class=3D"confluenceTd">
+<p local-id=3D"8a29a26acb61"><span style=3D"color: rgb(0,0,0);">Inbound fli=
+ght QF005</span></p>
+</td>
+</tr>
+<tr data-local-id=3D"6a2f1127c9d0">
+<td data-local-id=3D"fea57d1627d4" class=3D"confluenceTd">
+<p local-id=3D"9747c5baa3d5"><span style=3D"color: rgb(0,0,0);">&nbsp;</spa=
+n></p>
+</td>
+<td data-local-id=3D"d8315e112f32" class=3D"confluenceTd">
+<p local-id=3D"7d1443e0eecc"><span style=3D"color: rgb(0,0,0);">.U/AKE1236Q=
+F//X/F/SYD&lt;=E2=89=A1</span></p>
+</td>
+<td colspan=3D"3" data-local-id=3D"b54cbe9572eb" class=3D"confluenceTd">
+<p local-id=3D"621adb0c0e46"><span style=3D"color: rgb(0,0,0);">A. Loading =
+information</span></p>
+</td>
+</tr>
+<tr data-local-id=3D"77d6de2fa3a2">
+<td data-local-id=3D"2a9a18e4c7f5" class=3D"confluenceTd">
+<p local-id=3D"d3fda4a18fef"><span style=3D"color: rgb(0,0,0);">&nbsp;</spa=
+n></p>
+</td>
+<td data-local-id=3D"def851ca8917" class=3D"confluenceTd">
+<p local-id=3D"f900812010dd"><span style=3D"color: rgb(0,0,0);">.N/00812222=
+22001&lt;=E2=89=A1</span></p>
+</td>
+<td data-local-id=3D"80c656de75a7" class=3D"confluenceTd">
+<p local-id=3D"3086a9817ccf"><span style=3D"color: rgb(0,0,0);">&nbsp;</spa=
+n></p>
+</td>
+<td colspan=3D"2" data-local-id=3D"7c962b2bf6f1" class=3D"confluenceTd">
+<p local-id=3D"ba3fbeac1a07"><span style=3D"color: rgb(0,0,0);">1. 1st tag =
+nbr and nbr of tags</span></p>
+</td>
+</tr>
+<tr data-local-id=3D"2ebdf43b62f0">
+<td data-local-id=3D"9ad1c00c3131" class=3D"confluenceTd">
+<p local-id=3D"8050282c7ec6"><span style=3D"color: rgb(0,0,0);">&nbsp;</spa=
+n></p>
+</td>
+<td data-local-id=3D"c69f167c7006" class=3D"confluenceTd">
+<p local-id=3D"b0315215986f"><span style=3D"color: rgb(0,0,0);">.Q/022&lt;=
+=E2=89=A1</span></p>
+</td>
+<td data-local-id=3D"4e12c1601597" class=3D"confluenceTd">
+<p local-id=3D"9e44b5239ace"><span style=3D"color: rgb(0,0,0);">&nbsp;</spa=
+n></p>
+</td>
+<td data-local-id=3D"f6f37e8f1092" class=3D"confluenceTd">
+<p local-id=3D"065eb872260c"><span style=3D"color: rgb(0,0,0);">&nbsp;</spa=
+n></p>
+</td>
+<td data-local-id=3D"8a0b1454d1eb" class=3D"confluenceTd">
+<p local-id=3D"266c98aef35b"><span style=3D"color: rgb(0,0,0);">a. Loading =
+sequence</span></p>
+</td>
+</tr>
+<tr data-local-id=3D"fdddc09507f1">
+<td data-local-id=3D"bf5b626f9012" class=3D"confluenceTd">
+<p local-id=3D"15002156d7a3"><span style=3D"color: rgb(0,0,0);">&nbsp;</spa=
+n></p>
+</td>
+<td data-local-id=3D"27c2ec706334" class=3D"confluenceTd">
+<p local-id=3D"4240ea53bdd7"><span style=3D"color: rgb(0,0,0);">.P/1KOEPKE/=
+A&lt;=E2=89=A1</span></p>
+</td>
+<td data-local-id=3D"1a68a637a313" class=3D"confluenceTd">
+<p local-id=3D"71fb97938189"><span style=3D"color: rgb(0,0,0);">&nbsp;</spa=
+n></p>
+</td>
+<td data-local-id=3D"2b0c7ffe4646" class=3D"confluenceTd">
+<p local-id=3D"6ae5f9fb9481"><span style=3D"color: rgb(0,0,0);">&nbsp;</spa=
+n></p>
+</td>
+<td data-local-id=3D"156cdfbdbd14" class=3D"confluenceTd">
+<p local-id=3D"e7b48fbe06b4"><span style=3D"color: rgb(0,0,0);">b. Passenge=
+r's Name</span></p>
+</td>
+</tr>
+<tr data-local-id=3D"88da8ad9c903">
+<td data-local-id=3D"5dd8437b1b51" class=3D"confluenceTd">
+<p local-id=3D"75ecebbc54f8"><span style=3D"color: rgb(0,0,0);">&nbsp;</spa=
+n></p>
+</td>
+<td data-local-id=3D"8f230566b477" class=3D"confluenceTd">
+<p local-id=3D"b1ae3f17bc69"><span style=3D"color: rgb(0,0,0);">.U/AVE3333Q=
+F//M&lt;=E2=89=A1</span></p>
+</td>
+<td colspan=3D"3" data-local-id=3D"0b672bd6d6fa" class=3D"confluenceTd">
+<p local-id=3D"8a819316228d"><span style=3D"color: rgb(0,0,0);">B. Loading =
+information</span></p>
+</td>
+</tr>
+<tr data-local-id=3D"05ec8885666e">
+<td data-local-id=3D"c64ae3bf48b2" class=3D"confluenceTd">
+<p local-id=3D"7df1e2f14fe8"><span style=3D"color: rgb(0,0,0);">&nbsp;</spa=
+n></p>
+</td>
+<td data-local-id=3D"415015ea2def" class=3D"confluenceTd">
+<p local-id=3D"87e3342cb6a3"><span style=3D"color: rgb(0,0,0);">.N/00813939=
+39001&lt;=E2=89=A1</span></p>
+</td>
+<td data-local-id=3D"972e42039ebd" class=3D"confluenceTd">
+<p local-id=3D"7c8e5e648549"><span style=3D"color: rgb(0,0,0);">&nbsp;</spa=
+n></p>
+</td>
+<td colspan=3D"2" data-local-id=3D"9cfe7c13a80e" class=3D"confluenceTd">
+<p local-id=3D"41274160f168"><span style=3D"color: rgb(0,0,0);">1. 1st tag =
+nbr and nbr of tags</span></p>
+</td>
+</tr>
+<tr data-local-id=3D"6e206a6165f7">
+<td data-local-id=3D"7ec66140f5a2" class=3D"confluenceTd">
+<p local-id=3D"32105fb6204c"><span style=3D"color: rgb(0,0,0);">&nbsp;</spa=
+n></p>
+</td>
+<td data-local-id=3D"1a1559bc9c23" class=3D"confluenceTd">
+<p local-id=3D"145f9cdcb945"><span style=3D"color: rgb(0,0,0);">.Q/010&lt;=
+=E2=89=A1</span></p>
+</td>
+<td data-local-id=3D"661dd9a186af" class=3D"confluenceTd">
+<p local-id=3D"960340674d76"><span style=3D"color: rgb(0,0,0);">&nbsp;</spa=
+n></p>
+</td>
+<td data-local-id=3D"c8ea5fcd2154" class=3D"confluenceTd">
+<p local-id=3D"d1349e080771"><span style=3D"color: rgb(0,0,0);">&nbsp;</spa=
+n></p>
+</td>
+<td data-local-id=3D"9f49d89398dc" class=3D"confluenceTd">
+<p local-id=3D"4eaaa1da3e4b"><span style=3D"color: rgb(0,0,0);">a. Loading =
+sequence</span></p>
+</td>
+</tr>
+<tr data-local-id=3D"fa11b7ad6aaa">
+<td data-local-id=3D"23890075133f" class=3D"confluenceTd">
+<p local-id=3D"c7cc12b8a56d"><span style=3D"color: rgb(0,0,0);">&nbsp;</spa=
+n></p>
+</td>
+<td data-local-id=3D"6ea1b37a08bd" class=3D"confluenceTd">
+<p local-id=3D"fbd467704c37"><span style=3D"color: rgb(0,0,0);">ENDBMM&lt;=
+=E2=89=A1</span></p>
+</td>
+<td colspan=3D"3" data-local-id=3D"d5f5d3bf6b95" class=3D"confluenceTd">
+<p local-id=3D"c2bf7f65c68d"><span style=3D"color: rgb(0,0,0);">End of Mess=
+age Identifier</span></p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<h3 local-id=3D"8c01eae76083" id=3D"id-9.9BMMmessages-secondpasscompleted-9=
+.9.5Partitioning-irrelevantconstructionforBIX"><span style=3D"color: rgb(0,=
+0,0);">9.9.5 Partitioning - irrelevant construction for BIX</span></h3>
+<p local-id=3D"7a7d1cfccbbc"><span style=3D"color: rgb(0,0,0);">Concern: pa=
+rtitioning not relevant for BIX</span></p>
+<p local-id=3D"0d6252538e19"></p>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"43=
+2c6b9d1c98" class=3D"confluenceTable">
+<colgroup>
+<col style=3D"width: 64.0px;">
+<col style=3D"width: 578.0px;">
+</colgroup>
+<tbody>
+<tr data-local-id=3D"cbf6ef2e286d">
+<td data-local-id=3D"f2bc71e1cd1a" class=3D"confluenceTd">
+<p local-id=3D"ecaa9a4e9c3e"><span class=3D"confluence-anchor-link" id=3D"i=
+d-9.9BMMmessages-secondpasscompleted-id-9f40c701-b50c-49df-8054-c393a4a09d8=
+7"><span class=3D"confluence-anchor-link" id=3D"id-9f40c701-b50c-49df-8054-=
+c393a4a09d87"></span></span><span style=3D"color: rgb(0,0,0);">9.9.5</span>=
+</p>
+</td>
+<td data-local-id=3D"1647eda046df" class=3D"confluenceTd">
+<p local-id=3D"977df0d8d5a8"><span style=3D"color: rgb(0,0,0);">Example of =
+Partitioned BMM</span></p>
+</td>
+</tr>
+<tr data-local-id=3D"99c984b71256">
+<td data-local-id=3D"7fb4223ffbd8" class=3D"confluenceTd">
+<p local-id=3D"3f11c6a95ae5"><span style=3D"color: rgb(0,0,0);">&nbsp;</spa=
+n></p>
+</td>
+<td data-local-id=3D"702cfac8b0a7" class=3D"confluenceTd">
+<p local-id=3D"edf9a847fb1d"><strong><span style=3D"color: rgb(0,0,0);">Par=
+t 1</span></strong></p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p local-id=3D"7ae95b5e5e52"></p>
+<p local-id=3D"30e9819231f8"></p>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"fa=
+dcb58923c2" class=3D"confluenceTable">
+<colgroup>
+<col style=3D"width: 64.0px;">
+<col style=3D"width: 257.0px;">
+<col style=3D"width: 107.0px;">
+<col style=3D"width: 107.0px;">
+<col style=3D"width: 107.0px;">
+</colgroup>
+<tbody>
+<tr data-local-id=3D"2f3489c9836e">
+<td data-local-id=3D"45b4777d89b2" class=3D"confluenceTd">
+<p local-id=3D"2ec1fbd4668e"><span class=3D"confluence-anchor-link" id=3D"i=
+d-9.9BMMmessages-secondpasscompleted-id-9f40c701-b53a-44eb-b0ee-dee953636e5=
+f"><span class=3D"confluence-anchor-link" id=3D"id-9f40c701-b53a-44eb-b0ee-=
+dee953636e5f"></span></span><span style=3D"color: rgb(0,0,0);">&nbsp;</span=
+></p>
+</td>
+<td data-local-id=3D"0eb459280c87" class=3D"confluenceTd">
+<p local-id=3D"1722afc8d77b"><span style=3D"color: rgb(0,0,0);">BMM&lt;=E2=
+=89=A1</span></p>
+</td>
+<td colspan=3D"3" data-local-id=3D"ef3cd9a6ac2d" class=3D"confluenceTd">
+<p local-id=3D"115c32415802"><span style=3D"color: rgb(0,0,0);">BMM&nbsp;-&=
+nbsp;Standard Message Identifier</span></p>
+</td>
+</tr>
+<tr data-local-id=3D"92f20c35b564">
+<td data-local-id=3D"0c4488d51e15" class=3D"confluenceTd">
+<p local-id=3D"7c1f504f4175"><span style=3D"color: rgb(0,0,0);">&nbsp;</spa=
+n></p>
+</td>
+<td data-local-id=3D"b090eed3fede" class=3D"confluenceTd">
+<p local-id=3D"2cf43e1628bb"><span style=3D"color: rgb(0,0,0);">.V/1TBKK/PA=
+RT1/QF12345678&lt;=E2=89=A1</span></p>
+</td>
+<td colspan=3D"3" data-local-id=3D"3941cdafd20e" class=3D"confluenceTd">
+<p local-id=3D"19e34b51b36b"><span style=3D"color: rgb(0,0,0);">Terminating=
+ and/or transfer bags at BKK</span></p>
+</td>
+</tr>
+<tr data-local-id=3D"40bbb08ceb45">
+<td data-local-id=3D"f903a9dc31e0" class=3D"confluenceTd">
+<p local-id=3D"02095f5fbb89"><span style=3D"color: rgb(0,0,0);">&nbsp;</spa=
+n></p>
+</td>
+<td data-local-id=3D"c1077ea2ee01" class=3D"confluenceTd">
+<p local-id=3D"0023d54cad1a"><span style=3D"color: rgb(0,0,0);">.I/QF005/21=
+FEB/FRA&lt;=E2=89=A1</span></p>
+</td>
+<td colspan=3D"3" data-local-id=3D"8254191cc5ef" class=3D"confluenceTd">
+<p local-id=3D"f7dcd940e7cc"><span style=3D"color: rgb(0,0,0);">Inbound fli=
+ght QF005 from FRA</span></p>
+</td>
+</tr>
+<tr data-local-id=3D"ca7ef74dfb48">
+<td data-local-id=3D"ceab21b021d6" class=3D"confluenceTd">
+<p local-id=3D"ad46afe9f094"><span style=3D"color: rgb(0,0,0);">&nbsp;</spa=
+n></p>
+</td>
+<td data-local-id=3D"c8bb3cc318ce" class=3D"confluenceTd">
+<p local-id=3D"e61117a52a75"><span style=3D"color: rgb(0,0,0);">.U/AKE1234Q=
+F//X/F/BKK&lt;=E2=89=A1</span></p>
+</td>
+<td colspan=3D"3" data-local-id=3D"237acac7bea6" class=3D"confluenceTd">
+<p local-id=3D"28161f94e242"><span style=3D"color: rgb(0,0,0);">A. Loading =
+information</span></p>
+</td>
+</tr>
+<tr data-local-id=3D"0f26f327c496">
+<td data-local-id=3D"d578fd9f50b9" class=3D"confluenceTd">
+<p local-id=3D"89b40c4af1cd"><span style=3D"color: rgb(0,0,0);">&nbsp;</spa=
+n></p>
+</td>
+<td data-local-id=3D"2dd995080275" class=3D"confluenceTd">
+<p local-id=3D"c5749e7dc5f1"><span style=3D"color: rgb(0,0,0);">.N/00819876=
+54001&lt;=E2=89=A1</span></p>
+</td>
+<td data-local-id=3D"8ead82baebf7" class=3D"confluenceTd">
+<p local-id=3D"4f7f085d5e4e"><span style=3D"color: rgb(0,0,0);">&nbsp;</spa=
+n></p>
+</td>
+<td colspan=3D"2" data-local-id=3D"53157fc4d0b9" class=3D"confluenceTd">
+<p local-id=3D"b5205c6e9807"><span style=3D"color: rgb(0,0,0);">1. 1st tag =
+nbr and nbr of tags</span></p>
+</td>
+</tr>
+<tr data-local-id=3D"ec4b6fc7f7e3">
+<td data-local-id=3D"15971df84319" class=3D"confluenceTd">
+<p local-id=3D"314bee9d2aec"><span style=3D"color: rgb(0,0,0);">&nbsp;</spa=
+n></p>
+</td>
+<td data-local-id=3D"f0f09229ce53" class=3D"confluenceTd">
+<p local-id=3D"8298877b4a2d"><span style=3D"color: rgb(0,0,0);">.Q/006&lt;=
+=E2=89=A1</span></p>
+</td>
+<td data-local-id=3D"f688a6897cf0" class=3D"confluenceTd">
+<p local-id=3D"db6715427128"><span style=3D"color: rgb(0,0,0);">&nbsp;</spa=
+n></p>
+</td>
+<td data-local-id=3D"55cf59d286d2" class=3D"confluenceTd">
+<p local-id=3D"822ffaa618be"><span style=3D"color: rgb(0,0,0);">&nbsp;</spa=
+n></p>
+</td>
+<td data-local-id=3D"10dd12847f58" class=3D"confluenceTd">
+<p local-id=3D"793e728cf20c"><span style=3D"color: rgb(0,0,0);">a. Loading =
+sequence</span></p>
+</td>
+</tr>
+<tr data-local-id=3D"30500d07ac57">
+<td data-local-id=3D"32a9fec7e588" class=3D"confluenceTd">
+<p local-id=3D"7303f4c0e274"><span style=3D"color: rgb(0,0,0);">&nbsp;</spa=
+n></p>
+</td>
+<td data-local-id=3D"307eda6b5a2f" class=3D"confluenceTd">
+<p local-id=3D"40e0cf57aff1"><span style=3D"color: rgb(0,0,0);">.P/1NORMAN/=
+G&lt;=E2=89=A1</span></p>
+</td>
+<td data-local-id=3D"f16b1370b885" class=3D"confluenceTd">
+<p local-id=3D"e0efb7f0caff"><span style=3D"color: rgb(0,0,0);">&nbsp;</spa=
+n></p>
+</td>
+<td data-local-id=3D"62b3f21eccc6" class=3D"confluenceTd">
+<p local-id=3D"9a2bb1ab7ce4"><span style=3D"color: rgb(0,0,0);">&nbsp;</spa=
+n></p>
+</td>
+<td data-local-id=3D"b83fc8ac7dee" class=3D"confluenceTd">
+<p local-id=3D"e6ac10720627"><span style=3D"color: rgb(0,0,0);">b. Passenge=
+r's Name</span></p>
+</td>
+</tr>
+<tr data-local-id=3D"39d8141bad85">
+<td data-local-id=3D"421873c48b53" class=3D"confluenceTd">
+<p local-id=3D"fe6a3589dc50"><span style=3D"color: rgb(0,0,0);">&nbsp;</spa=
+n></p>
+</td>
+<td data-local-id=3D"f1f0bc4c65ce" class=3D"confluenceTd">
+<p local-id=3D"58f400794043"><span style=3D"color: rgb(0,0,0);">.U/AVE7890Q=
+F//M//BKK&lt;=E2=89=A1</span></p>
+</td>
+<td colspan=3D"3" data-local-id=3D"8b14dca701d3" class=3D"confluenceTd">
+<p local-id=3D"72690c49cee9"><span style=3D"color: rgb(0,0,0);">B. Loading =
+information</span></p>
+</td>
+</tr>
+<tr data-local-id=3D"98f987bda7e6">
+<td data-local-id=3D"8925a8eba695" class=3D"confluenceTd">
+<p local-id=3D"f248b6aba982"><span style=3D"color: rgb(0,0,0);">&nbsp;</spa=
+n></p>
+</td>
+<td data-local-id=3D"bbf524625759" class=3D"confluenceTd">
+<p local-id=3D"d8c2462657b7"><span style=3D"color: rgb(0,0,0);">.N/00811234=
+56001&lt;=E2=89=A1</span></p>
+</td>
+<td data-local-id=3D"10f40e1c7e44" class=3D"confluenceTd">
+<p local-id=3D"af62e5d4b3e4"><span style=3D"color: rgb(0,0,0);">&nbsp;</spa=
+n></p>
+</td>
+<td colspan=3D"2" data-local-id=3D"9bf5ebfa95f3" class=3D"confluenceTd">
+<p local-id=3D"c9bae6bc0972"><span style=3D"color: rgb(0,0,0);">1. 1st tag =
+nbr and nbr of tags</span></p>
+</td>
+</tr>
+<tr data-local-id=3D"96e8d0ae3fff">
+<td data-local-id=3D"9f9bd9e14f34" class=3D"confluenceTd">
+<p local-id=3D"866524ed5800"><span style=3D"color: rgb(0,0,0);">&nbsp;</spa=
+n></p>
+</td>
+<td data-local-id=3D"fa626f1be680" class=3D"confluenceTd">
+<p local-id=3D"1af146fb9f6f"><span style=3D"color: rgb(0,0,0);">.Q/020&lt;=
+=E2=89=A1</span></p>
+</td>
+<td data-local-id=3D"a9358ff1ccf9" class=3D"confluenceTd">
+<p local-id=3D"9a0439a716d4"><span style=3D"color: rgb(0,0,0);">&nbsp;</spa=
+n></p>
+</td>
+<td data-local-id=3D"73002cd0838e" class=3D"confluenceTd">
+<p local-id=3D"362b8a79c652"><span style=3D"color: rgb(0,0,0);">&nbsp;</spa=
+n></p>
+</td>
+<td data-local-id=3D"38fcc62b05f7" class=3D"confluenceTd">
+<p local-id=3D"431903e38048"><span style=3D"color: rgb(0,0,0);">a. Loading =
+sequence</span></p>
+</td>
+</tr>
+<tr data-local-id=3D"45649b47d3aa">
+<td data-local-id=3D"73a3840b7591" class=3D"confluenceTd">
+<p local-id=3D"f0ec54998d33"><span style=3D"color: rgb(0,0,0);">&nbsp;</spa=
+n></p>
+</td>
+<td data-local-id=3D"f7a935b24286" class=3D"confluenceTd">
+<p local-id=3D"11ed93231703"><span style=3D"color: rgb(0,0,0);">.U/AKE1234Q=
+F//X/F/SIN&lt;=E2=89=A1</span></p>
+</td>
+<td colspan=3D"3" data-local-id=3D"70673dd007d8" class=3D"confluenceTd">
+<p local-id=3D"391286872d61"><span style=3D"color: rgb(0,0,0);">C. Loading =
+information</span></p>
+</td>
+</tr>
+<tr data-local-id=3D"af3e8a811071">
+<td data-local-id=3D"c8ca4fa1eaca" class=3D"confluenceTd">
+<p local-id=3D"84ac94013a24"><span style=3D"color: rgb(0,0,0);">&nbsp;</spa=
+n></p>
+</td>
+<td data-local-id=3D"1656f1181923" class=3D"confluenceTd">
+<p local-id=3D"b95213c8e617"><span style=3D"color: rgb(0,0,0);">.N/00817676=
+76001&lt;=E2=89=A1</span></p>
+</td>
+<td data-local-id=3D"79582ddf1acd" class=3D"confluenceTd">
+<p local-id=3D"daf8071a7b86"><span style=3D"color: rgb(0,0,0);">&nbsp;</spa=
+n></p>
+</td>
+<td colspan=3D"2" data-local-id=3D"d5fac9ec1402" class=3D"confluenceTd">
+<p local-id=3D"5705510ab715"><span style=3D"color: rgb(0,0,0);">1. 1st tag =
+nbr and nbr of tags</span></p>
+</td>
+</tr>
+<tr data-local-id=3D"4e7dfb060835">
+<td data-local-id=3D"db80ef81e398" class=3D"confluenceTd">
+<p local-id=3D"589fd8c499d3"><span style=3D"color: rgb(0,0,0);">&nbsp;</spa=
+n></p>
+</td>
+<td data-local-id=3D"d318c08a140e" class=3D"confluenceTd">
+<p local-id=3D"bdb2f9cd4f24"><span style=3D"color: rgb(0,0,0);">.Q/026&lt;=
+=E2=89=A1</span></p>
+</td>
+<td data-local-id=3D"1bbc5f41b484" class=3D"confluenceTd">
+<p local-id=3D"43e50490a762"><span style=3D"color: rgb(0,0,0);">&nbsp;</spa=
+n></p>
+</td>
+<td data-local-id=3D"b8b46c819420" class=3D"confluenceTd">
+<p local-id=3D"d0225b8d43ba"><span style=3D"color: rgb(0,0,0);">&nbsp;</spa=
+n></p>
+</td>
+<td data-local-id=3D"7e8d63878f8c" class=3D"confluenceTd">
+<p local-id=3D"2e49065cc4bf"><span style=3D"color: rgb(0,0,0);">a. Loading =
+sequence</span></p>
+</td>
+</tr>
+<tr data-local-id=3D"5c4ba9260310">
+<td data-local-id=3D"0c77df22ba75" class=3D"confluenceTd">
+<p local-id=3D"8710d78ac533"><span style=3D"color: rgb(0,0,0);">&nbsp;</spa=
+n></p>
+</td>
+<td data-local-id=3D"be5d9e040b45" class=3D"confluenceTd">
+<p local-id=3D"cc96ba41e66d"><span style=3D"color: rgb(0,0,0);">.P/1SCHUT/I=
+EMRS&lt;=E2=89=A1</span></p>
+</td>
+<td data-local-id=3D"529f2f225d5c" class=3D"confluenceTd">
+<p local-id=3D"73c1e405dc42"><span style=3D"color: rgb(0,0,0);">&nbsp;</spa=
+n></p>
+</td>
+<td data-local-id=3D"2ac0381a4233" class=3D"confluenceTd">
+<p local-id=3D"9b3ab491c0f0"><span style=3D"color: rgb(0,0,0);">&nbsp;</spa=
+n></p>
+</td>
+<td data-local-id=3D"9ac6987042fd" class=3D"confluenceTd">
+<p local-id=3D"cff29061a7c8"><span style=3D"color: rgb(0,0,0);">b. Passenge=
+r's Name</span></p>
+</td>
+</tr>
+<tr data-local-id=3D"138dc31fffd9">
+<td data-local-id=3D"b95e80957f11" class=3D"confluenceTd">
+<p local-id=3D"e437ea8e0978"><span style=3D"color: rgb(0,0,0);">&nbsp;</spa=
+n></p>
+</td>
+<td data-local-id=3D"688e0806c3b6" class=3D"confluenceTd">
+<p local-id=3D"90a04518bad5"><span style=3D"color: rgb(0,0,0);">.U/AKE6667Q=
+F//M//SIN/Y/QF006/21FEB/SYD&lt;=E2=89=A1</span></p>
+</td>
+<td colspan=3D"3" data-local-id=3D"91d6ef6a1a30" class=3D"confluenceTd">
+<p local-id=3D"083609280be4"><span style=3D"color: rgb(0,0,0);">D. Loading =
+information</span></p>
+</td>
+</tr>
+<tr data-local-id=3D"7ea314d81485">
+<td data-local-id=3D"19d4c5dca8d4" class=3D"confluenceTd">
+<p local-id=3D"6ed9afde2243"><span style=3D"color: rgb(0,0,0);">&nbsp;</spa=
+n></p>
+</td>
+<td data-local-id=3D"f6fc349ce6db" class=3D"confluenceTd">
+<p local-id=3D"cee9a391b9fd"><span style=3D"color: rgb(0,0,0);">.F/QF006/21=
+FEB/SYD/Y&lt;=E2=89=A1</span></p>
+</td>
+<td data-local-id=3D"6daddd759357" class=3D"confluenceTd">
+<p local-id=3D"a4096366ff1a"><span style=3D"color: rgb(0,0,0);">&nbsp;</spa=
+n></p>
+</td>
+<td colspan=3D"2" data-local-id=3D"30f2b2028776" class=3D"confluenceTd">
+<p local-id=3D"ad39035361b4"><span style=3D"color: rgb(0,0,0);">1. Outbound=
+ Flight</span></p>
+</td>
+</tr>
+<tr data-local-id=3D"a3b8f0411635">
+<td data-local-id=3D"76f3e7603a0e" class=3D"confluenceTd">
+<p local-id=3D"d78821e922b6"><span style=3D"color: rgb(0,0,0);">&nbsp;</spa=
+n></p>
+</td>
+<td data-local-id=3D"0cd9a4146b35" class=3D"confluenceTd">
+<p local-id=3D"47d08e1e5f01"><span style=3D"color: rgb(0,0,0);">.N/00813434=
+34001&lt;=E2=89=A1</span></p>
+</td>
+<td data-local-id=3D"d34b283ab543" class=3D"confluenceTd">
+<p local-id=3D"af9bde2db1ff"><span style=3D"color: rgb(0,0,0);">&nbsp;</spa=
+n></p>
+</td>
+<td data-local-id=3D"64d1b6646cd9" class=3D"confluenceTd">
+<p local-id=3D"331967e79579"><span style=3D"color: rgb(0,0,0);">&nbsp;</spa=
+n></p>
+</td>
+<td data-local-id=3D"5ce91fc02e0b" class=3D"confluenceTd">
+<p local-id=3D"3682aa282279"><span style=3D"color: rgb(0,0,0);">a. 1st tag =
+nbr and nbr of tags</span></p>
+</td>
+</tr>
+<tr data-local-id=3D"03b7b685885c">
+<td data-local-id=3D"66c8d3388d0c" class=3D"confluenceTd">
+<p local-id=3D"310f3faa689a"><span style=3D"color: rgb(0,0,0);">&nbsp;</spa=
+n></p>
+</td>
+<td data-local-id=3D"ac1ca833d08d" class=3D"confluenceTd">
+<p local-id=3D"5b73bf042940"><span style=3D"color: rgb(0,0,0);">.Q/030&lt;=
+=E2=89=A1</span></p>
+</td>
+<td data-local-id=3D"df593ee6c860" class=3D"confluenceTd">
+<p local-id=3D"79814f330f6b"><span style=3D"color: rgb(0,0,0);">&nbsp;</spa=
+n></p>
+</td>
+<td data-local-id=3D"28b7fa50074e" class=3D"confluenceTd">
+<p local-id=3D"ebae54dfb126"><span style=3D"color: rgb(0,0,0);">&nbsp;</spa=
+n></p>
+</td>
+<td data-local-id=3D"a29d2f9be612" class=3D"confluenceTd">
+<p local-id=3D"beb405d81485"><span style=3D"color: rgb(0,0,0);">b. Loading =
+sequence</span></p>
+</td>
+</tr>
+<tr data-local-id=3D"6ebce2a392df">
+<td data-local-id=3D"d08a83a017a4" class=3D"confluenceTd">
+<p local-id=3D"e4f60b9731ec"><span style=3D"color: rgb(0,0,0);">&nbsp;</spa=
+n></p>
+</td>
+<td data-local-id=3D"409e22ccc24d" class=3D"confluenceTd">
+<p local-id=3D"348da4543a95"><span style=3D"color: rgb(0,0,0);">ENDPART1&lt=
+;=E2=89=A1</span></p>
+</td>
+<td colspan=3D"3" data-local-id=3D"1c74b285901d" class=3D"confluenceTd">
+<p local-id=3D"c4787523bc40"><span style=3D"color: rgb(0,0,0);">End of Mess=
+age Identifier</span></p>
+</td>
+</tr>
+<tr data-local-id=3D"87aa57749835">
+<td data-local-id=3D"1ad03c7d2bd2" class=3D"confluenceTd">
+<p local-id=3D"f0fd8eb0ce95"><span style=3D"color: rgb(0,0,0);">&nbsp;</spa=
+n></p>
+</td>
+<td data-local-id=3D"05264873a664" class=3D"confluenceTd">
+<p local-id=3D"7ed35bb73046"><span style=3D"color: rgb(0,0,0);">&nbsp;</spa=
+n></p>
+</td>
+<td colspan=3D"3" data-local-id=3D"ec15c8564720" class=3D"confluenceTd">
+<p local-id=3D"d3fdb30fab02"><span style=3D"color: rgb(0,0,0);">&nbsp;</spa=
+n></p>
+</td>
+</tr>
+<tr data-local-id=3D"723faf3db038">
+<td data-local-id=3D"4f842e90a54b" class=3D"confluenceTd">
+<p local-id=3D"9a6d7d64fe9b"><span style=3D"color: rgb(0,0,0);">&nbsp;</spa=
+n></p>
+</td>
+<td colspan=3D"4" data-local-id=3D"805509aa10f0" class=3D"confluenceTd">
+<p local-id=3D"c38e019c1a12"><strong><span style=3D"color: rgb(0,0,0);">Par=
+t 2</span></strong></p>
+</td>
+</tr>
+<tr data-local-id=3D"9857f19886a0">
+<td data-local-id=3D"0384ddb694f1" class=3D"confluenceTd">
+<p local-id=3D"983f75606bb0"><span style=3D"color: rgb(0,0,0);">&nbsp;</spa=
+n></p>
+</td>
+<td data-local-id=3D"7138db753b5e" class=3D"confluenceTd">
+<p local-id=3D"7bf0e22adb2c"><span style=3D"color: rgb(0,0,0);">BMM&lt;=E2=
+=89=A1</span></p>
+</td>
+<td colspan=3D"3" data-local-id=3D"fbca48858c4a" class=3D"confluenceTd">
+<p local-id=3D"0f5d3fbacd14"><span style=3D"color: rgb(0,0,0);">BMM&nbsp;-&=
+nbsp;Standard Message Identifier</span></p>
+</td>
+</tr>
+<tr data-local-id=3D"40f39151334f">
+<td data-local-id=3D"f7b91fcfbdb9" class=3D"confluenceTd">
+<p local-id=3D"9d195d77ce95"><span style=3D"color: rgb(0,0,0);">&nbsp;</spa=
+n></p>
+</td>
+<td data-local-id=3D"1b80ab385552" class=3D"confluenceTd">
+<p local-id=3D"4c9373e1ebd1"><span style=3D"color: rgb(0,0,0);">.V/1TBKK/PA=
+RT2&lt;=E2=89=A1</span></p>
+</td>
+<td colspan=3D"3" data-local-id=3D"7e465cc08a5c" class=3D"confluenceTd">
+<p local-id=3D"7e1a4850744f"><span style=3D"color: rgb(0,0,0);">Terminating=
+ and/or transfer bags at BKK</span></p>
+</td>
+</tr>
+<tr data-local-id=3D"8035abbdadc9">
+<td data-local-id=3D"9b2512048a70" class=3D"confluenceTd">
+<p local-id=3D"8d106cd12495"><span style=3D"color: rgb(0,0,0);">&nbsp;</spa=
+n></p>
+</td>
+<td data-local-id=3D"cdacb08a7ad4" class=3D"confluenceTd">
+<p local-id=3D"5f45e1e0709d"><span style=3D"color: rgb(0,0,0);">.I/QF005/21=
+FEB/FRA&lt;=E2=89=A1</span></p>
+</td>
+<td colspan=3D"3" data-local-id=3D"b5e8b5bd8102" class=3D"confluenceTd">
+<p local-id=3D"53344c931cbc"><span style=3D"color: rgb(0,0,0);">Inbound fli=
+ght QF005 from FRA</span></p>
+</td>
+</tr>
+<tr data-local-id=3D"35920ad774c0">
+<td data-local-id=3D"86e4ed2dbafe" class=3D"confluenceTd">
+<p local-id=3D"89249d138fc9"><span style=3D"color: rgb(0,0,0);">&nbsp;</spa=
+n></p>
+</td>
+<td data-local-id=3D"0db8e291afe9" class=3D"confluenceTd">
+<p local-id=3D"64137d34134f"><span style=3D"color: rgb(0,0,0);">.U/AKE6667Q=
+F//X/F//Y/QF006/21FEB/SYD&lt;=E2=89=A1</span></p>
+</td>
+<td colspan=3D"3" data-local-id=3D"0dbb2734196b" class=3D"confluenceTd">
+<p local-id=3D"d03e98813a7b"><span style=3D"color: rgb(0,0,0);">A. Loading =
+information</span></p>
+</td>
+</tr>
+<tr data-local-id=3D"e5652c6d8d49">
+<td data-local-id=3D"cd9b5057526a" class=3D"confluenceTd">
+<p local-id=3D"83af60aceeca"><span style=3D"color: rgb(0,0,0);">&nbsp;</spa=
+n></p>
+</td>
+<td data-local-id=3D"948da62e9bc1" class=3D"confluenceTd">
+<p local-id=3D"1fbe200f7db1"><span style=3D"color: rgb(0,0,0);">.F/QF006/21=
+FEB/SYD/Y&lt;=E2=89=A1</span></p>
+</td>
+<td data-local-id=3D"32ac87fa5ad2" class=3D"confluenceTd">
+<p local-id=3D"40187f4e9a70"><span style=3D"color: rgb(0,0,0);">&nbsp;</spa=
+n></p>
+</td>
+<td colspan=3D"2" data-local-id=3D"c5cdab7aa87a" class=3D"confluenceTd">
+<p local-id=3D"d5f54410acfd"><span style=3D"color: rgb(0,0,0);">1. Outbound=
+ Flight</span></p>
+</td>
+</tr>
+<tr data-local-id=3D"9ab6a3767c4e">
+<td data-local-id=3D"32411f4194b2" class=3D"confluenceTd">
+<p local-id=3D"2828a4ecf9bf"><span style=3D"color: rgb(0,0,0);">&nbsp;</spa=
+n></p>
+</td>
+<td data-local-id=3D"8ee6b4099f0b" class=3D"confluenceTd">
+<p local-id=3D"8c1912f79e71"><span style=3D"color: rgb(0,0,0);">.N/00812222=
+22001&lt;=E2=89=A1</span></p>
+</td>
+<td data-local-id=3D"459d0b95cde0" class=3D"confluenceTd">
+<p local-id=3D"28a34b7daac9"><span style=3D"color: rgb(0,0,0);">&nbsp;</spa=
+n></p>
+</td>
+<td data-local-id=3D"530ecee753fb" class=3D"confluenceTd">
+<p local-id=3D"cc58db91a3e1"><span style=3D"color: rgb(0,0,0);">&nbsp;</spa=
+n></p>
+</td>
+<td data-local-id=3D"b0f6dd0e511c" class=3D"confluenceTd">
+<p local-id=3D"da9eeb193274"><span style=3D"color: rgb(0,0,0);">a. 1st tag =
+nbr and nbr of tags</span></p>
+</td>
+</tr>
+<tr data-local-id=3D"7f62ce861d7a">
+<td data-local-id=3D"ba2b59aabbf9" class=3D"confluenceTd">
+<p local-id=3D"40c96ba7c80b"><span style=3D"color: rgb(0,0,0);">&nbsp;</spa=
+n></p>
+</td>
+<td data-local-id=3D"a374fbf531ef" class=3D"confluenceTd">
+<p local-id=3D"32b690974a5c"><span style=3D"color: rgb(0,0,0);">.Q/022&lt;=
+=E2=89=A1</span></p>
+</td>
+<td data-local-id=3D"572d756c8409" class=3D"confluenceTd">
+<p local-id=3D"26abd4b740f2"><span style=3D"color: rgb(0,0,0);">&nbsp;</spa=
+n></p>
+</td>
+<td data-local-id=3D"4e23e1742fe5" class=3D"confluenceTd">
+<p local-id=3D"ea32a518c5f0"><span style=3D"color: rgb(0,0,0);">&nbsp;</spa=
+n></p>
+</td>
+<td data-local-id=3D"ff5caef40d4c" class=3D"confluenceTd">
+<p local-id=3D"3cfc113a36d4"><span style=3D"color: rgb(0,0,0);">b. Loading =
+sequence</span></p>
+</td>
+</tr>
+<tr data-local-id=3D"0ff1ff92d727">
+<td data-local-id=3D"e3e70e72af7f" class=3D"confluenceTd">
+<p local-id=3D"a02417dd24ec"><span style=3D"color: rgb(0,0,0);">&nbsp;</spa=
+n></p>
+</td>
+<td data-local-id=3D"9cf9af8a7005" class=3D"confluenceTd">
+<p local-id=3D"22a876cd8fef"><span style=3D"color: rgb(0,0,0);">.P/1KOEPKE/=
+A&lt;=E2=89=A1</span></p>
+</td>
+<td data-local-id=3D"993a76904abb" class=3D"confluenceTd">
+<p local-id=3D"dc2c79d7e896"><span style=3D"color: rgb(0,0,0);">&nbsp;</spa=
+n></p>
+</td>
+<td data-local-id=3D"81edd151fd3b" class=3D"confluenceTd">
+<p local-id=3D"317ba3be83f6"><span style=3D"color: rgb(0,0,0);">&nbsp;</spa=
+n></p>
+</td>
+<td data-local-id=3D"a703eb26c493" class=3D"confluenceTd">
+<p local-id=3D"8821848a3b96"><span style=3D"color: rgb(0,0,0);">c. Passenge=
+r's Name</span></p>
+</td>
+</tr>
+<tr data-local-id=3D"c78c3adf418a">
+<td data-local-id=3D"8faf33fd8528" class=3D"confluenceTd">
+<p local-id=3D"4353980a3efa"><span style=3D"color: rgb(0,0,0);">&nbsp;</spa=
+n></p>
+</td>
+<td data-local-id=3D"6ada65373538" class=3D"confluenceTd">
+<p local-id=3D"ea862186db26"><span style=3D"color: rgb(0,0,0);">.U/AVE3333Q=
+F//M//SYD&lt;=E2=89=A1</span></p>
+</td>
+<td colspan=3D"3" data-local-id=3D"5242739fd2db" class=3D"confluenceTd">
+<p local-id=3D"377b9a08dd71"><span style=3D"color: rgb(0,0,0);">B. Loading =
+information</span></p>
+</td>
+</tr>
+<tr data-local-id=3D"8f11b8b5c3a0">
+<td data-local-id=3D"978f9db307b3" class=3D"confluenceTd">
+<p local-id=3D"64befca6c913"><span style=3D"color: rgb(0,0,0);">&nbsp;</spa=
+n></p>
+</td>
+<td data-local-id=3D"ad59906d4834" class=3D"confluenceTd">
+<p local-id=3D"0b6035aea909"><span style=3D"color: rgb(0,0,0);">.N/00813939=
+39001&lt;=E2=89=A1</span></p>
+</td>
+<td data-local-id=3D"375e48a2060f" class=3D"confluenceTd">
+<p local-id=3D"3d1e21f6afac"><span style=3D"color: rgb(0,0,0);">&nbsp;</spa=
+n></p>
+</td>
+<td colspan=3D"2" data-local-id=3D"59c9be47cdb2" class=3D"confluenceTd">
+<p local-id=3D"5d6183055b9e"><span style=3D"color: rgb(0,0,0);">1. 1st tag =
+nbr and nbr of tags</span></p>
+</td>
+</tr>
+<tr data-local-id=3D"3e3a4d2db575">
+<td data-local-id=3D"205a61a6ce1b" class=3D"confluenceTd">
+<p local-id=3D"306d1913732f"><span style=3D"color: rgb(0,0,0);">&nbsp;</spa=
+n></p>
+</td>
+<td data-local-id=3D"bf6585891cff" class=3D"confluenceTd">
+<p local-id=3D"5c95f9b22d0c"><span style=3D"color: rgb(0,0,0);">.Q/010&lt;=
+=E2=89=A1</span></p>
+</td>
+<td data-local-id=3D"67076926f1c0" class=3D"confluenceTd">
+<p local-id=3D"67f795b30847"><span style=3D"color: rgb(0,0,0);">&nbsp;</spa=
+n></p>
+</td>
+<td data-local-id=3D"1276e3004226" class=3D"confluenceTd">
+<p local-id=3D"89c17ce9e04b"><span style=3D"color: rgb(0,0,0);">&nbsp;</spa=
+n></p>
+</td>
+<td data-local-id=3D"43619c76184d" class=3D"confluenceTd">
+<p local-id=3D"26ffdabf02bd"><span style=3D"color: rgb(0,0,0);">a. Loading =
+sequence</span></p>
+</td>
+</tr>
+<tr data-local-id=3D"37d351019b7d">
+<td data-local-id=3D"5617e98b9c75" class=3D"confluenceTd">
+<p local-id=3D"f8c56455cdfa"><span style=3D"color: rgb(0,0,0);">&nbsp;</spa=
+n></p>
+</td>
+<td data-local-id=3D"f553ab91d8d8" class=3D"confluenceTd">
+<p local-id=3D"67c7ec18c4df"><span style=3D"color: rgb(0,0,0);">ENDBMM&lt;=
+=E2=89=A1</span></p>
+</td>
+<td colspan=3D"3" data-local-id=3D"2ed6472081e6" class=3D"confluenceTd">
+<p local-id=3D"64dfd6673573"><span style=3D"color: rgb(0,0,0);">End of Mess=
+age Identifier</span></p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p local-id=3D"4e14382748de"></p>
+<p local-id=3D"073f0bcc1fbe"></p>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"3b=
+50cde68748" class=3D"confluenceTable">
+<colgroup>
+<col style=3D"width: 64.0px;">
+<col style=3D"width: 578.0px;">
+</colgroup>
+<tbody>
+<tr data-local-id=3D"b764cd9037b2">
+<td data-local-id=3D"e8db46296d4d" class=3D"confluenceTd">
+<p local-id=3D"b25980f6157e"><span class=3D"confluence-anchor-link" id=3D"i=
+d-9.9BMMmessages-secondpasscompleted-id-9f40c701-b569-4d8d-b5e9-4b8299f2ca7=
+8"><span class=3D"confluence-anchor-link" id=3D"id-9f40c701-b569-4d8d-b5e9-=
+4b8299f2ca78"></span></span><span style=3D"color: rgb(0,0,0);">9.9.6</span>=
+</p>
+</td>
+<td data-local-id=3D"c75e5102ac18" class=3D"confluenceTd">
+<p local-id=3D"0ae962996f8e"><span style=3D"color: rgb(0,0,0);">Example of =
+the BMM with an UID</span></p>
+<p local-id=3D"30775806f450"><span style=3D"color: rgb(0,0,0);">Use case: n=
+otification of bag or dentified with GUID</span></p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p local-id=3D"56232ba674a6"></p>
+<p local-id=3D"461800a3520d"></p>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"71=
+2710127cd2" class=3D"confluenceTable">
+<colgroup>
+<col style=3D"width: 64.0px;">
+<col style=3D"width: 257.0px;">
+<col style=3D"width: 321.0px;">
+</colgroup>
+<tbody>
+<tr data-local-id=3D"03a7c9082448">
+<td data-local-id=3D"6b234be10bbe" class=3D"confluenceTd">
+<p local-id=3D"686fca6f5021"><span class=3D"confluence-anchor-link" id=3D"i=
+d-9.9BMMmessages-secondpasscompleted-id-9f40c701-b597-43f3-83d9-8aaa190d09e=
+5"><span class=3D"confluence-anchor-link" id=3D"id-9f40c701-b597-43f3-83d9-=
+8aaa190d09e5"></span></span><span style=3D"color: rgb(0,0,0);">&nbsp;</span=
+></p>
+</td>
+<td data-local-id=3D"5a9bb6a28cf8" class=3D"confluenceTd">
+<p local-id=3D"cba4d78e002e"><span style=3D"color: rgb(0,0,0);">SELKMXH&lt;=
+=E2=89=A1</span></p>
+</td>
+<td data-local-id=3D"88fb8690dd66" class=3D"confluenceTd">
+<p local-id=3D"d82f409cd71f"><span style=3D"color: rgb(0,0,0);">To address<=
+/span></p>
+</td>
+</tr>
+<tr data-local-id=3D"b001cc2377f6">
+<td data-local-id=3D"b09ed6be54d4" class=3D"confluenceTd">
+<p local-id=3D"d61de5b81dcf"><span style=3D"color: rgb(0,0,0);">&nbsp;</spa=
+n></p>
+</td>
+<td data-local-id=3D"c4efec0765f0" class=3D"confluenceTd">
+<p local-id=3D"ac04821621ca"><span style=3D"color: rgb(0,0,0);">.LHRBRXH 23=
+1840&lt;=E2=89=A1</span></p>
+</td>
+<td data-local-id=3D"ac3362b7b5d4" class=3D"confluenceTd">
+<p local-id=3D"dc93d1e6128f"><span style=3D"color: rgb(0,0,0);">From addres=
+s</span></p>
+</td>
+</tr>
+<tr data-local-id=3D"e7189cdc4c43">
+<td data-local-id=3D"fa426d710a67" class=3D"confluenceTd">
+<p local-id=3D"f1e3ad702024"><span style=3D"color: rgb(0,0,0);">&nbsp;</spa=
+n></p>
+</td>
+<td data-local-id=3D"fe113ea34bbf" class=3D"confluenceTd">
+<p local-id=3D"573c1890e429"><span style=3D"color: rgb(0,0,0);">BMM&lt;=E2=
+=89=A1</span></p>
+</td>
+<td data-local-id=3D"b89d3ef73614" class=3D"confluenceTd">
+<p local-id=3D"4f123320b7f4"><span style=3D"color: rgb(0,0,0);">BMM&nbsp;-&=
+nbsp;Standard Message Identifier</span></p>
+</td>
+</tr>
+<tr data-local-id=3D"204a1dc37173">
+<td data-local-id=3D"7774028cfa7f" class=3D"confluenceTd">
+<p local-id=3D"7389775877bb"><span style=3D"color: rgb(0,0,0);">&nbsp;</spa=
+n></p>
+</td>
+<td data-local-id=3D"afb9c29e105a" class=3D"confluenceTd">
+<p local-id=3D"6b4fbb706b6d"><span style=3D"color: rgb(0,0,0);">.V/1TSEL/PA=
+RT1/555333702//123ABC456Z&lt;=E2=89=A1</span></p>
+</td>
+<td data-local-id=3D"6162018bdf88" class=3D"confluenceTd">
+<p local-id=3D"a640350e5a1b"><span style=3D"color: rgb(0,0,0);">Transfer ba=
+g in SEL; Multi part with Encryption</span></p>
+</td>
+</tr>
+<tr data-local-id=3D"54d208461a87">
+<td data-local-id=3D"9c8218cc5e05" class=3D"confluenceTd">
+<p local-id=3D"cef7afc11ad4"><span style=3D"color: rgb(0,0,0);">&nbsp;</spa=
+n></p>
+</td>
+<td data-local-id=3D"b65cc3f6117d" class=3D"confluenceTd">
+<p local-id=3D"74d72995b96d"><span style=3D"color: rgb(0,0,0);">.K/3D2C08&l=
+t;=E2=89=A1</span></p>
+</td>
+<td data-local-id=3D"66d3506452f0" class=3D"confluenceTd">
+<p local-id=3D"a1bb8de9da8b"><span style=3D"color: rgb(0,0,0);">Message Pri=
+nter ID</span></p>
+</td>
+</tr>
+<tr data-local-id=3D"1226ab099cf8">
+<td data-local-id=3D"da18e3b54f10" class=3D"confluenceTd">
+<p local-id=3D"88e7b122f9f4"><span style=3D"color: rgb(0,0,0);">&nbsp;</spa=
+n></p>
+</td>
+<td data-local-id=3D"5a3050aab942" class=3D"confluenceTd">
+<p local-id=3D"d7880c4e9945"><span style=3D"color: rgb(0,0,0);">.I/BA117/23=
+JAN/LHR&lt;=E2=89=A1</span></p>
+</td>
+<td data-local-id=3D"2fabff79dbd1" class=3D"confluenceTd">
+<p local-id=3D"c8bbc2327b64"><span style=3D"color: rgb(0,0,0);">Inbound fli=
+ght BA117</span></p>
+</td>
+</tr>
+<tr data-local-id=3D"8b1392f469d5">
+<td data-local-id=3D"6b88d63e18dd" class=3D"confluenceTd">
+<p local-id=3D"039f5e6c9e64"><span style=3D"color: rgb(0,0,0);">&nbsp;</spa=
+n></p>
+</td>
+<td data-local-id=3D"16aeb85af00e" class=3D"confluenceTd">
+<p local-id=3D"1e73430d46b8"><span style=3D"color: rgb(0,0,0);">.U/AVE1234J=
+L/024L/T/Y/SEL/Y/JL955/24JAN/NRT&lt;=E2=89=A1</span></p>
+</td>
+<td data-local-id=3D"5934f3714b98" class=3D"confluenceTd">
+<p local-id=3D"feb1221cbdf1"><span style=3D"color: rgb(0,0,0);">Loading Inf=
+ormation</span></p>
+</td>
+</tr>
+<tr data-local-id=3D"8c32bbfeb918">
+<td data-local-id=3D"2e603cb7a489" class=3D"confluenceTd">
+<p local-id=3D"d6f499a2bec0"><span style=3D"color: rgb(0,0,0);">&nbsp;</spa=
+n></p>
+</td>
+<td data-local-id=3D"e6d055763f67" class=3D"confluenceTd">
+<p local-id=3D"1674696152e1"><span style=3D"color: rgb(0,0,0);">.F/JL955/24=
+JAN/NRT&lt;=E2=89=A1</span></p>
+</td>
+<td data-local-id=3D"8acdf8d0629d" class=3D"confluenceTd">
+<p local-id=3D"20e3cf1a9682"><span style=3D"color: rgb(0,0,0);">Outbound Fl=
+ight JL955</span></p>
+</td>
+</tr>
+<tr data-local-id=3D"6e5db59cbaba">
+<td data-local-id=3D"f17c76b8f1a7" class=3D"confluenceTd">
+<p local-id=3D"8021e8262bd5"><span style=3D"color: rgb(0,0,0);">&nbsp;</spa=
+n></p>
+</td>
+<td data-local-id=3D"d5106f15d7b6" class=3D"confluenceTd">
+<p local-id=3D"ebf04575096b"><span style=3D"color: rgb(0,0,0);">.H/T1&lt;=
+=E2=89=A1</span></p>
+</td>
+<td data-local-id=3D"b35d48f31d1a" class=3D"confluenceTd">
+<p local-id=3D"65a68cf40253"><span style=3D"color: rgb(0,0,0);">Handling Lo=
+cation</span></p>
+</td>
+</tr>
+<tr data-local-id=3D"5f0cf9212747">
+<td data-local-id=3D"79fa2a649d30" class=3D"confluenceTd">
+<p local-id=3D"c9e03555668d"><span style=3D"color: rgb(0,0,0);">&nbsp;</spa=
+n></p>
+</td>
+<td data-local-id=3D"a1a62984617e" class=3D"confluenceTd">
+<p local-id=3D"05856ec862e4"><span style=3D"color: rgb(0,0,0);">.N/01251234=
+56001&lt;=E2=89=A1</span></p>
+</td>
+<td data-local-id=3D"bd177db5fdb2" class=3D"confluenceTd">
+<p local-id=3D"78e9d6c20be0"><span style=3D"color: rgb(0,0,0);">Bag tag num=
+ber; Number of consecutive tags</span></p>
+</td>
+</tr>
+<tr data-local-id=3D"de459418271f">
+<td data-local-id=3D"964fe8a1ee79" class=3D"confluenceTd">
+<p local-id=3D"ec0cd5a594ac"><span style=3D"color: rgb(0,0,0);">&nbsp;</spa=
+n></p>
+</td>
+<td data-local-id=3D"8ceabfca78c3" class=3D"confluenceTd">
+<p local-id=3D"2bdb49729229"><span style=3D"color: rgb(0,0,0);">.M/00371234=
+56//</span></p>
+<p local-id=3D"129b4974cc3c"><span style=3D"color: rgb(0,0,0);">414F7E29507=
+B4F2E9904F6583677C6FD&lt;=E2=89=A1</span></p>
+</td>
+<td data-local-id=3D"5a24f3c30aed" class=3D"confluenceTd">
+<p local-id=3D"19bc84987139"><span style=3D"color: rgb(0,0,0);">Bag tag num=
+ber; No Issue date; Unique Identifier</span></p>
+</td>
+</tr>
+<tr data-local-id=3D"1bb803673f01">
+<td data-local-id=3D"1c094a424be1" class=3D"confluenceTd">
+<p local-id=3D"79a95ac80b03"><span style=3D"color: rgb(0,0,0);">&nbsp;</spa=
+n></p>
+</td>
+<td data-local-id=3D"4f7244d3454f" class=3D"confluenceTd">
+<p local-id=3D"795cb7dc024f"><span style=3D"color: rgb(0,0,0);">.Q/001&lt;=
+=E2=89=A1</span></p>
+</td>
+<td data-local-id=3D"8de83e324ad0" class=3D"confluenceTd">
+<p local-id=3D"ab4ad1a8bf7c"><span style=3D"color: rgb(0,0,0);">Loading seq=
+uence</span></p>
+</td>
+</tr>
+<tr data-local-id=3D"dfc59e88673e">
+<td data-local-id=3D"1b65afe81900" class=3D"confluenceTd">
+<p local-id=3D"60159a40d9d8"><span style=3D"color: rgb(0,0,0);">&nbsp;</spa=
+n></p>
+</td>
+<td data-local-id=3D"34391b46c589" class=3D"confluenceTd">
+<p local-id=3D"6a460b9d9fbc"><span style=3D"color: rgb(0,0,0);">.P/1CHAN/T&=
+lt;=E2=89=A1</span></p>
+</td>
+<td data-local-id=3D"47c6c69a3f8c" class=3D"confluenceTd">
+<p local-id=3D"92af6d4f871a"><span style=3D"color: rgb(0,0,0);">Passenger's=
+ name</span></p>
+</td>
+</tr>
+<tr data-local-id=3D"d362f65d55a9">
+<td data-local-id=3D"02f8579c162f" class=3D"confluenceTd">
+<p local-id=3D"721d1a81d579"><span style=3D"color: rgb(0,0,0);">&nbsp;</spa=
+n></p>
+</td>
+<td data-local-id=3D"046a59eced8b" class=3D"confluenceTd">
+<p local-id=3D"97c1bb9c29ef"><span style=3D"color: rgb(0,0,0);">.X/CLR&lt;=
+=E2=89=A1</span></p>
+</td>
+<td data-local-id=3D"32e22a7438fb" class=3D"confluenceTd">
+<p local-id=3D"4288e9e41e7a"><span style=3D"color: rgb(0,0,0);">Screening d=
+escription</span></p>
+</td>
+</tr>
+<tr data-local-id=3D"c24c952248eb">
+<td data-local-id=3D"8d36bf5d86f3" class=3D"confluenceTd">
+<p local-id=3D"ec66d633bffd"><span style=3D"color: rgb(0,0,0);">&nbsp;</spa=
+n></p>
+</td>
+<td data-local-id=3D"f5a45675af86" class=3D"confluenceTd">
+<p local-id=3D"69a38ed43013"><span style=3D"color: rgb(0,0,0);">ENDBMM&lt;=
+=E2=89=A1</span></p>
+</td>
+<td data-local-id=3D"fcbbc658bafd" class=3D"confluenceTd">
+<p local-id=3D"fc83cd737c63"><span style=3D"color: rgb(0,0,0);">End of Mess=
+age Identifier</span></p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p local-id=3D"ffd507ade0d6"></p>
+    </div>
+</body>
+</html>
+------=_Part_42_1374210884.1792501494641
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: base64
+Content-Location: file:///C:/af70fa38f27fa8e2a42d7acd448042d94e1a020baa4ba3785804720155cbf5f6
+
+iVBORw0KGgoAAAANSUhEUgAAABAAAAAQBAMAAADt3eJSAAAAA3NCSVQICAjb4U/gAAAAFVBMVEX/
+//9wcHBwcHBwcHBwcHBwcHBwcHA3RenHAAAAB3RSTlMAZoiZzN3/SzZomQAAAAlwSFlzAAALEgAA
+CxIB0t1+/AAAABx0RVh0U29mdHdhcmUAQWRvYmUgRmlyZXdvcmtzIENTNui8sowAAAAUdEVYdENy
+ZWF0aW9uIFRpbWUANi8xLzEzOKlF0AAAACFJREFUCJljYCATsCgwqIAZTMnMyRAhsTABCIMxkVxT
+GQCLcwHyUKXpLgAAAABJRU5ErkJggg==
+------=_Part_42_1374210884.1792501494641--

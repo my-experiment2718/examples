@@ -1,0 +1,16 @@
+
+Message from Handler (GH) to Airline
+Process=Originating-Departure
+Owner=Passenger with booking
+Incident as bag is left behind while it is authorized for loading
+  
+BPM
+.V/1LAAA    
+.J/R/PIERRE//09SEP/231300Z///AC  
+.F/AS0801/09SEP/BBB/J
+.B/LBA/5027318374001        ==== RP1745 does not support positive acknowledgment of reconcile, only exception reporting
+.S/Y/68H/B//283///A
+.P/KANE/PATRICK
+.L/DHVVNO
+.E/PRIO
+ENDBPM

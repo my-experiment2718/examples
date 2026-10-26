@@ -1,0 +1,2192 @@
+Date: Tue, 20 Oct 2026 13:04:05 +0000 (UTC)
+Message-ID: <112276626.25.1792501445558@6c34020b9288>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_24_1978863690.1792501445557"
+
+------=_Part_24_1978863690.1792501445557
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>3.9 BTM examples - second pass completed</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font: var(--ds-font-body-small, Arial, Helvetica, FreeSans, sans-se=
+rif);
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: var(--ds-surface, #fff) !important;
+        color: var(--ds-text, #000) !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: var(--ds-text, #000);
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        page-break-after: avoid;
+    }
+
+    pre {
+        font: var(--ds-font-code, Monaco, "Courier New", monospace);
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>3.9 BTM examples - second pass completed</h1>
+    <div class=3D"Section1">
+        <p local-id=3D"df4215481e9e"></p>
+<div id=3D"expander-1678614965" class=3D"expand-container">
+<div id=3D"expander-control-1678614965" class=3D"expand-control">
+<span class=3D"expand-control-icon"><img style=3D"vertical-align:middle;" c=
+lass=3D"expand-control-image" src=3D"af70fa38f27fa8e2a42d7acd448042d94e1a02=
+0baa4ba3785804720155cbf5f6" width=3D"16" height=3D"16"></span><span class=
+=3D"expand-control-text">Table of Contents</span>
+</div>
+<div id=3D"expander-content-1678614965" class=3D"expand-content">
+<style type=3D"text/css">/*<![CDATA[*/
+div.rbtoc1792501445444 {padding: 0px;}
+div.rbtoc1792501445444 ul {list-style: none;margin-left: 0px;}
+div.rbtoc1792501445444 li {margin-left: 0px;padding-left: 0px;}
+
+/*]]>*/</style>
+<div class=3D"toc-macro rbtoc1792501445444">
+<ul class=3D"toc-indentation">
+<li><a href=3D"#id-3.9BTMexamples-secondpasscompleted-Processed">Processed<=
+/a>
+<ul class=3D"toc-indentation">
+<li><a href=3D"#id-3.9BTMexamples-secondpasscompleted-3.9.1MinimumElementsR=
+equiredForABTM">3.9.1 Minimum Elements Required For A BTM</a></li>
+<li><a href=3D"#id-3.9BTMexamples-secondpasscompleted-3.9.2SingleConnection=
+WithPassengerInformation">3.9.2 Single Connection With Passenger Informatio=
+n</a></li>
+<li><a href=3D"#id-3.9BTMexamples-secondpasscompleted-3.9.3Type-BMessage;Ex=
+pedite(RUSH)BaggageDetails,WithAcknowledgementRequest">3.9.3 Type-B Message=
+; Expedite (RUSH) Baggage Details, With Acknowledgement Request</a></li>
+<li><a href=3D"#id-3.9BTMexamples-secondpasscompleted-3.9.4Exampleofpartiti=
+onedmessagewithmultipleconnectingflights">3.9.4 Example of partitioned mess=
+age with multiple connecting flights</a></li>
+<li><a href=3D"#id-3.9BTMexamples-secondpasscompleted-3.9.5ExampleofMultipl=
+eUsage">3.9.5 Example of Multiple Usage</a></li>
+<li><a href=3D"#id-3.9BTMexamples-secondpasscompleted-3.9.6ExampleofaBTMtod=
+eletearecordatJFKbySR">3.9.6 Example of a BTM to delete a record at JFK by =
+SR</a></li>
+<li><a href=3D"#id-3.9BTMexamples-secondpasscompleted-3.9.9ExampleofBTMinth=
+eIntermodalReceipt/IntermodalDeliveryProcess">3.9.9 Example of BTM in the I=
+ntermodal Receipt/Intermodal Delivery Process</a></li>
+<li><a href=3D"#id-3.9BTMexamples-secondpasscompleted-3.9.10ExampleofBTMcon=
+tainingEBT(UniqueIdentifier)data">3.9.10 Example of BTM containing EBT (Uni=
+que Identifier) data</a></li>
+<li><a href=3D"#id-3.9BTMexamples-secondpasscompleted-3.9.11ExampleofBTMcon=
+tainingmultipleEBT(UniqueIdentifier)data">3.9.11 Example of BTM containing =
+multiple EBT (Unique Identifier) data</a></li>
+<li><a href=3D"#id-3.9BTMexamples-secondpasscompleted-3.9.12ExampleofBTMwit=
+htheGloballyUniqueIdentification">3.9.12 Example of BTM with the Globally U=
+nique Identification</a></li>
+</ul></li>
+<li><a href=3D"#id-3.9BTMexamples-secondpasscompleted-PendingChangeRequest"=
+>Pending Change Request</a>
+<ul class=3D"toc-indentation">
+<li><a href=3D"#id-3.9BTMexamples-secondpasscompleted-3.9.7ExampleofBTMonin=
+voluntaryitinerarychange(IROP)-pendingre-flightingFG">3.9.7 Example of BTM =
+on involuntary itinerary change (IROP) - pending re-flighting FG</a></li>
+<li><a href=3D"#id-3.9BTMexamples-secondpasscompleted-3.9.8ExampleofBTMwith=
+re-flightingprocess-pendingre-flightingFG">3.9.8 Example of BTM with re-fli=
+ghting process - pending re-flighting FG</a></li>
+</ul></li>
+</ul>
+</div>
+</div>
+</div>
+<p local-id=3D"d26b55dc-91de-4b3b-8101-e2b73f569a40">In progress for second=
+ pass. * in front of sample title indicates that xml rendering still requir=
+es an update</p>
+<h1 local-id=3D"897cb8e18c58" id=3D"id-3.9BTMexamples-secondpasscompleted-P=
+rocessed">Processed</h1>
+<h3 local-id=3D"d5451dbe7a9a" id=3D"id-3.9BTMexamples-secondpasscompleted-3=
+.9.1MinimumElementsRequiredForABTM"><span style=3D"color: rgb(0,0,0);">3.9.=
+1 &nbsp;&nbsp;&nbsp;&nbsp;Minimum Elements Required For A BTM </span></h3>
+<p local-id=3D"c5c720971aac">use case: Minimum content to notify party on b=
+ags in delivery to transfer station. Transfer station, In- and outbound fli=
+ghts, license plate and passenger name</p>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"align-start" data-local-id=
+=3D"c18fdf9fafe9" class=3D"confluenceTable">
+<colgroup>
+<col style=3D"width: 155.0px;">
+<col style=3D"width: 307.0px;">
+<col style=3D"width: 297.0px;">
+</colgroup>
+<tbody>
+<tr data-local-id=3D"91285bef38c6">
+<td data-local-id=3D"6a4fb4d66845" class=3D"confluenceTd">
+<p local-id=3D"be93f47372e0"><span style=3D"color: rgb(7,71,166);">BTM</spa=
+n></p>
+</td>
+<td data-local-id=3D"dd5fef2bf0dc" class=3D"confluenceTd">
+<p local-id=3D"9f2cd6958948"><span style=3D"color: rgb(7,71,166);">Message =
+Identifier</span></p>
+</td>
+<td data-local-id=3D"0a1982c9ffe1" class=3D"confluenceTd">
+<p local-id=3D"36a9bb09256c"></p>
+</td>
+</tr>
+<tr data-local-id=3D"39c7fd9d2a09">
+<td data-local-id=3D"2358729d97e4" class=3D"confluenceTd">
+<p local-id=3D"e8965574915d"><span style=3D"color: rgb(7,71,166);">.V/1TORD=
+</span></p>
+</td>
+<td data-local-id=3D"1ac6b714e9d3" class=3D"confluenceTd">
+<p local-id=3D"6eb8692934db"><span style=3D"color: rgb(7,71,166);">Transfer=
+ baggage for ORD</span></p>
+</td>
+<td data-local-id=3D"8a2f3a09e139" class=3D"confluenceTd">
+<p local-id=3D"678c224d4833"></p>
+</td>
+</tr>
+<tr data-local-id=3D"835b309322d2">
+<td data-local-id=3D"b8e0f005a815" class=3D"confluenceTd">
+<p local-id=3D"c4f840e038d1"><span style=3D"color: rgb(7,71,166);">.I/KL318=
+/16APR/AMS</span></p>
+</td>
+<td data-local-id=3D"c001cfb87671" class=3D"confluenceTd">
+<p local-id=3D"2ed0da14a16c"><span style=3D"color: rgb(7,71,166);">Inbound =
+from AMS on KL318</span></p>
+</td>
+<td data-local-id=3D"aef0a13f7c03" class=3D"confluenceTd">
+<p local-id=3D"d0e08b54cda9"></p>
+</td>
+</tr>
+<tr data-local-id=3D"7aa1c6924a32">
+<td data-local-id=3D"d16e8dd59c20" class=3D"confluenceTd">
+<p local-id=3D"3817e2a5da16"><span style=3D"color: rgb(7,71,166);">.F/UA423=
+/16APR/DEN</span></p>
+</td>
+<td data-local-id=3D"03365bc7e7be" class=3D"confluenceTd">
+<p local-id=3D"fe67a5eb9720"><span style=3D"color: rgb(7,71,166);">Transfer=
+ to UA423 to DEN</span></p>
+</td>
+<td data-local-id=3D"3cea83ed2429" class=3D"confluenceTd">
+<p local-id=3D"7d81247a435d"></p>
+</td>
+</tr>
+<tr data-local-id=3D"142f4bd54cf1">
+<td data-local-id=3D"d8595fbdaa89" class=3D"confluenceTd">
+<p local-id=3D"aed10b6de24e"><span style=3D"color: rgb(7,71,166);">.N/00741=
+23456003</span></p>
+</td>
+<td data-local-id=3D"aec01fb731af" class=3D"confluenceTd">
+<p local-id=3D"ec8cddae348b"><span style=3D"color: rgb(7,71,166);">3 Bags s=
+tarting with 0074123456 </span></p>
+</td>
+<td data-local-id=3D"58d0e05726ee" class=3D"confluenceTd">
+<p local-id=3D"607d29a00d5f">document splits to 3 events, one for each tag<=
+/p>
+</td>
+</tr>
+<tr data-local-id=3D"8418ab8d0f12">
+<td data-local-id=3D"dc8633a3ceb5" class=3D"confluenceTd">
+<p local-id=3D"aaeb566936b2"><span style=3D"color: rgb(7,71,166);">.P/LECHL=
+AK/D</span></p>
+</td>
+<td data-local-id=3D"6adbf65c3185" class=3D"confluenceTd">
+<p local-id=3D"fb01242aa71e"><span style=3D"color: rgb(7,71,166);">Passenge=
+r's name</span></p>
+</td>
+<td data-local-id=3D"22e5e10d9704" class=3D"confluenceTd">
+<p local-id=3D"49a3dd122641"></p>
+</td>
+</tr>
+<tr data-local-id=3D"0966ef664648">
+<td data-local-id=3D"2af6f3127a44" class=3D"confluenceTd">
+<p local-id=3D"9da41b9320e4"><span style=3D"color: rgb(7,71,166);">ENDBTM</=
+span></p>
+</td>
+<td data-local-id=3D"06ec4e53a453" class=3D"confluenceTd">
+<p local-id=3D"eefc49fc3ac5"><span style=3D"color: rgb(7,71,166);">End of M=
+essage Identifier</span></p>
+</td>
+<td data-local-id=3D"9728f240b070" class=3D"confluenceTd">
+<p local-id=3D"486fe218c8f2"></p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p local-id=3D"60afd0d4f9da">semantics: Carrier KL brings a bag to Chicago-=
+airport and advises that -to KL-knowledge- this bag transfers to a United f=
+light. License plate and passenger name are shared</p>
+<p local-id=3D"e27a6a56bbaa">analysis:</p>
+<ul local-id=3D"2884a1414d1a">
+<li local-id=3D"6795da00c2c9">
+<p local-id=3D"d59dd6af4986">BTM purpose is to advise transferring <u>bags =
+</u>at destination of this flight to <u>other member</u>. I.e. typically ai=
+rline to airline notification. Hence BTM maps to BagNotifRQ</p>
+</li>
+<li local-id=3D"3a022b40a35e">
+<p local-id=3D"43996d44bb77">BTM .I is mandatory, <span class=3D"inline-com=
+ment-marker" data-ref=3D"1c563fa0-5883-4597-8694-552c6207221d">.F is option=
+al</span>. The message is populated from perspective of the inbound flight.=
+ .I is the active segment and hence maps to Carrying Segment. .F maps to On=
+ward Bag Segment (.O would map to Onward Bag Segment as well)</p>
+</li>
+<li local-id=3D"f1a2faf41476">
+<p local-id=3D"5c3618d48dbe">.N license plate maps to the BagTag element</p=
+>
+</li>
+<li local-id=3D"f8fd65db43f6">
+<p local-id=3D"a1717a2953c2">.P maps to the Owner element</p>
+</li>
+<li local-id=3D"c6510ffaf855">
+<p local-id=3D"cb7f7ba64270">.V maps to Baggage Process element. Note Bagga=
+ge Source=3DT is mapped to Baggage Process Code=3DF (arriving for transfer)=
+ to reflect .I (arriving flight) is the active transportation in this messa=
+ge</p>
+</li>
+</ul>
+<p local-id=3D"0461089bdb67">result: <a class=3D"external-link" href=3D"htt=
+ps://iataonline.sharepoint.com/:u:/r/sites/IATABaggageWorkingGroup/Shared%2=
+0Documents/Baggage%20Information%20Exchange%20(BIX)%20Sub%20Group/Taskforce=
+%20best%20practices%20BIX%20v2/Samples/source%20RP1745/3.9.1%20BTM%20with%2=
+0minimum%20elements.xml?csf=3D1&amp;web=3D1&amp;e=3DTBbIa2" rel=3D"nofollow=
+">3.9.1 BTM with minimum elements</a></p>
+<ul local-id=3D"c7192ddefab7">
+<li local-id=3D"ac1e3232951e">
+<p local-id=3D"798b494f1e26">Note the sample message rendered in xml includ=
+es the same message rendered in tty, and name of sample is taken from sourc=
+e RP</p>
+</li>
+</ul>
+<p local-id=3D"c4a57eb98119"></p>
+<h3 local-id=3D"45f17f7f23b1" id=3D"id-3.9BTMexamples-secondpasscompleted-3=
+.9.2SingleConnectionWithPassengerInformation"><span style=3D"color: rgb(7,7=
+1,166);">3.9.2 &nbsp;&nbsp;&nbsp;&nbsp;Single Connection With Passenger Inf=
+ormation</span><span style=3D"color: rgb(0,0,0);"> </span></h3>
+<p local-id=3D"c29897c3048f">use case: Notify parties on transfer bag inclu=
+ding some passenger information</p>
+<p local-id=3D"df06cabe993e">Redaction: reduced to single bag, removed scre=
+ening instruction</p>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"align-start" data-local-id=
+=3D"6b70aa4aceb1" class=3D"confluenceTable">
+<tbody>
+<tr data-local-id=3D"d1eb86724424">
+<td data-local-id=3D"1d5eb16ebe56" class=3D"confluenceTd">
+<p local-id=3D"f00ba6e7fa9a"><span style=3D"color: rgb(7,71,166);">BTM</spa=
+n></p>
+</td>
+<td data-local-id=3D"7bb66b4766d7" class=3D"confluenceTd">
+<p local-id=3D"a02e7834db71"><span style=3D"color: rgb(7,71,166);">Message =
+Identifier</span></p>
+</td>
+</tr>
+<tr data-local-id=3D"5c7358a3269e">
+<td data-local-id=3D"dec7598e1597" class=3D"confluenceTd">
+<p local-id=3D"e05e612860fa"><span style=3D"color: rgb(7,71,166);">.V/1TORD=
+</span></p>
+</td>
+<td data-local-id=3D"baa0fde6ae99" class=3D"confluenceTd">
+<p local-id=3D"0546bfeb985c"><span style=3D"color: rgb(7,71,166);">Transfer=
+ baggage for ORD</span></p>
+</td>
+</tr>
+<tr data-local-id=3D"ef112e42928d">
+<td data-local-id=3D"dbc98d85d4f3" class=3D"confluenceTd">
+<p local-id=3D"b7ff021b5b28"><span style=3D"color: rgb(7,71,166);">.I/KL318=
+/16APR/AMS/J</span></p>
+</td>
+<td data-local-id=3D"4286da41d72e" class=3D"confluenceTd">
+<p local-id=3D"4de04072c1f8"><span style=3D"color: rgb(7,71,166);">Inbound =
+from AMS on KL318; J-Class</span></p>
+</td>
+</tr>
+<tr data-local-id=3D"dfef14b5e6ff">
+<td data-local-id=3D"e6d5fe95d3a6" class=3D"confluenceTd">
+<p local-id=3D"4e6670f2dbf3"><span style=3D"color: rgb(7,71,166);">.F/UA423=
+/16APR/DEN/F</span></p>
+</td>
+<td data-local-id=3D"849ed87954bd" class=3D"confluenceTd">
+<p local-id=3D"9cb1af2567e2"><span style=3D"color: rgb(7,71,166);">Transfer=
+ to UA423 to DEN; F-Class</span></p>
+</td>
+</tr>
+<tr data-local-id=3D"1e96641aed1d">
+<td data-local-id=3D"cd40ed0bff0b" class=3D"confluenceTd">
+<p local-id=3D"3a12636ed77f"><span style=3D"color: rgb(7,71,166);">.N/00741=
+23512001</span></p>
+</td>
+<td data-local-id=3D"5cf3306bc66d" class=3D"confluenceTd">
+<p local-id=3D"835cea2aab96"><span style=3D"color: rgb(7,71,166);">Bag 0074=
+123512 </span></p>
+</td>
+</tr>
+<tr data-local-id=3D"a0e404b1d507">
+<td data-local-id=3D"a586b46ad80c" class=3D"confluenceTd">
+<p local-id=3D"4094d01ad2c0"><span style=3D"color: rgb(7,71,166);">.P/SMITH=
+/TOMMR</span></p>
+</td>
+<td data-local-id=3D"0f8f9b0f65a9" class=3D"confluenceTd">
+<p local-id=3D"d414353f5f74"><span style=3D"color: rgb(7,71,166);">Passenge=
+r's name</span></p>
+</td>
+</tr>
+<tr data-local-id=3D"5a94eeeffa1f">
+<td data-local-id=3D"c11e2a63cd18" class=3D"confluenceTd">
+<p local-id=3D"5380e3e81eee"><span style=3D"color: rgb(7,71,166);">.R/LATE =
+CONX=E2=80=93 AMS</span></p>
+</td>
+<td data-local-id=3D"c496f9e1ec9e" class=3D"confluenceTd">
+<p local-id=3D"68c3e914e2e4"><span style=3D"color: rgb(7,71,166);">Internal=
+ airline data</span></p>
+</td>
+</tr>
+<tr data-local-id=3D"ea132ad4d1fa">
+<td data-local-id=3D"9eb7d87668df" class=3D"confluenceTd">
+<p local-id=3D"3487a99a97d0"><span style=3D"color: rgb(7,71,166);">ENDBTM</=
+span></p>
+</td>
+<td data-local-id=3D"d5c18105cd6a" class=3D"confluenceTd">
+<p local-id=3D"31d87676f68e"><span style=3D"color: rgb(7,71,166);">End of M=
+essage Identifier</span></p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p local-id=3D"05b5dfd4fd29">semantics: carrier KL advises it brings a bag =
+to Chicago with expected transfer to United. The bag was in earlier transfe=
+r at departure of KL flight, with a late (tight) connection.</p>
+<p local-id=3D"25302988572b">analysis:</p>
+<ul local-id=3D"aa3b5bbb6e88">
+<li local-id=3D"bf08691284de">
+<p local-id=3D"d825ee5286d5">Same as 3.9.1 for majority of content</p>
+</li>
+<li local-id=3D"e6d50b1042e1">
+<p local-id=3D"380b9493da2a">Two notes on risk of delay: late inbound conne=
+ction at departure of active flight</p>
+</li>
+<li local-id=3D"ff51bf8fff5a">
+<p local-id=3D"e4415a869dc1">.R maps to Internal Airline Data element (i.e.=
+ cannot be conveyed in a standardized manner)</p>
+</li>
+</ul>
+<p local-id=3D"08936055767a">result: <a class=3D"external-link" href=3D"htt=
+ps://iataonline.sharepoint.com/:u:/r/sites/IATABaggageWorkingGroup/Shared%2=
+0Documents/Baggage%20Information%20Exchange%20(BIX)%20Sub%20Group/Taskforce=
+%20best%20practices%20BIX%20v2/Samples/source%20RP1745/3.9.2%20BTM%20with%2=
+0psgr%20information.xml?csf=3D1&amp;web=3D1&amp;e=3DHfZeJQ" rel=3D"nofollow=
+">3.9.2 BTM with psgr information</a></p>
+<p local-id=3D"3b869d5399a3"></p>
+<h3 local-id=3D"8a975d9fb0d5" id=3D"id-3.9BTMexamples-secondpasscompleted-3=
+.9.3Type-BMessage;Expedite(RUSH)BaggageDetails,WithAcknowledgementRequest">=
+<span style=3D"color: rgb(7,71,166);">3.9.3 &nbsp;&nbsp;&nbsp;&nbsp;Type-B =
+Message; Expedite (RUSH) Baggage Details, With Acknowledgement Request </sp=
+an></h3>
+<p local-id=3D"b13eefac97eb">use case:</p>
+<p local-id=3D"2eab3c68c6ac">Redaction: removed addressing, encryption, ack=
+nowledgement. Removed fake passenger name</p>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"align-start" data-local-id=
+=3D"a7f74099f1b6" class=3D"confluenceTable">
+<colgroup>
+<col style=3D"width: 390.0px;">
+<col style=3D"width: 370.0px;">
+</colgroup>
+<tbody>
+<tr data-local-id=3D"9872f1c6ba14">
+<td data-local-id=3D"67bcc22238bc" class=3D"confluenceTd">
+<p local-id=3D"e4bd437cf646"><span style=3D"color: rgb(7,71,166);">&nbsp;</=
+span></p>
+</td>
+<td data-local-id=3D"4b888980ef9d" class=3D"confluenceTd">
+<p local-id=3D"b2e7b86e3989"><span style=3D"color: rgb(7,71,166);">Descript=
+ion:</span></p>
+</td>
+</tr>
+<tr data-local-id=3D"26b2a11ad137">
+<td data-local-id=3D"b741da7262b6" class=3D"confluenceTd">
+<p local-id=3D"e2aa322c9d2c"><span style=3D"color: rgb(7,71,166);">BTM</spa=
+n></p>
+</td>
+<td data-local-id=3D"199394653e4c" class=3D"confluenceTd">
+<p local-id=3D"63ab511c4969"><span style=3D"color: rgb(7,71,166);">Standard=
+ Message Identifier</span></p>
+</td>
+</tr>
+<tr data-local-id=3D"81e9eff9b741">
+<td data-local-id=3D"d73a836e4f23" class=3D"confluenceTd">
+<p local-id=3D"912940b9b541"><span style=3D"color: rgb(7,71,166);">.V/1TORD=
+</span></p>
+</td>
+<td data-local-id=3D"44b966d350cd" class=3D"confluenceTd">
+<p local-id=3D"53a74eb100bb"><span style=3D"color: rgb(7,71,166);">Transfer=
+ in ORD</span></p>
+</td>
+</tr>
+<tr data-local-id=3D"990eff606646">
+<td data-local-id=3D"67d1ee0f0897" class=3D"confluenceTd">
+<p local-id=3D"b5bc74bc91c0"><span style=3D"color: rgb(7,71,166);">.I/KL318=
+/16APR/AMS/J</span></p>
+</td>
+<td data-local-id=3D"046e1b1f41bf" class=3D"confluenceTd">
+<p local-id=3D"15a5e171131d"><span style=3D"color: rgb(7,71,166);">Inbound =
+from AMS on KL318; J-Class</span></p>
+</td>
+</tr>
+<tr data-local-id=3D"7021fc3d17bd">
+<td data-local-id=3D"14d0b799c846" class=3D"confluenceTd">
+<p local-id=3D"970086fc971e"><span style=3D"color: rgb(7,71,166);">.F/UA061=
+/16APR/IAH/Y</span></p>
+</td>
+<td data-local-id=3D"738f87262141" class=3D"confluenceTd">
+<p local-id=3D"fe6e26df2e06"><span style=3D"color: rgb(7,71,166);">Transfer=
+ring to UA061 to IAH; Y-Class</span></p>
+</td>
+</tr>
+<tr data-local-id=3D"26e0b6b9bc29">
+<td data-local-id=3D"4e2d1974e4ed" class=3D"confluenceTd">
+<p local-id=3D"b8c6e002d10d"><span style=3D"color: rgb(7,71,166);">.N/20749=
+99777001</span></p>
+</td>
+<td data-local-id=3D"0cf2c9bde408" class=3D"confluenceTd">
+<p local-id=3D"38dace7b47e2"><span style=3D"color: rgb(7,71,166);">1 Bag ta=
+g; number 2074999777</span></p>
+</td>
+</tr>
+<tr data-local-id=3D"f9a3e6abb1f6">
+<td data-local-id=3D"d4b4e6af5c9d" class=3D"confluenceTd">
+<p local-id=3D"e19f4673c994"><span style=3D"color: rgb(7,71,166);">.E/RUSH<=
+/span></p>
+</td>
+<td data-local-id=3D"9bda94a400f0" class=3D"confluenceTd">
+<p local-id=3D"6d84dc1354be"><span style=3D"color: rgb(7,71,166);">Expedite=
+ baggage identification</span></p>
+</td>
+</tr>
+<tr data-local-id=3D"cfd86109fba0">
+<td data-local-id=3D"6e3efa63dde9" class=3D"confluenceTd">
+<p local-id=3D"175e2b73cebd"><span style=3D"color: rgb(7,71,166);">ENDBTM</=
+span></p>
+</td>
+<td data-local-id=3D"f8ca8bc5d6f6" class=3D"confluenceTd">
+<p local-id=3D"4c9afcae1984"><span style=3D"color: rgb(7,71,166);">End of M=
+essage Identifier</span></p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p local-id=3D"a18ac57da53e">semantics: Inbound carrier advises it is carry=
+ing a RUSH bag into Chicago airport with expected transfer to United</p>
+<p local-id=3D"6e17bc7481e7">analysis:</p>
+<ul local-id=3D"6dd114eb2032">
+<li local-id=3D"105beb541b28">
+<p local-id=3D"f19cc13228d5">otherwise same as previous</p>
+</li>
+</ul>
+<p local-id=3D"c322a6d00ba6">result: <a class=3D"external-link" href=3D"htt=
+ps://iataonline.sharepoint.com/:u:/r/sites/IATABaggageWorkingGroup/Shared%2=
+0Documents/Baggage%20Information%20Exchange%20(BIX)%20Sub%20Group/Taskforce=
+%20best%20practices%20BIX%20v2/Samples/source%20RP1745/3.9.3%20BTM%20expedi=
+te%20(RUSH)%20bag%20detail.xml?csf=3D1&amp;web=3D1&amp;e=3D7wJJWb" rel=3D"n=
+ofollow">3.9.3 BTM expedite (RUSH) bag detail</a></p>
+<h3 local-id=3D"f00563b5e1a6" id=3D"id-3.9BTMexamples-secondpasscompleted-3=
+.9.4Exampleofpartitionedmessagewithmultipleconnectingflights"><span style=
+=3D"color: rgb(7,71,166);">3.9.4 &nbsp;&nbsp;&nbsp;&nbsp;Example of partiti=
+oned message with multiple connecting flights </span></h3>
+<p local-id=3D"5de18076-0471-48ec-9390-dc7051e91663">Does not yield a sampl=
+e</p>
+<h3 local-id=3D"4749fd30ff51" id=3D"id-3.9BTMexamples-secondpasscompleted-3=
+.9.5ExampleofMultipleUsage"><span style=3D"color: rgb(7,71,166);">3.9.5 &nb=
+sp;&nbsp;&nbsp;&nbsp;Example of Multiple Usage </span></h3>
+<p local-id=3D"72c3f981-bfdf-4f4d-9491-7ee237829a8c">Use case: demonstrate =
+multiple elements. Two onwards, two exceptions, two internal airline data</=
+p>
+<p local-id=3D"09ad2588-9d50-472d-b724-35ab0ab36dd5">Redaction: example tru=
+ncated to single bag (first in original)</p>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"align-start" data-local-id=
+=3D"beb418ad73ef" class=3D"confluenceTable">
+<tbody>
+<tr data-local-id=3D"67ccf86242fa">
+<td data-local-id=3D"a2f0a49d57eb" class=3D"confluenceTd">
+<p local-id=3D"68fccfe47779"><span style=3D"color: rgb(7,71,166);">BTM</spa=
+n></p>
+</td>
+<td data-local-id=3D"897104154582" class=3D"confluenceTd">
+<p local-id=3D"6099b989ab49"><span style=3D"color: rgb(7,71,166);">Standard=
+ Message Identifier</span></p>
+</td>
+</tr>
+<tr data-local-id=3D"ff07bfdf7ea9">
+<td data-local-id=3D"b5c61069a7ac" class=3D"confluenceTd">
+<p local-id=3D"0bb54d903109"><span style=3D"color: rgb(7,71,166);">.V/1TEWR=
+</span></p>
+</td>
+<td data-local-id=3D"317eaa0edc91" class=3D"confluenceTd">
+<p local-id=3D"98cd02e1120e"><span style=3D"color: rgb(7,71,166);">Transfer=
+ baggage at EWR</span></p>
+</td>
+</tr>
+<tr data-local-id=3D"589d24327da8">
+<td data-local-id=3D"f49f624bc385" class=3D"confluenceTd">
+<p local-id=3D"37d6c9399d8d"><span style=3D"color: rgb(7,71,166);">.I/BA185=
+/04FEB/LHR/F</span></p>
+</td>
+<td data-local-id=3D"08ee54cd0b64" class=3D"confluenceTd">
+<p local-id=3D"145007c55e52"><span style=3D"color: rgb(7,71,166);">Inbound =
+flight BA185 from LHR; F-Class</span></p>
+</td>
+</tr>
+<tr data-local-id=3D"7656c4ebcb38">
+<td data-local-id=3D"0969d683e076" class=3D"confluenceTd">
+<p local-id=3D"61b628568e6a"><span style=3D"color: rgb(7,71,166);">.F/US675=
+/04FEB/PIT/F</span></p>
+</td>
+<td data-local-id=3D"c71b28165387" class=3D"confluenceTd">
+<p local-id=3D"e86831bc0f70"><span style=3D"color: rgb(7,71,166);">A. Conne=
+cting to US675 to PIT; F-Class </span></p>
+</td>
+</tr>
+<tr data-local-id=3D"2e8e032323ef">
+<td data-local-id=3D"9a5d77fe61d5" class=3D"confluenceTd">
+<p local-id=3D"3e1dab6fe23e"><span style=3D"color: rgb(7,71,166);">.N/01254=
+55911001</span></p>
+</td>
+<td data-local-id=3D"8421b4dd-d9f5-40a0-ac67-5ccdf93d04d3" class=3D"conflue=
+nceTd">
+<p local-id=3D"aed6f1378f38"><span style=3D"color: rgb(7,71,166);">.N eleme=
+nt identifies baggage for passenger Martin.</span></p>
+</td>
+</tr>
+<tr data-local-id=3D"1cac1460101c">
+<td data-local-id=3D"c9c4866ad448" class=3D"confluenceTd">
+<p local-id=3D"4d60288ea5d9"><span style=3D"color: rgb(7,71,166);">.O/UA407=
+/04FEB/ORD/F</span></p>
+</td>
+<td data-local-id=3D"9352f93e-5c21-4830-8fc2-1cb7808e5aa0" class=3D"conflue=
+nceTd">
+<p local-id=3D"ca1a1cd4ecdb"><span style=3D"color: rgb(7,71,166);">&nbsp;On=
+ward flight information; F-Class</span></p>
+</td>
+</tr>
+<tr data-local-id=3D"951807a37e79">
+<td data-local-id=3D"f5120622ca88" class=3D"confluenceTd">
+<p local-id=3D"4fde39f70736"><span style=3D"color: rgb(7,71,166);">.O/UA539=
+2/04FEB/MKE/Y</span></p>
+</td>
+<td data-local-id=3D"1965bbc8-cf03-4f2d-bb65-aac01db3c526" class=3D"conflue=
+nceTd">
+<p local-id=3D"b9b7b31b2af2"><span style=3D"color: rgb(7,71,166);">&nbsp;Ad=
+ditional onward flight; Y-Class</span></p>
+</td>
+</tr>
+<tr data-local-id=3D"40f2ff5f06f0">
+<td data-local-id=3D"a184265fc95f" class=3D"confluenceTd">
+<p local-id=3D"6b7c71187703"><span style=3D"color: rgb(7,71,166);">.P/1MART=
+IN/J</span></p>
+</td>
+<td data-local-id=3D"c2525098-41cf-46b9-9228-341e093ed854" class=3D"conflue=
+nceTd">
+<p local-id=3D"a6977eef3535"><span style=3D"color: rgb(7,71,166);">&nbsp;Pa=
+ssenger's name</span></p>
+</td>
+</tr>
+<tr data-local-id=3D"a3239139bcc3">
+<td data-local-id=3D"abc738cef140" class=3D"confluenceTd">
+<p local-id=3D"3edd5c6dd46c"><span style=3D"color: rgb(7,71,166);">.Y/BA296=
+891/GOLD</span></p>
+</td>
+<td data-local-id=3D"9e2e1f91-01a2-4388-abd4-947829805669" class=3D"conflue=
+nceTd">
+<p local-id=3D"0e401ce0baf9"><span style=3D"color: rgb(7,71,166);">&nbsp;Fr=
+equent traveler number</span></p>
+</td>
+</tr>
+<tr data-local-id=3D"d6eaaf3a6ef3">
+<td data-local-id=3D"057077258598" class=3D"confluenceTd">
+<p local-id=3D"ec454448fe6f"><span style=3D"color: rgb(7,71,166);">.C/SUNSH=
+INE TOURS</span></p>
+</td>
+<td data-local-id=3D"92922605-7e99-475c-aaf0-3254b870c3ae" class=3D"conflue=
+nceTd">
+<p local-id=3D"f5309401d892"><span style=3D"color: rgb(7,71,166);">&nbsp;Co=
+rporate or group name</span></p>
+</td>
+</tr>
+<tr data-local-id=3D"890bb4a2843a">
+<td data-local-id=3D"5e1928f464e4" class=3D"confluenceTd">
+<p local-id=3D"57a19896e54c"><span style=3D"color: rgb(7,71,166);">.E/TOUR<=
+/span></p>
+</td>
+<td data-local-id=3D"b06c79d4-3b4e-4737-8d9d-eae5ffc7e944" class=3D"conflue=
+nceTd">
+<p local-id=3D"41bc66509cbe"><span style=3D"color: rgb(7,71,166);">&nbsp;Ex=
+ception data</span></p>
+</td>
+</tr>
+<tr data-local-id=3D"75bc6c5d7a6b">
+<td data-local-id=3D"ca4e88e45935" class=3D"confluenceTd">
+<p local-id=3D"cc5ccb836c44"><span style=3D"color: rgb(7,71,166);">.E/VIP</=
+span></p>
+</td>
+<td data-local-id=3D"8a6d198c-3342-46e3-9462-4bd4b4c5a0e2" class=3D"conflue=
+nceTd">
+<p local-id=3D"e98a7750cab6"><span style=3D"color: rgb(7,71,166);">&nbsp;Mu=
+ltiple occurrences of the .E element</span></p>
+</td>
+</tr>
+<tr data-local-id=3D"27e24a3be994">
+<td data-local-id=3D"b966056056c8" class=3D"confluenceTd">
+<p local-id=3D"a90ca9d02f70"><span style=3D"color: rgb(7,71,166);">.R/FREE =
+TEXT</span></p>
+</td>
+<td data-local-id=3D"aa29c728-e906-4431-91d5-260d39f4b21d" class=3D"conflue=
+nceTd">
+<p local-id=3D"9e99c78576e5"><span style=3D"color: rgb(7,71,166);">&nbsp;In=
+ternal airline data</span></p>
+</td>
+</tr>
+<tr data-local-id=3D"03ca98ca55ab">
+<td data-local-id=3D"a5b8fc90dcb3" class=3D"confluenceTd">
+<p local-id=3D"61bc9e54b7a5"><span style=3D"color: rgb(7,71,166);">.R/MORE =
+FREE TEXT</span></p>
+</td>
+<td data-local-id=3D"73221790-925d-4c73-b903-4ba73966aed6" class=3D"conflue=
+nceTd">
+<p local-id=3D"bcc83b582135"><span style=3D"color: rgb(7,71,166);">&nbsp;Mu=
+ltiple occurrences of the .R element</span></p>
+</td>
+</tr>
+<tr data-local-id=3D"05fe94757668">
+<td data-local-id=3D"e3112e2e6b0c" class=3D"confluenceTd">
+<p local-id=3D"f9f9595e57d6"><span style=3D"color: rgb(7,71,166);">ENDBTM</=
+span></p>
+</td>
+<td data-local-id=3D"c4d247bb-b364-46eb-adb1-2a24d799532c" class=3D"conflue=
+nceTd">
+<p local-id=3D"944ff835fd58"><span style=3D"color: rgb(7,71,166);">End of M=
+essage Identifier</span></p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p local-id=3D"29c19142cd69">semantics: carrier BA flies onto New York and =
+brings a bag with transfer to (now defunct) US airways and two onwards on U=
+nited. The passenger is qualified with loyalty membership, being part of a =
+tour, being recognized as VIP, for departure in London</p>
+<p local-id=3D"5d55119d1aad">analysis: no special constructs, just an add-o=
+n to the previous examples</p>
+<p local-id=3D"9f231ae8e75c">result: <a class=3D"external-link" href=3D"htt=
+ps://iataonline.sharepoint.com/:u:/r/sites/IATABaggageWorkingGroup/Shared%2=
+0Documents/Baggage%20Information%20Exchange%20(BIX)%20Sub%20Group/Taskforce=
+%20best%20practices%20BIX%20v2/Samples/source%20RP1745/3.9.5%20BTM%20Multip=
+le%20Usage%20of%20Elements.xml?csf=3D1&amp;web=3D1&amp;e=3D1CnZDF" rel=3D"n=
+ofollow">3.9.5 BTM Multiple Usage of Elements</a></p>
+<h3 local-id=3D"5f0964fd496c" id=3D"id-3.9BTMexamples-secondpasscompleted-3=
+.9.6ExampleofaBTMtodeletearecordatJFKbySR"><span style=3D"color: rgb(7,71,1=
+66);">3.9.6 &nbsp;&nbsp;&nbsp;&nbsp;Example of a BTM to <span class=3D"inli=
+ne-comment-marker" data-ref=3D"9c567201-cbaf-4165-b17b-0e44363455bb">delete=
+ a record </span>at JFK&nbsp;by SR</span></h3>
+<p local-id=3D"4013402fab60">use case: remove or mark as passive a record i=
+n other system</p>
+<p local-id=3D"3064f505-d467-43e8-9e75-6efd564232cd">Redaction: remove encr=
+yption details</p>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"align-start" data-local-id=
+=3D"164c99701002" class=3D"confluenceTable">
+<tbody>
+<tr data-local-id=3D"cb4b3b4f91d6">
+<td data-local-id=3D"7d61c54c162f" class=3D"confluenceTd">
+<p local-id=3D"ecba7bf9144e"><span style=3D"color: rgb(7,71,166);">BTM</spa=
+n></p>
+</td>
+<td data-local-id=3D"5bfdf822bc95" class=3D"confluenceTd">
+<p local-id=3D"101af14e79ef"><span style=3D"color: rgb(7,71,166);">Standard=
+ Message Identifier</span></p>
+</td>
+</tr>
+<tr data-local-id=3D"a9c4b7187997">
+<td data-local-id=3D"8c8a1b50b6db" class=3D"confluenceTd">
+<p local-id=3D"667cecf425db"><span style=3D"color: rgb(7,71,166);">DEL</spa=
+n></p>
+</td>
+<td data-local-id=3D"78f263d8c726" class=3D"confluenceTd">
+<p local-id=3D"bfca53bd5313"><span style=3D"color: rgb(7,71,166);">Delete F=
+unction</span></p>
+</td>
+</tr>
+<tr data-local-id=3D"0aae12ba056b">
+<td data-local-id=3D"92b2125410eb" class=3D"confluenceTd">
+<p local-id=3D"1c50b17c3845"><span style=3D"color: rgb(7,71,166);">.V/1TJFK=
+</span></p>
+</td>
+<td data-local-id=3D"9205def180cf" class=3D"confluenceTd">
+<p local-id=3D"17b0964b6eef"><span style=3D"color: rgb(7,71,166);">Version;=
+ Transfer bag at JFK</span></p>
+</td>
+</tr>
+<tr data-local-id=3D"22102bf2b9d2">
+<td data-local-id=3D"2bf6b9b62aef" class=3D"confluenceTd">
+<p local-id=3D"2dc64d958c51"><span style=3D"color: rgb(7,71,166);">.I/SR101=
+/18APR/JFK/C</span></p>
+</td>
+<td data-local-id=3D"622dd4083836" class=3D"confluenceTd">
+<p local-id=3D"3c7e9c58fe6f"><span style=3D"color: rgb(7,71,166);">Inbound =
+from ZRH on SR101</span></p>
+</td>
+</tr>
+<tr data-local-id=3D"522390ab6ea7">
+<td data-local-id=3D"89f4021ccb4e" class=3D"confluenceTd">
+<p local-id=3D"ac7d2ef0b5e6"><span style=3D"color: rgb(7,71,166);">.F/DL671=
+/18APR/ATL/C</span></p>
+</td>
+<td data-local-id=3D"a934c0333ea5" class=3D"confluenceTd">
+<p local-id=3D"48a5631d0993"><span style=3D"color: rgb(7,71,166);">Transfer=
+ to DL671 to ATL </span></p>
+</td>
+</tr>
+<tr data-local-id=3D"c05d57aaed2b">
+<td data-local-id=3D"6279800d423d" class=3D"confluenceTd">
+<p local-id=3D"62fd01007d38"><span style=3D"color: rgb(7,71,166);">.N/00851=
+23457001</span></p>
+</td>
+<td data-local-id=3D"a4af0d1bba94" class=3D"confluenceTd">
+<p local-id=3D"616a5efe46a1"><span style=3D"color: rgb(7,71,166);">Bag Tag =
+Number</span></p>
+</td>
+</tr>
+<tr data-local-id=3D"1c101e20928e">
+<td data-local-id=3D"3bc254ef3813" class=3D"confluenceTd">
+<p local-id=3D"b5c8ba9c1a80"><span style=3D"color: rgb(7,71,166);">ENDBTM</=
+span></p>
+</td>
+<td data-local-id=3D"dff452f6e38c" class=3D"confluenceTd">
+<p local-id=3D"fb774f3458ab"><span style=3D"color: rgb(7,71,166);">End of M=
+essage Identifier</span></p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p local-id=3D"51a7963115e0">semantics: BTM-DEL requests receiver to remove=
+ or archive a bag from its administration.</p>
+<p local-id=3D"2296365f6d39">analysis: Delete Function maps to Segment Secu=
+rity Control element in BIX, otherwise no new functionality</p>
+<p local-id=3D"d8baf64ed440">result: <a class=3D"external-link" href=3D"htt=
+ps://iataonline.sharepoint.com/:u:/r/sites/IATABaggageWorkingGroup/Shared%2=
+0Documents/Baggage%20Information%20Exchange%20(BIX)%20Sub%20Group/Taskforce=
+%20best%20practices%20BIX%20v2/Samples/source%20RP1745/3.9.6%20BTM%20to%20d=
+elete%20a%20record%20in%20a%20BHS%20or%20BRS%20at%20JFK.xml?csf=3D1&amp;web=
+=3D1&amp;e=3DYwB5Rn" rel=3D"nofollow">3.9.6 BTM to delete a record in a BHS=
+ or BRS at JFK</a></p>
+<h3 local-id=3D"16fdc9394cc1" id=3D"id-3.9BTMexamples-secondpasscompleted-3=
+.9.9ExampleofBTMintheIntermodalReceipt/IntermodalDeliveryProcess"><span sty=
+le=3D"color: rgb(7,71,166);">3.9.9 &nbsp;&nbsp;&nbsp;&nbsp;Example of BTM i=
+n the Intermodal Receipt/Intermodal Delivery Process </span></h3>
+<p local-id=3D"cde51c03b952">use case: train to air transfer where rail tra=
+nsporter has custody of bag</p>
+<p local-id=3D"6eccfee4-8508-4f09-b9e4-1ca6bbde02c1">Redaction: locations u=
+pdated, train journey to Amsterdam over Brussels. Remote collection in Lond=
+on removed as unrealistic information for a Brussels departure. Same for ba=
+gtag printer.</p>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"align-start" data-local-id=
+=3D"abaecaa9fc2b" class=3D"confluenceTable">
+<tbody>
+<tr data-local-id=3D"b16b4886-ee53-4348-ab32-418b6fdf5270">
+<td data-local-id=3D"4e4ac522-8836-4c36-9b37-406502c642c0" class=3D"conflue=
+nceTd">
+<p local-id=3D"5ae7c3e00139"><span style=3D"color: rgb(7,71,166);">BTM</spa=
+n></p>
+</td>
+<td data-local-id=3D"3e04683a-6f77-46d3-8cd3-0d81245e4d27" class=3D"conflue=
+nceTd">
+<p local-id=3D"471a97b1d558"><span style=3D"color: rgb(7,71,166);">Standard=
+ Message Identifier</span></p>
+</td>
+</tr>
+<tr data-local-id=3D"4f1581e1-76ce-4774-87f8-a8bfc808c6db">
+<td data-local-id=3D"f4b4fadc-c677-432b-bcee-85746e22c671" class=3D"conflue=
+nceTd">
+<p local-id=3D"c8cdf95b675c"><span style=3D"color: rgb(7,71,166);">.V/1TAMS=
+ </span></p>
+</td>
+<td data-local-id=3D"6f8bbcd6-aa62-40a0-8e92-121c0d9e6971" class=3D"conflue=
+nceTd">
+<p local-id=3D"6f267ee2dd8d"><span style=3D"color: rgb(7,71,166);">Transfer=
+ baggage at AMS</span></p>
+</td>
+</tr>
+<tr data-local-id=3D"ce9f0cad-5c23-4997-a962-bf4304099697">
+<td data-local-id=3D"d02f2810-a524-4800-9022-8130ebce6ba8" class=3D"conflue=
+nceTd">
+<p local-id=3D"e7eaf4f31242"><span style=3D"color: rgb(7,71,166);">.I/YY123=
+4/01APR/ZYR/Y </span></p>
+</td>
+<td data-local-id=3D"434cb010-02f5-4107-b5a8-be92dc776d35" class=3D"conflue=
+nceTd">
+<p local-id=3D"500ef39c5d85"><span style=3D"color: rgb(7,71,166);">Inbound =
+from train station ZYR on YY1234</span></p>
+</td>
+</tr>
+<tr data-local-id=3D"572469ee-c588-4dc9-870d-732a908b158a">
+<td data-local-id=3D"0bcff5d0-409e-49a1-8899-8666205c06bb" class=3D"conflue=
+nceTd">
+<p local-id=3D"26d6c51dd579"><span style=3D"color: rgb(7,71,166);">.F/KL753=
+/01APR/CUR/M </span></p>
+</td>
+<td data-local-id=3D"e48eda07-d967-421f-ab20-757c88787afe" class=3D"conflue=
+nceTd">
+<p local-id=3D"2f3c02525d0d"><span style=3D"color: rgb(7,71,166);">Transfer=
+ to KL 753 to CUR</span></p>
+</td>
+</tr>
+<tr data-local-id=3D"014b5b4c-3337-44e7-ac0c-0701e449f805">
+<td data-local-id=3D"d6bdfd95-1b61-49bc-a505-bdfa9238916d" class=3D"conflue=
+nceTd">
+<p local-id=3D"21cf8f5482c2"><span style=3D"color: rgb(7,71,166);">.N/00164=
+44010001 </span></p>
+</td>
+<td data-local-id=3D"6d773443-6d6d-4c65-896d-54c4fee8ad89" class=3D"conflue=
+nceTd">
+<p local-id=3D"068d88e9a00a"><span style=3D"color: rgb(7,71,166);">1 Bag Ta=
+g; number 0016444010</span></p>
+</td>
+</tr>
+<tr data-local-id=3D"9b5d8ccd-0b17-4178-a062-f81da8723c36">
+<td data-local-id=3D"91bb510a-c55d-4490-b6c4-9827b8d3b1ce" class=3D"conflue=
+nceTd">
+<p local-id=3D"f5714967623c"><span style=3D"color: rgb(7,71,166);">.P/LOWRY=
+/K </span></p>
+</td>
+<td data-local-id=3D"36cf75de-a504-483a-9308-9055376d6742" class=3D"conflue=
+nceTd">
+<p local-id=3D"ab7973922705"><span style=3D"color: rgb(7,71,166);">Passenge=
+r Name: Lowry</span></p>
+</td>
+</tr>
+<tr data-local-id=3D"71dcf5e2-dd39-4b1b-bfd4-7ee7f2a82a6f">
+<td data-local-id=3D"55df64b5-a831-4b99-a8af-4de7305d48db" class=3D"conflue=
+nceTd">
+<p local-id=3D"d6755ebb94b4"><span style=3D"color: rgb(7,71,166);">ENDBTM <=
+/span></p>
+</td>
+<td data-local-id=3D"b18408af-0e7e-478b-b017-8de45b4ab725" class=3D"conflue=
+nceTd">
+<p local-id=3D"28e077c79aa4"><span style=3D"color: rgb(7,71,166);">End of M=
+essage Identifier</span></p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p local-id=3D"3999cc6a8a56">semantics: This message shows rail transport p=
+resented as a flight, and assumes the rail-carrier is able to send BTM.</p>
+<p local-id=3D"2f06444c7059">analysis: train ride represented as flight, sa=
+me approach in BIX. Mapping itself is trivial</p>
+<p local-id=3D"5099383572b9">result: <a class=3D"external-link" href=3D"htt=
+ps://iataonline.sharepoint.com/:u:/r/sites/IATABaggageWorkingGroup/Shared%2=
+0Documents/Baggage%20Information%20Exchange%20(BIX)%20Sub%20Group/Taskforce=
+%20best%20practices%20BIX%20v2/Samples/source%20RP1745/3.9.9%20BTM%20Interm=
+odal%20Receipt_Delivery%20Process.xml?csf=3D1&amp;web=3D1&amp;e=3D0T4AJd" r=
+el=3D"nofollow">3.9.9 BTM Intermodal Receipt_Delivery Process</a></p>
+<h3 local-id=3D"845fd61c750f" id=3D"id-3.9BTMexamples-secondpasscompleted-3=
+.9.10ExampleofBTMcontainingEBT(UniqueIdentifier)data"><span style=3D"color:=
+ rgb(7,71,166);">3.9.10 &nbsp;&nbsp;&nbsp;&nbsp;Example of BTM containing E=
+BT (Unique Identifier) data </span></h3>
+<p local-id=3D"5b5fabc5ad4f">use case: BTM with extended bag identification=
+</p>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"align-start" data-local-id=
+=3D"35b410d3807f" class=3D"confluenceTable">
+<tbody>
+<tr data-local-id=3D"c18e062a-d581-4ca4-ab84-9e4ddb6fb164">
+<td data-local-id=3D"55645b03-a927-40d6-81a9-125f87f2e1c1" class=3D"conflue=
+nceTd">
+<p local-id=3D"190ad20f4fc9"><span style=3D"color: rgb(7,71,166);">BTM</spa=
+n></p>
+</td>
+<td data-local-id=3D"c62aa70f-5298-4e92-bd87-ad5d594bd3b5" class=3D"conflue=
+nceTd">
+<p local-id=3D"83fbde3d9d3b"><span style=3D"color: rgb(7,71,166);">Standard=
+ Message Identifier</span></p>
+</td>
+</tr>
+<tr data-local-id=3D"ae856aa0-29b3-400c-b1f9-f3abd3c50d6c">
+<td data-local-id=3D"ef69d715-fabc-4bf8-b290-ad67f06c4fe6" class=3D"conflue=
+nceTd">
+<p local-id=3D"98364be8124c"><span style=3D"color: rgb(7,71,166);">.V/1TPPT=
+ </span></p>
+</td>
+<td data-local-id=3D"f5a72ea4-ab8e-4694-8d58-f7be02c8d7e1" class=3D"conflue=
+nceTd">
+<p local-id=3D"f6eaf29de32c"><span style=3D"color: rgb(7,71,166);">Transfer=
+ baggage at PPT</span></p>
+</td>
+</tr>
+<tr data-local-id=3D"5791d706-f893-4972-abf5-1249ca495858">
+<td data-local-id=3D"e7d513fc-fe90-494d-bb14-8dc84ee07182" class=3D"conflue=
+nceTd">
+<p local-id=3D"cf0502b019c2"><span style=3D"color: rgb(7,71,166);">.I/YY985=
+5/01APR/FJI/Y </span></p>
+</td>
+<td data-local-id=3D"04306540-555d-477b-b4ce-62351a37cc09" class=3D"conflue=
+nceTd">
+<p local-id=3D"d09c3d6ebd07"><span style=3D"color: rgb(7,71,166);">Inbound =
+from FJI on YY9855</span></p>
+</td>
+</tr>
+<tr data-local-id=3D"6237a967-202d-45a4-a9d5-aeca6373b3b1">
+<td data-local-id=3D"fa759a86-8694-4e68-9b53-b46ca037420b" class=3D"conflue=
+nceTd">
+<p local-id=3D"2f97b1f9c3e3"><span style=3D"color: rgb(7,71,166);">.F/ZZ064=
+/01APR/CUR/M </span></p>
+</td>
+<td data-local-id=3D"3f7dfedb-2c9b-4d6e-b6be-af2440c8f927" class=3D"conflue=
+nceTd">
+<p local-id=3D"89e6ffbe6387"><span style=3D"color: rgb(7,71,166);">Transfer=
+ to ZZ064 to CUR</span></p>
+</td>
+</tr>
+<tr data-local-id=3D"d8b418fa-5182-4b8f-8f37-a25853176c45">
+<td data-local-id=3D"ba35a7a7-c9fa-4fdf-986b-c7de9ca44d9e" class=3D"conflue=
+nceTd">
+<p local-id=3D"ff6835238a15"><span style=3D"color: rgb(7,71,166);">.N/00097=
+41556001 </span></p>
+</td>
+<td data-local-id=3D"e93b3c51-71fb-4f35-b7bc-0d1f65a250e0" class=3D"conflue=
+nceTd">
+<p local-id=3D"ec9a345e9ac6"><span style=3D"color: rgb(7,71,166);">1 Bag Ta=
+g; number 0009741556</span></p>
+</td>
+</tr>
+<tr data-local-id=3D"0760b937-ae8b-4e89-a40a-b38d3e4718c4">
+<td data-local-id=3D"1318e990-ba9b-4e0b-94c0-f1e6067247bd" class=3D"conflue=
+nceTd">
+<p local-id=3D"5391f605ea08"><span style=3D"color: rgb(7,71,166);">.P/MEEKE=
+R/K </span></p>
+</td>
+<td data-local-id=3D"c343e78c-b004-4919-b763-edc876516c4b" class=3D"conflue=
+nceTd">
+<p local-id=3D"780fb8d13ef7"><span style=3D"color: rgb(7,71,166);">Passenge=
+r Name: Meeker</span></p>
+</td>
+</tr>
+<tr data-local-id=3D"c678f78d-bc0b-4352-a8c9-cfe24c4797fc">
+<td data-local-id=3D"55ea668a-fc7c-42b0-82de-53f09d95a26f" class=3D"conflue=
+nceTd">
+<p local-id=3D"d1faba3caec1"><span style=3D"color: rgb(7,71,166);">.M/00097=
+41556/G/9EFDB6E6CFCE42018954D37159CEB0EF </span></p>
+</td>
+<td data-local-id=3D"bedee976-d00d-424e-b302-453009f181dd" class=3D"conflue=
+nceTd">
+<p local-id=3D"5af4a4ab056c"><span style=3D"color: rgb(7,71,166);">Bag is a=
+n EBT with GUID 9EFDB6E6-CFCE-4201-8954-D37159CEB0EF</span></p>
+</td>
+</tr>
+<tr data-local-id=3D"987e782b-7cce-4817-b8d5-ca2f9a828cbc">
+<td data-local-id=3D"62c5421e-792d-4966-ab92-5d3fcce614ec" class=3D"conflue=
+nceTd">
+<p local-id=3D"eecb323609a5"><span style=3D"color: rgb(7,71,166);">ENDBTM <=
+/span></p>
+</td>
+<td data-local-id=3D"c27d620a-d7b4-4c8d-ab77-657b4edf73b2" class=3D"conflue=
+nceTd">
+<p local-id=3D"3aaaef885bcb"><span style=3D"color: rgb(7,71,166);">End of M=
+essage Identifier</span></p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p local-id=3D"b5c91cb1d5ec">semantics: Carrier YY brings a bag to airport =
+PPT and expects a transfer to carrier ZZ. The bag can be identified from it=
+s RFID</p>
+<p local-id=3D"0f150042ac1c">analysis: simple extension of earlier mapping.=
+ .M maps to bag tag element. Note that from message it is unclear whether b=
+ag carries an EBT or an RFID-enabled paper tag.</p>
+<p local-id=3D"755c6d377b98">result: <a class=3D"external-link" href=3D"htt=
+ps://iataonline.sharepoint.com/:u:/r/sites/IATABaggageWorkingGroup/Shared%2=
+0Documents/Baggage%20Information%20Exchange%20(BIX)%20Sub%20Group/Taskforce=
+%20best%20practices%20BIX%20v2/Samples/source%20RP1745/3.9.10%20BTM%20with%=
+20EBT%20Unique%20Identifier%20data.xml?csf=3D1&amp;web=3D1&amp;e=3DRwnmcH" =
+rel=3D"nofollow">3.9.10 BTM with EBT Unique Identifier data</a></p>
+<h3 local-id=3D"69e15f1fb8ea" id=3D"id-3.9BTMexamples-secondpasscompleted-3=
+.9.11ExampleofBTMcontainingmultipleEBT(UniqueIdentifier)data"><span style=
+=3D"color: rgb(7,71,166);">3.9.11 &nbsp;&nbsp;&nbsp;&nbsp;Example of BTM co=
+ntaining multiple EBT (Unique Identifier) data </span></h3>
+<p local-id=3D"e61ebff56255">Redaction: after splitting in single message p=
+er bag, nothing new is left compared to 3.9.10</p>
+<h3 local-id=3D"23973776-512c-4a92-bc0d-fd99a26b837c" id=3D"id-3.9BTMexampl=
+es-secondpasscompleted-3.9.12ExampleofBTMwiththeGloballyUniqueIdentificatio=
+n"><span style=3D"color: rgb(7,71,166);">3.9.12 &nbsp;&nbsp;&nbsp;&nbsp;Exa=
+mple of BTM with the Globally Unique Identification</span></h3>
+<p local-id=3D"df417e7b-539c-4d7a-b1ba-9cf09a79765f">Redaction: after fixin=
+g .M and stripping strange origin details, nothing new is left compared to =
+3.9.10</p>
+<h1 local-id=3D"8a1a4991f876" id=3D"id-3.9BTMexamples-secondpasscompleted-P=
+endingChangeRequest">Pending Change Request</h1>
+<p local-id=3D"58120547fcf8"></p>
+<p local-id=3D"5ce1b4e53c0f">Note from editor: we keep re-flighting message=
+s pending while Focus Group Re-flighting considers Reso 755 and RP1745 for =
+clarification and alignment</p>
+<p local-id=3D"a9610e7be796">This includes 3.9.7, 3.9.8</p>
+<h3 local-id=3D"22d4681950b8" id=3D"id-3.9BTMexamples-secondpasscompleted-3=
+.9.7ExampleofBTMoninvoluntaryitinerarychange(IROP)-pendingre-flightingFG"><=
+span style=3D"color: rgb(7,71,166);">3.9.7 &nbsp;&nbsp;&nbsp;&nbsp;Example =
+of BTM on involuntary itinerary change (IROP) - pending re-flighting FG</sp=
+an></h3>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"align-start" data-local-id=
+=3D"abab14fed7d1" class=3D"confluenceTable">
+<tbody>
+<tr data-local-id=3D"a4143633a373">
+<td data-local-id=3D"3390202f9741" class=3D"confluenceTd">
+<p local-id=3D"4f08f2a6e91a"><span style=3D"color: rgb(7,71,166);">&nbsp;</=
+span></p>
+</td>
+<td data-local-id=3D"2d83874ace41" class=3D"confluenceTd">
+<p local-id=3D"cb0317446d1f"><span style=3D"color: rgb(7,71,166);">Descript=
+ion:</span></p>
+</td>
+</tr>
+<tr data-local-id=3D"87200cfe5092">
+<td data-local-id=3D"46f2b8f47b22" class=3D"confluenceTd">
+<p local-id=3D"1cbfec300231"><span style=3D"color: rgb(7,71,166);">Original=
+ BTM sent at flight close-out </span></p>
+</td>
+<td data-local-id=3D"7d008834c58e" class=3D"confluenceTd">
+<p local-id=3D"df4a0726e9d8"><span style=3D"color: rgb(7,71,166);">&nbsp;</=
+span></p>
+</td>
+</tr>
+<tr data-local-id=3D"1fe2a165a6a4">
+<td data-local-id=3D"bb302be789fa" class=3D"confluenceTd">
+<p local-id=3D"364746a06c52"><span style=3D"color: rgb(7,71,166);">BTM</spa=
+n></p>
+</td>
+<td data-local-id=3D"ea305db01494" class=3D"confluenceTd">
+<p local-id=3D"9d66be6dd483"><span style=3D"color: rgb(7,71,166);">Standard=
+ Message Identifier</span></p>
+</td>
+</tr>
+<tr data-local-id=3D"c6f0699f5eaa">
+<td data-local-id=3D"9d89bb4aa6bb" class=3D"confluenceTd">
+<p local-id=3D"a7f20277dea9"><span style=3D"color: rgb(7,71,166);">.V/1TORD=
+</span></p>
+</td>
+<td data-local-id=3D"8b738d8276f3" class=3D"confluenceTd">
+<p local-id=3D"6358a4d51b1c"><span style=3D"color: rgb(7,71,166);">Transfer=
+ baggage at ORD</span></p>
+</td>
+</tr>
+<tr data-local-id=3D"b5fc30c4c8a2">
+<td data-local-id=3D"76575243f005" class=3D"confluenceTd">
+<p local-id=3D"63ffdf99c188"><span style=3D"color: rgb(7,71,166);">.I/UA958=
+/01APR/DEN/Y</span></p>
+</td>
+<td data-local-id=3D"99d0d58d49f6" class=3D"confluenceTd">
+<p local-id=3D"30be05c7ef4a"><span style=3D"color: rgb(7,71,166);">Inbound =
+from DEN on UA 958</span></p>
+</td>
+</tr>
+<tr data-local-id=3D"c4fb9ce4ac2c">
+<td data-local-id=3D"9b99e2f80573" class=3D"confluenceTd">
+<p local-id=3D"62f4d58b7f83"><span style=3D"color: rgb(7,71,166);">.F/LH431=
+/01APR/FRA/Y</span></p>
+</td>
+<td data-local-id=3D"4d4fc32e9c5d" class=3D"confluenceTd">
+<p local-id=3D"6650c2335d86"><span style=3D"color: rgb(7,71,166);">Transfer=
+ to LH 431 to FRA</span></p>
+</td>
+</tr>
+<tr data-local-id=3D"63dc19e80488">
+<td data-local-id=3D"373524ba5a15" class=3D"confluenceTd">
+<p local-id=3D"f0db67023c6c"><span style=3D"color: rgb(7,71,166);">.N/00164=
+44010001</span></p>
+</td>
+<td data-local-id=3D"f1151ecfa0eb" class=3D"confluenceTd">
+<p local-id=3D"491053704221"><span style=3D"color: rgb(7,71,166);">1 Bag Ta=
+g; number 0016444010</span></p>
+</td>
+</tr>
+<tr data-local-id=3D"b6b72a245aa6">
+<td data-local-id=3D"dd96c13e23e6" class=3D"confluenceTd">
+<p local-id=3D"5652362f0432"><span style=3D"color: rgb(7,71,166);">.P/LOWRY=
+/K </span></p>
+</td>
+<td data-local-id=3D"cc300aadc708" class=3D"confluenceTd">
+<p local-id=3D"272dd7b79b77"><span style=3D"color: rgb(7,71,166);">Passenge=
+r Name : Lowry</span></p>
+</td>
+</tr>
+<tr data-local-id=3D"2104f1517f95">
+<td data-local-id=3D"212a2ca51422" class=3D"confluenceTd">
+<p local-id=3D"a205eab0854a"><span style=3D"color: rgb(7,71,166);">ENDBTM <=
+/span></p>
+</td>
+<td data-local-id=3D"12e4c0c6b2d5" class=3D"confluenceTd">
+<p local-id=3D"4b291a961b8e"><span style=3D"color: rgb(7,71,166);">End of M=
+essage Identifier</span></p>
+</td>
+</tr>
+<tr data-local-id=3D"ab79654bc2f5">
+<td data-local-id=3D"4d70b108c112" class=3D"confluenceTd">
+<p local-id=3D"f21e56896ca0"><span style=3D"color: rgb(7,71,166);">&nbsp;</=
+span></p>
+</td>
+<td data-local-id=3D"b470a1697261" class=3D"confluenceTd">
+<p local-id=3D"3d0e53930750"><span style=3D"color: rgb(7,71,166);">&nbsp;</=
+span></p>
+</td>
+</tr>
+<tr data-local-id=3D"fd731394785f">
+<td data-local-id=3D"d81daa396e3f" class=3D"confluenceTd">
+<p local-id=3D"61054ba7b32d"><span style=3D"color: rgb(7,71,166);">BTM DEL =
+sent at PNR cancel </span></p>
+</td>
+<td data-local-id=3D"aee6a67bdbfe" class=3D"confluenceTd">
+<p local-id=3D"64e581dfd6a1"><span style=3D"color: rgb(7,71,166);">&nbsp;</=
+span></p>
+</td>
+</tr>
+<tr data-local-id=3D"1f92f02654d2">
+<td data-local-id=3D"b0a091b9371a" class=3D"confluenceTd">
+<p local-id=3D"67cb0bf575d9"><span style=3D"color: rgb(7,71,166);">BTM</spa=
+n></p>
+</td>
+<td data-local-id=3D"1e0ef6664cb4" class=3D"confluenceTd">
+<p local-id=3D"ad8b355e1d62"><span style=3D"color: rgb(7,71,166);">Standard=
+ Message Identifier</span></p>
+</td>
+</tr>
+<tr data-local-id=3D"bc8b06c90251">
+<td data-local-id=3D"6db53356a0ba" class=3D"confluenceTd">
+<p local-id=3D"143de4dbb52a"><span style=3D"color: rgb(7,71,166);">DEL</spa=
+n></p>
+</td>
+<td data-local-id=3D"53db5b29ff02" class=3D"confluenceTd">
+<p local-id=3D"bea7493e817a"><span style=3D"color: rgb(7,71,166);">Change o=
+f Status Indicator</span></p>
+</td>
+</tr>
+<tr data-local-id=3D"f9fbe824ed38">
+<td data-local-id=3D"454f702ad469" class=3D"confluenceTd">
+<p local-id=3D"c0b03739e366"><span style=3D"color: rgb(7,71,166);">.V/1TORD=
+</span></p>
+</td>
+<td data-local-id=3D"765d12353bc1" class=3D"confluenceTd">
+<p local-id=3D"53ed4add6f35"><span style=3D"color: rgb(7,71,166);">Transfer=
+ baggage at ORD</span></p>
+</td>
+</tr>
+<tr data-local-id=3D"ab3c556052d6">
+<td data-local-id=3D"83c12a023bc6" class=3D"confluenceTd">
+<p local-id=3D"b2e289a616dc"><span style=3D"color: rgb(7,71,166);">.I/UA958=
+/01APR/DEN/Y</span></p>
+</td>
+<td data-local-id=3D"573d92752966" class=3D"confluenceTd">
+<p local-id=3D"f716a4246298"><span style=3D"color: rgb(7,71,166);">Inbound =
+from DEN on UA 958</span></p>
+</td>
+</tr>
+<tr data-local-id=3D"2954fece78c5">
+<td data-local-id=3D"a991d538c986" class=3D"confluenceTd">
+<p local-id=3D"393e10e68775"><span style=3D"color: rgb(7,71,166);">.F/LH431=
+/01APR/FRA/Y</span></p>
+</td>
+<td data-local-id=3D"55972118c143" class=3D"confluenceTd">
+<p local-id=3D"77f5647b06c0"><span style=3D"color: rgb(7,71,166);">Transfer=
+ to LH 431 to FRA</span></p>
+</td>
+</tr>
+<tr data-local-id=3D"cadae44e134c">
+<td data-local-id=3D"b728142b9ba1" class=3D"confluenceTd">
+<p local-id=3D"56bf1ccfe97a"><span style=3D"color: rgb(7,71,166);">.N/00164=
+44010001</span></p>
+</td>
+<td data-local-id=3D"63b7c9525e88" class=3D"confluenceTd">
+<p local-id=3D"363e7f571cb2"><span style=3D"color: rgb(7,71,166);">1 Bag Ta=
+g; number 0016444010</span></p>
+</td>
+</tr>
+<tr data-local-id=3D"f188665a17f6">
+<td data-local-id=3D"942b267a7abb" class=3D"confluenceTd">
+<p local-id=3D"2a5bb657f02c"><span style=3D"color: rgb(7,71,166);">.P/LOWRY=
+/K </span></p>
+</td>
+<td data-local-id=3D"ff37c7053281" class=3D"confluenceTd">
+<p local-id=3D"9efefdc08254"><span style=3D"color: rgb(7,71,166);">Passenge=
+r Name : Lowry</span></p>
+</td>
+</tr>
+<tr data-local-id=3D"a56b0ff4bffc">
+<td data-local-id=3D"ea3056134cd6" class=3D"confluenceTd">
+<p local-id=3D"93495a0859e7"><span style=3D"color: rgb(7,71,166);">.E/IROP =
+</span></p>
+</td>
+<td data-local-id=3D"d64204a20233" class=3D"confluenceTd">
+<p local-id=3D"9d3c984356d2"><span style=3D"color: rgb(7,71,166);">Indicato=
+r for irregular operation and involuntary re-routing</span></p>
+</td>
+</tr>
+<tr data-local-id=3D"ebb7bea25bad">
+<td data-local-id=3D"84f3ebec0b13" class=3D"confluenceTd">
+<p local-id=3D"373484a7a9ec"><span style=3D"color: rgb(7,71,166);">.E/RRTE =
+</span></p>
+</td>
+<td data-local-id=3D"2d4673d5ddfc" class=3D"confluenceTd">
+<p local-id=3D"9ab2b7087c24"><span style=3D"color: rgb(7,71,166);">Indicato=
+r for re-rerouting</span></p>
+</td>
+</tr>
+<tr data-local-id=3D"012ba89f0644">
+<td data-local-id=3D"ed714ec1676b" class=3D"confluenceTd">
+<p local-id=3D"ab1644771e3c"><span style=3D"color: rgb(7,71,166);">ENDBTM <=
+/span></p>
+</td>
+<td data-local-id=3D"b5ea182b0e33" class=3D"confluenceTd">
+<p local-id=3D"04d3e094afac"><span style=3D"color: rgb(7,71,166);">End of M=
+essage Identifier</span></p>
+</td>
+</tr>
+<tr data-local-id=3D"de5cee4522f2">
+<td data-local-id=3D"a2373ec5bf2f" class=3D"confluenceTd">
+<p local-id=3D"eb754e8b01ab"></p>
+</td>
+<td data-local-id=3D"b6679c2da09a" class=3D"confluenceTd">
+<p local-id=3D"2992e47ac3a8"></p>
+</td>
+</tr>
+<tr data-local-id=3D"2063891e20e6">
+<td data-local-id=3D"b7ef951fcf19" class=3D"confluenceTd">
+<p local-id=3D"4183b5e91b63"><span style=3D"color: rgb(7,71,166);">BTM sent=
+ at PNR cancel rebook </span></p>
+</td>
+<td data-local-id=3D"822b95061858" class=3D"confluenceTd">
+<p local-id=3D"21cae6d9a20e"><span style=3D"color: rgb(7,71,166);">&nbsp;</=
+span></p>
+</td>
+</tr>
+<tr data-local-id=3D"b7a36264d5dc">
+<td data-local-id=3D"ddae2e218a5b" class=3D"confluenceTd">
+<p local-id=3D"6e530a518957"><span style=3D"color: rgb(7,71,166);">BTM</spa=
+n></p>
+</td>
+<td data-local-id=3D"44e78990af08" class=3D"confluenceTd">
+<p local-id=3D"caed583ecbea"><span style=3D"color: rgb(7,71,166);">Standard=
+ Message Identifier</span></p>
+</td>
+</tr>
+<tr data-local-id=3D"72e42fdc8b77">
+<td data-local-id=3D"fed501e9db7f" class=3D"confluenceTd">
+<p local-id=3D"27bcbbb59908"><span style=3D"color: rgb(7,71,166);">.V/1TORD=
+</span></p>
+</td>
+<td data-local-id=3D"8349d864a6ce" class=3D"confluenceTd">
+<p local-id=3D"7b07d342135e"><span style=3D"color: rgb(7,71,166);">Transfer=
+ baggage at ORD</span></p>
+</td>
+</tr>
+<tr data-local-id=3D"5b4dde94e620">
+<td data-local-id=3D"0ac9daa053b3" class=3D"confluenceTd">
+<p local-id=3D"fb2630a85098"><span style=3D"color: rgb(7,71,166);">.I/UA248=
+/01APR/DEN/Y</span></p>
+</td>
+<td data-local-id=3D"37cce257616d" class=3D"confluenceTd">
+<p local-id=3D"d9a009fe8198"><span style=3D"color: rgb(7,71,166);">Inbound =
+from DEN on UA 248</span></p>
+</td>
+</tr>
+<tr data-local-id=3D"5e7a36eb299a">
+<td data-local-id=3D"b60669916812" class=3D"confluenceTd">
+<p local-id=3D"8908e67ed644"><span style=3D"color: rgb(7,71,166);">.F/LH433=
+/01APR/FRA/Y</span></p>
+</td>
+<td data-local-id=3D"01de78d71d27" class=3D"confluenceTd">
+<p local-id=3D"387223d4f31b"><span style=3D"color: rgb(7,71,166);">Transfer=
+ to LH 433 to FRA</span></p>
+</td>
+</tr>
+<tr data-local-id=3D"3c437311efdc">
+<td data-local-id=3D"135bbca9180d" class=3D"confluenceTd">
+<p local-id=3D"62d55b43ef63"><span style=3D"color: rgb(7,71,166);">.N/00164=
+44010001</span></p>
+</td>
+<td data-local-id=3D"a68b4aeae1bd" class=3D"confluenceTd">
+<p local-id=3D"913d74022ce6"><span style=3D"color: rgb(7,71,166);">1 Bag Ta=
+g; number 0016444010</span></p>
+</td>
+</tr>
+<tr data-local-id=3D"26a065337d08">
+<td data-local-id=3D"f9f65a8899d7" class=3D"confluenceTd">
+<p local-id=3D"449323b89e0d"><span style=3D"color: rgb(7,71,166);">.P/LOWRY=
+/K </span></p>
+</td>
+<td data-local-id=3D"1ce991dced2b" class=3D"confluenceTd">
+<p local-id=3D"251dee182f7a"><span style=3D"color: rgb(7,71,166);">Passenge=
+r Name : Lowry</span></p>
+</td>
+</tr>
+<tr data-local-id=3D"e404bfa93ac5">
+<td data-local-id=3D"ec618ebd4993" class=3D"confluenceTd">
+<p local-id=3D"96adbfc1f706"><span style=3D"color: rgb(7,71,166);">.E/IROP =
+</span></p>
+</td>
+<td data-local-id=3D"a6425a246ae2" class=3D"confluenceTd">
+<p local-id=3D"617d49742d4b"><span style=3D"color: rgb(7,71,166);">Indicato=
+r for irregular operation and involuntary re-routing</span></p>
+</td>
+</tr>
+<tr data-local-id=3D"fc7ef19f7fbf">
+<td data-local-id=3D"db8acca43f8d" class=3D"confluenceTd">
+<p local-id=3D"a4fea25a8706"><span style=3D"color: rgb(7,71,166);">.E/RRTE =
+</span></p>
+</td>
+<td data-local-id=3D"054b451258eb" class=3D"confluenceTd">
+<p local-id=3D"cfe160c13bde"><span style=3D"color: rgb(7,71,166);">Indicato=
+r for re-rerouting</span></p>
+</td>
+</tr>
+<tr data-local-id=3D"df1fc409cdca">
+<td data-local-id=3D"1933f789875f" class=3D"confluenceTd">
+<p local-id=3D"2eae80041a88"><span style=3D"color: rgb(7,71,166);">E/STCK <=
+/span></p>
+</td>
+<td data-local-id=3D"19b7b87a54fd" class=3D"confluenceTd">
+<p local-id=3D"52ab8d84905a"><span style=3D"color: rgb(7,71,166);">Indicato=
+r to update routing</span>
+<br>
+<span style=3D"color: rgb(7,71,166);">information on the baggage tag</span>=
+</p>
+</td>
+</tr>
+<tr data-local-id=3D"0ea9d4030724">
+<td data-local-id=3D"a5792e7d7a86" class=3D"confluenceTd">
+<p local-id=3D"9c25018df840"><span style=3D"color: rgb(7,71,166);">ENDBTM <=
+/span></p>
+</td>
+<td data-local-id=3D"872c5bff2377" class=3D"confluenceTd">
+<p local-id=3D"5c4634bbf02d"><span style=3D"color: rgb(7,71,166);">End of M=
+essage Identifier</span></p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<h3 local-id=3D"1df7c890ce8e" id=3D"id-3.9BTMexamples-secondpasscompleted-3=
+.9.8ExampleofBTMwithre-flightingprocess-pendingre-flightingFG"><span style=
+=3D"color: rgb(7,71,166);">3.9.8 &nbsp;&nbsp;&nbsp;&nbsp;Example of BTM wit=
+h re-flighting process - pending re-flighting FG</span></h3>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"0d=
+c81353b98a" class=3D"confluenceTable">
+<tbody>
+<tr data-local-id=3D"749e346ad9f2">
+<td data-local-id=3D"93c8411ec163" class=3D"confluenceTd">
+<p local-id=3D"34fe654e1ffb"><span style=3D"color: rgb(7,71,166);">&nbsp;</=
+span></p>
+</td>
+<td data-local-id=3D"046906e98054" class=3D"confluenceTd">
+<p local-id=3D"e24bdd085f63"><span style=3D"color: rgb(7,71,166);">&nbsp;</=
+span></p>
+</td>
+<td data-local-id=3D"4a3b688d504c" class=3D"confluenceTd">
+<p local-id=3D"b43a9372f36e"><span style=3D"color: rgb(7,71,166);">Descript=
+ion:</span></p>
+</td>
+</tr>
+<tr data-local-id=3D"ca0cbdfd69ef">
+<td colspan=3D"3" data-local-id=3D"b4283af9aab4" class=3D"confluenceTd">
+<p local-id=3D"f16cabb78ad5"><span style=3D"color: rgb(7,71,166);">&nbsp;</=
+span></p>
+</td>
+</tr>
+<tr data-local-id=3D"d4fdf236357b">
+<td data-local-id=3D"c998b35e064a" class=3D"confluenceTd">
+<p local-id=3D"08a862f33268"><span style=3D"color: rgb(7,71,166);">&nbsp;</=
+span></p>
+</td>
+<td data-local-id=3D"dc91309754d5" class=3D"confluenceTd">
+<p local-id=3D"b7037c466c8c"><span style=3D"color: rgb(7,71,166);">Original=
+ BTM sent at flight close-out </span></p>
+</td>
+<td data-local-id=3D"760d0f0cff8b" class=3D"confluenceTd">
+<p local-id=3D"be323c9f1add"><span style=3D"color: rgb(7,71,166);">&nbsp;</=
+span></p>
+</td>
+</tr>
+<tr data-local-id=3D"c906bec19f21">
+<td data-local-id=3D"24ec0d56e17f" class=3D"confluenceTd">
+<p local-id=3D"6e2b50f9c80a"><span style=3D"color: rgb(7,71,166);">&nbsp;</=
+span></p>
+</td>
+<td data-local-id=3D"c588e7c46284" class=3D"confluenceTd">
+<p local-id=3D"88c344125e8f"><span style=3D"color: rgb(7,71,166);">BTM&lt;=
+=E2=89=A1 </span></p>
+</td>
+<td data-local-id=3D"908c87271ee4" class=3D"confluenceTd">
+<p local-id=3D"2c87afb8ced4"><span style=3D"color: rgb(7,71,166);">&nbsp;</=
+span></p>
+</td>
+</tr>
+<tr data-local-id=3D"9bd4b96e2a32">
+<td data-local-id=3D"e76fc25fc711" class=3D"confluenceTd">
+<p local-id=3D"9483fe3508ac"><span style=3D"color: rgb(7,71,166);">&nbsp;</=
+span></p>
+</td>
+<td data-local-id=3D"51ecc3af481d" class=3D"confluenceTd">
+<p local-id=3D"aa225ea4c71b"><span style=3D"color: rgb(7,71,166);">.V/1TORD=
+ </span></p>
+</td>
+<td data-local-id=3D"475ad6bee186" class=3D"confluenceTd">
+<p local-id=3D"06ee6f497ced"><span style=3D"color: rgb(7,71,166);">&nbsp;</=
+span></p>
+</td>
+</tr>
+<tr data-local-id=3D"6125231d6a68">
+<td data-local-id=3D"9e5796919d3e" class=3D"confluenceTd">
+<p local-id=3D"bcaf9cad0227"><span style=3D"color: rgb(7,71,166);">&nbsp;</=
+span></p>
+</td>
+<td data-local-id=3D"4e6fb5ebc0f0" class=3D"confluenceTd">
+<p local-id=3D"f955eb121b2c"><span style=3D"color: rgb(7,71,166);">.I/UA958=
+/01APR/DEN/Y </span></p>
+</td>
+<td data-local-id=3D"58d9f1130e3c" class=3D"confluenceTd">
+<p local-id=3D"3fc0a6ed165e"><span style=3D"color: rgb(7,71,166);">&nbsp;</=
+span></p>
+</td>
+</tr>
+<tr data-local-id=3D"a1ad900cc9b4">
+<td data-local-id=3D"f1e6cbb63ec3" class=3D"confluenceTd">
+<p local-id=3D"887a92b33605"><span style=3D"color: rgb(7,71,166);">&nbsp;</=
+span></p>
+</td>
+<td data-local-id=3D"a6b8c8741f48" class=3D"confluenceTd">
+<p local-id=3D"77d7353c445e"><span style=3D"color: rgb(7,71,166);">.F/LH431=
+/01APR/FRA/Y </span></p>
+</td>
+<td data-local-id=3D"8fb14b773494" class=3D"confluenceTd">
+<p local-id=3D"e50e44432b26"><span style=3D"color: rgb(7,71,166);">&nbsp;</=
+span></p>
+</td>
+</tr>
+<tr data-local-id=3D"d45543ed82f4">
+<td data-local-id=3D"614fa7862b69" class=3D"confluenceTd">
+<p local-id=3D"3a345ef5de55"><span style=3D"color: rgb(7,71,166);">&nbsp;</=
+span></p>
+</td>
+<td data-local-id=3D"2d66a78f375d" class=3D"confluenceTd">
+<p local-id=3D"8c0a25927596"><span style=3D"color: rgb(7,71,166);">.N/00164=
+4401001 </span></p>
+</td>
+<td data-local-id=3D"b16d9ceb00f0" class=3D"confluenceTd">
+<p local-id=3D"b29387ed58e7"><span style=3D"color: rgb(7,71,166);">&nbsp;</=
+span></p>
+</td>
+</tr>
+<tr data-local-id=3D"c0bbd41d7a88">
+<td data-local-id=3D"642a71926039" class=3D"confluenceTd">
+<p local-id=3D"12fd2e269f98"><span style=3D"color: rgb(7,71,166);">&nbsp;</=
+span></p>
+</td>
+<td data-local-id=3D"caa5ff05c89f" class=3D"confluenceTd">
+<p local-id=3D"932846172ae3"><span style=3D"color: rgb(7,71,166);">.P/Lowry=
+/K </span></p>
+</td>
+<td data-local-id=3D"f430cc29e76b" class=3D"confluenceTd">
+<p local-id=3D"d516de13e4da"><span style=3D"color: rgb(7,71,166);">&nbsp;</=
+span></p>
+</td>
+</tr>
+<tr data-local-id=3D"241fca9a4a96">
+<td data-local-id=3D"9c1a767ed491" class=3D"confluenceTd">
+<p local-id=3D"b8e44934da5a"><span style=3D"color: rgb(7,71,166);">&nbsp;</=
+span></p>
+</td>
+<td data-local-id=3D"848a7987b336" class=3D"confluenceTd">
+<p local-id=3D"5cc99df91751"><span style=3D"color: rgb(7,71,166);">ENDBTM <=
+/span></p>
+</td>
+<td data-local-id=3D"c4d54c1eb65a" class=3D"confluenceTd">
+<p local-id=3D"d66107e35460"><span style=3D"color: rgb(7,71,166);">&nbsp;</=
+span></p>
+</td>
+</tr>
+<tr data-local-id=3D"5faf49f2b4a3">
+<td data-local-id=3D"c0423d57afe3" class=3D"confluenceTd">
+<p local-id=3D"ea1e3fb6933b"><span style=3D"color: rgb(7,71,166);">&nbsp;</=
+span></p>
+</td>
+<td data-local-id=3D"adc17c52fb17" class=3D"confluenceTd">
+<p local-id=3D"d006974bd59c"><span style=3D"color: rgb(7,71,166);">BTM DEL =
+sent when baggage re-flight </span></p>
+</td>
+<td data-local-id=3D"ddb9f48e36f0" class=3D"confluenceTd">
+<p local-id=3D"a6e595e82c8b"><span style=3D"color: rgb(7,71,166);">&nbsp;</=
+span></p>
+</td>
+</tr>
+<tr data-local-id=3D"a981c00dffc2">
+<td colspan=3D"3" data-local-id=3D"e388c6085a0b" class=3D"confluenceTd">
+<p local-id=3D"19d6497a32a0"><span style=3D"color: rgb(7,71,166);">&nbsp;</=
+span></p>
+</td>
+</tr>
+<tr data-local-id=3D"3d46a3b78085">
+<td data-local-id=3D"182a7d3bb067" class=3D"confluenceTd">
+<p local-id=3D"bc2b9ccf9764"><span style=3D"color: rgb(7,71,166);">&nbsp;</=
+span></p>
+</td>
+<td data-local-id=3D"cbdbede4bb3c" class=3D"confluenceTd">
+<p local-id=3D"59eb7dfb5e93"><span style=3D"color: rgb(7,71,166);">BTM&lt;=
+=E2=89=A1 </span></p>
+</td>
+<td data-local-id=3D"6a5c21f1ef1a" class=3D"confluenceTd">
+<p local-id=3D"48efcc83ec25"><span style=3D"color: rgb(7,71,166);">&nbsp;</=
+span></p>
+</td>
+</tr>
+<tr data-local-id=3D"dd5a936aa6d4">
+<td data-local-id=3D"7a5b516afa75" class=3D"confluenceTd">
+<p local-id=3D"be23c973c59b"><span style=3D"color: rgb(7,71,166);">&nbsp;</=
+span></p>
+</td>
+<td data-local-id=3D"ab4f9a49640b" class=3D"confluenceTd">
+<p local-id=3D"1042c5e92316"><span style=3D"color: rgb(7,71,166);">DEL </sp=
+an></p>
+</td>
+<td data-local-id=3D"b530ebce9724" class=3D"confluenceTd">
+<p local-id=3D"4624a2422a22"><span style=3D"color: rgb(7,71,166);">&nbsp;</=
+span></p>
+</td>
+</tr>
+<tr data-local-id=3D"1b6bc9a9c569">
+<td data-local-id=3D"eb1b826b484b" class=3D"confluenceTd">
+<p local-id=3D"5370c318642b"><span style=3D"color: rgb(7,71,166);">&nbsp;</=
+span></p>
+</td>
+<td data-local-id=3D"69cf6967cf14" class=3D"confluenceTd">
+<p local-id=3D"cfbf2c585426"><span style=3D"color: rgb(7,71,166);">.V/1TORD=
+ </span></p>
+</td>
+<td data-local-id=3D"6fd53c00833f" class=3D"confluenceTd">
+<p local-id=3D"e93899268fe3"><span style=3D"color: rgb(7,71,166);">&nbsp;</=
+span></p>
+</td>
+</tr>
+<tr data-local-id=3D"6f94b09c2bd9">
+<td data-local-id=3D"4f2d5347271e" class=3D"confluenceTd">
+<p local-id=3D"57227e7d4070"><span style=3D"color: rgb(7,71,166);">&nbsp;</=
+span></p>
+</td>
+<td data-local-id=3D"c948c5dd4051" class=3D"confluenceTd">
+<p local-id=3D"1deb6346652f"><span style=3D"color: rgb(7,71,166);">.I/UA958=
+/01APR/DEN/Y </span></p>
+</td>
+<td data-local-id=3D"4ecab05f4c4b" class=3D"confluenceTd">
+<p local-id=3D"7285fa9160d5"><span style=3D"color: rgb(7,71,166);">&nbsp;</=
+span></p>
+</td>
+</tr>
+<tr data-local-id=3D"b7b8a3cec41f">
+<td data-local-id=3D"7635683e8c6e" class=3D"confluenceTd">
+<p local-id=3D"4b5225ae0874"><span style=3D"color: rgb(7,71,166);">&nbsp;</=
+span></p>
+</td>
+<td data-local-id=3D"477c368eb0ed" class=3D"confluenceTd">
+<p local-id=3D"ad4b9bf9a402"><span style=3D"color: rgb(7,71,166);">.F/LH431=
+/01APR/FRA/Y </span></p>
+</td>
+<td data-local-id=3D"f155140b98b8" class=3D"confluenceTd">
+<p local-id=3D"72f0901d5533"><span style=3D"color: rgb(7,71,166);">&nbsp;</=
+span></p>
+</td>
+</tr>
+<tr data-local-id=3D"b49a96ff41c0">
+<td data-local-id=3D"134db37a917f" class=3D"confluenceTd">
+<p local-id=3D"86211df14f2c"><span style=3D"color: rgb(7,71,166);">&nbsp;</=
+span></p>
+</td>
+<td data-local-id=3D"9c7305cf41df" class=3D"confluenceTd">
+<p local-id=3D"fd87ceaedd0e"><span style=3D"color: rgb(7,71,166);">.N/00164=
+4401001 </span></p>
+</td>
+<td data-local-id=3D"eb6fe7993515" class=3D"confluenceTd">
+<p local-id=3D"e1344f10607e"><span style=3D"color: rgb(7,71,166);">&nbsp;</=
+span></p>
+</td>
+</tr>
+<tr data-local-id=3D"71709aca3a0c">
+<td data-local-id=3D"738e00546e70" class=3D"confluenceTd">
+<p local-id=3D"0ed41c076059"><span style=3D"color: rgb(7,71,166);">&nbsp;</=
+span></p>
+</td>
+<td data-local-id=3D"4f7d22139026" class=3D"confluenceTd">
+<p local-id=3D"764e5563c335"><span style=3D"color: rgb(7,71,166);">.P/Lowry=
+/K </span></p>
+</td>
+<td data-local-id=3D"18dad272daa0" class=3D"confluenceTd">
+<p local-id=3D"1f4b23b3ac3f"><span style=3D"color: rgb(7,71,166);">&nbsp;</=
+span></p>
+</td>
+</tr>
+<tr data-local-id=3D"2245c934a06b">
+<td data-local-id=3D"ce1310a92780" class=3D"confluenceTd">
+<p local-id=3D"3e36728a952e"><span style=3D"color: rgb(7,71,166);">&nbsp;</=
+span></p>
+</td>
+<td data-local-id=3D"b8bd02c6b3df" class=3D"confluenceTd">
+<p local-id=3D"64da9a6ff1e2"><span style=3D"color: rgb(7,71,166);">.E/MIS&l=
+t; </span></p>
+</td>
+<td data-local-id=3D"bb7b2a5a3f90" class=3D"confluenceTd">
+<p local-id=3D"709d79907930"><span style=3D"color: rgb(7,71,166);">Indicato=
+r for mishandled baggage</span></p>
+</td>
+</tr>
+<tr data-local-id=3D"900de400e4c4">
+<td data-local-id=3D"0b0bcc94a315" class=3D"confluenceTd">
+<p local-id=3D"0da7bef9cca1"><span style=3D"color: rgb(7,71,166);">&nbsp;</=
+span></p>
+</td>
+<td data-local-id=3D"940f8cfc868e" class=3D"confluenceTd">
+<p local-id=3D"751901723952"><span style=3D"color: rgb(7,71,166);">ENDBTM <=
+/span></p>
+</td>
+<td data-local-id=3D"13818ebd6dc7" class=3D"confluenceTd">
+<p local-id=3D"f23b3449d1c4"><span style=3D"color: rgb(7,71,166);">&nbsp;</=
+span></p>
+</td>
+</tr>
+<tr data-local-id=3D"f2a887dcd87c">
+<td colspan=3D"3" data-local-id=3D"06e5648b6319" class=3D"confluenceTd">
+<p local-id=3D"f4905d7dd12b"><span style=3D"color: rgb(7,71,166);">&nbsp;</=
+span></p>
+</td>
+</tr>
+<tr data-local-id=3D"bf51825e5c8b">
+<td data-local-id=3D"0a3b04856961" class=3D"confluenceTd">
+<p local-id=3D"6c39dcf3725f"><span style=3D"color: rgb(7,71,166);">&nbsp;</=
+span></p>
+</td>
+<td data-local-id=3D"f54c709cb450" class=3D"confluenceTd">
+<p local-id=3D"00097d3a3987"><span style=3D"color: rgb(7,71,166);">BTM sent=
+ when baggage re-flight </span></p>
+</td>
+<td data-local-id=3D"a30da7276256" class=3D"confluenceTd">
+<p local-id=3D"0c5efdcc8ec7"><span style=3D"color: rgb(7,71,166);">&nbsp;</=
+span></p>
+</td>
+</tr>
+<tr data-local-id=3D"5a7b16a2b97a">
+<td data-local-id=3D"2c9a02e43830" class=3D"confluenceTd">
+<p local-id=3D"bba523b9a4de"><span style=3D"color: rgb(7,71,166);">&nbsp;</=
+span></p>
+</td>
+<td data-local-id=3D"a5a43a30506a" class=3D"confluenceTd">
+<p local-id=3D"3c6af67692c2"><span style=3D"color: rgb(7,71,166);">BTM&lt;=
+=E2=89=A1 </span></p>
+</td>
+<td data-local-id=3D"9074cea50c04" class=3D"confluenceTd">
+<p local-id=3D"0736d6e85efe"><span style=3D"color: rgb(7,71,166);">&nbsp;</=
+span></p>
+</td>
+</tr>
+<tr data-local-id=3D"7778d0f68bb3">
+<td data-local-id=3D"c7344e1edd20" class=3D"confluenceTd">
+<p local-id=3D"2c1758ec9dac"><span style=3D"color: rgb(7,71,166);">&nbsp;</=
+span></p>
+</td>
+<td data-local-id=3D"b79dbc8efe26" class=3D"confluenceTd">
+<p local-id=3D"272d1251005a"><span style=3D"color: rgb(7,71,166);">.V/1TORD=
+ </span></p>
+</td>
+<td data-local-id=3D"4decfa6e9152" class=3D"confluenceTd">
+<p local-id=3D"9a97a00d9949"><span style=3D"color: rgb(7,71,166);">&nbsp;</=
+span></p>
+</td>
+</tr>
+<tr data-local-id=3D"9a3de833b5e9">
+<td data-local-id=3D"eeaaba7d2872" class=3D"confluenceTd">
+<p local-id=3D"29a50dbf3cc7"><span style=3D"color: rgb(7,71,166);">&nbsp;</=
+span></p>
+</td>
+<td data-local-id=3D"f8061f051fc7" class=3D"confluenceTd">
+<p local-id=3D"4376824e4c5b"><span style=3D"color: rgb(7,71,166);">.I/UA248=
+/01APR/DEN/Y </span></p>
+</td>
+<td data-local-id=3D"11c3a797df7f" class=3D"confluenceTd">
+<p local-id=3D"2a87c5fb8c93"><span style=3D"color: rgb(7,71,166);">&nbsp;</=
+span></p>
+</td>
+</tr>
+<tr data-local-id=3D"e7e6a68b775a">
+<td data-local-id=3D"bed2ad461a33" class=3D"confluenceTd">
+<p local-id=3D"b527465c1736"><span style=3D"color: rgb(7,71,166);">&nbsp;</=
+span></p>
+</td>
+<td data-local-id=3D"87ba84be28c3" class=3D"confluenceTd">
+<p local-id=3D"83515a8ada50"><span style=3D"color: rgb(7,71,166);">.F/LH433=
+/01APR/FRA/Y </span></p>
+</td>
+<td data-local-id=3D"06ef878f4291" class=3D"confluenceTd">
+<p local-id=3D"05325cf09e70"><span style=3D"color: rgb(7,71,166);">&nbsp;</=
+span></p>
+</td>
+</tr>
+<tr data-local-id=3D"5e0e57b69814">
+<td data-local-id=3D"070e159aa9d4" class=3D"confluenceTd">
+<p local-id=3D"8c1a454b0969"><span style=3D"color: rgb(7,71,166);">&nbsp;</=
+span></p>
+</td>
+<td data-local-id=3D"1b2012ce14d9" class=3D"confluenceTd">
+<p local-id=3D"28f99fa3bb87"><span style=3D"color: rgb(7,71,166);">.N/00164=
+4401001 </span></p>
+</td>
+<td data-local-id=3D"26a1922be394" class=3D"confluenceTd">
+<p local-id=3D"8980c6293800"><span style=3D"color: rgb(7,71,166);">&nbsp;</=
+span></p>
+</td>
+</tr>
+<tr data-local-id=3D"af127b865592">
+<td data-local-id=3D"8625c13aee39" class=3D"confluenceTd">
+<p local-id=3D"d6b0b36a1c38"><span style=3D"color: rgb(7,71,166);">&nbsp;</=
+span></p>
+</td>
+<td data-local-id=3D"8d67d59654e4" class=3D"confluenceTd">
+<p local-id=3D"f81ae80255c6"><span style=3D"color: rgb(7,71,166);">.P/LOWRY=
+/K </span></p>
+</td>
+<td data-local-id=3D"29bcff24f4a3" class=3D"confluenceTd">
+<p local-id=3D"f71002b66aba"><span style=3D"color: rgb(7,71,166);">&nbsp;</=
+span></p>
+</td>
+</tr>
+<tr data-local-id=3D"b95a2a67d390">
+<td data-local-id=3D"fbe36f5b201f" class=3D"confluenceTd">
+<p local-id=3D"69af133e5955"><span style=3D"color: rgb(7,71,166);">&nbsp;</=
+span></p>
+</td>
+<td data-local-id=3D"067e1d0b1250" class=3D"confluenceTd">
+<p local-id=3D"b47c1f77de1e"><span style=3D"color: rgb(7,71,166);">.E/RUSH&=
+lt;=E2=89=A1 </span></p>
+</td>
+<td data-local-id=3D"c9b2b1274a13" class=3D"confluenceTd">
+<p local-id=3D"fc17a07247d6"><span style=3D"color: rgb(7,71,166);">Indicato=
+r for rush baggage</span></p>
+</td>
+</tr>
+<tr data-local-id=3D"c3a5f4d02633">
+<td data-local-id=3D"4b66d9488576" class=3D"confluenceTd">
+<p local-id=3D"d6e8af854f1b"><span style=3D"color: rgb(7,71,166);">&nbsp;</=
+span></p>
+</td>
+<td data-local-id=3D"9302de3c8060" class=3D"confluenceTd">
+<p local-id=3D"1a9c74e354ac"><span style=3D"color: rgb(7,71,166);">ENDBTM <=
+/span></p>
+</td>
+<td data-local-id=3D"486989668e98" class=3D"confluenceTd">
+<p local-id=3D"4124e985ff42"><span style=3D"color: rgb(7,71,166);">&nbsp;</=
+span></p>
+</td>
+</tr>
+<tr data-local-id=3D"22b3dd13cc28">
+<td data-local-id=3D"4eebe070160b" class=3D"confluenceTd">
+<p local-id=3D"141e525bed7d"><span style=3D"color: rgb(7,71,166);">&nbsp;</=
+span></p>
+</td>
+<td data-local-id=3D"aa8bf96f96cf" class=3D"confluenceTd">
+<p local-id=3D"5787a3e7d1bf"><span style=3D"color: rgb(7,71,166);">=E2=80=
+=A6</span></p>
+</td>
+<td data-local-id=3D"2d3e9919e298" class=3D"confluenceTd">
+<p local-id=3D"f03d0925e05f"><span style=3D"color: rgb(7,71,166);">&nbsp;</=
+span></p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"b6=
+29255c094a" class=3D"confluenceTable">
+<tbody>
+<tr data-local-id=3D"b5962e946016">
+<td colspan=3D"3" data-local-id=3D"1853330b7278" class=3D"confluenceTd">
+<p local-id=3D"3f2826fcd835"><span style=3D"color: rgb(7,71,166);">&nbsp;</=
+span></p>
+</td>
+</tr>
+<tr data-local-id=3D"fe7e321dd637">
+<td data-local-id=3D"0aee7f98c127" class=3D"confluenceTd">
+<p local-id=3D"19d07315cd1e"><span style=3D"color: rgb(7,71,166);">&nbsp;</=
+span></p>
+</td>
+<td data-local-id=3D"46f35ee1fda2" class=3D"confluenceTd">
+<p local-id=3D"5eddd56f6895"><span style=3D"color: rgb(7,71,166);">BTM&lt;=
+=E2=89=A1 </span></p>
+</td>
+<td data-local-id=3D"d1e42aa50974" class=3D"confluenceTd">
+<p local-id=3D"cb48f376de8a"><span style=3D"color: rgb(7,71,166);">Standard=
+ Message Identifier</span></p>
+</td>
+</tr>
+<tr data-local-id=3D"d38cff274123">
+<td data-local-id=3D"6cd89e6bc1be" class=3D"confluenceTd">
+<p local-id=3D"0852e1c2ea42"><span style=3D"color: rgb(7,71,166);">&nbsp;</=
+span></p>
+</td>
+<td data-local-id=3D"86afe20dc339" class=3D"confluenceTd">
+<p local-id=3D"2acba0f69b57"><span style=3D"color: rgb(7,71,166);">.V/1TLAX=
+ </span></p>
+</td>
+<td data-local-id=3D"520763249cf6" class=3D"confluenceTd">
+<p local-id=3D"703075b6f5bf"><span style=3D"color: rgb(7,71,166);">Transfer=
+ baggage at LAX</span></p>
+</td>
+</tr>
+<tr data-local-id=3D"114b464f71e0">
+<td data-local-id=3D"02c280e3ad4b" class=3D"confluenceTd">
+<p local-id=3D"7f4e347c158c"><span style=3D"color: rgb(7,71,166);">&nbsp;</=
+span></p>
+</td>
+<td data-local-id=3D"a47411fcbe13" class=3D"confluenceTd">
+<p local-id=3D"aa01454edebb"><span style=3D"color: rgb(7,71,166);">.I/NZ384=
+/01APR/LAX/Y </span></p>
+</td>
+<td data-local-id=3D"9401a48d6986" class=3D"confluenceTd">
+<p local-id=3D"16f9e91e2b35"><span style=3D"color: rgb(7,71,166);">Inbound =
+from AKL on NZ384</span></p>
+</td>
+</tr>
+<tr data-local-id=3D"80669146f8fe">
+<td data-local-id=3D"82dea0a6d1a4" class=3D"confluenceTd">
+<p local-id=3D"f6ebe0451d4b"><span style=3D"color: rgb(7,71,166);">&nbsp;</=
+span></p>
+</td>
+<td data-local-id=3D"54f3e30b71d2" class=3D"confluenceTd">
+<p local-id=3D"a257f21ac25a"><span style=3D"color: rgb(7,71,166);">.F/UA556=
+4/01APR/DEN/M </span></p>
+</td>
+<td data-local-id=3D"e763738588be" class=3D"confluenceTd">
+<p local-id=3D"36fce746373a"><span style=3D"color: rgb(7,71,166);">Transfer=
+ to UA5564 to DEN</span></p>
+</td>
+</tr>
+<tr data-local-id=3D"548ee9e43fba">
+<td data-local-id=3D"3a9b18aebb4a" class=3D"confluenceTd">
+<p local-id=3D"98e9bdf2292d"><span style=3D"color: rgb(7,71,166);">&nbsp;</=
+span></p>
+</td>
+<td data-local-id=3D"ac874b6ee2ff" class=3D"confluenceTd">
+<p local-id=3D"4d20c4623e0c"><span style=3D"color: rgb(7,71,166);">.N/00861=
+67387003 </span></p>
+</td>
+<td data-local-id=3D"e0f950225599" class=3D"confluenceTd">
+<p local-id=3D"86e8651d1131"><span style=3D"color: rgb(7,71,166);">3 Bag Ta=
+gs; numbers 0086167387, 0086167388 and 0086167389</span></p>
+</td>
+</tr>
+<tr data-local-id=3D"41e7d813683f">
+<td data-local-id=3D"8b4ef376e33e" class=3D"confluenceTd">
+<p local-id=3D"9742f05b4771"><span style=3D"color: rgb(7,71,166);">&nbsp;</=
+span></p>
+</td>
+<td data-local-id=3D"9de0a09a8535" class=3D"confluenceTd">
+<p local-id=3D"99e0b83b5828"><span style=3D"color: rgb(7,71,166);">.P/JAMES=
+ON/S </span></p>
+</td>
+<td data-local-id=3D"44ce1bb207bc" class=3D"confluenceTd">
+<p local-id=3D"e3e09bfddd75"><span style=3D"color: rgb(7,71,166);">Passenge=
+r Name: Jameson</span></p>
+</td>
+</tr>
+<tr data-local-id=3D"a690c1e2a941">
+<td data-local-id=3D"15b08a06d186" class=3D"confluenceTd">
+<p local-id=3D"6991e627ddfc"><span style=3D"color: rgb(7,71,166);">&nbsp;</=
+span></p>
+</td>
+<td data-local-id=3D"fc6f41d6b995" class=3D"confluenceTd">
+<p local-id=3D"bf71477e5fcd"><span style=3D"color: rgb(7,71,166);">.M/00861=
+67387/G/9EFDB6E6CFCE42018954D37159CEB0EF </span></p>
+</td>
+<td data-local-id=3D"daa24dac936c" class=3D"confluenceTd">
+<p local-id=3D"f13ba96c7d29"><span style=3D"color: rgb(7,71,166);">Bag #1 i=
+s an EBT with GUID 9EFDB6E6-CFCE-4201-8954-D37159CEB0EF</span></p>
+</td>
+</tr>
+<tr data-local-id=3D"f1635fc58a70">
+<td data-local-id=3D"4b3d86575f37" class=3D"confluenceTd">
+<p local-id=3D"7fe9447e47aa"><span style=3D"color: rgb(7,71,166);">&nbsp;</=
+span></p>
+</td>
+<td data-local-id=3D"76150c622b55" class=3D"confluenceTd">
+<p local-id=3D"ff84550f38c9"><span style=3D"color: rgb(7,71,166);">.M/00861=
+67387/G/9EFDB6E6CFCE42018954D37159CEB0F0 </span></p>
+</td>
+<td data-local-id=3D"d1e83fab14d0" class=3D"confluenceTd">
+<p local-id=3D"1c0517639681"><span style=3D"color: rgb(7,71,166);">Bag #2 i=
+s an EBT with GUID 9EFDB6E6-CFCE-4201-8954-D37159CEB0F0 and TID</span></p>
+</td>
+</tr>
+<tr data-local-id=3D"b019399ec956">
+<td data-local-id=3D"859d9500ad8a" class=3D"confluenceTd">
+<p local-id=3D"8e131bfb2e56"><span style=3D"color: rgb(7,71,166);">&nbsp;</=
+span></p>
+</td>
+<td data-local-id=3D"aed7587cbe49" class=3D"confluenceTd">
+<p local-id=3D"36a3fe6b9d6c"><span style=3D"color: rgb(7,71,166);">.M/00861=
+67388/T/7D38A21F0B6E54D359C6CF09 </span></p>
+</td>
+<td data-local-id=3D"27369c717f3a" class=3D"confluenceTd">
+<p local-id=3D"781da797d4bd"><span style=3D"color: rgb(7,71,166);">7D38A21F=
+0B6E54D359C6CF09</span></p>
+</td>
+</tr>
+<tr data-local-id=3D"59c40b1be90a">
+<td data-local-id=3D"0ecefcf72a3a" class=3D"confluenceTd">
+<p local-id=3D"43dfe12fb142"><span style=3D"color: rgb(7,71,166);">&nbsp;</=
+span></p>
+</td>
+<td data-local-id=3D"033beb885efb" class=3D"confluenceTd">
+<p local-id=3D"224515d0ab95"><span style=3D"color: rgb(7,71,166);">.M/00861=
+67389/X/7D38A21F0B6E454DA359C6CF0A454254 </span></p>
+</td>
+<td data-local-id=3D"1076e1f0fd40" class=3D"confluenceTd">
+<p local-id=3D"6ba13b7486b5"><span style=3D"color: rgb(7,71,166);">Bag #3 i=
+s an EBT with GUID 7D38A21F-0B6E-454D-A359-C6CF0A454254 generated from the =
+EBT TID 7D38A21F0B6E54D359C6CF0A</span></p>
+</td>
+</tr>
+<tr data-local-id=3D"ff674387eaf5">
+<td data-local-id=3D"575a45df92e8" class=3D"confluenceTd">
+<p local-id=3D"7c54ffef32f6"><span style=3D"color: rgb(7,71,166);">&nbsp;</=
+span></p>
+</td>
+<td data-local-id=3D"9ae6df87a1ef" class=3D"confluenceTd">
+<p local-id=3D"83b3afbfefa4"><span style=3D"color: rgb(7,71,166);">ENDBTM <=
+/span></p>
+</td>
+<td data-local-id=3D"24c20904e591" class=3D"confluenceTd">
+<p local-id=3D"0f154f6d690d"><span style=3D"color: rgb(7,71,166);">End of M=
+essage Identifier</span></p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p local-id=3D"b3fccc63b2de"></p>
+<p local-id=3D"0fe69f05ee76"></p>
+    </div>
+</body>
+</html>
+------=_Part_24_1978863690.1792501445557
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: base64
+Content-Location: file:///C:/af70fa38f27fa8e2a42d7acd448042d94e1a020baa4ba3785804720155cbf5f6
+
+iVBORw0KGgoAAAANSUhEUgAAABAAAAAQBAMAAADt3eJSAAAAA3NCSVQICAjb4U/gAAAAFVBMVEX/
+//9wcHBwcHBwcHBwcHBwcHBwcHA3RenHAAAAB3RSTlMAZoiZzN3/SzZomQAAAAlwSFlzAAALEgAA
+CxIB0t1+/AAAABx0RVh0U29mdHdhcmUAQWRvYmUgRmlyZXdvcmtzIENTNui8sowAAAAUdEVYdENy
+ZWF0aW9uIFRpbWUANi8xLzEzOKlF0AAAACFJREFUCJljYCATsCgwqIAZTMnMyRAhsTABCIMxkVxT
+GQCLcwHyUKXpLgAAAABJRU5ErkJggg==
+------=_Part_24_1978863690.1792501445557--
